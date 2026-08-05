@@ -1,12 +1,9 @@
-# Bill of Materials (BOM)
-
-| S. No | Component | Part Number | Quantity | Unit Cost | Purchase Link |
-|------:|-----------|-------------|---------:|----------:|---------------|
-| 1 | Microcontroller | STM32H563VGT6 | 1 | ₹794.23 | https://www.digikey.in/en/products/detail/stmicroelectronics/STM32H563VGT6/21349116 |
-| 2 | GNSS Receiver | ZED-F9P-01B | 1 | ₹12,611.41 | https://www.digikey.in/en/products/detail/u-blox/ZED-F9P-01B/10711734 |
-| 3 | IMU Sensor | BMI088 | 1 | ₹570.22 | https://www.digikey.in/en/products/detail/bosch-sensortec/BMI088/8634936 |
-| 4 | USB Hub | USB2512B-I/M2 | 1 | ₹229.14 | https://www.digikey.in/en/products/detail/microchip-technology/USB2512B-I-M2/5639464 |
-| 5 | CAN Transceiver | TCAN1042HG | 1 | ₹251.28 | https://www.digikey.in/en/products/detail/texas-instruments/TCAN1042HGVD/5875321 |
-| 6 | Wi-Fi / Bluetooth LE Module | ESP32-C3-MINI-1 | 1 | ₹314.01 | https://www.digikey.in/en/products/detail/espressif-systems/ESP32-C3-MINI-1-N4/13877574 |
-| 7 | MicroSD Card Connector | 104031-0811 | 1 | ₹194.53 | https://www.digikey.in/en/products/detail/molex/1040310811/2370379 |
-```
+| S. No | Component | Part Number | Qty (1) | Cost (1) | Qty (10) | Cost (10) | Qty (25) | Cost (25) | Qty (50) | Cost (50) | Qty (100) | Cost (100) | Purchase Link |
+|------:|-----------|-------------|--------:|---------:|---------:|----------:|---------:|----------:|---------:|----------:|----------:|-----------:|---------------|
+| 1 | Microcontroller | STM32H563VGT6 | 1 | ₹794.23 | 10 | ₹6,114.62 | 25 | ₹15,287.04 | 50 | ₹26,948.12 | 100 | ₹51,651.21 | [DigiKey](https://www.digikey.in/en/products/detail/stmicroelectronics/STM32H563VGT6/21349116) |
+| 2 | GNSS Receiver | ZED-F9P-01B | 1 | ₹12,611.41 | 10 | ₹125,880.37 | 25 | ₹314,700.92 | 50 | ₹629,401.83 | 100 | ₹1,258,803.67 | [DigiKey](https://www.digikey.in/en/products/detail/u-blox/ZED-F9P-01B/10711734) |
+| 3 | IMU Sensor | BMI088 | 1 | ₹570.22 | 10 | ₹4,852.68 | 25 | ₹11,501.20 | 50 | ₹22,142.08 | 100 | ₹42,705.30 | [DigiKey](https://www.digikey.in/en/products/detail/bosch-sensortec/BMI088/8634936) |
+| 4 | USB Hub | USB2512B-I/M2 | 1 | ₹229.14 | 10 | ₹2,265.03 | 25 | ₹4,710.88 | 50 | ₹9,421.76 | 100 | ₹18,201.12 | [DigiKey](https://www.digikey.in/en/products/detail/microchip-technology/USB2512B-I-M2/5639464) |
+| 5 | CAN Transceiver | TCAN1042HG | 1 | ₹251.28 | 10 | ₹1,961.44 | 25 | ₹4,904.07 | 50 | ₹9,807.19 | 100 | ₹16,398.61 | [DigiKey](https://www.digikey.in/en/products/detail/texas-instruments/TCAN1042HGVD/5875321) |
+| 6 | Wi-Fi / BLE Module | ESP32-C3-MINI-1 | 1 | ₹314.01 | 10 | ₹2,682.82 | 25 | ₹6,337.32 | 50 | ₹12,674.64 | 100 | ₹23,318.37 | [DigiKey](https://www.digikey.in/en/products/detail/espressif-systems/ESP32-C3-MINI-1-N4/13877574) |
+| 7 | MicroSD Card Connector | 104031-0811 | 1 | ₹194.53 | 10 | ₹1,646.43 | 25 | ₹3,859.11 | 50 | ₹7,348.97 | 100 | ₹13,994.64 | [DigiKey](https://www.digikey.in/en/products/detail/molex/1040310811/2370379) |
