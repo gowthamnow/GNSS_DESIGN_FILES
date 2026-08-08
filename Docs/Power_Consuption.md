@@ -5,7 +5,7 @@
 | 1 | MCU | STM32H563VGT6 | 140 mA | -40°C to +85°C | STMicroelectronics | LQFP-100 | Worst-case run current |
 | 2 | GNSS Receiver | ZED-F9P-01B | 130 mA | -40°C to +85°C | u-blox | LGA-54 | Peak acquisition/tracking |
 | 3 | Wi-Fi + Bluetooth LE | ESP32-C3-MINI-1 | 400 mA | -40°C to +85°C | Espressif Systems | Module | Peak Wi-Fi TX current |
-| 4 | MicroSD Connector | 104031-0811 | 250 mA (contact rating) | -40°C to +85°C | Molex | MicroSD Receptacle | Connector rating, not SD card consumption |
+| 4 | MicroSD Connector | 104031-0811 | 200 mA  | -40°C to +85°C | Molex | MicroSD Receptacle | Connector rating, not SD card consumption |
 | 5 | IMU Sensor | BMI088 | 5 mA | -40°C to +85°C | Bosch Sensortec | LGA-16 | Typical operating current |
 | 6 | USB Hub | USB2512B-I/M2 | 85 mA | -40°C to +85°C | Microchip | SQFN-36 | Worst-case operating current |
 | 7 | CAN Transceiver | TCAN1042HG | 80 mA | -40°C to +125°C | Texas Instruments | SOIC-8 | Worst-case dominant bus current |
