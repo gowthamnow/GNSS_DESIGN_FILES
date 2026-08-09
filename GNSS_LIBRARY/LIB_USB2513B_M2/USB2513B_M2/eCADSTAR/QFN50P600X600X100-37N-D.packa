@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "USB2513B_M2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-03-07-04:41:06)
+    (mountForm default
+        (footprintRef "QFN50P600X600X100-37N-D")
+        (spec "System")
+    )
+)

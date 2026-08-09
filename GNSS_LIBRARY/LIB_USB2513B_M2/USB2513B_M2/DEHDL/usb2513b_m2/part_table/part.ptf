@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB2513B_M2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "USB2513B/M2" (!) = "", "QFN50P600X600X100-37N-D", "Quad Flat No-Lead", "579-USB2513B/M2", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB2513B-M2?qs=uus7iwvxYD8fly9xV9Wytg%3D%3D", "USB2513B/M2", "https://www.arrow.com/en/products/usb2513bm2/microchip-technology?utm_currency=USD&region=nac", "USB Interface IC 3-Port USB 2.0 Hi-Speed Hub Cont", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310", "1 mm"
+END_PART
+
+END.

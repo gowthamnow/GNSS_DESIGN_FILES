@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ESD5V0D5-TP
+#/1912094/1856388/2.50/2/2/Diode ESD (Uni-directional)
+DEF ESD5V0D5-TP D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "ESD5V0D5-TP" 400 250 50 H V L CNN
+F2 "ESD5V0D5TP" 400 150 50 H I L CNN
+F3 "https://mccsemi.com/pdf/Products/ESD3V3D5~ESD12VD5(SOD-523).pdf" 400 50 50 H I L CNN
+F4 "18.6V Clamp 11.6A (8/20s) Ipp Tvs Diode Surface Mount SOD-523" 400 -50 50 H I L CNN "Description"
+F5 "0.65" 400 -150 50 H I L CNN "Height"
+F6 "MCC" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "ESD5V0D5-TP" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "833-ESD5V0D5-TP" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/ESD5V0D5-TP?qs=6W4OQKoqJ0uiyYGOynr3QQ%3D%3D" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "ESD5V0D5-TP" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/esd5v0d5-tp/micro-commercial-components?utm_currency=USD&region=nac" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

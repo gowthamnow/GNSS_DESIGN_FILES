@@ -1,0 +1,18 @@
+.ESD5V0D5-TP :1 ;18.6V Clamp 11.6A (8/20s) Ipp Tvs Diode Surface Mount SOD-523
+ESD5V0D5TP
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN ESD5V0D5-TP
+~!Manufacturer_Name (MCC)
+~!Manufacturer_Part_Number (ESD5V0D5-TP)
+~!Mouser Part Number (833-ESD5V0D5-TP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/ESD5V0D5-TP?qs=6W4OQKoqJ0uiyYGOynr3QQ%3D%3D)
+~!Arrow Part Number (ESD5V0D5-TP)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/esd5v0d5-tp/micro-commercial-components?utm_currency=USD&region=nac)
+~!Link Datasheet (https://mccsemi.com/pdf/Products/ESD3V3D5~ESD12VD5(SOD-523).pdf)
+~!Height (0.65mm)
+~!3D_Model (ESD5V0D5-TP)
+ESD5V0D5-TP
+1.1!U 2.1!U 

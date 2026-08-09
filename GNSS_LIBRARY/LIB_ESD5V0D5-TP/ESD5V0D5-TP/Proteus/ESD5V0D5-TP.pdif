@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ESD5V0D5-TP"
+   (description "18.6V Clamp 11.6A (8/20s) Ipp Tvs Diode Surface Mount SOD-523")
+   (family "ANA")
+   (package "ESD5V0D5TP")
+   (attribute "Datasheet Link" "https://mccsemi.com/pdf/Products/ESD3V3D5~ESD12VD5(SOD-523).pdf")
+   (attribute "Geometry.Height" "0.65mm")
+   (attribute "Manufacturer_Name" "MCC")
+   (attribute "Manufacturer_Part_Number" "ESD5V0D5-TP")
+   (attribute "Mouser Part Number" "833-ESD5V0D5-TP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/ESD5V0D5-TP?qs=6W4OQKoqJ0uiyYGOynr3QQ%3D%3D")
+   (attribute "Arrow Part Number" "ESD5V0D5-TP")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/esd5v0d5-tp/micro-commercial-components?utm_currency=USD&region=nac")
+   (gate
+    (symbol "ESD5V0D5-TP")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "ESD5V0D5-TP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -100) (pt 260 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ESD5V0D5TP"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.6 0.4)
+      (pt 0.6 0.4)
+      (pt 0.6 -0.4)
+      (pt -0.6 -0.4)
+      (pt -0.6 0.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.15 1.4)
+      (pt 2.15 1.4)
+      (pt 2.15 -1.4)
+      (pt -2.15 -1.4)
+      (pt -2.15 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.2 0.4)
+      (pt 0.2 0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.2 -0.4)
+      (pt 0.2 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0)
+      (arc (pt -1.600 0.000) (pt -1.600 -0.050) (pt -1.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.5 0)
+      (arc (pt -1.500 0.000) (pt -1.600 -0.050) (pt -1.500 0.050) (start 180.0) (sweep .0))
+      (pt -1.6 0))))
+   (leg 1 (pt -0.850 0.000) (padstack 0))
+   (leg 2 (pt 0.850 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 0.800 0 0 90.000))
+   )
+   (model "ESD5V0D5-TP.stp"
+    (euler 90 0 0)
+    (offset -0.2800000011920929 2.799999952316284 0.10999999940395355)
+   )
+  )
+ )
+)

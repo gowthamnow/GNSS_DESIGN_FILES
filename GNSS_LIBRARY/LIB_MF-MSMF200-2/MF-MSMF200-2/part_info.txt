@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=MF-MSMF200-2
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=1.1
+Released=2017-07-12 16:41:18
+Downloaded=2026-08-09 16:09:46
+3D=Y

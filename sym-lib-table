@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LD39200PU33R")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/LD39200PU33R/LD39200PU33R.kicad_sym")(options "")(descr ""))
+  (lib (name "GNSS_PCB_LIB")(type "KiCad")(uri "${KIPRJMOD}/GNSS_PCB_LIB.kicad_sym")(options "")(descr ""))
+)

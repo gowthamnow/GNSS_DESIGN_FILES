@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1912094"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-20-13:40:43)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ESD5V0D5-TP")
+)
+
+
+(pinAssign "ECS_1912094"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-20-13:40:43)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1912094")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ESD5V0D5-TP")
+)
+
+
+(part "ESD5V0D5-TP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-20-13:40:43)
+    (utime 2024-05-17-16:34:44)
+    (packageRef "ESD5V0D5-TP")
+    (pinAssignRef "ECS_1912094")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "D")
+    (property "description" "18.6V Clamp 11.6A (8/20s) Ipp Tvs Diode Surface Mount SOD-523")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "ESD5V0D5-TP")
+    (property "Mouser_Part_Number" "833-ESD5V0D5-TP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/ESD5V0D5-TP?qs=6W4OQKoqJ0uiyYGOynr3QQ%3D%3D")
+    (property "Arrow_Part_Number" "ESD5V0D5-TP")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/esd5v0d5-tp/micro-commercial-components?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://mccsemi.com/pdf/Products/ESD3V3D5~ESD12VD5(SOD-523).pdf")
+    (property "compAreaTopHeight" 0.65)
+)
+
+
