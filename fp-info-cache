@@ -1,4 +1,4 @@
-23041237356015936
+23053742450922102
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63574,6 +63574,13 @@ PocketBeagle
 72
 72
 Module
+CB-4-3_ADI
+
+ADP150WACBZ-3.3-R7 
+0
+4
+4
+Module
 Carambola2
 8devices Carambola2, OpenWRT, industrial SoM computer, https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
 carambola2 8devices
@@ -63587,6 +63594,13 @@ Electrosmith Daisy Seed Microcontroller Module ARM Cortex-M7 Audio Codec
 0
 40
 40
+Module
+MOD54_ZED-F9H_UBL
+
+ZED-F9H-01B 
+0
+102
+102
 Module
 Maple_Mini
 Maple Mini, http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
@@ -63616,6 +63630,13 @@ onion omega module
 89
 64
 Module
+PQFN50P450X300X100-16N
+
+
+0
+16
+16
+Module
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
 Pololu Breakout
@@ -63629,6 +63650,13 @@ raspberry pi zero through hole
 0
 40
 40
+Module
+SON50P300X300X80-11N
+
+
+0
+11
+11
 Module
 ST_Morpho_Connector_144_STLink
 ST Morpho Connector 144 With STLink
@@ -63672,12 +63700,33 @@ module pcb
 7
 7
 Module
+VREG_IR3883MTRPBF
+
+
+0
+13
+13
+Module
+VREG_SC189ZSKTRT
+
+
+0
+5
+5
+Module
 WEMOS_D1_mini_light
 16-pin module, column spacing 22.86 mm (900 mils), https://wiki.wemos.cc/products:d1:d1_mini, https://c1.staticflickr.com/1/734/31400410271_f278b087db_z.jpg
 ESP8266 WiFi microcontroller
 0
 16
 16
+Module
+XCVR_ESP32-C3-MINI-1-N4
+
+
+0
+61
+61
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
