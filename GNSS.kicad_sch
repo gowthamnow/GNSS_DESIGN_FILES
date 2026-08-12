@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 57.15 43.18)
-		(size 105.41 12.7)
+		(at 35.56 36.83)
+		(size 204.47 120.65)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16")
 		(property "Sheetname" "Table_of_content"
-			(at 57.15 42.4684 0)
+			(at 35.56 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "Content_sch.kicad_sch"
-			(at 57.15 56.4646 0)
+			(at 35.56 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +44,46 @@
 		)
 	)
 	(sheet
-		(at 55.88 143.51)
-		(size 50.8 7.62)
+		(at 135.89 74.93)
+		(size 90.17 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3071fff4-2246-4a32-a92e-73d7c673f76c")
+		(property "Sheetname" "IMU"
+			(at 135.89 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 135.89 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 101.6)
+		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +94,7 @@
 		)
 		(uuid "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49")
 		(property "Sheetname" "ZED_Z9P"
-			(at 55.88 142.7984 0)
+			(at 46.99 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "ZED_Z9P.kicad_sch"
-			(at 55.88 151.7146 0)
+			(at 46.99 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +120,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 118.11)
-		(size 63.5 10.16)
+		(at 46.99 74.93)
+		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +132,7 @@
 		)
 		(uuid "4caa84e5-94a9-4f5c-b728-f1a155edd67e")
 		(property "Sheetname" "USB_HUB"
-			(at 58.42 117.3984 0)
+			(at 46.99 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_HUB_sch.kicad_sch"
-			(at 58.42 128.8546 0)
+			(at 46.99 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,8 +158,8 @@
 		)
 	)
 	(sheet
-		(at 54.61 171.45)
-		(size 66.04 11.43)
+		(at 40.64 71.12)
+		(size 191.77 80.01)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -132,7 +170,7 @@
 		)
 		(uuid "5f28e942-ada7-4d13-8727-49641d723651")
 		(property "Sheetname" "Controller"
-			(at 54.61 170.7384 0)
+			(at 40.64 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
-			(at 54.61 183.4646 0)
+			(at 40.64 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,8 +196,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 68.58)
-		(size 82.55 15.24)
+		(at 39.37 44.45)
+		(size 81.28 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -170,7 +208,7 @@
 		)
 		(uuid "81cfc142-e5d9-4762-9a7a-a4beadaad585")
 		(property "Sheetname" "Block_Diagram"
-			(at 63.5 67.8684 0)
+			(at 39.37 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_Diagram_sch.kicad_sch"
-			(at 63.5 84.4046 0)
+			(at 39.37 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,8 +234,8 @@
 		)
 	)
 	(sheet
-		(at 62.23 91.44)
-		(size 83.82 11.43)
+		(at 38.1 66.04)
+		(size 198.12 87.63)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -208,7 +246,7 @@
 		)
 		(uuid "95adfb1d-f4b2-4924-8c0a-df43d58bdb39")
 		(property "Sheetname" "Power"
-			(at 62.23 90.7284 0)
+			(at 38.1 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_sch.kicad_sch"
-			(at 62.23 103.4546 0)
+			(at 38.1 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,8 +272,84 @@
 		)
 	)
 	(sheet
-		(at 172.72 113.03)
-		(size 76.2 15.24)
+		(at 135.89 128.27)
+		(size 90.17 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f")
+		(property "Sheetname" "Ethernet"
+			(at 135.89 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 135.89 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 101.6)
+		(size 90.17 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c129ce73-fc4e-459a-b7eb-49148af5c1a5")
+		(property "Sheetname" "Arduino"
+			(at 135.89 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Arduino.kicad_sch"
+			(at 135.89 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 128.27)
+		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -246,7 +360,7 @@
 		)
 		(uuid "cd83e7ab-22db-42ff-a7e6-36d43df00222")
 		(property "Sheetname" "ESP"
-			(at 172.72 112.3184 0)
+			(at 46.99 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP.kicad_sch"
-			(at 172.72 128.8546 0)
+			(at 46.99 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
