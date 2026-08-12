@@ -401,6 +401,18 @@
     [
       "4caa84e5-94a9-4f5c-b728-f1a155edd67e",
       "USB_HUB"
+    ],
+    [
+      "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49",
+      "ZED_Z9P"
+    ],
+    [
+      "5f28e942-ada7-4d13-8727-49641d723651",
+      "Controller"
+    ],
+    [
+      "cd83e7ab-22db-42ff-a7e6-36d43df00222",
+      "ESP"
     ]
   ],
   "text_variables": {}

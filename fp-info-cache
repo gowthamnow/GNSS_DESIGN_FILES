@@ -1,4 +1,4 @@
-23053742450922102
+23057315509121102
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63644,6 +63644,13 @@ Pololu Breakout
 16
 16
 Module
+QFP50P1600X1600X160-100N
+STM32H563VGT6
+Integrated Circuit
+0
+100
+100
+Module
 Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles
 Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
 raspberry pi zero through hole
@@ -63727,6 +63734,13 @@ XCVR_ESP32-C3-MINI-1-N4
 0
 61
 61
+Module
+ZEDF9P05B
+ZED-F9P-05B-4
+Integrated Circuit
+0
+102
+102
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf

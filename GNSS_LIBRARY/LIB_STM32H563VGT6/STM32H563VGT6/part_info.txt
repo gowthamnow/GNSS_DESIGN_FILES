@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32H563VGT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=2.1
+Released=2023-12-19 04:57:24
+Downloaded=2026-08-12 08:55:05
+3D=Y
