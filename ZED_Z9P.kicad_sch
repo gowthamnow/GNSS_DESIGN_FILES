@@ -3341,7 +3341,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 18 255 0 1)
+				(color 16 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -3364,7 +3364,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 18 255 0 1)
+				(color 16 0 0 1)
 			)
 			(justify right bottom)
 		)
