@@ -3938,48 +3938,6 @@
 		)
 		(uuid "ffa4e023-d13e-4806-965a-cc227075bfa1")
 	)
-	(text_box "CHECK THE PIN MAPPING FOR IMU"
-		(exclude_from_sim no)
-		(at 85.09 36.83 0)
-		(size 33.02 21.59)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 114 255 146 1)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "8c56a289-4232-4555-9d64-cd048104a094")
-	)
-	(text_box "THE PIN MAPPING FOR GNSS RESET AND AR_A2 HAVE THE SAME PIN IN STM."
-		(exclude_from_sim no)
-		(at 33.02 33.02 0)
-		(size 35.56 26.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 140 255 96 1)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "f9936e0c-6e00-4524-99b3-999d304ea83f")
-	)
 	(global_label "SCK"
 		(shape input)
 		(at 143.51 71.12 180)
@@ -4048,22 +4006,22 @@
 	)
 	(global_label "INT2_ACCEL"
 		(shape input)
-		(at 106.68 52.07 0)
+		(at 143.51 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "26722eb5-504a-4edc-9760-4a41bd385c7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5509 52.07 0)
+			(at 129.6391 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4312,22 +4270,22 @@
 	)
 	(global_label "INT1_ACCEL"
 		(shape input)
-		(at 106.68 49.53 0)
+		(at 143.51 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "49aeff46-1950-4654-a30d-7a1b0477c0db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5509 49.53 0)
+			(at 129.6391 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4600,22 +4558,22 @@
 	)
 	(global_label "INT1_GYRO"
 		(shape input)
-		(at 106.68 54.61 0)
+		(at 143.51 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "838ec363-6d78-43f0-a91a-cd6d299f475c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.7043 54.61 0)
+			(at 130.4857 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4864,22 +4822,22 @@
 	)
 	(global_label "RESET_GNSS"
 		(shape input)
-		(at 72.39 58.42 180)
+		(at 158.75 53.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c163017d-a51a-4d24-a3ef-deb36437cad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6726 58.42 0)
+			(at 158.75 38.6226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4996,7 +4954,7 @@
 	)
 	(global_label "CSB_ACCEL"
 		(shape input)
-		(at 95.25 55.88 180)
+		(at 191.77 149.86 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5006,7 +4964,7 @@
 		)
 		(uuid "dc715ba6-cea2-4cdd-af7a-df9b67b39e1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.742 55.88 0)
+			(at 191.77 163.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,22 +4976,22 @@
 	)
 	(global_label "INT2_GYRO"
 		(shape input)
-		(at 106.68 57.15 0)
+		(at 143.51 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f2b1eca2-383b-4ba2-a4d3-ddcd831b3aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.7043 57.15 0)
+			(at 130.4857 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5106,7 +5064,7 @@
 	)
 	(global_label "CSB_GYRO"
 		(shape input)
-		(at 93.98 52.07 180)
+		(at 143.51 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5116,7 +5074,7 @@
 		)
 		(uuid "ffc5d380-fef7-4638-8582-4d79f9ed265b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.3186 52.07 0)
+			(at 130.8486 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

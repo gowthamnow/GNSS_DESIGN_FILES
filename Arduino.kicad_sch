@@ -1605,7 +1605,7 @@
 			(uuid "9a5af9fc-bcbb-4634-93e5-74b571212c26")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
 					(reference "A1")
 					(unit 1)
@@ -1737,7 +1737,7 @@
 			(uuid "4da8a68b-da71-4909-9c53-5e239e96ca27")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
 					(reference "#PWR109")
 					(unit 1)
