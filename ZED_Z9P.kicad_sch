@@ -3326,7 +3326,6 @@
 	)
 	(label "RESET_GNSS"
 		(at 85.09 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,7 +3336,6 @@
 	)
 	(label "GNSS_D_P"
 		(at 101.6 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3349,7 +3347,6 @@
 	)
 	(label "BT_GNSS"
 		(at 85.09 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3360,7 +3357,6 @@
 	)
 	(label "GNSS_D_N"
 		(at 101.6 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

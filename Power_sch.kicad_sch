@@ -5038,7 +5038,6 @@
 	)
 	(label "VIN"
 		(at 170.18 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5049,7 +5048,6 @@
 	)
 	(label "EX_VBUS"
 		(at 21.59 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,7 +5058,6 @@
 	)
 	(label "PG_VBUS"
 		(at 95.25 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5068,6 @@
 	)
 	(label "EN"
 		(at 152.4 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5082,7 +5078,6 @@
 	)
 	(label "VO"
 		(at 218.44 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5093,7 +5088,6 @@
 	)
 	(label "PG_VBUS"
 		(at 31.75 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5104,7 +5098,6 @@
 	)
 	(label "VO"
 		(at 151.13 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5115,7 +5108,6 @@
 	)
 	(label "EX_VBUS"
 		(at 92.71 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5126,7 +5118,6 @@
 	)
 	(label "SW"
 		(at 190.5 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5137,7 +5128,6 @@
 	)
 	(label "EN"
 		(at 187.96 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5148,7 +5138,6 @@
 	)
 	(label "EX_VBUS"
 		(at 97.79 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5159,7 +5148,6 @@
 	)
 	(label "SW"
 		(at 137.16 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5170,7 +5158,6 @@
 	)
 	(label "EX_VBUS_F"
 		(at 71.12 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5181,7 +5168,6 @@
 	)
 	(label "EX_VBUS_F"
 		(at 30.48 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,7 +5178,6 @@
 	)
 	(label "PG_VBUS"
 		(at 21.59 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

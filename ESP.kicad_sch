@@ -2216,7 +2216,6 @@
 	)
 	(label "ESP_D_N"
 		(at 158.75 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2227,6 @@
 	)
 	(label "ESP_D_P"
 		(at 160.02 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
