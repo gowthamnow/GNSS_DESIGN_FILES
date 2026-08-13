@@ -2776,16 +2776,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 149.86) (xy 100.33 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181d484d-804e-4075-be80-cebd5b3eba92")
-	)
-	(wire
-		(pts
 			(xy 85.09 147.32) (xy 88.9 147.32)
 		)
 		(stroke
@@ -3166,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 100.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceef6cea-6bd9-4d19-92c3-a338a21ce00b")
-	)
-	(wire
-		(pts
 			(xy 153.67 76.2) (xy 153.67 78.74)
 		)
 		(stroke
@@ -3324,111 +3304,249 @@
 		)
 		(uuid "fdd30fe0-5922-47b7-8f89-770f0bce2386")
 	)
-	(label "RESET_GNSS"
-		(at 85.09 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2654de11-574f-45e7-baa6-ad069ed22f91")
-	)
-	(label "GNSS_D_P"
-		(at 101.6 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 16 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d8237e4-b393-4627-a30b-2504cbb0688c")
-	)
-	(label "BT_GNSS"
-		(at 85.09 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3697f31-a899-446c-b9e1-1b27d6dad42f")
-	)
-	(label "GNSS_D_N"
+	(global_label "GNSS_D_N"
+		(shape input)
 		(at 101.6 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 16 0 0 1)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "eb6c1c21-778d-484c-80ae-ddc9ada70afe")
+		(uuid "2b239412-3f33-46b5-bf52-663dbad5ec4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.0596 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "BT_GNSS"
+		(shape input)
+		(at 85.09 147.32 180)
 		(fields_autoplaced yes)
-		(uuid "175ecdf6-d487-4bf6-ae45-bc88fe92eb37")
-		(property "Reference" "#PWR024"
-			(at 100.33 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34706a4c-0bf2-4fc9-a493-020145cdc1b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8801 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 100.33 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "GN_TIMEPULSE"
+		(shape input)
+		(at 153.67 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 100.33 151.13 0)
+		(uuid "3ac8bf73-d1ad-4189-9874-6ebd11fb0f6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3832 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 151.13 0)
+	)
+	(global_label "RESET_GNSS"
+		(shape input)
+		(at 85.09 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49db7b55-c7dd-4853-85e7-c71c6d409d13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.3726 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 151.13 0)
+	)
+	(global_label "TX_READY"
+		(shape input)
+		(at 102.87 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57735e0e-1279-4e7b-8797-a9cb1d284ad7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.8739 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4c908bbe-9660-44df-b856-2a20725d8992")
+	)
+	(global_label "GN_SDO"
+		(shape input)
+		(at 102.87 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
 		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR024")
-					(unit 1)
+		(uuid "7805eec8-8cef-484a-bd0f-953d00efe25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.5067 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GN_CS"
+		(shape input)
+		(at 102.87 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92b7a3de-f3ab-4ab9-b3d2-82df5601f487")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8372 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GN_EXINT"
+		(shape input)
+		(at 102.87 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e6c451d-a966-4902-a743-6cc6ae8c2ef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.0553 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_D_P"
+		(shape input)
+		(at 101.6 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 16 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b088939e-311c-4430-86b5-70fd5813a723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.1201 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GN_SCK"
+		(shape input)
+		(at 102.87 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de864882-04aa-4f12-886c-1f69a7d1a92b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.5672 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GN_SDI"
+		(shape input)
+		(at 102.87 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "f937fe5f-5b76-48b9-bddf-adb38ddf465b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2324 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
 		)
 	)

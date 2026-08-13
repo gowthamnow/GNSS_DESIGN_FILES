@@ -2622,17 +2622,6 @@
 		)
 		(uuid "796ca3fb-e117-4c17-a3a4-35d221e2b2f4")
 	)
-	(label "GNSS_D_N"
-		(at 148.59 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 255 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "26d4d4cc-721a-4b49-9053-2eeb9119ab61")
-	)
 	(label "VBUS"
 		(at 135.89 81.28 90)
 		(effects
@@ -2704,28 +2693,6 @@
 		)
 		(uuid "a4259d5f-9d62-4af5-b384-be8c1a3ffdaf")
 	)
-	(label "ESP_D_P"
-		(at 143.51 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 255 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "a43bfc41-3cce-4a09-86f6-dbc30a99dcf8")
-	)
-	(label "GNSS_D_P"
-		(at 151.13 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 255 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab89352b-5a20-4cca-92c6-c79458de3271")
-	)
 	(label "USB_U_P"
 		(at 90.17 111.76 180)
 		(effects
@@ -2736,17 +2703,6 @@
 			(justify right bottom)
 		)
 		(uuid "af0c1ae1-9f89-42cc-bbde-a821bdd02b39")
-	)
-	(label "ESP_D_N"
-		(at 140.97 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 255 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "b510fe5b-3c55-47ac-9025-0878e8c8a462")
 	)
 	(label "CR"
 		(at 229.87 63.5 0)
@@ -2767,17 +2723,6 @@
 			(justify left bottom)
 		)
 		(uuid "c46eaf1d-2dd4-433d-8b1a-2d1bed394ca3")
-	)
-	(label "STM_D_P"
-		(at 138.43 149.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 255 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5097ade-cacf-41c8-b931-4c7d3b0f73c9")
 	)
 	(label "3V3"
 		(at 184.15 114.3 0)
@@ -2809,16 +2754,143 @@
 		)
 		(uuid "ef67c359-ea07-4996-ab1f-636fbbf96b2b")
 	)
-	(label "STM_D_N"
-		(at 135.89 149.86 270)
+	(global_label "GNSS_D_P"
+		(shape input)
+		(at 151.13 149.86 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 18 255 0 1)
+				(color 0 0 0 1)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "fa462fbf-fb51-45ba-890b-32fe4decf5f7")
+		(uuid "3d14bb98-09d5-4ab9-92b7-cb2c167d6098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 162.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_D_P"
+		(shape input)
+		(at 143.51 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "3d4e369f-9ed5-4b6c-90cf-4b0e45cb5349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 160.9489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_D_N"
+		(shape input)
+		(at 140.97 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "5cb69c13-88ec-474d-8517-ae6fe10e3b22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 161.0094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_D_N"
+		(shape input)
+		(at 148.59 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7d0911be-85a4-4b38-9fa9-d97b7ff0ea65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 162.4004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_D_P"
+		(shape input)
+		(at 138.43 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "baa31b3d-9504-47e6-bdc3-028e7af2a7bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 160.9489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_D_N"
+		(shape input)
+		(at 135.89 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "f86d28d9-fd16-4e9e-8eb3-8a215645548c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 161.0094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -4446,7 +4518,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 145.542 156.718 90)
+			(at 146.05 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
