@@ -1941,10 +1941,10 @@
 		(uuid "dd2093e5-5e11-41b6-8c91-267a88d8dc8e")
 	)
 	(junction
-		(at 228.6 64.77)
+		(at 228.6 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7b3ff30-dd28-42b1-af46-0f08d00a58ba")
+		(uuid "f74e2440-924a-4618-931d-6e42a87a154f")
 	)
 	(junction
 		(at 228.6 72.39)
@@ -2212,17 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 63.5) (xy 229.87 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61df03ab-4f61-40b9-a2f2-0e89f00db4da")
-	)
-	(wire
-		(pts
-			(xy 223.52 64.77) (xy 228.6 64.77)
+			(xy 223.52 59.69) (xy 228.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2289,6 +2279,16 @@
 			(type default)
 		)
 		(uuid "7c483af6-d6ae-4b9c-88cc-ec7ec5777c82")
+	)
+	(wire
+		(pts
+			(xy 223.52 59.69) (xy 223.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8183ab70-38ec-4429-9f14-2f826101b61c")
 	)
 	(wire
 		(pts
@@ -2359,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "9c97fe4b-107c-470d-a30a-680be4654312")
+	)
+	(wire
+		(pts
+			(xy 228.6 59.69) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28ee5f6-a4c2-4e87-9b4f-f2b34131ad22")
 	)
 	(wire
 		(pts
@@ -2572,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 64.77) (xy 229.87 64.77)
+			(xy 228.6 59.69) (xy 231.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2644,18 +2654,6 @@
 		)
 		(uuid "423629a1-dfc6-40d8-8882-57986e562725")
 	)
-	(label "USB_U_N"
-		(at 90.17 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 12 19 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "4605986e-6ce8-46e0-bb50-c5b4ceb62524")
-	)
 	(label "3V3"
 		(at 184.15 127 0)
 		(fields_autoplaced yes)
@@ -2700,20 +2698,8 @@
 		)
 		(uuid "a4259d5f-9d62-4af5-b384-be8c1a3ffdaf")
 	)
-	(label "USB_U_P"
-		(at 90.17 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 22 18 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "af0c1ae1-9f89-42cc-bbde-a821bdd02b39")
-	)
 	(label "CR"
-		(at 229.87 63.5 0)
+		(at 231.14 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2766,6 +2752,28 @@
 			(justify left bottom)
 		)
 		(uuid "ef67c359-ea07-4996-ab1f-636fbbf96b2b")
+	)
+	(global_label "DP"
+		(shape input)
+		(at 90.17 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2247cda8-8ee3-42ce-ab1d-1386bfa38b10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.6448 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GNSS_D_P"
 		(shape input)
@@ -2873,6 +2881,28 @@
 		(uuid "baa31b3d-9504-47e6-bdc3-028e7af2a7bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.43 160.9489 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DN"
+		(shape input)
+		(at 90.17 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d957d0d1-4628-41e6-8770-6401fc7aaec3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.5843 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

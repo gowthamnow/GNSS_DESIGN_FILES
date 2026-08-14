@@ -1623,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284deb41-2a38-4bb1-9373-e198dbd89c92")
-		(property "Reference" "#PWR110"
+		(property "Reference" "#PWR0110"
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -1673,7 +1673,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "#PWR110")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3b7f73-81d4-4682-8199-c8af27f772aa")
-		(property "Reference" "#PWR109"
+		(property "Reference" "#PWR0109"
 			(at 144.78 127 0)
 			(effects
 				(font
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "#PWR109")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
