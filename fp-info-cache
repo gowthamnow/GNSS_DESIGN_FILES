@@ -1,4 +1,4 @@
-24702609855111422
+24707969902700301
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58257,6 +58257,27 @@ Fuse
 Fuseholder_TR5_Littelfuse_No560_No460
 Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
 Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+GNSS_Library
+CONN_503398-1892_MOL
+
+
+0
+14
+14
+GNSS_Library
+DRB0008F
+
+TCAN1042VDRBRQ1 
+0
+13
+10
+GNSS_Library
+LED_SML-P11D_ROM
+
+SML-P12U2TT86R 
 0
 2
 2

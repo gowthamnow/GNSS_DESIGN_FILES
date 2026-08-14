@@ -3521,7 +3521,6 @@
 	)
 	(label "VDDIO"
 		(at 180.34 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3532,7 +3531,6 @@
 	)
 	(label "CLK_XI"
 		(at 231.14 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3543,7 +3541,6 @@
 	)
 	(label "VDDA3V3"
 		(at 195.58 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3554,7 +3551,6 @@
 	)
 	(label "VDDIO"
 		(at 125.73 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3565,7 +3561,6 @@
 	)
 	(label "CTD"
 		(at 64.77 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3571,6 @@
 	)
 	(label "CLK_XI"
 		(at 119.38 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,7 +3581,6 @@
 	)
 	(label "CRD"
 		(at 102.87 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3598,7 +3591,6 @@
 	)
 	(label "CRD"
 		(at 86.36 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3601,6 @@
 	)
 	(label "CTD"
 		(at 102.87 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +3611,6 @@
 	)
 	(label "VDDA3V3"
 		(at 180.34 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

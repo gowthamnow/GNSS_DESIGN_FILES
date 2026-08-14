@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "BMI088"
+	(symbol "ICM-42688-P"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 18.415 0)
+			(at -20.32 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BMI088"
-			(at -12.7 -20.32 0)
+		(property "Value" "ICM-42688-P"
+			(at -20.32 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BMI088:PQFN50P450X300X100-16N"
+		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Bosch Sensortec"
+		(property "MF" "TDK InvenSense"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/BMI088/?ref=eda"
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,37 +75,7 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "VFLGA-16 Bosch Sensortec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "VFLGA-16 Bosch Sensortec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=eda"
+		(property "Package" "LGA-14 TDK InvenSense"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=snap"
+		(property "Check_prices" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,7 +105,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BMI088"
+		(property "STANDARD" "IPC-7351B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -145,7 +115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2774026&manufacturer=Bosch Sensortec&part_name=BMI088&search_term=bmi088"
+		(property "PARTREV" "1.2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -155,7 +125,27 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output\n                        \n"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ICM-42688-P"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Accelerometer, Gyroscope, 6 Axis Sensor - Output\n                        \n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -175,7 +165,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "In Stock"
+		(property "MANUFACTURER" "TDK InvenSense"
 			(at 0 0 0)
 			(effects
 				(font
@@ -185,20 +175,10 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "BMI088_0_0"
+		(symbol "ICM-42688-P_0_0"
 			(rectangle
-				(start -12.7 -17.78)
-				(end 12.7 17.78)
+				(start -20.32 -17.78)
+				(end 20.32 15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -208,9 +188,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at -25.4 -7.62 0)
 				(length 5.08)
-				(name "INT2"
+				(name "AP_SDO/AP_AD0"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -225,10 +205,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 5.08 180)
+			(pin passive line
+				(at 25.4 -5.08 180)
 				(length 5.08)
-				(name "SDO2"
+				(name "RESV_10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -243,10 +223,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 12.7 180)
+			(pin passive line
+				(at 25.4 -7.62 180)
 				(length 5.08)
-				(name "VDDIO"
+				(name "RESV_11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -261,10 +241,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -5.08 180)
+			(pin input line
+				(at -25.4 0 0)
 				(length 5.08)
-				(name "INT3"
+				(name "AP_CS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -279,10 +259,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -7.62 180)
+			(pin input clock
+				(at -25.4 -2.54 0)
 				(length 5.08)
-				(name "INT4"
+				(name "AP_SCL/AP_SCLK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -297,10 +277,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 5.08 0)
+			(pin bidirectional line
+				(at -25.4 -5.08 0)
 				(length 5.08)
-				(name "CSB1"
+				(name "AP_SDA/AP_SDIO/AP_SDI"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -315,46 +295,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 7.62 180)
-				(length 5.08)
-				(name "SDO1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "INT1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -17.78 -10.16 0)
+				(at 25.4 0 180)
 				(length 5.08)
-				(name "NC"
+				(name "RESV_2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -369,10 +313,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 15.24 180)
+			(pin passive line
+				(at 25.4 -2.54 180)
 				(length 5.08)
-				(name "VDD"
+				(name "RESV_3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -387,10 +331,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -15.24 180)
+			(pin output line
+				(at 25.4 5.08 180)
 				(length 5.08)
-				(name "GNDA"
+				(name "INT1/INT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -405,10 +349,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 2.54 0)
+			(pin power_in line
+				(at 25.4 10.16 180)
 				(length 5.08)
-				(name "CSB2"
+				(name "VDDIO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -424,9 +368,9 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -12.7 180)
+				(at 25.4 -15.24 180)
 				(length 5.08)
-				(name "GNDIO"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -441,10 +385,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 10.16 0)
+			(pin passive line
+				(at 25.4 -10.16 180)
 				(length 5.08)
-				(name "PS"
+				(name "RESV_7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -459,10 +403,10 @@
 					)
 				)
 			)
-			(pin input clock
-				(at -17.78 -2.54 0)
+			(pin power_in line
+				(at 25.4 12.7 180)
 				(length 5.08)
-				(name "SCL/SCK"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -478,9 +422,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -25.4 5.08 0)
 				(length 5.08)
-				(name "SDA/SDI"
+				(name "INT2/FSYNC/CLKIN"
 					(effects
 						(font
 							(size 1.016 1.016)
