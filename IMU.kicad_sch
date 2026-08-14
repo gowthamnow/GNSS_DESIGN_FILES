@@ -40,25 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5033981892?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +50,17 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "1.10mm Pitch microSD Memory Card Connector, Normal Mount Surface Mount, Push-Push Type, 1.28mm Height"
+			(property "Description" "1.10mm Pitch microSD Memory Card Connector, Normal Mount Surface Mount, Push-Push Type, 1.28mm Height"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Molex"
 				(at 0 0 0)
 				(effects
 					(font
@@ -109,16 +101,6 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "https://www.molex.com/en-us/products/part-detail-pdf/5033981892?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2522,7 +2504,7 @@
 			(uuid "7988ecab-0f3b-4055-9c78-2a58b7ae0216")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
 					(reference "J3")
 					(unit 1)
@@ -2747,7 +2729,7 @@
 			(uuid "20d2d97e-45f8-4abf-9629-97670e334004")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
 					(reference "U1")
 					(unit 1)

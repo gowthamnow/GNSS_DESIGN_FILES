@@ -3818,6 +3818,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 33.02) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021950c5-9387-4ab8-9b76-eed92d602f98")
+	)
+	(wire
+		(pts
 			(xy 120.65 146.05) (xy 120.65 143.51)
 		)
 		(stroke
@@ -3928,6 +3938,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 29.21) (xy 67.31 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1884e7-7946-4878-8a10-4c02138ac277")
+	)
+	(wire
+		(pts
 			(xy 71.12 180.34) (xy 71.12 182.88)
 		)
 		(stroke
@@ -3945,6 +3965,16 @@
 			(type default)
 		)
 		(uuid "1fdbdd3f-3917-480c-8f0d-9b158f1a54bd")
+	)
+	(wire
+		(pts
+			(xy 181.61 41.91) (xy 181.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228e5bcd-6bad-496c-8af1-89814191f248")
 	)
 	(wire
 		(pts
@@ -4098,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 41.91) (xy 199.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b49fc9-f304-4e4e-9201-9c2cfc9e15ec")
+	)
+	(wire
+		(pts
 			(xy 63.5 180.34) (xy 63.5 182.88)
 		)
 		(stroke
@@ -4105,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "44ee757a-6549-4e80-b82c-3151e711150b")
+	)
+	(wire
+		(pts
+			(xy 111.76 33.02) (xy 111.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d83ba3-f4ad-4366-a256-999e51c3f35d")
 	)
 	(wire
 		(pts
@@ -4508,6 +4558,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 29.21) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841688f6-0e20-4fc7-8e47-6a757263821e")
+	)
+	(wire
+		(pts
 			(xy 81.28 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -4548,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 91.44) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ba5bf1-7ed8-4842-8be6-44d7c13be35b")
+	)
+	(wire
+		(pts
 			(xy 24.13 179.07) (xy 24.13 182.88)
 		)
 		(stroke
@@ -4575,6 +4645,16 @@
 			(type default)
 		)
 		(uuid "8c79498a-33fc-4e3d-8c68-5f8167028e10")
+	)
+	(wire
+		(pts
+			(xy 90.17 29.21) (xy 85.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e94da05-703f-4d74-9910-0d3972db57df")
 	)
 	(wire
 		(pts
@@ -4635,6 +4715,16 @@
 			(type default)
 		)
 		(uuid "97c89c08-8bd3-4aa3-bc94-3276e1866556")
+	)
+	(wire
+		(pts
+			(xy 111.76 29.21) (xy 109.22 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9855df4e-93c7-4faf-bc5f-6c02531a3e93")
 	)
 	(wire
 		(pts
@@ -4725,6 +4815,16 @@
 			(type default)
 		)
 		(uuid "a34303dc-0140-49df-82a8-f899534a2ad9")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42debb3-fa01-4670-83de-c4bfc0b4eb35")
 	)
 	(wire
 		(pts
@@ -4928,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a244f7-b3d3-461b-8312-fac6cc8e2ba6")
+	)
+	(wire
+		(pts
 			(xy 144.78 172.72) (xy 144.78 175.26)
 		)
 		(stroke
@@ -4975,6 +5085,16 @@
 			(type default)
 		)
 		(uuid "cf539005-bc7c-41a9-8abf-92c3b5ebc283")
+	)
+	(wire
+		(pts
+			(xy 33.02 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1980394-8bed-4bcd-b429-27c79b830925")
 	)
 	(wire
 		(pts
@@ -5038,6 +5158,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 29.21) (xy 95.25 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28da9be-a257-4895-b1b0-4745d1f0382e")
+	)
+	(wire
+		(pts
 			(xy 207.01 149.86) (xy 207.01 151.13)
 		)
 		(stroke
@@ -5058,6 +5188,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 41.91) (xy 191.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fc3fa1-a6d6-4f37-8454-76a3b5f9fb02")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 127 97.79)
 		)
 		(stroke
@@ -5068,6 +5208,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 41.91) (xy 186.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3623fc-dca8-4194-b9df-a43f9742df23")
+	)
+	(wire
+		(pts
 			(xy 71.12 170.18) (xy 78.74 170.18)
 		)
 		(stroke
@@ -5075,6 +5225,16 @@
 			(type default)
 		)
 		(uuid "ec101be6-c9a2-4367-b9e4-48916db6b85f")
+	)
+	(wire
+		(pts
+			(xy 41.91 29.21) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec268e10-68de-43b8-a7c2-98b259f3f116")
 	)
 	(wire
 		(pts
@@ -5106,8 +5266,42 @@
 		)
 		(uuid "ffa4e023-d13e-4806-965a-cc227075bfa1")
 	)
+	(label "CAN_STB"
+		(at 33.02 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11078a4f-0fdb-45d6-8148-a7344701929c")
+	)
+	(label "GN_LED"
+		(at 41.91 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20526907-e124-4fbe-b8da-d8a755b2e193")
+	)
+	(label "CAN_TXD"
+		(at 33.02 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "439c4579-e60d-49a2-94da-ae8771bb72c9")
+	)
 	(label "CAN_VCC"
 		(at 34.29 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5116,8 +5310,53 @@
 		)
 		(uuid "50562406-a2d8-4468-9a21-948e4385e5e3")
 	)
+	(label "CAN_STB"
+		(at 181.61 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5080d9a4-305c-439b-8d4f-78a6d2de4097")
+	)
+	(label "CAN_TXD"
+		(at 196.85 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52fdfd88-1bb9-46d6-b7a7-af36b6db8fcd")
+	)
+	(label "USER_LED"
+		(at 85.09 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57dbe22a-5dc0-4b71-b315-fae0d1ce3911")
+	)
+	(label "CAN_RXD"
+		(at 199.39 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6da45e94-746f-4bab-bc73-af5c5569ca75")
+	)
 	(label "CAN_VIO"
 		(at 33.02 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5126,8 +5365,42 @@
 		)
 		(uuid "82ad9573-6140-414d-bc1e-d0ff46cdd9d7")
 	)
+	(label "GN_LED"
+		(at 191.77 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96361ac2-478c-4324-abc8-83f64cf3e3ea")
+	)
+	(label "CAN_RXD"
+		(at 33.02 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4cee503-d172-4080-beb5-b121596d6b6a")
+	)
+	(label "USER_LED"
+		(at 186.69 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4485e47-cf5e-4010-abeb-5ea376a237b7")
+	)
 	(label "CAN_VIO"
 		(at 63.5 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5138,6 +5411,7 @@
 	)
 	(label "CAN_VCC"
 		(at 33.02 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7355,6 +7629,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "201e9abf-c4b6-4089-abe7-616ef9de79db")
+		(property "Reference" "#PWR0114"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67b471c3-b12a-467c-8a4a-09953ae60048")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 52.07 0)
 		(unit 1)
@@ -7758,6 +8098,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0816ef-b2aa-4837-a226-8aa604d6896b")
+		(property "Reference" "#PWR024"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f9e984d-d7e0-42a7-b2e5-aaca08e60935")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 63.5 50.8 0)
 		(unit 1)
@@ -7975,7 +8381,7 @@
 			(uuid "6f505a53-2b2e-4fed-b538-05eb4036ca84")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
 					(reference "U5")
 					(unit 1)
@@ -8908,9 +9314,78 @@
 			(uuid "51780ba8-9549-48d7-b803-25d3d64ec526")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
 					(reference "#PWR53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 49.53 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52cde5d8-75e5-4df0-bd45-47991b46cac9")
+		(property "Reference" "R29"
+			(at 51.562 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560R"
+			(at 50.8 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64c6e756-5d55-4cb5-9962-feb449d60ce7")
+		)
+		(pin "1"
+			(uuid "50e3873d-e1de-4f03-ace0-90777406a32c")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10644,6 +11119,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 92.71 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f8e337b-344a-4d60-b3cc-df73dd9054c0")
+		(property "Reference" "R28"
+			(at 94.742 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560R"
+			(at 93.98 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fbe3982-f7bd-475d-a79d-bfc338e732e6")
+		)
+		(pin "1"
+			(uuid "c475a5f3-d3aa-4bec-916e-a5172debc5e5")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 86.36 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11313,7 +11857,7 @@
 	)
 	(symbol
 		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
-		(at 80.01 29.21 0)
+		(at 99.06 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11322,7 +11866,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1e5d16f-beb0-419e-8f80-b2f59aefb6fc")
 		(property "Reference" "R25"
-			(at 86.36 19.05 0)
+			(at 105.41 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11330,7 +11874,7 @@
 			)
 		)
 		(property "Value" "SML-P12U2TT86R"
-			(at 86.36 21.59 0)
+			(at 105.41 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11338,7 +11882,7 @@
 			)
 		)
 		(property "Footprint" "GNSS_Library:LED_SML-P11D_ROM"
-			(at 80.01 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +11892,7 @@
 			)
 		)
 		(property "Datasheet" "SML-P12U2TT86R"
-			(at 80.01 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +13182,7 @@
 	)
 	(symbol
 		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
-		(at 57.7758 28.8125 0)
+		(at 57.15 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12647,7 +13191,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbb078c9-ca92-41cc-bcae-ac4c0e4e1922")
 		(property "Reference" "R17"
-			(at 64.1258 18.6525 0)
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12655,7 +13199,7 @@
 			)
 		)
 		(property "Value" "SML-P12U2TT86R"
-			(at 64.1258 21.1925 0)
+			(at 63.5 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12663,7 +13207,7 @@
 			)
 		)
 		(property "Footprint" "GNSS_Library:LED_SML-P11D_ROM"
-			(at 57.7758 28.8125 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +13217,7 @@
 			)
 		)
 		(property "Datasheet" "SML-P12U2TT86R"
-			(at 57.7758 28.8125 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +13227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.7758 28.8125 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,7 +13242,7 @@
 			(uuid "08f567e4-c77f-4d81-88ce-d56f91a00371")
 		)
 		(instances
-			(project ""
+			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/5f28e942-ada7-4d13-8727-49641d723651"
 					(reference "R17")
 					(unit 1)
