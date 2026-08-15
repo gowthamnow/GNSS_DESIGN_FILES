@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD2CANFD24V_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD2CANFD24V-TR" (!) = "", "SOT95P230X110-3N", "SOT23 (3-Pin)", "771-PESD2CANFD24V-TR", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D", "PESD2CANFD24V-TR", "https://www.arrow.com/en/products/pesd2canfd24v-tr/nexperia?utm_currency=USD&region=nac", "ESD Suppressors / TVS Diodes DIODE ESD PROT", "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf", "1.1 mm"
+END_PART
+
+END.

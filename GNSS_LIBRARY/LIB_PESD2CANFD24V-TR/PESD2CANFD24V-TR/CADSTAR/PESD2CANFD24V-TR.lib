@@ -1,0 +1,18 @@
+.PESD2CANFD24V-TR :1 ;ESD Suppressors / TVS Diodes DIODE ESD PROT
+SOT95P230X110-3N
+*STM D
+*NGS
+*PLB 1="K1" 2="K2" 3="CC"
+*MXP 3
+*DFN PESD2CANFD24V-TR
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD2CANFD24V-TR)
+~!Mouser Part Number (771-PESD2CANFD24V-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D)
+~!Arrow Part Number (PESD2CANFD24V-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pesd2canfd24v-tr/nexperia?utm_currency=USD&region=nac)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf)
+~!Height (1.1mm)
+~!3D_Model (PESD2CANFD24V-TR)
+PESD2CANFD24V-TR
+1.1!U 2.1!U 3.1!U 

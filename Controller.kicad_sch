@@ -3687,7 +3687,7 @@
 		(uuid "13fbd6f1-e599-4e24-ab03-395cadce4337")
 	)
 	(junction
-		(at 96.52 157.48)
+		(at 35.56 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21557b6a-683e-4289-baaf-c11d99bf1f04")
@@ -3699,13 +3699,13 @@
 		(uuid "2dbb446a-42ac-40e6-8338-a766349f118b")
 	)
 	(junction
-		(at 96.52 147.32)
+		(at 35.56 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f70756e-498a-430e-9b7d-dc9db9b5d895")
 	)
 	(junction
-		(at 157.48 185.42)
+		(at 85.09 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39311ba4-f9f0-4884-9c01-97a7192ef53f")
@@ -3729,7 +3729,7 @@
 		(uuid "46c52a5b-568c-47e8-95ce-723c19b6f17c")
 	)
 	(junction
-		(at 57.15 157.48)
+		(at 143.51 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aadf7ff-21cc-43b9-b6f4-7446106dc70d")
@@ -3753,7 +3753,7 @@
 		(uuid "5b134e38-eb8d-4b6a-adbc-78fb06c949a7")
 	)
 	(junction
-		(at 135.89 172.72)
+		(at 63.5 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f5dac6c-2961-4b45-bd64-814528e8436e")
@@ -3777,7 +3777,7 @@
 		(uuid "6c8501ea-1e1c-4314-bf0f-8e128be75f9b")
 	)
 	(junction
-		(at 63.5 144.78)
+		(at 149.86 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "741d1b4f-11e6-43f4-a773-4c44781c80bf")
@@ -3837,7 +3837,7 @@
 		(uuid "a5ef4e36-9597-4d30-adff-bb5c1599f759")
 	)
 	(junction
-		(at 135.89 185.42)
+		(at 63.5 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b12ca1e6-c212-4ff3-a08f-3477b590065f")
@@ -3867,7 +3867,7 @@
 		(uuid "dee75893-d3d5-430c-962f-af313decd870")
 	)
 	(junction
-		(at 52.07 144.78)
+		(at 138.43 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2fc0aa2-8b89-4323-bed2-994e27b9e7b5")
@@ -3891,7 +3891,7 @@
 		(uuid "edee9fad-9f4a-44d9-9050-f540c736eae8")
 	)
 	(junction
-		(at 157.48 172.72)
+		(at 85.09 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef9019a2-8a10-4c57-a4c8-2d6225cb447d")
@@ -4006,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 149.86) (xy 96.52 147.32)
+			(xy 35.56 152.4) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4116,7 +4116,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 176.53) (xy 135.89 172.72)
+			(xy 63.5 152.4) (xy 63.5 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 172.72) (xy 121.92 175.26)
+			(xy 49.53 148.59) (xy 49.53 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4186,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 157.48) (xy 63.5 154.94)
+			(xy 149.86 187.96) (xy 149.86 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 172.72) (xy 166.37 175.26)
+			(xy 93.98 148.59) (xy 93.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 157.48) (xy 102.87 157.48)
+			(xy 35.56 160.02) (xy 41.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 157.48) (xy 57.15 157.48)
+			(xy 138.43 187.96) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4356,7 +4356,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 172.72) (xy 166.37 172.72)
+			(xy 85.09 148.59) (xy 93.98 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +4366,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 182.88) (xy 166.37 185.42)
+			(xy 93.98 158.75) (xy 93.98 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4446,7 +4446,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 154.94) (xy 52.07 157.48)
+			(xy 138.43 185.42) (xy 138.43 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 96.52 157.48)
+			(xy 35.56 157.48) (xy 35.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 147.32) (xy 102.87 149.86)
+			(xy 41.91 149.86) (xy 41.91 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4486,7 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 144.78 185.42)
+			(xy 72.39 158.75) (xy 72.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 143.51) (xy 73.66 144.78)
+			(xy 160.02 173.99) (xy 160.02 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4556,7 +4556,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 142.24) (xy 52.07 144.78)
+			(xy 138.43 172.72) (xy 138.43 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 144.78) (xy 63.5 144.78)
+			(xy 146.05 175.26) (xy 149.86 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4736,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 144.78) (xy 54.61 144.78)
+			(xy 138.43 175.26) (xy 140.97 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 144.78) (xy 52.07 147.32)
+			(xy 138.43 175.26) (xy 138.43 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 185.42) (xy 157.48 181.61)
+			(xy 85.09 161.29) (xy 85.09 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4796,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 63.5 147.32)
+			(xy 149.86 175.26) (xy 149.86 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 185.42) (xy 135.89 185.42)
+			(xy 72.39 161.29) (xy 63.5 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 144.78) (xy 72.39 144.78)
+			(xy 160.02 175.26) (xy 158.75 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4936,7 +4936,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 157.48) (xy 102.87 154.94)
+			(xy 41.91 160.02) (xy 41.91 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4956,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 143.51) (xy 63.5 144.78)
+			(xy 149.86 173.99) (xy 149.86 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5006,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 185.42) (xy 135.89 181.61)
+			(xy 63.5 161.29) (xy 63.5 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 180.34) (xy 121.92 185.42)
+			(xy 49.53 156.21) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5146,7 +5146,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 172.72) (xy 144.78 172.72)
+			(xy 63.5 148.59) (xy 72.39 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5196,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 172.72) (xy 144.78 175.26)
+			(xy 72.39 148.59) (xy 72.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5246,7 +5246,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 185.42) (xy 157.48 185.42)
+			(xy 93.98 161.29) (xy 85.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5256,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 157.48) (xy 63.5 157.48)
+			(xy 143.51 187.96) (xy 149.86 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 176.53) (xy 157.48 172.72)
+			(xy 85.09 152.4) (xy 85.09 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 67.31 144.78)
+			(xy 149.86 175.26) (xy 153.67 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5416,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 147.32) (xy 102.87 147.32)
+			(xy 35.56 149.86) (xy 41.91 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5428,8 +5428,9 @@
 		(start 25.4 86.36)
 		(end 105.41 132.08)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.0508)
+			(type dash)
+			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -5440,8 +5441,9 @@
 		(start 22.86 41.91)
 		(end 114.3 85.09)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.0508)
+			(type dash)
+			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -5452,13 +5454,54 @@
 		(start 22.86 15.24)
 		(end 123.19 40.64)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.0508)
+			(type dash)
+			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
 		)
 		(uuid f41bfcff-378d-4804-b75b-449ee561017c)
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 130.81 19.05 0)
+		(size 148.59 143.51)
+		(stroke
+			(width 0.0508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2a5ada2d-e884-43b7-8589-b72d46646c02")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 16.51 139.7 0)
+		(size 102.87 53.34)
+		(stroke
+			(width 0.0508)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d4951f11-0118-405c-bf6b-debf4e20fbab")
 	)
 	(text "PUSH_BUTTONs"
 		(exclude_from_sim no)
@@ -5470,6 +5513,17 @@
 			)
 		)
 		(uuid "36b5e0ae-36c1-4270-92b2-bf700a85cdb7")
+	)
+	(text "STM\n"
+		(exclude_from_sim no)
+		(at 133.858 17.272 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "6f36e99a-87ca-4e15-a28a-e53f4667ca80")
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
@@ -5492,6 +5546,17 @@
 			)
 		)
 		(uuid "ef4d8bb7-4452-43f7-976f-5787ab673265")
+	)
+	(text "DE-CAPS"
+		(exclude_from_sim no)
+		(at 25.908 138.176 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "f6ab16e1-c8b6-4ad2-86e3-158c4a8e9a17")
 	)
 	(label "GN_LED"
 		(at 41.91 29.21 180)
@@ -6929,7 +6994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 185.42 0)
+		(at 63.5 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6938,7 +7003,7 @@
 		(fields_autoplaced yes)
 		(uuid "0174841a-1580-4c90-9f71-88d743cfc7c0")
 		(property "Reference" "#PWR059"
-			(at 135.89 191.77 0)
+			(at 63.5 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 190.5 0)
+			(at 63.5 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +7020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 185.42 0)
+			(at 63.5 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 185.42 0)
+			(at 63.5 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +7038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 185.42 0)
+			(at 63.5 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7394,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 73.66 143.51 0)
+		(at 160.02 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7338,7 +7403,7 @@
 		(fields_autoplaced yes)
 		(uuid "15c3c89e-1220-49cb-a702-c14f03c42256")
 		(property "Reference" "#PWR077"
-			(at 73.66 147.32 0)
+			(at 160.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7412,7 @@
 			)
 		)
 		(property "Value" "VREFP"
-			(at 73.66 138.43 0)
+			(at 160.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 143.51 0)
+			(at 160.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 143.51 0)
+			(at 160.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 143.51 0)
+			(at 160.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 52.07 142.24 0)
+		(at 138.43 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7404,7 +7469,7 @@
 		(fields_autoplaced yes)
 		(uuid "19625511-3103-48e9-a4cf-73b0ce9cc136")
 		(property "Reference" "#PWR075"
-			(at 52.07 146.05 0)
+			(at 138.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +7478,7 @@
 			)
 		)
 		(property "Value" "STM_3.3V"
-			(at 52.07 137.16 0)
+			(at 138.43 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 142.24 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 142.24 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 52.07 142.24 0)
+			(at 138.43 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7794,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 63.5 143.51 0)
+		(at 149.86 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7738,7 +7803,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d4e810f-d3d2-4628-9edf-125bf4bba21c")
 		(property "Reference" "#PWR076"
-			(at 63.5 147.32 0)
+			(at 149.86 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7812,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 63.5 138.43 0)
+			(at 149.86 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 143.51 0)
+			(at 149.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 143.51 0)
+			(at 149.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +7838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 143.51 0)
+			(at 149.86 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7860,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 135.89 179.07 0)
+		(at 63.5 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7803,7 +7868,7 @@
 		(dnp no)
 		(uuid "1e03654b-0a39-4422-b4d2-f025721dc8aa")
 		(property "Reference" "C45"
-			(at 131.064 177.038 0)
+			(at 58.674 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7877,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 130.302 181.102 0)
+			(at 57.912 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 135.89 179.07 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +7895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 179.07 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +7904,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 135.89 179.07 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8391,7 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 144.78 180.34 90)
+		(at 72.39 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8334,7 +8399,7 @@
 		(dnp no)
 		(uuid "3898dc05-d8f4-434f-8e49-d465ca74868a")
 		(property "Reference" "C44"
-			(at 141.224 176.784 90)
+			(at 68.834 152.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8407,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 140.97 181.356 90)
+			(at 68.58 157.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8415,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8434,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8444,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8454,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8464,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8474,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8484,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8494,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8504,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8514,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8524,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +8534,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8544,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8554,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8564,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 144.78 180.34 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +8590,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 157.48 179.07 0)
+		(at 85.09 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8533,7 +8598,7 @@
 		(dnp no)
 		(uuid "3ab585cb-dd21-445f-8660-5f205eb138b1")
 		(property "Reference" "C46"
-			(at 152.654 177.038 0)
+			(at 80.264 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,7 +8607,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 151.892 181.102 0)
+			(at 79.502 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8616,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.48 179.07 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 179.07 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8634,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 157.48 179.07 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 157.48 0)
+		(at 143.51 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9072,7 +9137,7 @@
 		(fields_autoplaced yes)
 		(uuid "537680bf-2430-4cfe-acb8-ba9dc62fbf56")
 		(property "Reference" "#PWR080"
-			(at 57.15 163.83 0)
+			(at 143.51 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 162.56 0)
+			(at 143.51 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 157.48 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 157.48 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 157.48 0)
+			(at 143.51 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10149,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 121.92 172.72 0)
+		(at 49.53 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10092,7 +10157,7 @@
 		(dnp no)
 		(uuid "74bb3f6c-c144-4138-ac71-22e0d986c4c7")
 		(property "Reference" "#PWR063"
-			(at 121.92 176.53 0)
+			(at 49.53 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10166,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 121.92 167.64 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 172.72 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 172.72 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 172.72 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10279,7 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 63.5 152.4 90)
+		(at 149.86 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10222,7 +10287,7 @@
 		(dnp no)
 		(uuid "77118e24-fa5e-4dea-a8f2-0bdda6044e3a")
 		(property "Reference" "C50"
-			(at 59.944 148.844 90)
+			(at 146.304 179.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10295,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 59.69 153.416 90)
+			(at 146.05 183.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +10303,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,7 +10313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10322,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10332,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10342,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10352,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +10362,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10307,7 +10372,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10382,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10392,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10402,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10412,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10422,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10432,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10442,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10452,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 63.5 152.4 0)
+			(at 149.86 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 185.42 0)
+		(at 49.53 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10422,7 +10487,7 @@
 		(fields_autoplaced yes)
 		(uuid "79b59334-9bf4-4038-9564-bffadaaf9fb1")
 		(property "Reference" "#PWR064"
-			(at 121.92 191.77 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 190.5 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 185.42 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 185.42 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 185.42 0)
+			(at 49.53 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +11009,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 177.8 0)
+		(at 49.53 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10952,7 +11017,7 @@
 		(dnp no)
 		(uuid "8dd0ca7d-33a0-4c04-bee6-694e33c926fa")
 		(property "Reference" "C48"
-			(at 117.094 175.768 0)
+			(at 44.704 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +11026,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 117.856 180.086 0)
+			(at 45.466 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,7 +11035,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 121.92 177.8 0)
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +11044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 177.8 0)
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +11053,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 177.8 0)
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +11078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 57.15 144.78 90)
+		(at 143.51 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11021,7 +11086,7 @@
 		(dnp no)
 		(uuid "8e0c8297-3613-498a-b2cf-1f5216fc8407")
 		(property "Reference" "R19"
-			(at 59.182 142.24 90)
+			(at 145.542 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11095,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 58.42 147.32 90)
+			(at 144.78 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11104,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 57.15 144.78 0)
+			(at 143.51 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 144.78 0)
+			(at 143.51 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11122,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 57.15 144.78 0)
+			(at 143.51 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 152.4 0)
+		(at 41.91 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11292,7 +11357,7 @@
 		(dnp no)
 		(uuid "aa974a07-cab6-49fb-859c-b531b87748af")
 		(property "Reference" "C52"
-			(at 98.044 150.368 0)
+			(at 37.084 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11301,7 +11366,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 97.282 154.432 0)
+			(at 36.322 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,7 +11375,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 102.87 152.4 0)
+			(at 41.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,7 +11384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 152.4 0)
+			(at 41.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +11393,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 152.4 0)
+			(at 41.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11503,7 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 52.07 152.4 90)
+		(at 138.43 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11446,7 +11511,7 @@
 		(dnp no)
 		(uuid "aec77ed1-8ddc-49fc-9581-b1d50705d698")
 		(property "Reference" "C49"
-			(at 48.514 148.844 90)
+			(at 134.874 179.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11519,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 48.26 153.416 90)
+			(at 134.62 183.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11462,7 +11527,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11546,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,7 +11556,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +11566,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11576,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +11586,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11596,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11541,7 +11606,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,7 +11616,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +11626,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +11636,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +11646,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +11656,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +11666,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +11676,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 52.07 152.4 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,7 +11768,7 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 166.37 180.34 90)
+		(at 93.98 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11711,7 +11776,7 @@
 		(dnp no)
 		(uuid "b07ffbaa-a1e2-437d-bb22-976179abe2f9")
 		(property "Reference" "C47"
-			(at 162.814 176.784 90)
+			(at 90.424 152.654 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,7 +11784,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.56 181.356 90)
+			(at 90.17 157.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11792,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11737,7 +11802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +11811,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11821,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,7 +11831,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +11841,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11851,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +11861,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11871,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11816,7 +11881,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +11891,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +11901,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,7 +11911,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11921,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11931,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +11941,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 166.37 180.34 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12237,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 135.89 172.72 0)
+		(at 63.5 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12181,7 +12246,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5dc3b0a-bddc-4477-ba42-adb24aba8998")
 		(property "Reference" "#PWR060"
-			(at 135.89 176.53 0)
+			(at 63.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12255,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 135.89 167.64 0)
+			(at 63.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 172.72 0)
+			(at 63.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,7 +12272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 172.72 0)
+			(at 63.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12216,7 +12281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 135.89 172.72 0)
+			(at 63.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12569,7 +12634,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 157.48 0)
+		(at 35.56 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12578,7 +12643,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf268bb6-4485-4645-9a41-2cbaa36952cb")
 		(property "Reference" "#PWR085"
-			(at 96.52 163.83 0)
+			(at 35.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 162.56 0)
+			(at 35.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 157.48 0)
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 157.48 0)
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 157.48 0)
+			(at 35.56 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,7 +12831,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 96.52 147.32 0)
+		(at 35.56 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12775,7 +12840,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5756fc0-4800-4dc0-ab12-8b83858ebbf2")
 		(property "Reference" "#PWR084"
-			(at 96.52 151.13 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,7 +12849,7 @@
 			)
 		)
 		(property "Value" "VCAP"
-			(at 96.52 142.24 0)
+			(at 35.56 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,7 +12857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 147.32 0)
+			(at 35.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,7 +12866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 147.32 0)
+			(at 35.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,7 +12875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 147.32 0)
+			(at 35.56 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +13162,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 172.72 0)
+		(at 85.09 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13106,7 +13171,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3e13403-ef3e-4d06-bef7-bdd4258c986f")
 		(property "Reference" "#PWR061"
-			(at 157.48 176.53 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,7 +13180,7 @@
 			)
 		)
 		(property "Value" "VREFP"
-			(at 157.48 167.64 0)
+			(at 85.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,7 +13188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 172.72 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 172.72 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 172.72 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13629,7 +13694,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 96.52 152.4 0)
+		(at 35.56 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13637,7 +13702,7 @@
 		(dnp no)
 		(uuid "e99ba499-2379-43b8-9b67-ddaaaf496e2e")
 		(property "Reference" "C51"
-			(at 91.694 150.368 0)
+			(at 30.734 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +13711,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 90.932 154.432 0)
+			(at 29.972 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13720,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 96.52 152.4 0)
+			(at 35.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 152.4 0)
+			(at 35.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13738,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 152.4 0)
+			(at 35.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,7 +14460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 185.42 0)
+		(at 85.09 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14404,7 +14469,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2928013-e2ca-4cf9-b3ef-d956d4372e8b")
 		(property "Reference" "#PWR062"
-			(at 157.48 191.77 0)
+			(at 85.09 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,7 +14478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 190.5 0)
+			(at 85.09 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,7 +14486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 185.42 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 185.42 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +14504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 185.42 0)
+			(at 85.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,7 +14591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 69.85 144.78 270)
+		(at 156.21 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14534,7 +14599,7 @@
 		(dnp no)
 		(uuid "fcfb0b3c-d966-4cbc-b34a-1b44cb03ee09")
 		(property "Reference" "R20"
-			(at 67.818 142.24 90)
+			(at 154.178 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14543,7 +14608,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 68.072 147.066 90)
+			(at 154.432 177.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14552,7 +14617,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 69.85 144.78 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14561,7 +14626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 144.78 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14570,7 +14635,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 69.85 144.78 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

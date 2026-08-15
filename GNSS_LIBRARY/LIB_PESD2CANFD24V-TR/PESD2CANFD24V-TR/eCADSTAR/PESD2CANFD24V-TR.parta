@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_7671798"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-19-23:22:07)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PESD2CANFD24V-TR")
+)
+
+
+(pinAssign "ECS_7671798"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-19-23:22:07)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CC") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_7671798")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PESD2CANFD24V-TR")
+)
+
+
+(part "PESD2CANFD24V-TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-19-23:22:07)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "PESD2CANFD24V-TR")
+    (pinAssignRef "ECS_7671798")
+    (interface
+        (port "1" (symbPinId 1) (portName "K1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CC") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes DIODE ESD PROT")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PESD2CANFD24V-TR")
+    (property "Mouser_Part_Number" "771-PESD2CANFD24V-TR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D")
+    (property "Arrow_Part_Number" "PESD2CANFD24V-TR")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/pesd2canfd24v-tr/nexperia?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+
