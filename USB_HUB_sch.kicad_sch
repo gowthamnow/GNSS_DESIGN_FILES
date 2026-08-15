@@ -2632,6 +2632,17 @@
 		)
 		(uuid "796ca3fb-e117-4c17-a3a4-35d221e2b2f4")
 	)
+	(text "USB_HUB"
+		(exclude_from_sim no)
+		(at 45.974 46.228 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "b09639ac-cdf4-497b-bbfa-8f35b7ef4be5")
+	)
 	(label "VBUS"
 		(at 135.89 81.28 90)
 		(fields_autoplaced yes)

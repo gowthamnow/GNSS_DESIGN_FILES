@@ -897,6 +897,14 @@
 		(uuid "2df6c124-b255-4639-ac85-0ac326f4f20a")
 	)
 	(no_connect
+		(at 132.08 82.55)
+		(uuid "3d7f7eb4-3886-4589-8b43-3570a7c242fb")
+	)
+	(no_connect
+		(at 132.08 80.01)
+		(uuid "5575355f-cee8-42ec-9919-b2f0dfd68937")
+	)
+	(no_connect
 		(at 149.86 64.77)
 		(uuid "68105f5a-3d84-47e6-8d8c-94da3241c46c")
 	)
@@ -967,6 +975,17 @@
 			(type default)
 		)
 		(uuid "f6048df5-40e7-43c8-8ece-f4d98a77406e")
+	)
+	(text "ARDUINO"
+		(exclude_from_sim no)
+		(at 97.536 48.006 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "56ed5ed4-dfb0-442e-a1b3-1b2f7bd0201d")
 	)
 	(global_label "AR_A1"
 		(shape input)

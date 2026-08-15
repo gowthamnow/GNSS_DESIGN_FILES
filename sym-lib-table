@@ -1,7 +1,9 @@
 (sym_lib_table
   (version 7)
   (lib (name "LD39200PU33R")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/LD39200PU33R/LD39200PU33R.kicad_sym")(options "")(descr ""))
-  (lib (name "GNSS_PCB_LIB")(type "KiCad")(uri "${KIPRJMOD}/GNSS_PCB_LIB.kicad_sym")(options "")(descr ""))
+  (lib (name "GNSS_PCB_LIB")(type "KiCad")(uri "${KIPRJMOD}/GNSS_PCB_LIB.kicad_sym")(options " pwr_sym_only")(descr ""))
   (lib (name "2026-08-14_04-42-40")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/TCAN1042VDRBRQ1/KiCADv6/2026-08-14_04-42-40.kicad_sym")(options "")(descr ""))
   (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/ICM-42688-P/ICM-42688-P.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-08-15_06-11-37")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/ECS_TXO_2520_33_240_AN_TR/KiCADv6/2026-08-15_06-11-37.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3301EF100QG")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/TL3301EF100QG/TL3301EF100QG.kicad_sym")(options "")(descr ""))
 )
