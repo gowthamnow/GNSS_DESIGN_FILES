@@ -1945,9 +1945,9 @@
 		)
 		(uuid "f84a5f72-4e59-4a1f-b0ff-8a11ea9cd332")
 	)
-	(global_label "SD_DAT0"
+	(global_label "SD_CMD"
 		(shape input)
-		(at 243.84 78.74 180)
+		(at 243.84 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1955,9 +1955,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2d71b810-b880-49e3-9bfb-6205635a21e6")
+		(uuid "0d2af07b-e1f7-4205-9e9b-aea956337101")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.872 78.74 0)
+			(at 233.4163 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,9 +1967,9 @@
 			)
 		)
 	)
-	(global_label "SD_CLK"
+	(global_label "SD_DAT2"
 		(shape input)
-		(at 243.84 73.66 180)
+		(at 243.84 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1977,9 +1977,9 @@
 			)
 			(justify right)
 		)
-		(uuid "39600b18-9aac-4623-8932-d08955058e6f")
+		(uuid "3d4cbfcf-9621-4175-9211-7f0be943685d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8396 73.66 0)
+			(at 232.872 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,28 +2033,6 @@
 			)
 		)
 	)
-	(global_label "SD_CD"
-		(shape input)
-		(at 243.84 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41367d86-a3b9-4df7-a57f-b9f0c6a6e2bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.8677 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IMU_CS"
 		(shape input)
 		(at 77.47 109.22 180)
@@ -2077,7 +2055,7 @@
 			)
 		)
 	)
-	(global_label "DETECT_LEVER"
+	(global_label "SD_DETECT"
 		(shape input)
 		(at 243.84 83.82 180)
 		(fields_autoplaced yes)
@@ -2087,9 +2065,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5feef6d2-226c-4150-8eb6-45dd3452afad")
+		(uuid "4cccecf8-98a4-4eda-9af3-6f68fec4d6ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4293 83.82 0)
+			(at 230.6345 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,9 +2077,9 @@
 			)
 		)
 	)
-	(global_label "SD_DAT1"
+	(global_label "SD_CLK"
 		(shape input)
-		(at 243.84 81.28 180)
+		(at 243.84 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2109,9 +2087,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7257b846-d3d0-4a87-8833-1f88f1ecf5b4")
+		(uuid "6543a1d9-8184-4041-8aaa-6540e3ea7c41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.872 81.28 0)
+			(at 233.8396 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,9 +2099,9 @@
 			)
 		)
 	)
-	(global_label "SD_VSS"
+	(global_label "SD_DAT0"
 		(shape input)
-		(at 243.84 76.2 180)
+		(at 243.84 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2131,9 +2109,9 @@
 			)
 			(justify right)
 		)
-		(uuid "959bdb00-a0b8-426d-8121-c6a108bc642a")
+		(uuid "952a0857-96e9-42b8-9e6d-d2fcb09a44b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9001 76.2 0)
+			(at 232.872 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,50 +2165,6 @@
 			)
 		)
 	)
-	(global_label "DETECT_SWITCH"
-		(shape input)
-		(at 243.84 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c805765a-c036-402b-82e7-dc8daa2fab9a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.2802 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_VDD"
-		(shape input)
-		(at 243.84 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c80d85be-7eec-46d7-9995-38a9da5aca27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.7791 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDI"
 		(shape input)
 		(at 77.47 114.3 180)
@@ -2253,9 +2187,9 @@
 			)
 		)
 	)
-	(global_label "SD_DAT2"
+	(global_label "SD_DAT1"
 		(shape input)
-		(at 243.84 63.5 180)
+		(at 243.84 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2263,9 +2197,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e879259a-2f8a-4e12-bb34-3bf3d9fb5ebe")
+		(uuid "e1528dc3-fb91-4ef9-993a-b07fad26b315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.872 63.5 0)
+			(at 232.872 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,9 +2209,9 @@
 			)
 		)
 	)
-	(global_label "SD_CMD"
+	(global_label "SD_DAT3"
 		(shape input)
-		(at 243.84 68.58 180)
+		(at 243.84 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,9 +2219,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f25902f6-c2b0-4886-a727-ba7929bcafaf")
+		(uuid "f94be218-b21e-4600-a606-63eef3b8c59e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.4163 68.58 0)
+			(at 232.872 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

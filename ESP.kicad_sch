@@ -1946,10 +1946,6 @@
 		(uuid "b456991a-43c8-449f-9feb-692065c7aad9")
 	)
 	(no_connect
-		(at 113.03 97.79)
-		(uuid "c06b65e6-157a-497a-8aba-acbba1bf0737")
-	)
-	(no_connect
 		(at 113.03 102.87)
 		(uuid "ed0d98b6-4aa6-4d06-beb2-6db177fdb117")
 	)
@@ -2104,6 +2100,28 @@
 		(uuid "3878f68c-6be9-4bda-973d-a29a5d1d980f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.0016 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_INT"
+		(shape input)
+		(at 113.03 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e97c948-6c76-4c30-960e-616b0219464a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.5458 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

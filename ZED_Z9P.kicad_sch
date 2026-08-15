@@ -2465,12 +2465,6 @@
 		(uuid "4736f866-41be-4090-9557-5b6d2666d091")
 	)
 	(junction
-		(at 88.9 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494d4351-75de-4169-837f-e5b2afb26098")
-	)
-	(junction
 		(at 153.67 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2679,6 +2673,10 @@
 		(uuid "816e3580-55b3-464d-ad04-1eaeb6ea8192")
 	)
 	(no_connect
+		(at 102.87 147.32)
+		(uuid "8b2055cc-a74e-402b-9dcf-8650fbb1b8a7")
+	)
+	(no_connect
 		(at 102.87 81.28)
 		(uuid "8be90ac7-49e3-4893-b1ae-cff487204e92")
 	)
@@ -2776,16 +2774,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 147.32) (xy 88.9 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2246faf0-d8bc-417f-8a94-661ef7f34007")
-	)
-	(wire
-		(pts
 			(xy 153.67 81.28) (xy 153.67 83.82)
 		)
 		(stroke
@@ -2863,16 +2851,6 @@
 			(type default)
 		)
 		(uuid "3f3cfbf8-b716-4464-8ac3-6ba4e88b8d78")
-	)
-	(wire
-		(pts
-			(xy 88.9 153.67) (xy 88.9 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d684ff-5670-4639-91d1-a56dea2b5adc")
 	)
 	(wire
 		(pts
@@ -3166,16 +3144,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 147.32) (xy 102.87 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d100d8ed-455a-4e71-8470-d1968e726743")
-	)
-	(wire
-		(pts
 			(xy 153.67 121.92) (xy 153.67 124.46)
 		)
 		(stroke
@@ -3318,28 +3286,6 @@
 		(uuid "2b239412-3f33-46b5-bf52-663dbad5ec4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.0596 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BT_GNSS"
-		(shape input)
-		(at 85.09 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34706a4c-0bf2-4fc9-a493-020145cdc1b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8801 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,141 +4198,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 88.9 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b571b106-c45c-42d5-a8e7-6509898e29b3")
-		(property "Reference" "R16"
-			(at 87.376 152.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 87.376 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1b61255-30af-4dc8-82ee-a1151c5a786b")
-		)
-		(pin "1"
-			(uuid "cfb7d0c2-0d09-4551-ba25-360800269361")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0342e98-13e2-464d-836d-9fbcba9cf16c")
-		(property "Reference" "#PWR048"
-			(at 88.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GNSS"
-			(at 88.9 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d1b4dd7-9907-43a2-a2f9-3dc6c2657a5c")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
