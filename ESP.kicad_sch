@@ -3062,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 209.55 102.87)
+			(xy 219.71 102.87) (xy 209.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3341,7 @@
 	)
 	(global_label "ESP_D_P"
 		(shape input)
-		(at 220.98 102.87 0)
+		(at 219.71 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3352,7 +3352,7 @@
 		)
 		(uuid "f718d4f1-0237-4e70-b79c-bf8fa78183f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.0689 102.87 0)
+			(at 230.7989 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

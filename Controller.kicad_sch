@@ -3801,6 +3801,12 @@
 		(uuid "7a3e021e-142d-465d-b368-c89a2560e494")
 	)
 	(junction
+		(at 83.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a7d018d-0a6f-4ef9-96e7-508bbcd0a67f")
+	)
+	(junction
 		(at 102.87 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3829,12 +3835,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a26a79ca-cd76-4d7a-b58c-2ff5e0f50552")
-	)
-	(junction
-		(at 83.82 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5ef4e36-9597-4d30-adff-bb5c1599f759")
 	)
 	(junction
 		(at 63.5 161.29)
@@ -3905,10 +3905,6 @@
 	(no_connect
 		(at 162.56 95.25)
 		(uuid "080a98e6-91bd-4e85-8bb5-dc190cfd4903")
-	)
-	(no_connect
-		(at 200.66 143.51)
-		(uuid "0918f048-55ee-4c5d-bbf0-14b62b5216e3")
 	)
 	(no_connect
 		(at 210.82 143.51)
@@ -4266,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 83.82 100.33)
+			(xy 83.82 95.25) (xy 83.82 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5026,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 100.33) (xy 83.82 111.76)
+			(xy 83.82 97.79) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5266,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 100.33) (xy 30.48 111.76)
+			(xy 30.48 97.79) (xy 30.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 100.33) (xy 83.82 100.33)
+			(xy 30.48 97.79) (xy 83.82 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6878,6 +6874,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RST_N"
+		(shape input)
+		(at 200.66 143.51 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddfab993-754e-473c-87ec-48c8155a0b3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 156.6551 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

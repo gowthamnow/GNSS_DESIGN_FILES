@@ -2640,6 +2640,25 @@
 		)
 		(uuid "acdd7b7b-a72f-4d83-b937-3bf3687dae30")
 	)
+	(text_box "VBUS CHANGED TO PG_VBUS           DONE"
+		(exclude_from_sim no)
+		(at 71.12 59.69 0)
+		(size 19.05 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bdbf0e14-fcee-4f83-9231-3b7c4ab5155f")
+	)
 	(text "DE-CAPS\n"
 		(exclude_from_sim no)
 		(at 245.364 25.4 0)
@@ -2663,7 +2682,7 @@
 		)
 		(uuid "b09639ac-cdf4-497b-bbfa-8f35b7ef4be5")
 	)
-	(label "VBUS"
+	(label "PG_VBUS"
 		(at 135.89 81.28 90)
 		(fields_autoplaced yes)
 		(effects

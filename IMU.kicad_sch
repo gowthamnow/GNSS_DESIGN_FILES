@@ -1908,6 +1908,12 @@
 		)
 	)
 	(junction
+		(at 207.01 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25328316-2fe6-4c66-95fc-e33499eab83f")
+	)
+	(junction
 		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1946,10 +1952,6 @@
 	(no_connect
 		(at 128.27 119.38)
 		(uuid "2cc4a9fb-98e6-4586-93ed-19353e1489d9")
-	)
-	(no_connect
-		(at 226.06 115.57)
-		(uuid "673a50bc-6e1a-41a8-b890-fa909b5b0c5b")
 	)
 	(no_connect
 		(at 128.27 116.84)
@@ -2019,6 +2021,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46796ba1-8e8d-47c2-961b-391106eed929")
+	)
+	(wire
+		(pts
 			(xy 193.04 100.33) (xy 201.93 100.33)
 		)
 		(stroke
@@ -2039,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 209.55 107.95)
+			(xy 207.01 105.41) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 226.06 105.41)
+			(xy 207.01 105.41) (xy 226.06 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2187,6 +2199,16 @@
 		)
 		(uuid "f84a5f72-4e59-4a1f-b0ff-8a11ea9cd332")
 	)
+	(wire
+		(pts
+			(xy 207.01 113.03) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4c16fb-eb8f-4b12-bc08-4bbd7ca137dd")
+	)
 	(rectangle
 		(start 38.1 64.77)
 		(end 163.83 162.56)
@@ -2212,6 +2234,25 @@
 			(type none)
 		)
 		(uuid 71cff0b1-d46c-41fe-9775-7edf12138dcb)
+	)
+	(text_box "RESV_7 CONNECT TO GND"
+		(exclude_from_sim no)
+		(at 137.16 113.03 0)
+		(size 15.24 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7144fd19-e3ce-4c82-aaba-e35aff6d88ef")
 	)
 	(text "IMU_SENSOR"
 		(exclude_from_sim no)
@@ -2347,7 +2388,7 @@
 	)
 	(global_label "SD_DETECT"
 		(shape input)
-		(at 226.06 113.03 180)
+		(at 226.06 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2357,7 +2398,7 @@
 		)
 		(uuid "4cccecf8-98a4-4eda-9af3-6f68fec4d6ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8545 113.03 0)
+			(at 212.8545 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 107.95 0)
+		(at 207.01 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3902,7 +3943,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b7d7a2-7cf5-4655-a9f6-8fb49d5ef7df")
 		(property "Reference" "#PWR0117"
-			(at 209.55 114.3 0)
+			(at 207.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 113.03 0)
+			(at 207.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 107.95 0)
+			(at 207.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 107.95 0)
+			(at 207.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 107.95 0)
+			(at 207.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
