@@ -5,7 +5,7 @@
 | 3 | IMU SENSOR | ICM-42688-P | 1 | 469.15 | 10 | 4026.48 | 25 | 9531.11 | 50 | 18331.27 | 100 | 35321.97 | [DigiKey](https://www.digikey.in/en/products/detail/tdk-invensense/ICM-42688-P/10824934) |
 | 4 | USB HUB | USB2513B/M2 | 1 | 219.77 | 10 | 2197.70 | 25 | 4562.51 | 50 | 9125.02 | 100 | 17676.75 | [DigiKey](https://www.digikey.in/en/products/detail/microchip-technology/USB2513B-M2/5639465?s=N4IgTCBcDaIK4GcBGYCsBGAzEg%2BgWwgF0BfIA) |
 | 5 | CAN TRANSCEIVER | TCAN1042HG | 1 | 251.28 | 10 | 1961.44 | 25 | 4904.07 | 50 | 9807.19 | 100 | 16398.61 | [DigiKey](https://www.digikey.in/en/products/detail/texas-instruments/TCAN1042HGVD/5875321) |
-| 6 | WIFI/BLE | ESP32-C3-MINI-1 | 1 | 314.01 | 10 | 2682.82 | 25 | 6337.32 | 50 | 12674.64 | 100 | 23318.37 | [DigiKey](https://www.digikey.in/en/products/detail/espressif-systems/ESP32-C3-MINI-1-N4/13877574) |
+| 6 | WIFI/BLE | ESP32-C3-MINI-1-N4 | 1 | 314.01 | 10 | 2682.82 | 25 | 6337.32 | 50 | 12674.64 | 100 | 23318.37 | [DigiKey](https://www.digikey.in/en/products/detail/espressif-systems/ESP32-C3-MINI-1-N4/13877574) |
 | 7 | SD CARD READER | 104031-0811 | 1 | 194.53 | 10 | 1646.43 | 25 | 3859.11 | 50 | 7348.97 | 100 | 13994.64 | [DigiKey](https://www.digikey.in/en/products/detail/molex/1040310811/2370379?s=N4IgTCBcDaIIwAYAsCDMcC0CAcc4gF0BfIA) |
 | 8 | GNSS ANTENNA SMA CONNECTOR | SMA-J-P-H-RA-TH1 | 1 | 367.87 | 10 | 3678.70 | 25 | 9196.75 | 50 | 17676.75 | 100 | 33920.25 | [DigiKey](https://www.digikey.in/en/products/detail/samtec-inc/SMA-J-P-H-RA-TH1/2664715) |
 | 9 | GNSS ANTENNA | ANN-MB5-00 | 1 | 3405.40 | 10 | 29410.29 | 25 | 73525.73 | 50 | 116609.22 | 100 | 197100.54 | [DigiKey](https://www.digikey.in/en/products/detail/u-blox/ANN-MB5-00/21528521) |
