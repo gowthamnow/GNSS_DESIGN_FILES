@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 35.56 36.83)
-		(size 204.47 120.65)
+		(at 36.83 21.59)
+		(size 204.47 137.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16")
 		(property "Sheetname" "Table_of_content"
-			(at 35.56 36.1184 0)
+			(at 36.83 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "Content_sch.kicad_sch"
-			(at 35.56 158.0646 0)
+			(at 36.83 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 74.93)
+		(at 137.16 74.93)
 		(size 90.17 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "3071fff4-2246-4a32-a92e-73d7c673f76c")
 		(property "Sheetname" "IMU"
-			(at 135.89 74.2184 0)
+			(at 137.16 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 135.89 94.5646 0)
+			(at 137.16 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 101.6)
+		(at 48.26 101.6)
 		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +94,7 @@
 		)
 		(uuid "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49")
 		(property "Sheetname" "ZED_Z9P"
-			(at 46.99 100.8884 0)
+			(at 48.26 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "ZED_Z9P.kicad_sch"
-			(at 46.99 121.2346 0)
+			(at 48.26 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 74.93)
+		(at 48.26 74.93)
 		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +132,7 @@
 		)
 		(uuid "4caa84e5-94a9-4f5c-b728-f1a155edd67e")
 		(property "Sheetname" "USB_HUB"
-			(at 46.99 74.2184 0)
+			(at 48.26 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_HUB_sch.kicad_sch"
-			(at 46.99 94.5646 0)
+			(at 48.26 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,7 +158,45 @@
 		)
 	)
 	(sheet
-		(at 40.64 71.12)
+		(at 43.18 53.34)
+		(size 71.12 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "588923e1-135a-4233-bb51-eac67930486c")
+		(property "Sheetname" "Power_Architecture"
+			(at 43.18 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Architecture.kicad_sch"
+			(at 43.18 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 71.12)
 		(size 191.77 80.01)
 		(fields_autoplaced yes)
 		(stroke
@@ -170,7 +208,7 @@
 		)
 		(uuid "5f28e942-ada7-4d13-8727-49641d723651")
 		(property "Sheetname" "Controller"
-			(at 40.64 70.4084 0)
+			(at 41.91 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
-			(at 40.64 151.7146 0)
+			(at 41.91 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +234,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 44.45)
+		(at 40.64 26.67)
 		(size 81.28 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +246,7 @@
 		)
 		(uuid "81cfc142-e5d9-4762-9a7a-a4beadaad585")
 		(property "Sheetname" "Block_Diagram"
-			(at 39.37 43.7384 0)
+			(at 40.64 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_Diagram_sch.kicad_sch"
-			(at 39.37 56.4646 0)
+			(at 40.64 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,8 +272,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 66.04)
-		(size 198.12 87.63)
+		(at 39.37 46.99)
+		(size 198.12 106.68)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -246,7 +284,7 @@
 		)
 		(uuid "95adfb1d-f4b2-4924-8c0a-df43d58bdb39")
 		(property "Sheetname" "Power"
-			(at 38.1 65.3284 0)
+			(at 39.37 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_sch.kicad_sch"
-			(at 38.1 154.2546 0)
+			(at 39.37 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +310,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 128.27)
+		(at 137.16 128.27)
 		(size 90.17 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -284,7 +322,7 @@
 		)
 		(uuid "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f")
 		(property "Sheetname" "Ethernet"
-			(at 135.89 127.5584 0)
+			(at 137.16 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 135.89 147.9046 0)
+			(at 137.16 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +348,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 101.6)
+		(at 137.16 101.6)
 		(size 90.17 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -322,7 +360,7 @@
 		)
 		(uuid "c129ce73-fc4e-459a-b7eb-49148af5c1a5")
 		(property "Sheetname" "Arduino"
-			(at 135.89 100.8884 0)
+			(at 137.16 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "Arduino.kicad_sch"
-			(at 135.89 121.2346 0)
+			(at 137.16 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +386,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 128.27)
+		(at 48.26 128.27)
 		(size 80.01 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -360,7 +398,7 @@
 		)
 		(uuid "cd83e7ab-22db-42ff-a7e6-36d43df00222")
 		(property "Sheetname" "ESP"
-			(at 46.99 127.5584 0)
+			(at 48.26 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +407,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP.kicad_sch"
-			(at 46.99 147.9046 0)
+			(at 48.26 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

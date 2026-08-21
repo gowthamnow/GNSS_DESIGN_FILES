@@ -4027,44 +4027,6 @@
 		)
 		(uuid "feb4fa8c-afce-4423-aa74-8d81788da1e8")
 	)
-	(text_box "V_USB LEFT"
-		(exclude_from_sim no)
-		(at 31.75 97.79 0)
-		(size 13.97 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bb0c789a-fbb0-4385-9938-b20e32fdf90b")
-	)
-	(text_box "GND1 2 3 4 5 6 7 8 CONNECTED \nV_BCKP TO VCC\nD_SEL TO GND\n\n \n       DONE"
-		(exclude_from_sim no)
-		(at 30.48 78.74 0)
-		(size 38.1 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "bc734865-17ac-417a-a919-e188fedd1b29")
-	)
 	(text "GNSS_RECEIVER"
 		(exclude_from_sim no)
 		(at 43.688 18.034 0)
