@@ -541,6 +541,309 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2753,16 +3056,16 @@
 		(uuid "073fe969-193f-42e1-8a46-aa67a4985164")
 	)
 	(junction
+		(at 233.68 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f31a666-a60a-48a0-93dd-53bd24bb64c2")
+	)
+	(junction
 		(at 57.15 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24d664c2-c3c1-4a64-a5f1-df224de7d633")
-	)
-	(junction
-		(at 226.06 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "352aeb0b-9d96-4802-a468-9e1d35fae6e2")
 	)
 	(junction
 		(at 86.36 54.61)
@@ -2771,10 +3074,28 @@
 		(uuid "3c918368-c155-4130-af3d-3717378def1c")
 	)
 	(junction
-		(at 234.95 90.17)
+		(at 226.06 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63b2d5fc-10c5-473f-a0ee-a8e7f7768a4e")
+		(uuid "468fa1db-4949-4842-985b-dd778f26b6ce")
+	)
+	(junction
+		(at 218.44 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51591a43-bf02-4f93-803c-63ad492e6ca5")
+	)
+	(junction
+		(at 226.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "559f7cd9-4550-4696-a504-711de761b481")
+	)
+	(junction
+		(at 171.45 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61032c37-aa72-454d-a96f-27eb48b1d8c5")
 	)
 	(junction
 		(at 116.84 90.17)
@@ -2807,18 +3128,6 @@
 		(uuid "cd0c4200-a0d8-4392-9026-b41e6b848e96")
 	)
 	(junction
-		(at 210.82 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2f1c168-5664-44a4-99be-9033acdae6ea")
-	)
-	(junction
-		(at 234.95 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f411b95d-2a61-4296-a86b-ba6f57734cb1")
-	)
-	(junction
 		(at 95.25 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2831,10 +3140,6 @@
 	(no_connect
 		(at 173.99 90.17)
 		(uuid "08a43266-31d3-4383-bd31-cb9cc1e3c494")
-	)
-	(no_connect
-		(at 173.99 95.25)
-		(uuid "0d3f4120-deda-4f24-a7ba-6c422c823199")
 	)
 	(no_connect
 		(at 173.99 92.71)
@@ -2853,16 +3158,12 @@
 		(uuid "ed0d98b6-4aa6-4d06-beb2-6db177fdb117")
 	)
 	(no_connect
-		(at 209.55 92.71)
-		(uuid "f53743a9-ba9f-4d61-b76c-1bdcdee66abe")
-	)
-	(no_connect
 		(at 173.99 97.79)
 		(uuid "fb13b5b4-a291-4389-8dbe-19bf469662b1")
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 226.06 83.82)
+			(xy 218.44 82.55) (xy 218.44 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 234.95 90.17)
+			(xy 218.44 90.17) (xy 226.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 90.17) (xy 226.06 88.9)
+			(xy 218.44 90.17) (xy 218.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2912,13 +3213,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 234.95 82.55)
+			(xy 243.84 95.25) (xy 246.38 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ca2b53a-1b7a-4130-850c-93c47a2a9489")
+		(uuid "0dc9814c-9618-4916-a892-5b8eccfe076f")
 	)
 	(wire
 		(pts
@@ -2942,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 82.55) (xy 233.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7fbe84-45d2-462e-bd8a-d68d011008a1")
+	)
+	(wire
+		(pts
 			(xy 53.34 48.26) (xy 60.96 48.26)
 		)
 		(stroke
@@ -2952,17 +3263,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 81.28) (xy 210.82 82.55)
+			(xy 218.44 82.55) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24b30491-b0e1-43de-97ed-0c73212dfdf2")
+		(uuid "29c94976-65c0-46ec-92f0-ff9921c7642d")
 	)
 	(wire
 		(pts
-			(xy 234.95 90.17) (xy 252.73 90.17)
+			(xy 226.06 90.17) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3022,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b9ed15-9591-491b-bac3-8716b158126c")
+	)
+	(wire
+		(pts
 			(xy 57.15 55.88) (xy 60.96 55.88)
 		)
 		(stroke
@@ -3032,13 +3353,33 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 82.55) (xy 209.55 82.55)
+			(xy 162.56 95.25) (xy 167.64 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69348060-2754-4521-af61-efb290a6ce7f")
+		(uuid "58778182-4e9d-4f51-beb3-4a92149f8a21")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4bea5d-32cc-4468-953c-5f079b720192")
+	)
+	(wire
+		(pts
+			(xy 171.45 74.93) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f51a8d-95e7-4b2d-880c-ee80123e0b62")
 	)
 	(wire
 		(pts
@@ -3062,13 +3403,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 82.55) (xy 226.06 82.55)
+			(xy 209.55 82.55) (xy 218.44 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7baf0a10-c834-40ee-8a21-a7bccbc3246f")
+	)
+	(wire
+		(pts
+			(xy 172.72 95.25) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5da15d-0eba-42c7-a1a1-5a3b4869890a")
 	)
 	(wire
 		(pts
@@ -3079,6 +3430,16 @@
 			(type default)
 		)
 		(uuid "7e858550-5bb5-4ad1-9087-2c58903dab9a")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81abf7cc-d6eb-4798-9bdb-ad472b92fcb7")
 	)
 	(wire
 		(pts
@@ -3182,6 +3543,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 82.55) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a137feae-dac6-49c1-94c6-fe716f29d06f")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26092e4-82ba-4e4d-8a96-fa23ce9918f3")
+	)
+	(wire
+		(pts
 			(xy 90.17 54.61) (xy 90.17 53.34)
 		)
 		(stroke
@@ -3242,6 +3623,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 85.09) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48eabf2-fdd9-42d0-aaf8-3754bc16f99c")
+	)
+	(wire
+		(pts
 			(xy 60.96 48.26) (xy 60.96 49.53)
 		)
 		(stroke
@@ -3252,6 +3643,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 81.28) (xy 252.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a6cc30-1fb6-4f28-858e-dc3ca71f779e")
+	)
+	(wire
+		(pts
 			(xy 86.36 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -3259,16 +3660,6 @@
 			(type default)
 		)
 		(uuid "c44de89d-0b08-4631-bf25-90a4176783a6")
-	)
-	(wire
-		(pts
-			(xy 234.95 82.55) (xy 236.22 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7dde0ad-be6d-43e6-b9fb-f3437e41a839")
 	)
 	(wire
 		(pts
@@ -3299,6 +3690,16 @@
 			(type default)
 		)
 		(uuid "d773c803-c68d-47a9-815f-8b65084a15b5")
+	)
+	(wire
+		(pts
+			(xy 171.45 82.55) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee43a059-d6ca-4fdf-aa63-3bafcc04d5ac")
 	)
 	(wire
 		(pts
@@ -3388,6 +3789,39 @@
 		)
 		(uuid "3eab3888-3243-4ff5-8ef4-bb30e4e22874")
 	)
+	(label "IO8"
+		(at 209.55 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4122a005-1183-4973-a685-cc8ea06700cc")
+	)
+	(label "CANH"
+		(at 118.11 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4705ea3c-d0c3-4c4b-a708-37716cd13b06")
+	)
+	(label "CANL"
+		(at 120.65 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47719c69-f4de-4f57-8539-d8b4c1fa7b07")
+	)
 	(label "CAN_VIO"
 		(at 90.17 46.99 0)
 		(fields_autoplaced yes)
@@ -3398,6 +3832,17 @@
 			(justify left bottom)
 		)
 		(uuid "5f9216d3-b1e7-41cf-9dca-950c5401945a")
+	)
+	(label "CANH"
+		(at 120.65 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77b43f02-7b21-4a62-9cee-6a74d6a0daa1")
 	)
 	(label "CAN_VCC"
 		(at 60.96 48.26 0)
@@ -3420,6 +3865,28 @@
 			(justify right bottom)
 		)
 		(uuid "b0e2edc2-d9df-4e7c-b816-74a5407e5590")
+	)
+	(label "CANL"
+		(at 118.11 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea2782c3-14dc-45e8-b875-74a87686c602")
+	)
+	(label "IO8"
+		(at 238.76 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8edaa81-cd2d-412f-8b94-3ef28a1fadc1")
 	)
 	(global_label "CAN_STB"
 		(shape input)
@@ -3556,7 +4023,7 @@
 	)
 	(global_label "ESP_EN"
 		(shape input)
-		(at 173.99 85.09 180)
+		(at 168.91 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3566,7 +4033,7 @@
 		)
 		(uuid "b5240c2f-bc8c-4546-977f-3cb2e7027b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.9292 85.09 0)
+			(at 158.8492 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,6 +4107,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0089abe2-2252-4b44-985d-5a901819ed50")
+		(property "Reference" "#PWR0148"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04571516-1fa9-4974-baea-f228492b49df")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "#PWR0148")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3909,8 +4442,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1787d73e-7d70-46ac-805e-fa4a8539f699")
+		(property "Reference" "#PWR0149"
+			(at 246.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6f52414-3901-4267-ab35-d6bb46588ac8")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 234.95 87.63 90)
+		(at 226.06 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3918,7 +4517,7 @@
 		(dnp no)
 		(uuid "210611cf-9fd8-4c91-a48f-fcea8efaf813")
 		(property "Reference" "C28"
-			(at 231.394 84.074 90)
+			(at 222.504 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4525,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 231.14 88.646 90)
+			(at 222.25 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +4552,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4562,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4572,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4582,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4592,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4602,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4612,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4622,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4632,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4642,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4652,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4662,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4672,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4682,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 234.95 87.63 0)
+			(at 226.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4842,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 226.06 86.36 0)
+		(at 218.44 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4251,7 +4850,7 @@
 		(dnp no)
 		(uuid "2b615c64-0bcb-42af-b9a7-a91349bea804")
 		(property "Reference" "C79"
-			(at 221.234 84.328 0)
+			(at 213.614 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4859,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 220.98 88.392 0)
+			(at 213.36 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4868,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 226.06 86.36 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 86.36 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4886,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 86.36 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,17 +4910,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 210.82 81.28 0)
+		(lib_id "power:GND")
+		(at 116.84 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f704658-6842-4cfe-8971-76e01461710c")
-		(property "Reference" "#PWR044"
-			(at 210.82 85.09 0)
+		(uuid "35d7c543-8a62-4b2b-abbd-0db8ef42c5d1")
+		(property "Reference" "#PWR0150"
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,8 +4927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 210.82 76.2 0)
+		(property "Value" "GND"
+			(at 116.84 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 81.28 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 81.28 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +4953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,12 +4963,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4bce15b-c830-4c2d-9ed7-2979c5257e7e")
+			(uuid "d2a1cd04-d9c8-4590-8022-2d6b289bab6a")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
-					(reference "#PWR044")
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac5039a-67d3-438f-bcc2-6aec50bccea9")
+		(property "Reference" "#PWR0147"
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 171.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01668a58-c165-4ff9-a3e9-3d375cc52e86")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -4889,6 +5553,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 252.73 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679a2595-0c79-4e22-98e3-b98a675b9110")
+		(property "Reference" "#PWR044"
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 252.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d62cd028-48c2-423a-9791-c2ec1fcb8f51")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5560,6 +6290,272 @@
 		)
 	)
 	(symbol
+		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
+		(at 233.68 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f69d7d3-cf1f-4455-9876-94654798000b")
+		(property "Reference" "C31"
+			(at 230.124 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 229.87 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 KEMET"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "402-2 KEMET"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C104K4RAC"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea227fe0-bdff-40c7-a864-6b9fa46a9447")
+		)
+		(pin "2"
+			(uuid "7d951d39-ee07-46b0-8097-c2230cbda299")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e53cf6-7b71-4603-a6f6-7f05525a5cc1")
+		(property "Reference" "TP1"
+			(at 161.29 37.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 39.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66e2df1-4abd-4735-90ca-355ef397ce75")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 99.06 0)
 		(unit 1)
@@ -6034,42 +7030,34 @@
 		)
 	)
 	(symbol
-		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 252.73 87.63 90)
+		(lib_id "Device:R_Small_US")
+		(at 171.45 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5c03517-ec9f-4f51-97ba-70a51e79e82b")
-		(property "Reference" "C31"
-			(at 249.174 84.074 90)
+		(uuid "c12b8455-d52c-4369-b130-2277e29a6521")
+		(property "Reference" "R43"
+			(at 173.99 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 248.92 88.646 90)
+		(property "Value" "10K"
+			(at 168.91 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 171.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,156 +7065,103 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 252.73 87.63 0)
+		(property "Datasheet" "~"
+			(at 171.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MF" "KEMET"
-			(at 252.73 87.63 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 171.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "PACKAGE" "0402 KEMET"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "402-2 KEMET"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "C0402C104K4RAC"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 252.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef39c8ae-4913-4914-b840-6250945c6333")
 		)
 		(pin "2"
-			(uuid "6cc4597f-2418-4124-a4a2-dd5302b21ce6")
+			(uuid "72aecb04-e63d-49f9-9cf1-9453538fd6b5")
+		)
+		(pin "1"
+			(uuid "ce2743b7-a84f-49bb-a9d8-b70fd547b6a6")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
-					(reference "C31")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 170.18 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02dd263-c3c9-4527-a628-61f37e6b0f97")
+		(property "Reference" "R44"
+			(at 172.212 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 171.45 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d3ba4f3-1e20-4767-924e-078ff186c7e5")
+		)
+		(pin "1"
+			(uuid "a8ce98ba-e41c-4ba1-aab5-b4cc4876a67a")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -6234,7 +7169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 90.17 0)
+		(at 226.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6243,7 +7178,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8fe0ddf-227f-4822-a7e6-1c6e2f7f9e71")
 		(property "Reference" "#PWR052"
-			(at 234.95 96.52 0)
+			(at 226.06 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +7187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 95.25 0)
+			(at 226.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +7195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 90.17 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +7204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 90.17 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +7213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 90.17 0)
+			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,6 +7809,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec4aa9c2-d9b0-4482-b52f-74b0162f8ccd")
+		(property "Reference" "R45"
+			(at 239.268 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 240.03 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6af9925b-f169-44e1-8ca0-f0ef26b1a7e3")
+		)
+		(pin "1"
+			(uuid "caa99f60-0bc8-4554-917d-934e98ca7c7e")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 115.57 0)
 		(unit 1)
@@ -6933,6 +7937,77 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 109.22 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6cc5528-8dad-4894-9c2b-a813b95f4d80")
+		(property "Reference" "J7"
+			(at 109.855 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn"
+			(at 109.855 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5c55719e-139d-42b5-bc0d-a6a0f079a125")
+		)
+		(pin "2"
+			(uuid "c916dfd0-8cb3-47e5-8c1a-398534dc8528")
+		)
+		(pin "1"
+			(uuid "8a5b65eb-3605-437c-8a42-a6ca742265c4")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "J7")
 					(unit 1)
 				)
 			)

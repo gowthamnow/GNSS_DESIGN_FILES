@@ -6455,7 +6455,7 @@
 			)
 		)
 	)
-	(global_label "ETH_TX_D1_P"
+	(global_label "ETH_TX_D1"
 		(shape input)
 		(at 238.76 118.11 0)
 		(fields_autoplaced yes)
@@ -6467,7 +6467,7 @@
 		)
 		(uuid "2c076ff5-ff16-4166-a249-019e74b9a1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0217 118.11 0)
+			(at 251.7841 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6609,7 @@
 			)
 		)
 	)
-	(global_label "ETH_RX_D0_N"
+	(global_label "ETH_RX_D0"
 		(shape input)
 		(at 187.96 143.51 270)
 		(fields_autoplaced yes)
@@ -6621,7 +6621,7 @@
 		)
 		(uuid "3f552c55-8875-4a87-956c-020fe39065c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 159.1346 90)
+			(at 187.96 156.8365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +6853,7 @@
 			)
 		)
 	)
-	(global_label "ETH_TX_D0_P"
+	(global_label "ETH_TX_D0"
 		(shape input)
 		(at 238.76 125.73 0)
 		(fields_autoplaced yes)
@@ -6865,7 +6865,7 @@
 		)
 		(uuid "6607ee63-8faf-48f0-a29d-73a2d936c6db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0217 125.73 0)
+			(at 251.7841 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6919,7 @@
 			)
 		)
 	)
-	(global_label "ETH_RX_D1_N"
+	(global_label "ETH_RX_D1"
 		(shape input)
 		(at 190.5 143.51 270)
 		(fields_autoplaced yes)
@@ -6931,7 +6931,7 @@
 		)
 		(uuid "754bc9bf-bd71-4f40-b71a-cc59f499e785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 159.1346 90)
+			(at 190.5 156.8365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
