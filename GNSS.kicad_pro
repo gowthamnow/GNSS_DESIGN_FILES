@@ -426,6 +426,10 @@
     [
       "3071fff4-2246-4a32-a92e-73d7c673f76c",
       "IMU"
+    ],
+    [
+      "588923e1-135a-4233-bb51-eac67930486c",
+      "Power_Architecture"
     ]
   ],
   "text_variables": {}
