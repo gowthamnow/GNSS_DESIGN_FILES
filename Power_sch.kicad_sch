@@ -3625,6 +3625,12 @@
 		(uuid "81d09f6f-fb68-4c9d-86b2-4b1808b585eb")
 	)
 	(junction
+		(at 129.54 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e571df-3ca3-4a6d-be65-a759fdacb405")
+	)
+	(junction
 		(at 86.36 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3779,6 +3785,16 @@
 			(type default)
 		)
 		(uuid "153cf1e1-7ce7-44a1-9793-84231077a26c")
+	)
+	(wire
+		(pts
+			(xy 135.89 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1583ff90-b28d-45ee-b641-a7e2897f1a30")
 	)
 	(wire
 		(pts
@@ -4082,6 +4098,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 113.03) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5100212d-85a7-4721-bfc3-bb0fe54168cf")
+	)
+	(wire
+		(pts
 			(xy 25.4 114.3) (xy 25.4 111.76)
 		)
 		(stroke
@@ -4129,6 +4155,16 @@
 			(type default)
 		)
 		(uuid "5a39e610-177d-4510-8c7b-e1e257919a42")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6e3df2-a9d9-400a-89cb-1b699cf310ae")
 	)
 	(wire
 		(pts
@@ -4199,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "64dbd2c4-b6b2-4ea7-ade9-df229e0ba546")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a6e8ea-3779-4b7b-ae82-89ec759a110f")
 	)
 	(wire
 		(pts
@@ -4459,6 +4505,16 @@
 			(type default)
 		)
 		(uuid "9a6594e0-38f1-494a-b9e0-2f8df6bf6bdb")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac980df-165f-4eec-b803-2cf447d6ef6a")
 	)
 	(wire
 		(pts
@@ -5259,6 +5315,17 @@
 		)
 		(uuid "9ade053a-3a38-49ed-8d18-77cdf2ee45e6")
 	)
+	(label "EN"
+		(at 135.89 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2af9bdd-ab0c-451f-9682-a807353c1695")
+	)
 	(label "EX_VBUS"
 		(at 27.94 114.3 0)
 		(fields_autoplaced yes)
@@ -6020,6 +6087,75 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 129.54 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f806bf2-4a32-4edf-b894-271e3c570e06")
+		(property "Reference" "R47"
+			(at 133.35 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47K"
+			(at 127 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ff7c03a-b5eb-4940-8414-0377dfbb9e75")
+		)
+		(pin "1"
+			(uuid "0313fd8d-9e4c-432f-b841-103c622a0d54")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7400,6 +7536,75 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 129.54 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e8af7c-320b-4b2d-99c6-5640e4bef73d")
+		(property "Reference" "R46"
+			(at 133.35 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32.4K"
+			(at 127 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2adcbcd5-bd2a-43ac-9db0-7aa438152076")
+		)
+		(pin "1"
+			(uuid "61ed3687-c71c-4734-9069-db6a437c5778")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11252,6 +11457,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 129.54 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5bd634-c6a4-4ce6-a55b-fb7516c9224e")
+		(property "Reference" "#PWR098"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "457db8bb-3d65-40f6-a7cc-3b69c43c7014")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 252.73 71.12 0)
 		(unit 1)
@@ -11315,6 +11586,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87106f6-4167-4f4e-8c65-c45d947844ec")
+		(property "Reference" "#PWR097"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3812a4e-100f-447e-b29c-d01aa6254bda")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
