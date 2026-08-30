@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=DMP3007LSS-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2020-12-18 09:17:27
+Downloaded=2026-08-30 06:50:56
+3D=Y

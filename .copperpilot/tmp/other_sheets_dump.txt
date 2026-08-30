@@ -1,0 +1,548 @@
+
+=======================================================
+=== CONTROLLER ===
+=======================================================
+SHEET: /Controller/
+
+
+#######################################################
+
+
+=======================================================
+=== ETHERNET ===
+=======================================================
+SHEET: /Ethernet/
+=======================================================
+
+--- C27 (27uF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> /Ethernet/XTAL_IN
+
+--- C57 (1uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> USB_SCL
+
+--- C58 (1uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> USB_SCL
+
+--- C59 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3.3V_ETH
+
+--- C60 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3.3V_ETH
+
+--- C61 (10nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> Net-(T1-CRD)
+
+--- C64 (10nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> Net-(T1-CTD)
+
+--- C65 (27pF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> /Ethernet/XTAL_OUT
+
+--- FL11 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> +3.3V
+
+--- L4 (WE-CBF_0603) [GNSS_Library:WE-CBF_0603_W2.6] ---
+  Pin 1    |                      |              -> Net-(T1-SHIELD1)
+  Pin 2    |                      |              -> USB_SCL
+
+--- R21 (6.49K) [] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> Net-(U4-RBIAS)
+
+--- R22 (470R) [] ---
+  Pin 1    |                      |              -> Net-(R22-Pad1)
+  Pin 2    |                      |              -> ETH_REFCLK
+
+--- R23 (470R) [] ---
+  Pin 1    |                      |              -> LED_LINK
+  Pin 2    |                      |              -> Net-(R23-Pad2)
+
+--- R48 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> ETH_RST_N
+
+--- R49 (2.2K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> ETH_MDC
+
+--- R50 (2.2K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> ETH_MDIO
+
+--- R51 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ETH
+  Pin 2    |                      |              -> ETH_INTR
+
+--- T1 (WE-RJ45_7499010211A) [GNSS:7499010211A] ---
+  Pin 1    |                      |              -> Net-(T1-TD+)
+  Pin 2    |                      |              -> Net-(T1-TD-)
+  Pin 3    |                      |              -> Net-(T1-RD+)
+  Pin 4    |                      |              -> Net-(T1-CTD)
+  Pin 5    |                      |              -> Net-(T1-CRD)
+  Pin 6    |                      |              -> Net-(T1-RD-)
+  Pin 7    |                      |              -> unconnected-(T1-NC-Pad7)
+  Pin 8    |                      |              -> Net-(T1-SHIELD1)
+  Pin 9    |                      |              -> +3.3V_ETH
+  Pin 10   |                      |              -> Net-(R23-Pad2)
+  Pin 11   |                      |              -> Net-(R22-Pad1)
+  Pin 12   |                      |              -> +3.3V_ETH
+  Pin S1   |                      |              -> Net-(T1-SHIELD1)
+  Pin S2   |                      |              -> Net-(T1-SHIELD1)
+
+--- U4 (DP83825IRMQR) [GNSS:XCVR_DP83825IRMQR] ---
+  Pin 1    |                      |              -> ETH_TX_EN
+  Pin 2    |                      |              -> ETH_REFCLK
+  Pin 3    |                      |              -> ETH_INTR
+  Pin 4    |                      |              -> LED_LINK
+  Pin 5    |                      |              -> ETH_RST_N
+  Pin 6    |                      |              -> +3.3V_ETH
+  Pin 7    |                      |              -> Net-(T1-RD-)
+  Pin 8    |                      |              -> Net-(T1-RD+)
+  Pin 9    |                      |              -> USB_SCL
+  Pin 10   |                      |              -> Net-(T1-TD-)
+  Pin 11   |                      |              -> Net-(T1-TD+)
+  Pin 12   |                      |              -> /Ethernet/XTAL_OUT
+  Pin 13   |                      |              -> /Ethernet/XTAL_IN
+  Pin 14   |                      |              -> Net-(U4-RBIAS)
+  Pin 15   |                      |              -> ETH_MDIO
+  Pin 16   |                      |              -> ETH_MDC
+  Pin 17   |                      |              -> ETH_RX_D1_N
+  Pin 18   |                      |              -> ETH_RX_D0_N
+  Pin 19   |                      |              -> +3.3V_ETH
+  Pin 20   |                      |              -> ETH_CRS_DV
+  Pin 21   |                      |              -> USB_SCL
+  Pin 22   |                      |              -> unconnected-(U4-RX_ER{slash}S(A-MDIX)-Pad22)
+  Pin 23   |                      |              -> ETH_TX_D0_P
+  Pin 24   |                      |              -> ETH_TX_D1_P
+  Pin 25   |                      |              -> EXP
+  Pin 26   |                      |              -> EXP
+  Pin 27   |                      |              -> EXP
+  Pin 28   |                      |              -> EXP
+  Pin 29   |                      |              -> EXP
+  Pin 30   |                      |              -> EXP
+
+--- Y2 (ECS-250-12-33-AGN-TR) [GNSS:XTAL_ECS-250-12-33-AGN-TR] ---
+  Pin 1    |                      |              -> /Ethernet/XTAL_OUT
+  Pin 2    |                      |              -> USB_SCL
+  Pin 3    |                      |              -> /Ethernet/XTAL_IN
+  Pin 4    |                      |              -> USB_SCL
+
+
+
+#######################################################
+
+
+=======================================================
+=== ESP ===
+=======================================================
+SHEET: /ESP/
+=======================================================
+
+--- C28 (0.1uF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3.3V_ESP
+
+--- C31 (0.1uF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3.3V_ESP
+
+--- C68 (4.7nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> Net-(C68-Pad2)
+
+--- C69 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> VIN_CAN
+
+--- C70 (4.7uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> VIN_CAN
+  Pin 2    |                      |              -> USB_SCL
+
+--- C73 (100pF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> /ESP/CANH
+
+--- C74 (100pF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> /ESP/CANL
+
+--- C79 (10uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> USB_SCL
+
+--- D7 (PESD2CANFD24V-TR) [SOT95P230X110-3N] ---
+  Pin 1    |                      |              -> /ESP/CANH
+  Pin 2    |                      |              -> /ESP/CANL
+  Pin 3    |                      |              -> USB_SCL
+
+--- FL1 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> +3.3V
+
+--- FL2 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> VIN_CAN
+  Pin 2    |                      |              -> VIN
+
+--- FL3 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3.3V_CAN
+  Pin 2    |                      |              -> +3.3V
+
+--- J7 (Conn) [Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical] ---
+  Pin 1    |                      |              -> /ESP/CANH
+  Pin 2    |                      |              -> /ESP/CANL
+  Pin 3    |                      |              -> USB_SCL
+
+--- R16 (60R) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> Net-(C68-Pad2)
+  Pin 2    |                      |              -> /ESP/CANH
+
+--- R26 (60R) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> Net-(C68-Pad2)
+  Pin 2    |                      |              -> /ESP/CANL
+
+--- R43 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> ESP_EN
+
+--- R44 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> Net-(U3-IO2)
+
+--- R45 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> /ESP/IO8
+
+--- R70 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> ESP_EN
+  Pin 2    |                      |              -> +3.3V_ESP
+
+--- R71 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_ESP
+  Pin 2    |                      |              -> ESP_INT
+
+--- R72 (22E) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> ESP_TXD
+  Pin 2    |                      |              -> Net-(U3-RXD0)
+
+--- R73 (22E) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> ESP_RXD
+  Pin 2    |                      |              -> Net-(U3-TXD0)
+
+--- R74 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> ESP_TXD
+  Pin 2    |                      |              -> +3.3V_ESP
+
+--- R75 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> ESP_RXD
+  Pin 2    |                      |              -> +3.3V_ESP
+
+--- S3 (TL3301EF100QG) [gnss1_Library:SOIC450P1000X730-4N] ---
+  Pin 1    |                      |              -> ESP_EN
+  Pin 2    |                      |              -> ESP_EN
+  Pin 3    |                      |              -> USB_SCL
+  Pin 4    |                      |              -> USB_SCL
+
+--- TP3 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> ESP_BOOT
+
+--- U3 (ESP32-C3-MINI-1-N4) [GNSS:XCVR_ESP32-C3-MINI-1-N4] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> USB_SCL
+  Pin 3    |                      |              -> +3.3V_ESP
+  Pin 4    |                      |              -> unconnected-(U3-NC-Pad4)
+  Pin 5    |                      |              -> Net-(U3-IO2)
+  Pin 6    |                      |              -> unconnected-(U3-IO3-Pad6)
+  Pin 7    |                      |              -> unconnected-(U3-NC-Pad7)
+  Pin 8    |                      |              -> ESP_EN
+  Pin 9    |                      |              -> unconnected-(U3-NC-Pad9)
+  Pin 10   |                      |              -> unconnected-(U3-NC-Pad10)
+  Pin 11   |                      |              -> USB_SCL
+  Pin 12   |                      |              -> unconnected-(U3-IO0-Pad12)
+  Pin 13   |                      |              -> unconnected-(U3-IO1-Pad13)
+  Pin 14   |                      |              -> USB_SCL
+  Pin 15   |                      |              -> unconnected-(U3-NC-Pad15)
+  Pin 16   |                      |              -> unconnected-(U3-IO10-Pad16)
+  Pin 17   |                      |              -> unconnected-(U3-NC-Pad17)
+  Pin 18   |                      |              -> ESP_INT
+  Pin 19   |                      |              -> unconnected-(U3-IO5-Pad19)
+  Pin 20   |                      |              -> unconnected-(U3-IO6-Pad20)
+  Pin 21   |                      |              -> unconnected-(U3-IO7-Pad21)
+  Pin 22   |                      |              -> /ESP/IO8
+  Pin 23   |                      |              -> ESP_BOOT
+  Pin 24   |                      |              -> unconnected-(U3-NC-Pad24)
+  Pin 25   |                      |              -> unconnected-(U3-NC-Pad25)
+  Pin 26   |                      |              -> ESP_D_N
+  Pin 27   |                      |              -> ESP_D_P
+  Pin 28   |                      |              -> unconnected-(U3-NC-Pad28)
+  Pin 29   |                      |              -> unconnected-(U3-NC-Pad29)
+  Pin 30   |                      |              -> Net-(U3-RXD0)
+  Pin 31   |                      |              -> Net-(U3-TXD0)
+  Pin 32   |                      |              -> unconnected-(U3-NC-Pad32)
+  Pin 33   |                      |              -> unconnected-(U3-NC-Pad33)
+  Pin 34   |                      |              -> unconnected-(U3-NC-Pad34)
+  Pin 35   |                      |              -> unconnected-(U3-NC-Pad35)
+  Pin 36   |                      |              -> USB_SCL
+  Pin 37   |                      |              -> USB_SCL
+  Pin 38   |                      |              -> USB_SCL
+  Pin 39   |                      |              -> USB_SCL
+  Pin 40   |                      |              -> USB_SCL
+  Pin 41   |                      |              -> USB_SCL
+  Pin 42   |                      |              -> USB_SCL
+  Pin 43   |                      |              -> USB_SCL
+  Pin 44   |                      |              -> USB_SCL
+  Pin 45   |                      |              -> USB_SCL
+  Pin 46   |                      |              -> USB_SCL
+  Pin 47   |                      |              -> USB_SCL
+  Pin 48   |                      |              -> USB_SCL
+  Pin 50   |                      |              -> USB_SCL
+  Pin 51   |                      |              -> USB_SCL
+  Pin 52   |                      |              -> USB_SCL
+  Pin 53   |                      |              -> USB_SCL
+  Pin 49_1 |                      |              -> USB_SCL
+  Pin 49_2 |                      |              -> USB_SCL
+  Pin 49_3 |                      |              -> USB_SCL
+  Pin 49_4 |                      |              -> USB_SCL
+  Pin 49_5 |                      |              -> USB_SCL
+  Pin 49_6 |                      |              -> USB_SCL
+  Pin 49_7 |                      |              -> USB_SCL
+  Pin 49_8 |                      |              -> USB_SCL
+  Pin 49_9 |                      |              -> USB_SCL
+
+--- U5 (TCAN1042VDRBRQ1) [GNSS:DRB0008F] ---
+  Pin 1    |                      |              -> CAN_TXD
+  Pin 2    |                      |              -> USB_SCL
+  Pin 3    |                      |              -> VIN_CAN
+  Pin 4    |                      |              -> CAN_RXD
+  Pin 5    |                      |              -> +3.3V_CAN
+  Pin 6    |                      |              -> /ESP/CANL
+  Pin 7    |                      |              -> /ESP/CANH
+  Pin 8    |                      |              -> CAN_STB
+  Pin 9    |                      |              -> USB_SCL
+
+
+
+#######################################################
+
+
+=======================================================
+=== IMU ===
+=======================================================
+SHEET: /IMU/
+=======================================================
+
+--- C29 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- C30 (10nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- C67 (2.2uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3V3_IMU
+  Pin 2    |                      |              -> USB_SCL
+
+--- C75 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- C76 (10uF) [Capacitor_SMD:C_0805_2012Metric] ---
+  Pin 1    |                      |              -> +3.3V_SD
+  Pin 2    |                      |              -> USB_SCL
+
+--- FL4 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3V3_IMU
+  Pin 2    |                      |              -> +3V3_BMI
+
+--- FL5 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3.3V_SD
+  Pin 2    |                      |              -> +3.3V
+
+--- J3 (5033981892) [GNSS:CONN_503398-1892_MOL] ---
+  Pin 1    |                      |              -> SD_DAT2
+  Pin 2    |                      |              -> SD_DAT3
+  Pin 3    |                      |              -> SD_CMD
+  Pin 4    |                      |              -> +3.3V_SD
+  Pin 5    |                      |              -> SD_CLK
+  Pin 6    |                      |              -> USB_SCL
+  Pin 7    |                      |              -> SD_DAT0
+  Pin 8    |                      |              -> SD_DAT1
+  Pin 9    |                      |              -> USB_SCL
+  Pin 10   |                      |              -> SD_DETECT
+
+--- R24 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> IMU_CS
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- R52 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SCK
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- R53 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SDI
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- R54 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SDO
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- R55 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_DAT2
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R56 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_DAT3
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R57 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_CMD
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R58 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_CLK
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R59 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_DAT0
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R60 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_DAT1
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R61 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> SD_DETECT
+  Pin 2    |                      |              -> +3.3V_SD
+
+--- R76 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> INT1_ACCEL
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- R77 (10K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> INT1_GYRO
+  Pin 2    |                      |              -> +3V3_IMU
+
+--- U1 (ICM-42688-P) [GNSS:PQFN50P300X250X97-14N] ---
+  Pin 1    |                      |              -> SDO
+  Pin 2    |                      |              -> unconnected-(U1-RESV_2-Pad2)
+  Pin 3    |                      |              -> unconnected-(U1-RESV_3-Pad3)
+  Pin 4    |                      |              -> INT1_ACCEL
+  Pin 5    |                      |              -> +3V3_IMU
+  Pin 6    |                      |              -> USB_SCL
+  Pin 7    |                      |              -> unconnected-(U1-RESV_7-Pad7)
+  Pin 8    |                      |              -> +3V3_IMU
+  Pin 9    |                      |              -> INT1_GYRO
+  Pin 10   |                      |              -> unconnected-(U1-RESV_10-Pad10)
+  Pin 11   |                      |              -> unconnected-(U1-RESV_11-Pad11)
+  Pin 12   |                      |              -> IMU_CS
+  Pin 13   |                      |              -> SCK
+  Pin 14   |                      |              -> SDI
+
+
+
+#######################################################
+
+
+=======================================================
+=== ARDUINO ===
+=======================================================
+SHEET: /Arduino/
+=======================================================
+
+--- A1 (Arduino_UNO_R3) [Module:Arduino_UNO_R3] ---
+  Pin 1    |                      |              -> unconnected-(A1-NC-Pad1)
+  Pin 2    |                      |              -> +3.3V_ARDUINO
+  Pin 3    |                      |              -> ARDUINO_RST_BUT
+  Pin 4    |                      |              -> +3.3V_ARDUINO
+  Pin 5    |                      |              -> VIN
+  Pin 6    |                      |              -> USB_SCL
+  Pin 7    |                      |              -> USB_SCL
+  Pin 8    |                      |              -> VIN
+  Pin 9    |                      |              -> AR_A0
+  Pin 10   |                      |              -> AR_A1
+  Pin 11   |                      |              -> AR_A2
+  Pin 12   |                      |              -> AR_A3
+  Pin 13   |                      |              -> AR_A4
+  Pin 14   |                      |              -> AR_A5
+  Pin 15   |                      |              -> AR_TX
+  Pin 16   |                      |              -> AR_RX
+  Pin 17   |                      |              -> JTCK{slash}SWCLK
+  Pin 18   |                      |              -> JTMS{slash}SWDIO
+  Pin 19   |                      |              -> AR_D4
+  Pin 20   |                      |              -> AR_D5
+  Pin 21   |                      |              -> AR_D6
+  Pin 22   |                      |              -> AR_D7
+  Pin 23   |                      |              -> AR_D8
+  Pin 24   |                      |              -> AR_D9
+  Pin 25   |                      |              -> AR_SS
+  Pin 26   |                      |              -> AR_MOSI
+  Pin 27   |                      |              -> AR_MISO
+  Pin 28   |                      |              -> AR_SCK
+  Pin 29   |                      |              -> USB_SCL
+  Pin 30   |                      |              -> Net-(A1-AREF)
+  Pin 31   |                      |              -> AR_SDA
+  Pin 32   |                      |              -> AR_SCL
+
+--- C80 (100nF) [C0402C104K4RAC:CAPC1005X55N] ---
+  Pin 1    |                      |              -> USB_SCL
+  Pin 2    |                      |              -> Net-(A1-AREF)
+
+--- FL12 (BLM21PG221SN1D) [BLM21PG221SN1D:BEADC2012X105N] ---
+  Pin 1    |                      |              -> +3.3V_ARDUINO
+  Pin 2    |                      |              -> +3.3V
+
+--- R36 (4.7K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_SCL
+  Pin 2    |                      |              -> +3.3V
+
+--- R37 (4.7K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_SDA
+  Pin 2    |                      |              -> +3.3V
+
+--- R38 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_SS
+  Pin 2    |                      |              -> +3.3V
+
+--- R39 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_MOSI
+  Pin 2    |                      |              -> +3.3V
+
+--- R40 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_MISO
+  Pin 2    |                      |              -> +3.3V
+
+--- R41 (10]K) [Resistor_SMD:R_0805_2012Metric] ---
+  Pin 1    |                      |              -> AR_SCK
+  Pin 2    |                      |              -> +3.3V
+
+--- TP10 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_MOSI
+
+--- TP11 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_SS
+
+--- TP6 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_SDA
+
+--- TP7 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_SCL
+
+--- TP8 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_SCK
+
+--- TP9 (TestPoint) [TestPoint:TestPoint_Pad_D2.0mm] ---
+  Pin 1    |                      |              -> AR_MISO
+
+
+
+#######################################################
+
