@@ -7497,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC4632X85N"
+		(property "Footprint" "GNSS:FUSC4632X85N"
 			(at 100.33 202.87 0)
 			(effects
 				(font
@@ -11150,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GNSS:SOTFL35P100X50-3N"
 			(at 130.81 170.18 0)
 			(effects
 				(font
@@ -14196,7 +14196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC4632X85N"
+		(property "Footprint" "GNSS:FUSC4632X85N"
 			(at 99.06 143.18 0)
 			(effects
 				(font
@@ -14598,7 +14598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD5V0D5TP"
+		(property "Footprint" "GNSS:ESD5V0D5TP"
 			(at -9.83 118.11 0)
 			(effects
 				(font

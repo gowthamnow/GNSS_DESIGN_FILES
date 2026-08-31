@@ -1,8 +1,0 @@
-/Arduino/
-/Controller/
-/ESP/
-/Ethernet/
-/IMU/
-/Power/
-/USB_HUB/
-/ZED_Z9P/

@@ -1,4 +1,4 @@
-23091298767929067
+23096663350696569
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56693,7 +56693,21 @@ GNSS
 14
 14
 GNSS
+BAT_1056
+
+
+0
+2
+2
+GNSS
 BEADC2012X105N
+
+
+0
+2
+2
+GNSS
+CAPC0603X33N
 
 
 0
@@ -56822,6 +56836,13 @@ GNSS
 SOT95P230X110-3N
 SOT -23
 TVS Diode (Bi-directional)
+0
+3
+3
+GNSS
+SOT95P240X111-3N
+
+
 0
 3
 3
