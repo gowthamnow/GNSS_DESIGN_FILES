@@ -4152,15 +4152,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 242.57 105.41 180)
+		(at 259.08 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "111308f5-2faa-4594-8070-0133ef85e3be")
-		(property "Reference" "R58"
-			(at 240.538 105.156 90)
+		(uuid "10a7c327-8c93-453b-ba66-16c0adea642f")
+		(property "Reference" "R60"
+			(at 257.048 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,8 +4168,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
-			(at 240.792 100.076 90)
+		(property "Value" "10K"
+			(at 257.302 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,8 +4177,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 242.57 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 105.41 0)
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4196,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 242.57 105.41 0)
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,15 +4205,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "09c5996b-0831-4746-a303-d001d0353faf")
+			(uuid "45941e55-e2d8-43b3-a011-df8736dc0069")
 		)
 		(pin "1"
-			(uuid "8673c694-2357-4691-9019-f8f5da2737b9")
+			(uuid "26f2cc9f-e6ed-4978-99e7-715e0dfa79f2")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R58")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 223.012 100.076 90)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 105.41 0)
 			(effects
 				(font
@@ -4424,144 +4424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 49.53 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ca3f9bc-2854-409e-abeb-f97a94e04aa0")
-		(property "Reference" "R52"
-			(at 47.498 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 47.752 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 49.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 49.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3563db25-b5cb-4d40-942a-755056f269b7")
-		)
-		(pin "1"
-			(uuid "f8ea737f-e275-4793-9e05-5f99029e4d36")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f7ce69c-fa5f-42c3-9aca-00c45b63c0ba")
-		(property "Reference" "R24"
-			(at 42.418 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 42.672 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9b3d330-5bbd-4c66-8387-59085d75f1fc")
-		)
-		(pin "1"
-			(uuid "52b8a493-b262-432e-bd5b-dc4f85fabd1a")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 208.28 71.12 0)
 		(unit 1)
@@ -4622,75 +4484,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 237.49 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f2a75ea-9635-4640-bae7-15d151624932")
-		(property "Reference" "R57"
-			(at 235.458 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 235.712 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e437849f-116e-4a79-a01f-1274c0fd6334")
-		)
-		(pin "1"
-			(uuid "22fbf1c1-1996-4d70-add1-0cc02125ef13")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -5553,15 +5346,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 69.85 109.22 180)
+		(at 242.57 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e6c07cb-41f8-43fc-b87c-24ed99a3efd5")
-		(property "Reference" "R77"
-			(at 67.818 108.966 90)
+		(uuid "5d67a0bc-760a-49aa-987f-644fb41de9c0")
+		(property "Reference" "R57"
+			(at 240.538 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5363,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 68.072 103.886 90)
+			(at 240.792 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,8 +5371,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 69.85 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 109.22 0)
+			(at 242.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5390,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 69.85 109.22 0)
+			(at 242.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,84 +5399,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f5b90625-8342-43d5-ad30-45bb58d27ebe")
+			(uuid "72209335-6a40-40c6-8cd0-d9400c74f864")
 		)
 		(pin "1"
-			(uuid "120a9102-afdd-4a14-bf5e-819a3df50136")
+			(uuid "580b1b79-baab-46f7-aabd-5691d403e4fe")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 247.65 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "638f53ea-5120-4afc-b14a-7f299871d078")
-		(property "Reference" "R59"
-			(at 245.618 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 245.872 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3aac6122-ccde-4cf1-96da-2641013a9c5c")
-		)
-		(pin "1"
-			(uuid "87ba312c-76fd-4579-9f79-1f165305e2c4")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -5883,6 +5607,75 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7146474f-650d-4bca-90d2-fe1e89a45849")
+		(property "Reference" "R53"
+			(at 52.578 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 52.832 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e3d99a6-0662-40f2-a670-cd3df31c1791")
+		)
+		(pin "1"
+			(uuid "2c02803e-f978-4143-a856-fc6d72690b2e")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6221,14 +6014,83 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 44.45 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "952a8bac-e308-415f-854b-56db00e81be0")
+		(property "Reference" "R24"
+			(at 42.418 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 42.672 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20644820-ddb1-4673-99c1-feb75b7c1998")
+		)
+		(pin "1"
+			(uuid "51a06c8a-2364-4579-8246-6a8a558e6c15")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 254 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7aa0b136-6880-461f-8ca4-a90d173714c7")
-		(property "Reference" "R60"
+		(uuid "980ac652-886e-49ef-a573-6a4ed730ed81")
+		(property "Reference" "R59"
 			(at 251.968 105.156 90)
 			(effects
 				(font
@@ -6237,7 +6099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 252.222 100.076 90)
 			(effects
 				(font
@@ -6246,7 +6108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 105.41 0)
 			(effects
 				(font
@@ -6274,15 +6136,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d3f561ee-f659-41a7-b073-97cbe4063f93")
+			(uuid "ce2953ad-d1eb-49a7-91c7-01973a01c8bd")
 		)
 		(pin "1"
-			(uuid "4dbb48d4-95dc-475b-8c93-9e0c08627984")
+			(uuid "3b7f6453-9f27-4b28-9112-af569966d216")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R60")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -6356,84 +6218,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 59.69 109.22 180)
+		(at 49.53 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aad74f4b-68be-4ba3-962f-5fda241b9293")
-		(property "Reference" "R54"
-			(at 57.658 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 57.912 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0e78b5b-28ee-40c5-81e7-3e3bd797fba0")
-		)
-		(pin "1"
-			(uuid "2d3ece8a-76c1-43f5-b644-0b647e1e6103")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 64.77 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac9874d4-5c47-4a9e-9182-5237833e5205")
-		(property "Reference" "R76"
-			(at 62.738 108.966 90)
+		(uuid "a9ef29f3-0ead-4c30-9a42-2cb74268e3d0")
+		(property "Reference" "R52"
+			(at 47.498 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6235,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.992 103.886 90)
+			(at 47.752 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,8 +6243,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 64.77 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 109.22 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6262,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 64.77 109.22 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,15 +6271,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4bc8b298-c53c-46b6-b674-d05daee61878")
+			(uuid "84060fb6-2988-4bfe-afda-1f8fbb0fadf6")
 		)
 		(pin "1"
-			(uuid "31078f41-b40e-45bd-963b-ef3463c838f8")
+			(uuid "d71a3fc9-c3d3-40d7-952d-0a0f9eb90f82")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R76")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -6624,75 +6417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 231.14 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c16d6429-325a-4cce-a68c-7e9a8f920ac4")
-		(property "Reference" "R56"
-			(at 229.108 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10]K"
-			(at 229.362 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 231.14 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 231.14 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "354e4993-2ee9-4749-814c-b095ac281ac4")
-		)
-		(pin "1"
-			(uuid "c48bd1a8-8ad0-4433-b551-bfa1f7e480e7")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 204.47 92.71 0)
 		(unit 1)
@@ -6760,15 +6484,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 54.61 109.22 180)
+		(at 237.49 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c30b54a2-ab98-468e-aa3a-167c6f2f4cb7")
-		(property "Reference" "R53"
-			(at 52.578 108.966 90)
+		(uuid "d094c794-1b9e-4e00-865a-c64357a84f00")
+		(property "Reference" "R56"
+			(at 235.458 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,8 +6500,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
-			(at 52.832 103.886 90)
+		(property "Value" "10K"
+			(at 235.712 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,8 +6509,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 54.61 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 109.22 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6528,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 54.61 109.22 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,15 +6537,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e943aaeb-daa6-42ed-8ebd-7987e31d8365")
+			(uuid "7a60bf7e-6749-41cf-befc-469ad2f495a4")
 		)
 		(pin "1"
-			(uuid "b738dde6-81a4-46c2-ae62-963f99613fd3")
+			(uuid "46eb2b4a-5c0a-488e-a085-0717039d5e3e")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R53")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6965,15 +6689,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 259.08 105.41 180)
+		(at 231.14 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "db56975b-1be2-41ee-8f59-31979e4b200e")
-		(property "Reference" "R61"
-			(at 257.048 105.156 90)
+		(uuid "df13e0fd-7d02-49a4-99cf-e9e0959fefb5")
+		(property "Reference" "R43"
+			(at 229.108 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,8 +6705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
-			(at 257.302 100.076 90)
+		(property "Value" "10K"
+			(at 229.362 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,8 +6714,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 259.08 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 105.41 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,7 +6733,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 259.08 105.41 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,15 +6742,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2dc4ea32-be59-484b-9c22-17c8e3181776")
+			(uuid "3348bcf8-3679-48f5-ad3b-ccb900533733")
 		)
 		(pin "1"
-			(uuid "ce0c017d-3aca-41fd-807f-529c2ca27d78")
+			(uuid "03f8f59c-71aa-45fd-b2e6-68edfa6e6af9")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
-					(reference "R61")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7093,6 +6817,282 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 59.69 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea1ad456-5656-4dcf-bcc6-05698f909948")
+		(property "Reference" "R54"
+			(at 57.658 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 57.912 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b19104cc-a1f2-472d-99fa-33b031a82fc1")
+		)
+		(pin "1"
+			(uuid "e974a7e6-55c4-4b90-85b4-cfec50b82b92")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 64.77 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0eb5944-a121-4c22-91ce-eedf5f224f52")
+		(property "Reference" "R61"
+			(at 62.738 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 62.992 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0331dc28-ab4b-467b-baca-192bcd045f85")
+		)
+		(pin "1"
+			(uuid "84984eff-bcad-4acf-8447-cb3a305f957b")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 247.65 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f814f8fb-eebd-4748-83e3-a8aa7df3fef0")
+		(property "Reference" "R58"
+			(at 245.618 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 245.872 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aed6daf-d717-47c1-b690-bea17f1f0727")
+		)
+		(pin "1"
+			(uuid "9b070a93-96c3-49ac-b2c0-731ef15a2e7b")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 69.85 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92aae6f-2cf6-4120-a2e8-d80715f7a120")
+		(property "Reference" "R76"
+			(at 67.818 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 68.072 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c322c45-b7b4-415c-ade7-c00ea0f04ed8")
+		)
+		(pin "1"
+			(uuid "b123ec1f-e859-412e-bb67-58ae61c3817c")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3071fff4-2246-4a32-a92e-73d7c673f76c"
+					(reference "R76")
 					(unit 1)
 				)
 			)
