@@ -5766,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_BMI"
+		(property "Value" "+3V3_ICM"
 			(at 156.21 50.8 0)
 			(effects
 				(font

@@ -6429,7 +6429,7 @@
 		)
 		(uuid "38d4387f-62cf-4b23-8e4c-7e9ca592cb62")
 	)
-	(text "3V3_BMI\n"
+	(text "3V3_ICM"
 		(exclude_from_sim no)
 		(at 202.438 16.764 0)
 		(effects
@@ -8370,7 +8370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VIN_BMI"
+		(property "Value" "VIN_ICM"
 			(at 241.3 33.02 0)
 			(effects
 				(font
@@ -11717,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VIN_BMI"
+		(property "Value" "VIN_ICM"
 			(at 255.778 50.292 90)
 			(effects
 				(font
@@ -12618,7 +12618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VIN_BMI"
+		(property "Value" "VIN_ICM"
 			(at 209.55 40.64 0)
 			(effects
 				(font
@@ -13045,7 +13045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_BMI"
+		(property "Value" "+3V3_ICM"
 			(at 265.43 40.64 0)
 			(effects
 				(font
