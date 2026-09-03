@@ -4737,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS_Library:WE-CBF_0603_W2.6"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 83.82 106.68 0)
 			(effects
 				(font

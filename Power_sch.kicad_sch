@@ -6612,17 +6612,6 @@
 		)
 		(uuid "53b530a1-d75d-464d-b41d-cb6850b1e674")
 	)
-	(label "EN"
-		(at 185.42 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81bb17c2-3099-49c1-be50-b14cd52038a3")
-	)
 	(label "SW"
 		(at 134.62 104.14 0)
 		(fields_autoplaced yes)
@@ -10452,7 +10441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72ff98ee-d17b-43e7-b591-56e36e476e44")
-		(property "Reference" "R93"
+		(property "Reference" "D16"
 			(at 268.732 107.95 0)
 			(effects
 				(font
@@ -10506,7 +10495,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
-					(reference "R93")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -14269,7 +14258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def565dc-615d-48e4-8eec-cf8b44576fdb")
-		(property "Reference" "R35"
+		(property "Reference" "D15"
 			(at 268.478 83.566 0)
 			(effects
 				(font
@@ -14323,7 +14312,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/95adfb1d-f4b2-4924-8c0a-df43d58bdb39"
-					(reference "R35")
+					(reference "D15")
 					(unit 1)
 				)
 			)

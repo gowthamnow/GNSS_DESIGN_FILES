@@ -8706,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Crystal:MURATA_XRCGB24M000FFS1DR0_0"
+		(property "Footprint" "GNSS:MURATA_XRCGB24M000FFS1DR0_0"
 			(at 64.77 106.68 0)
 			(effects
 				(font

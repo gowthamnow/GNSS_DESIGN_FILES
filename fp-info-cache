@@ -1,4 +1,4 @@
-23102027784144655
+23128854202411159
 1056
 BAT_1056
 
@@ -56748,6 +56748,76 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GNSS
+DFN-6_DCB
+
+
+0
+7
+7
+GNSS
+DIO_PESD0402-140
+
+
+0
+2
+2
+GNSS
+MURATA_XRCGB24M000FFS1DR0_0
+24.0000MHz ±8ppm Crystal 12pF 70Ω Stability ±12ppm 4-SMD
+
+0
+4
+4
+GNSS
+SOTFL50P160X60-6N
+SC-89 6-Leads (SOT-563F)
+MOSFET Pair (N/P-Channel)
+0
+6
+6
+GNSS
+SW_SKRPABE010
+
+
+0
+4
+4
+GNSS_Library
+DFN-6_DCB
+
+
+0
+7
+7
+GNSS_Library
+DIO_PESD0402-140
+
+
+0
+2
+2
+GNSS_Library
+MURATA_XRCGB24M000FFS1DR0_0
+24.0000MHz ±8ppm Crystal 12pF 70Ω Stability ±12ppm 4-SMD
+
+0
+4
+4
+GNSS_Library
+SOTFL50P160X60-6N
+SC-89 6-Leads (SOT-563F)
+MOSFET Pair (N/P-Channel)
+0
+6
+6
+GNSS_Library
+SW_SKRPABE010
+
+
+0
+4
+4
 GRM033R71C103KE14D
 CAPC0603X33N
 
@@ -94632,3 +94702,38 @@ WE-RJ45_7499010211A
 0
 14
 14
+gnss1_Library
+DFN-6_DCB
+
+
+0
+7
+7
+gnss1_Library
+DIO_PESD0402-140
+
+
+0
+2
+2
+gnss1_Library
+MURATA_XRCGB24M000FFS1DR0_0
+24.0000MHz ±8ppm Crystal 12pF 70Ω Stability ±12ppm 4-SMD
+
+0
+4
+4
+gnss1_Library
+SOTFL50P160X60-6N
+SC-89 6-Leads (SOT-563F)
+MOSFET Pair (N/P-Channel)
+0
+6
+6
+gnss1_Library
+SW_SKRPABE010
+
+
+0
+4
+4

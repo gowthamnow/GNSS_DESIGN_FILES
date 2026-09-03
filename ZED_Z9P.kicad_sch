@@ -9816,7 +9816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LT6000IDCB_TRMPBF:DFN-6_DCB"
+		(property "Footprint" "GNSS:DFN-6_DCB"
 			(at 45.72 102.87 0)
 			(effects
 				(font
@@ -11361,7 +11361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b50245d-def5-4119-ac47-e8e921578126")
-		(property "Reference" "R78"
+		(property "Reference" "D13"
 			(at 33.02 138.43 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R78")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -11703,7 +11703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6155c7a8-e922-443a-87b6-f13d42b8a64a")
-		(property "Reference" "R66"
+		(property "Reference" "D12"
 			(at 31.75 116.84 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R66")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -14841,7 +14841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOTFL50P160X60-6N"
+		(property "Footprint" "GNSS:SOTFL50P160X60-6N"
 			(at 62.23 173.66 0)
 			(effects
 				(font
@@ -16110,7 +16110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b9f8d6-efb2-467f-a8fa-46ef6d21538b")
-		(property "Reference" "R34"
+		(property "Reference" "D14"
 			(at 219.71 16.51 0)
 			(effects
 				(font
@@ -16164,7 +16164,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R34")
+					(reference "D14")
 					(unit 1)
 				)
 			)
