@@ -1619,40 +1619,16 @@
 		(uuid "4ce34180-ed0c-47e6-b84b-7f1ba4673d22")
 	)
 	(junction
-		(at 59.69 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5effbdbf-6690-491a-be9f-330005c50df2")
-	)
-	(junction
-		(at 59.69 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f77db70-2dda-4e03-9a55-31eae3bced56")
-	)
-	(junction
 		(at 190.5 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9696ff71-19c1-4f1e-9274-e182c625e55f")
 	)
 	(junction
-		(at 59.69 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "999d9f80-74b6-47da-a530-0d3062036ac6")
-	)
-	(junction
 		(at 72.39 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb9523e6-4b37-4d8e-b9dc-c5c87db49fd4")
-	)
-	(junction
-		(at 59.69 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f57ffeb0-9bc1-4ed2-988b-ad0e2275ccd1")
 	)
 	(no_connect
 		(at 142.24 63.5)
@@ -1780,16 +1756,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 119.38) (xy 66.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "349c6c00-fa5d-411b-9975-b1ca7124213c")
-	)
-	(wire
-		(pts
 			(xy 121.92 92.71) (xy 132.08 92.71)
 		)
 		(stroke
@@ -1820,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 127) (xy 59.69 127)
+			(xy 54.61 127) (xy 72.39 127)
 		)
 		(stroke
 			(width 0)
@@ -2020,16 +1986,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 135.89) (xy 59.69 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d78a062-c4ab-4ff8-91d9-281e78b41150")
-	)
-	(wire
-		(pts
 			(xy 215.9 49.53) (xy 212.09 49.53)
 		)
 		(stroke
@@ -2090,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 59.69 135.89)
+			(xy 54.61 135.89) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2180,16 +2136,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 128.27) (xy 59.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d794bdf8-be07-41a9-9f78-3bdf093555f7")
-	)
-	(wire
-		(pts
 			(xy 66.04 96.52) (xy 72.39 96.52)
 		)
 		(stroke
@@ -2230,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 59.69 119.38)
+			(xy 54.61 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2277,26 +2223,6 @@
 			(type default)
 		)
 		(uuid "f6a96664-074a-4b2c-a118-75173a82029d")
-	)
-	(wire
-		(pts
-			(xy 59.69 135.89) (xy 77.47 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c24a9d-63af-4aab-87c2-e13802f2451e")
-	)
-	(wire
-		(pts
-			(xy 59.69 127) (xy 72.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f927d698-82fe-46db-ab51-af3266fa9bf2")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -2994,7 +2920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -3264,73 +3190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19911541-e8c7-4aa8-8ebe-b43b69c3c987")
-		(property "Reference" "TP8"
-			(at 62.23 139.1919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 62.23 141.7319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 54.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "616c10ae-1a36-4283-b284-99e1841fb9a6")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 186.69 120.65 180)
 		(unit 1)
@@ -3357,7 +3216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.69 120.65 0)
 			(effects
 				(font
@@ -3426,7 +3285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -3668,73 +3527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3688e3c1-2489-4a70-be7b-462697be88ac")
-		(property "Reference" "TP9"
-			(at 62.23 130.3019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 62.23 132.8419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4d77a0a-d16b-48bd-bea1-e0a1f87cb40b")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 77.47 102.87 180)
 		(unit 1)
@@ -3761,7 +3553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 102.87 0)
 			(effects
 				(font
@@ -3962,7 +3754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -4131,73 +3923,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a82a256-c502-4cd9-99ab-80b2389c6094")
-		(property "Reference" "TP10"
-			(at 60.198 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 56.642 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 54.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb72e0ec-bd17-4e20-be76-d49086497a97")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -4684,73 +4409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8c9e37c-3ba8-4723-a209-f6459104e402")
-		(property "Reference" "TP11"
-			(at 60.452 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 55.88 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 54.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa9ae976-5259-46b5-81bd-f3a573df54c2")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 59.69 102.87 180)
 		(unit 1)
@@ -4777,7 +4435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 102.87 0)
 			(effects
 				(font
