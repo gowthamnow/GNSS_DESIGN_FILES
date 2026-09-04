@@ -1477,32 +1477,32 @@
 				)
 			)
 		)
-		(symbol "ECS-250-12-33-AGN-TR:ECS-250-12-33-AGN-TR"
+		(symbol "MURATA_XRCGB24M000FFS1DR0:MURATA_XRCGB24M000FFS1DR0"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at -12.7168 7.6301 0)
+			(property "Reference" "Y1"
+				(at 17.272 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "ECS-250-12-33-AGN-TR"
-				(at -12.7149 -7.629 0)
+			(property "Value" "MURATA_XRCGB24M000FFS1DR0"
+				(at 18.2923 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "ECS-250-12-33-AGN-TR:XTAL_ECS-250-12-33-AGN-TR"
+			(property "Footprint" "Crystal:MURATA_XRCGB24M000FFS1DR0_0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1521,7 +1521,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "The sub miniature ECX-32 is a compact SMD Crystal."
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata Electronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1531,7 +1540,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "ECS Inc."
+			(property "Description_1" "\n                        \n                            24 MHz ±8ppm Crystal 12pF 70 Ohms 4-SMD, No Lead\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1541,77 +1550,7 @@
 					(hide yes)
 				)
 			)
-			(property "PACKAGE" "SMD-4 ECX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "ECX-32-33-4 ECS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ECS-250-12-33-AGN-TR/ECS/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-250-12-33-AGN-TR/ECS/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ECS-250-12-33-AGN-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2121280&manufacturer=ECS Inc.&part_name=ECS-250-12-33-AGN-TR&search_term=ecs ecs-250-12-33-agn-tr"
+			(property "Package" "SMD-4 Murata Electronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1631,6 +1570,36 @@
 					(hide yes)
 				)
 			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XRCGB24M000FFS1DR0/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XRCGB24M000FFS1DR0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6187792&manufacturer=Murata Electronics&part_name=XRCGB24M000FFS1DR0&search_term=xrcgb24m000ffs1dr0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
 			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(effects
@@ -1641,7 +1610,7 @@
 					(hide yes)
 				)
 			)
-			(property "AVAILABILITY" "Good"
+			(property "Check_prices" "https://www.snapeda.com/parts/XRCGB24M000FFS1DR0/Murata/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1651,32 +1620,203 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            25 MHz ±25ppm Crystal 12pF 40 Ohms 4-SMD, No Lead\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MURATA_XRCGB24M000FFS1DR0_0_0"
+				(polyline
+					(pts
+						(xy 2.54 -17.78) (xy 2.54 -2.54)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ECS-250-12-33-AGN-TR_0_0"
-				(rectangle
-					(start -12.7 -5.08)
-					(end 12.7 7.62)
 					(stroke
-						(width 0.127)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
+				(polyline
+					(pts
+						(xy 2.54 -15.24) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.588) (xy 6.35 -9.652)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.588) (xy 11.43 -9.652)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -17.78) (xy 2.54 -17.78)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -15.24) (xy 15.24 -15.24)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -7.62) (xy 15.24 -7.62)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 15.24 -17.78)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.002 -7.62) (xy 11.43 -7.62)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
 					(length 5.08)
-					(name "IN/OUT"
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1691,10 +1831,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
+				(pin passive line
+					(at -2.54 -15.24 0)
 					(length 5.08)
-					(name "GND"
+					(name "1_NC"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1709,10 +1849,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
+				(pin passive line
+					(at 20.32 -7.62 180)
 					(length 5.08)
-					(name "OUT/IN"
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1727,10 +1867,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 5.08) hide
-					(name "GND"
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "2_NC"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2920,6 +3060,12 @@
 		(uuid "90fc0fe1-fdce-4c26-99d5-bdd65e490168")
 	)
 	(junction
+		(at 87.63 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6cd1cf-f1fd-407b-b253-b02407a0fa7c")
+	)
+	(junction
 		(at 217.17 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2950,6 +3096,12 @@
 		(uuid "c1d69569-3399-4c82-868e-2c71c65f849e")
 	)
 	(junction
+		(at 59.69 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c253634a-289b-47be-a8c4-ceac84ea0e2e")
+	)
+	(junction
 		(at 208.28 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2966,12 +3118,20 @@
 		(uuid "54fa0892-9328-4d81-9678-5b7bd0ae6c2f")
 	)
 	(no_connect
+		(at 85.09 180.34)
+		(uuid "8dfd249c-6126-4522-a34e-ece43c2c7105")
+	)
+	(no_connect
 		(at 176.53 73.66)
 		(uuid "a4696282-6ac7-4ee8-886b-d8f09920442a")
 	)
 	(no_connect
 		(at 67.31 73.66)
 		(uuid "e1f63efc-e5ff-4423-a324-536fc0e54966")
+	)
+	(no_connect
+		(at 62.23 180.34)
+		(uuid "e40d9ceb-f801-4e18-af0c-ae99ab0cc0ee")
 	)
 	(no_connect
 		(at 95.25 71.12)
@@ -3009,6 +3169,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 186.69) (xy 87.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efed7cb-5432-49b8-a025-4d3054e8a4a4")
+	)
+	(wire
+		(pts
 			(xy 229.87 90.17) (xy 233.68 90.17)
 		)
 		(stroke
@@ -3019,13 +3189,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 170.18) (xy 88.9 170.18)
+			(xy 87.63 172.72) (xy 87.63 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "103361ab-584c-4bf7-ae63-2660f7289c82")
+		(uuid "129c9970-8439-4afe-91df-82e726f8f2f3")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 87.63 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129cb5da-dd8d-483b-985a-56e2298beba2")
 	)
 	(wire
 		(pts
@@ -3069,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 162.56) (xy 59.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e28ddd0-bb2c-49b1-8496-1eec114e8295")
+	)
+	(wire
+		(pts
 			(xy 214.63 52.07) (xy 218.44 52.07)
 		)
 		(stroke
@@ -3076,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "27a72035-2dc8-4e1a-8ce6-5e5c37e7bd6f")
+	)
+	(wire
+		(pts
+			(xy 59.69 172.72) (xy 59.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb16909-4d01-4791-98f4-6c4b7fab02ab")
 	)
 	(wire
 		(pts
@@ -3146,6 +3346,16 @@
 			(type default)
 		)
 		(uuid "3b187a08-2bd8-44ce-a0ff-aef15b81b6c1")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 74.93 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b45518e-8822-4c26-8584-c5bec93e61d9")
 	)
 	(wire
 		(pts
@@ -3289,6 +3499,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 158.75) (xy 72.39 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622865a7-4964-4148-bf45-a95290facf28")
+	)
+	(wire
+		(pts
+			(xy 59.69 186.69) (xy 59.69 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62be73e9-54d2-4e86-a981-b16e6f001897")
+	)
+	(wire
+		(pts
 			(xy 96.52 106.68) (xy 104.14 106.68)
 		)
 		(stroke
@@ -3309,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ca9f08-aa1b-47ad-a3ae-f9c177502571")
+	)
+	(wire
+		(pts
 			(xy 95.25 86.36) (xy 115.57 86.36)
 		)
 		(stroke
@@ -3326,6 +3566,16 @@
 			(type default)
 		)
 		(uuid "70917c65-5073-41cc-8600-974623daea03")
+	)
+	(wire
+		(pts
+			(xy 91.44 172.72) (xy 87.63 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a68a4c-d122-454e-a6ba-dbdc4969d0d5")
 	)
 	(wire
 		(pts
@@ -3409,16 +3659,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 170.18) (xy 88.9 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d327f7-6822-4684-9b4a-db49da413aa3")
-	)
-	(wire
-		(pts
 			(xy 95.25 73.66) (xy 107.95 73.66)
 		)
 		(stroke
@@ -3456,16 +3696,6 @@
 			(type default)
 		)
 		(uuid "930815cd-29a4-4a8e-9238-648faeb9df9b")
-	)
-	(wire
-		(pts
-			(xy 87.63 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953b7c30-ac7c-4772-9620-006a9d24a4e7")
 	)
 	(wire
 		(pts
@@ -3509,13 +3739,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 166.37) (xy 99.06 165.1)
+			(xy 69.85 186.69) (xy 59.69 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6e67239-6fc6-4bf9-a290-6ae8e73f9c22")
+		(uuid "aadafbe5-3456-4bb3-85d6-51b6748a478d")
 	)
 	(wire
 		(pts
@@ -3539,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 173.99) (xy 99.06 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11ca81b-5474-4088-94ce-1ba017b18b92")
-	)
-	(wire
-		(pts
 			(xy 233.68 64.77) (xy 233.68 68.58)
 		)
 		(stroke
@@ -3566,6 +3786,26 @@
 			(type default)
 		)
 		(uuid "b76666b6-ebd3-4d4d-b4d9-1575f6da0bfd")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 48.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b793e485-d117-46e1-881c-3be82b16cc9f")
+	)
+	(wire
+		(pts
+			(xy 48.26 172.72) (xy 52.07 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd6f89d-6382-408e-89fd-9fb8ab4724a0")
 	)
 	(wire
 		(pts
@@ -3599,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 172.72) (xy 62.23 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca047f5b-65fc-4fb5-92e0-402fc28ee55a")
+	)
+	(wire
+		(pts
 			(xy 114.3 67.31) (xy 115.57 67.31)
 		)
 		(stroke
@@ -3606,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "cd64a753-f9ce-4466-a261-0634b38b3dd5")
+	)
+	(wire
+		(pts
+			(xy 74.93 162.56) (xy 87.63 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19f95f8-77b5-47ca-a75c-68432f8e00c5")
 	)
 	(wire
 		(pts
@@ -3659,26 +3919,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 165.1) (xy 41.91 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e202b054-e02b-4f88-906d-6966008e0016")
-	)
-	(wire
-		(pts
-			(xy 41.91 165.1) (xy 52.07 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9667a78-da41-448d-9b8f-3e569d15a111")
-	)
-	(wire
-		(pts
 			(xy 114.3 63.5) (xy 115.57 63.5)
 		)
 		(stroke
@@ -3696,6 +3936,26 @@
 			(type default)
 		)
 		(uuid "f0177374-88ae-42fa-85a4-01b12a0407b9")
+	)
+	(wire
+		(pts
+			(xy 87.63 172.72) (xy 85.09 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f104fd3b-f840-431d-b6f4-18acfdd3b318")
+	)
+	(wire
+		(pts
+			(xy 101.6 172.72) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a48919-0920-4e00-bfae-5e44ccac1251")
 	)
 	(wire
 		(pts
@@ -3726,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "f581b095-d676-4509-a1d9-20577a7a20a5")
-	)
-	(wire
-		(pts
-			(xy 41.91 173.99) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3d873b-54b5-4eca-8e39-2cb97ebec62c")
 	)
 	(wire
 		(pts
@@ -3809,6 +4059,17 @@
 		)
 		(uuid "7a5d479c-86d1-47bd-aabb-f983ac17512d")
 	)
+	(label "XTAL_IN"
+		(at 74.93 158.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "283cfc35-6e96-429b-a2ae-3963d15606df")
+	)
 	(label "XTAL_OUT"
 		(at 115.57 93.98 180)
 		(fields_autoplaced yes)
@@ -3832,18 +4093,7 @@
 		(uuid "90bf7d66-47cc-4fa7-a8f9-571405fc7fb3")
 	)
 	(label "XTAL_OUT"
-		(at 41.91 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce067b08-0d12-4c4e-b941-ba6f386c6e20")
-	)
-	(label "XTAL_IN"
-		(at 99.06 165.1 0)
+		(at 72.39 158.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3851,7 +4101,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f3d77592-19d3-4678-afdb-baf1820c85c9")
+		(uuid "e06538e2-e9ca-4f3a-bdef-ef340794bd8e")
 	)
 	(global_label "ETH_RX_D1_N"
 		(shape input)
@@ -4578,72 +4828,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1581f9bb-0d19-47b5-ac2b-65e0977e3db1")
-		(property "Reference" "#PWR0108"
-			(at 41.91 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30408737-01b5-4369-94b8-94c7c2392bae")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 53.34 78.74 90)
 		(unit 1)
@@ -4707,6 +4891,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "226d637e-8997-4c06-b5f0-cb0d2e2e0af3")
+		(property "Reference" "#PWR0122"
+			(at 101.6 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ce51e4e-6578-4b36-901b-adf082f58a26")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -5228,7 +5478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 212.09 106.172 0)
 			(effects
 				(font
@@ -5363,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "2K2"
 			(at 221.996 76.708 90)
 			(effects
 				(font
@@ -5693,7 +5943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "2K2"
 			(at 221.996 84.328 90)
 			(effects
 				(font
@@ -5739,6 +5989,172 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MURATA_XRCGB24M000FFS1DR0:MURATA_XRCGB24M000FFS1DR0")
+		(at 64.77 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70f0e22c-d187-4e0d-be54-4f1e9a28e4be")
+		(property "Reference" "Y4"
+			(at 82.042 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MURATA_XRCGB24M000FFS1DR0"
+			(at 83.0623 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GNSS:MURATA_XRCGB24M000FFS1DR0_0"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            24 MHz ±8ppm Crystal 12pF 70 Ohms 4-SMD, No Lead\n                        \n"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 Murata Electronics"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XRCGB24M000FFS1DR0/Murata/view-part/?ref=snap"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XRCGB24M000FFS1DR0"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6187792&manufacturer=Murata Electronics&part_name=XRCGB24M000FFS1DR0&search_term=xrcgb24m000ffs1dr0"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XRCGB24M000FFS1DR0/Murata/view-part/?ref=eda"
+			(at 64.77 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41dabe32-e13d-4d4c-88e3-42cba821bfe1")
+		)
+		(pin "3"
+			(uuid "b1273e77-1f6a-4475-916f-2b3bfb488331")
+		)
+		(pin "4"
+			(uuid "0fe99b16-c9ad-48de-a567-9b25496aa698")
+		)
+		(pin "2"
+			(uuid "9b927bd9-4690-4cf0-a273-ba7768649655")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "Y4")
 					(unit 1)
 				)
 			)
@@ -5893,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 91.948 101.346 90)
 			(effects
 				(font
@@ -6077,287 +6493,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fcfd15b-c663-4025-983e-dd54eedc886d")
-		(property "Reference" "#PWR0106"
-			(at 88.9 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5742f0ee-5571-4408-9a10-536f520f624f")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECS-250-12-33-AGN-TR:ECS-250-12-33-AGN-TR")
-		(at 69.85 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84ea59bc-66df-4670-b47c-f5514bb0ba00")
-		(property "Reference" "Y2"
-			(at 69.85 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-250-12-33-AGN-TR"
-			(at 69.85 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:XTAL_ECS-250-12-33-AGN-TR"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ECS Inc."
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "The sub miniature ECX-32 is a compact SMD Crystal."
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "SMD-4 ECX"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "ECX-32-33-4 ECS"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ECS-250-12-33-AGN-TR/ECS/view-part/?ref=eda"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-250-12-33-AGN-TR/ECS/view-part/?ref=snap"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ECS-250-12-33-AGN-TR"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2121280&manufacturer=ECS Inc.&part_name=ECS-250-12-33-AGN-TR&search_term=ecs ecs-250-12-33-agn-tr"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            25 MHz ±25ppm Crystal 12pF 40 Ohms 4-SMD, No Lead\n                        \n"
-			(at 69.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24f2c968-fc90-438a-a8dd-fff4b93c8d3d")
-		)
-		(pin "2"
-			(uuid "6e1a0002-92e0-4066-93b3-af1ff29d8779")
-		)
-		(pin "4"
-			(uuid "469729cb-08de-480f-ab85-1f995c572469")
-		)
-		(pin "3"
-			(uuid "75cabfd5-3933-4e83-9d2a-cc83cb9fd13d")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 104.14 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6489,6 +6624,343 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 72.39 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955eda4d-3534-44fb-822b-1052181ff6d8")
+		(property "Reference" "R22"
+			(at 73.406 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 65.278 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2bfb0a8-354a-4a6f-9069-df36af785e0a")
+		)
+		(pin "1"
+			(uuid "302e2228-63f5-44f6-8054-75122b358044")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99985ef1-2d10-4887-bd7f-c52545c341df")
+		(property "Reference" "#PWR0121"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32af4575-ecf3-4983-aee2-a1b8db7f78d1")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
+		(at 57.15 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9abefa02-4f1e-4c87-a07d-df9c50361797")
+		(property "Reference" "C66"
+			(at 54.6099 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "18p"
+			(at 57.1499 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 KEMET"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "402-2 KEMET"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C104K4RAC"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9bb1b2d-969b-489d-820d-8ada43404319")
+		)
+		(pin "2"
+			(uuid "dc49e685-b610-43da-8131-1380db92c105")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
 		(at 104.14 100.33 90)
 		(unit 1)
@@ -6505,7 +6977,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 101.346 103.378 90)
 			(effects
 				(font
@@ -6689,205 +7161,6 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 99.06 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b172f337-e66d-44ce-8bf4-418d4de58861")
-		(property "Reference" "C27"
-			(at 95.504 167.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27pF"
-			(at 94.488 172.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "KEMET"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402 KEMET"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "402-2 KEMET"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "C0402C104K4RAC"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 99.06 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29e19d1d-1fab-406e-acaa-177a9054c1c1")
-		)
-		(pin "2"
-			(uuid "1c8bfa4a-6d5b-4084-b856-56a6f5a5303c")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
 		(at 228.6 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6903,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 224.028 106.426 90)
 			(effects
 				(font
@@ -7103,7 +7376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 203.2 106.172 0)
 			(effects
 				(font
@@ -7155,71 +7428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 99.06 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4a91418-29da-4938-b88a-0ca259c49394")
-		(property "Reference" "#PWR0107"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c71fab1e-98f7-4176-b541-7e31b5c2e372")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 115.57 101.6 180)
 		(unit 1)
@@ -7237,7 +7445,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.49K"
+		(property "Value" "6K49"
 			(at 114.3 100.076 0)
 			(effects
 				(font
@@ -7424,6 +7632,208 @@
 		)
 	)
 	(symbol
+		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
+		(at 93.98 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c04e15-07e2-4d2f-9e9a-8e34b3d87f5b")
+		(property "Reference" "C77"
+			(at 93.9799 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 96.5199 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 KEMET"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "402-2 KEMET"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C104K4RAC"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cdf9049-f3df-443a-af52-c07d67db1991")
+		)
+		(pin "2"
+			(uuid "0699ecf7-36ef-40f5-965a-44fca0b5b93b")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 180.34 52.07 0)
 		(unit 1)
@@ -7491,205 +7901,6 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 41.91 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6f85562-0fe8-49ad-ba48-c7dad71e4871")
-		(property "Reference" "C65"
-			(at 38.354 167.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27pF"
-			(at 37.338 172.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor_SMD:C_0402_1005Metric"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "KEMET"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402 KEMET"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "402-2 KEMET"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "C0402C104K4RAC"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 41.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad65561b-5b0f-4e28-a020-9ccea0677f81")
-		)
-		(pin "2"
-			(uuid "ca8f5470-cbab-4f37-964c-9cb2c9f41d7a")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
 		(at 242.57 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7705,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 237.998 106.426 90)
 			(effects
 				(font

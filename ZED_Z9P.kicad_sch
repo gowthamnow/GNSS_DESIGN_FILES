@@ -9337,7 +9337,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 245.11 69.596 90)
 			(effects
 				(font
@@ -10195,7 +10195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 60.452 167.386 90)
 			(effects
 				(font
@@ -10673,7 +10673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 66.802 167.386 90)
 			(effects
 				(font
@@ -10734,7 +10734,7 @@
 		(dnp no)
 		(uuid "40a7e7cf-71b9-4468-962a-f57ba6c8acae")
 		(property "Reference" "C71"
-			(at 72.39 68.326 90)
+			(at 72.136 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10E"
+		(property "Value" "10R"
 			(at 55.88 67.056 0)
 			(effects
 				(font
@@ -11028,7 +11028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 250.952 69.342 0)
 			(effects
 				(font
@@ -11370,7 +11370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 73.152 167.386 90)
 			(effects
 				(font
@@ -11781,7 +11781,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 261.62 69.596 90)
 			(effects
 				(font
@@ -11981,7 +11981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 130.81 170.18 90)
 			(effects
 				(font
@@ -14343,7 +14343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 148.844 170.434 90)
 			(effects
 				(font
@@ -15090,7 +15090,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 234.442 69.342 0)
 			(effects
 				(font
@@ -15768,7 +15768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10]K"
+		(property "Value" "10K"
 			(at 78.232 167.386 90)
 			(effects
 				(font

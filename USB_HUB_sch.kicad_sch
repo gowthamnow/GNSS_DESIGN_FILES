@@ -4342,13 +4342,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "626c695e-930f-499e-9eae-d5ffddde26eb")
+			(uuid "8029b850-a916-4fac-89dd-a383a04ed9fc")
 		)
 		(pin "2"
-			(uuid "d9445400-bcfe-4980-b6f8-8edc4bda6a83")
+			(uuid "e13e01e4-5ebb-4d14-8bf1-0448be19dedf")
 		)
 		(pin "3"
-			(uuid "73f230f2-2d05-45f1-b1a9-4179e57b5566")
+			(uuid "d1fd18b2-2edd-442c-9da0-52e6cc24045a")
 		)
 		(instances
 			(project "GNSS"
@@ -4414,7 +4414,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "16fd3205-09c7-4ec0-9064-ed3c31b6264d")
+			(uuid "f0369ae2-7cc1-49e9-93d7-0362a06dbe6d")
 		)
 		(instances
 			(project "GNSS"
@@ -4560,10 +4560,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "884e5cdc-9f29-4da6-b09a-94f24e0e8201")
+			(uuid "22e60df3-fd34-44c6-adc5-cd31bca665e9")
 		)
 		(pin "2"
-			(uuid "404f09e7-9623-4f89-b277-1720a3c6e495")
+			(uuid "7d543e0b-8f66-4357-8dab-2c1c46d62fc5")
 		)
 		(instances
 			(project "GNSS"
@@ -4592,7 +4592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1Meg"
+		(property "Value" "1M"
 			(at 41.91 107.188 90)
 			(effects
 				(font
@@ -4629,10 +4629,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "49e89e80-b959-4c90-80ae-2c1f3dcdce30")
+			(uuid "e863e2f4-216f-4ddb-aa0b-34172b154bdf")
 		)
 		(pin "1"
-			(uuid "f460b7a5-649e-44fa-b6e2-fe10afce9912")
+			(uuid "b8031c5a-b533-47b8-9097-f0fabd26d059")
 		)
 		(instances
 			(project "GNSS"
@@ -4698,10 +4698,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7b258a5f-2267-47b8-9560-d233525feae0")
+			(uuid "607c9900-6256-440f-b767-716a7feed701")
 		)
 		(pin "1"
-			(uuid "3b198783-5cb8-432c-b23c-96857518e3b2")
+			(uuid "f2fca39e-0ca9-4f00-b84b-7df4ba71df40")
 		)
 		(instances
 			(project "GNSS"
@@ -4767,7 +4767,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1366c9e-353e-445e-94ea-3f2002845094")
+			(uuid "5aa74542-7931-4dfb-9501-a2103235c781")
 		)
 		(instances
 			(project "GNSS"
@@ -4923,13 +4923,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "38815d8b-fad2-49ca-80ac-b2539b5ced72")
+			(uuid "10638db2-5be7-4607-a63e-09020d07dc48")
 		)
 		(pin "2"
-			(uuid "03c0cd59-04fe-4d75-bcc9-4b2a382c14a5")
+			(uuid "c29ff4c7-941d-42e5-b093-8de94adce40b")
 		)
 		(pin "3"
-			(uuid "28aff89c-c6d4-43f0-a1c2-bcb20c89e028")
+			(uuid "d5ceea7d-fb0c-40ce-ad62-1dcaa54ea32e")
 		)
 		(instances
 			(project "GNSS"
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "447a0675-c562-40e6-bc37-4fa831fe0459")
+			(uuid "bc735096-62ae-4486-9ae1-c4a8c27a3a63")
 		)
 		(instances
 			(project "GNSS"
@@ -5062,10 +5062,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0ef0417-a0c8-4bf4-a0e3-d7d8887f4d43")
+			(uuid "a1422265-26b9-4902-8dae-12db4035468b")
 		)
 		(pin "1"
-			(uuid "6d447c0c-f74e-4053-90bb-d5af48459cbb")
+			(uuid "b0a107d0-9f2e-4b4f-a560-566d66a8eee9")
 		)
 		(instances
 			(project "GNSS"
@@ -5131,10 +5131,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "27a1fb53-325b-4814-93fe-5b1fc4c43d5c")
+			(uuid "8ce7c813-0b23-4d98-810a-eca568ed89a7")
 		)
 		(pin "1"
-			(uuid "764fc528-aaf0-441e-a49d-1920b4b7cd63")
+			(uuid "a93518e4-bf49-40b5-9cd0-b85c0e5a9192")
 		)
 		(instances
 			(project "GNSS"
@@ -5200,7 +5200,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a435d2e-772e-4c1d-b75e-c2fdf6d5f87e")
+			(uuid "5c6115c6-c190-482f-a255-d4a3a1ede5ca")
 		)
 		(instances
 			(project "GNSS"
@@ -5266,7 +5266,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2afef72e-fd5c-42fd-a73b-436f430ce397")
+			(uuid "8e7ae6e4-888f-476f-b889-7ba5aec4c00b")
 		)
 		(instances
 			(project "GNSS"
@@ -5295,7 +5295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 252.476 42.926 0)
 			(effects
 				(font
@@ -5464,10 +5464,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a5f99f7-d5a9-4691-a288-b724b06eaf52")
+			(uuid "579434d7-b2ad-453e-936f-982578458803")
 		)
 		(pin "2"
-			(uuid "097ad75c-fd36-4da6-9920-0e10734fecec")
+			(uuid "139ba8e9-50bd-47cb-9235-300e9a9734bb")
 		)
 		(instances
 			(project "GNSS"
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e024bee-0530-4b5b-b18c-3d2caafdce1a")
+			(uuid "892ebf4e-c875-4f6d-affa-26fc1fa4629d")
 		)
 		(instances
 			(project "GNSS"
@@ -5598,7 +5598,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b003646-cea7-4ff2-b005-a3b76372cfbc")
+			(uuid "10d898c3-75be-404c-ae56-4215d7f19fce")
 		)
 		(instances
 			(project "GNSS"
@@ -5664,10 +5664,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee099175-aaf0-4538-8a33-9bf27d04f653")
+			(uuid "addcef96-36ca-4950-9ca6-c3a67855b7a7")
 		)
 		(pin "1"
-			(uuid "c9e6eff5-509b-4f60-ac04-0d27ce6c399e")
+			(uuid "0d543d56-0606-46ad-b44a-3a41b805d935")
 		)
 		(instances
 			(project "GNSS"
@@ -5733,7 +5733,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe913e9a-b925-4b5b-82c2-521de7563a24")
+			(uuid "50e5cf60-c8ce-467d-8e37-509d28f5925c")
 		)
 		(instances
 			(project "GNSS"
@@ -5798,7 +5798,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "db2be6c1-da4a-4477-869e-ca3f16a7e034")
+			(uuid "56e6648a-39a7-4a18-a618-ff5f1e0935d1")
 		)
 		(instances
 			(project "GNSS"
@@ -5865,7 +5865,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a0bff7c-b4ea-400b-bbc5-8c038be59e5b")
+			(uuid "57209aec-5ea3-412c-8e33-7857221e5916")
 		)
 		(instances
 			(project "GNSS"
@@ -5931,7 +5931,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "22fef1f4-507f-4f6e-bd39-4c3baa0a1aed")
+			(uuid "e871bebf-14c5-4110-9a82-f43cebe3653a")
 		)
 		(instances
 			(project "GNSS"
@@ -5960,7 +5960,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 260.096 68.326 0)
 			(effects
 				(font
@@ -6129,10 +6129,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a5f3e94-88ea-4a34-8568-3674e999525b")
+			(uuid "2aa1907e-7186-4e04-af06-c1b3b8177497")
 		)
 		(pin "2"
-			(uuid "578f92a7-125d-46c0-b88c-993a4751fff6")
+			(uuid "0ffaf228-3cec-48eb-a875-dbc52ba3e3bf")
 		)
 		(instances
 			(project "GNSS"
@@ -6199,7 +6199,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7258c008-fc6c-4ea5-8960-717b0018bbcb")
+			(uuid "4cf0adf5-bd27-486e-9486-a5229dadf645")
 		)
 		(instances
 			(project "GNSS"
@@ -6227,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 133.604 61.214 0)
 			(effects
 				(font
@@ -6395,10 +6395,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "95e8efc9-f455-4266-b745-e6e1032b82f9")
+			(uuid "5431d9c0-211e-46a4-aaab-ff5491b9b5d1")
 		)
 		(pin "2"
-			(uuid "b064ebbb-c0b4-40a4-83a1-e8a2ad941d3d")
+			(uuid "1abb8eb4-68ec-4265-8394-f428fd31e2f2")
 		)
 		(instances
 			(project "GNSS"
@@ -6464,7 +6464,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "833a1e37-b582-41e9-b8f9-c7191990dfcf")
+			(uuid "153a8850-48bd-4652-a8b2-7f8632641f52")
 		)
 		(instances
 			(project "GNSS"
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0111f1bd-8e09-4a3f-b582-445272227307")
+			(uuid "2676d36e-4ec1-48a5-b8f0-8ecf31d2734e")
 		)
 		(instances
 			(project "GNSS"
@@ -6596,10 +6596,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2ba28e6e-11bd-4c8a-979b-0b619d64cfc4")
+			(uuid "377a0e5a-d743-44d2-a6ae-6ed8319ac9f5")
 		)
 		(pin "1"
-			(uuid "b4940df7-e72a-4647-bb5e-e26a9b49a611")
+			(uuid "92440a63-403e-4e88-88c3-3fb0921f9317")
 		)
 		(instances
 			(project "GNSS"
@@ -6664,7 +6664,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "39b98ed7-b990-473e-bcfc-52f93a2031a2")
+			(uuid "6d3c0946-7884-4af8-9aad-a3f2189803c3")
 		)
 		(instances
 			(project "GNSS"
@@ -6730,7 +6730,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a7964df-a921-4911-84c3-1e4463aa3e0e")
+			(uuid "ad42be9a-f82d-4566-94d5-5011ea6ababa")
 		)
 		(instances
 			(project "GNSS"
@@ -6759,7 +6759,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 255.016 68.326 0)
 			(effects
 				(font
@@ -6928,10 +6928,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7fbaf00-7803-43d0-bf9f-e9febf7af14e")
+			(uuid "51346e9b-d429-44c0-bc1f-30a0792feb10")
 		)
 		(pin "2"
-			(uuid "26ca7e14-0c28-4d39-8b96-97d79035644f")
+			(uuid "710b2630-e795-4a28-97c0-ede579850e99")
 		)
 		(instances
 			(project "GNSS"
@@ -7087,13 +7087,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "154900ec-2a93-4302-8ede-6cfb5cde4e2b")
+			(uuid "8d619294-a839-4e0b-a69a-a1c9011b09d7")
 		)
 		(pin "2"
-			(uuid "f8704871-f8a4-4af8-8a2c-0ac11e6197c5")
+			(uuid "46015def-630a-4972-a0ff-6fe3982e4af1")
 		)
 		(pin "3"
-			(uuid "907e17fa-b1c8-4168-94bd-286c90e3b2e1")
+			(uuid "30593795-0830-425e-8673-c06ae0b524f4")
 		)
 		(instances
 			(project "GNSS"
@@ -7158,7 +7158,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "74a867b7-f353-479d-9c06-0f689bacbaec")
+			(uuid "adf454e3-b5d3-418d-ac1c-c68607e7e044")
 		)
 		(instances
 			(project "GNSS"
@@ -7223,7 +7223,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b6f0d0d-2b25-428f-9fe7-d6ed6d4fd700")
+			(uuid "5e4f6690-5d38-4a11-a69d-cc972bac69f2")
 		)
 		(instances
 			(project "GNSS"
@@ -7360,115 +7360,115 @@
 			)
 		)
 		(pin "13"
-			(uuid "be733fc8-ceda-4310-8186-074d94ef2b2b")
+			(uuid "288e439a-84fd-4b4b-a2fb-d40ab78f29b0")
 		)
 		(pin "18"
-			(uuid "91846a5f-7483-458e-97de-d2a17099ee33")
+			(uuid "2d46cddc-d60c-4876-928e-5da0f98afad2")
 		)
 		(pin "16"
-			(uuid "d9812e1e-960e-444b-9233-85be62d3686f")
+			(uuid "e0037df1-ad71-4b70-a985-f0ec350d3045")
 		)
 		(pin "19"
-			(uuid "7b49b745-7373-4f2d-9d90-fec5497ee6a3")
+			(uuid "f7b7ab1b-1124-4f34-a78e-03bc706477eb")
 		)
 		(pin "17"
-			(uuid "6216ff86-3561-4d8d-808b-d1c33ea2c242")
+			(uuid "6a2f6320-6ee3-48b0-84cb-1c26b49168bf")
 		)
 		(pin "21"
-			(uuid "02483213-9dc1-427c-a51a-14018861237e")
+			(uuid "78d19521-89c5-4539-8eb2-034415765c62")
 		)
 		(pin "22"
-			(uuid "dbe1c362-6365-4e46-b8bd-9369091d7341")
+			(uuid "977eddca-88a3-48f1-a113-f2727db09d1c")
 		)
 		(pin "2"
-			(uuid "57bf67e9-cca0-411d-a8b1-1a262c5765b4")
+			(uuid "9361539f-e191-42a9-a789-1599e1966380")
 		)
 		(pin "20"
-			(uuid "b3a2d132-fb24-4b5f-bd0d-d0b0d8664edb")
+			(uuid "ac87f318-d3f0-4d6a-b4a1-4c4a56196c06")
 		)
 		(pin "6"
-			(uuid "94e50449-b05c-4fa0-bf35-3ce5944b8b6c")
+			(uuid "d3cb91b2-952c-4957-8c47-e83a4eed0f87")
 		)
 		(pin "7"
-			(uuid "9552eabd-804f-4421-be65-722a059b7409")
+			(uuid "46d91721-75b6-4aeb-8369-c71791aaf7a0")
 		)
 		(pin "3"
-			(uuid "28649671-5840-4ced-b015-bf73fd96a09a")
+			(uuid "9431cfcc-9679-4d09-9557-130c5263cb69")
 		)
 		(pin "32"
-			(uuid "567689c3-16bb-4455-b373-8d7abfa91c66")
+			(uuid "254d11c7-1491-4901-968c-8b51e9b95080")
 		)
 		(pin "31"
-			(uuid "f114a311-da14-4020-8ff1-51c08d80db4c")
+			(uuid "a525067b-7587-4bbb-9872-8078d69c4be1")
 		)
 		(pin "9"
-			(uuid "f66696fe-c8a3-4551-855e-79dae819d06a")
+			(uuid "63c81981-0b6e-4d47-b6d2-1da3c6fa9629")
 		)
 		(pin "30"
-			(uuid "a93df6f6-104d-4ccc-b42a-ef4a157bfae6")
+			(uuid "bccf631e-79dc-42d4-afd1-6f2ba0cbac0f")
 		)
 		(pin "36"
-			(uuid "99701092-6829-4e2e-a184-f82d1d48cf84")
+			(uuid "02bbb1eb-51c2-41e0-bce1-b8c3f585493c")
 		)
 		(pin "29"
-			(uuid "e8d5e374-3b27-49e5-a1bf-58bdf7c448f2")
+			(uuid "71eec388-d4f3-48c3-b61f-fa4d374a4ab9")
 		)
 		(pin "10"
-			(uuid "0a01addc-679a-4261-a44d-3e950cf5783a")
+			(uuid "05434d2b-661c-47f7-958a-8abef25d9d70")
 		)
 		(pin "12"
-			(uuid "a5c03dfc-4ab8-47a6-8822-8876e5dc086d")
+			(uuid "58ee3d0a-2de8-4371-9b07-3cfd7dbcc6b5")
 		)
 		(pin "14"
-			(uuid "464a61f0-0eef-4286-b9b2-2a4a8de8da97")
+			(uuid "098832fc-d543-42be-860c-3478018035cb")
 		)
 		(pin "24"
-			(uuid "b8568ab4-f387-4417-bd2b-5efa4686cc12")
+			(uuid "823d61d1-9e76-4081-b417-2230ffa9c865")
 		)
 		(pin "34"
-			(uuid "7d2c76a1-f307-43c9-95a2-164b3ba8a1fa")
+			(uuid "0f33b365-f3c1-4ced-8475-30fc9239ea37")
 		)
 		(pin "26"
-			(uuid "fa774b3f-22ae-4fc5-bfe0-ceabfb12f10b")
+			(uuid "8b8b12f5-c1c8-43c3-8031-82aa29a0b6ff")
 		)
 		(pin "27"
-			(uuid "48652c8a-2aab-48c1-a199-17b349b4e4fb")
+			(uuid "4343a2b2-0f07-4605-8229-f0896e1148dc")
 		)
 		(pin "37"
-			(uuid "f852fb5b-9179-42bc-88e8-a409862c6544")
+			(uuid "341ce415-9d38-43f2-8f8f-73abd44d05b9")
 		)
 		(pin "28"
-			(uuid "a2f18a35-c19e-4516-b082-7872356e529e")
+			(uuid "8434283b-9c95-4973-b8eb-6c1e45640f0f")
 		)
 		(pin "4"
-			(uuid "4f45f31b-e358-409f-9063-d7e0df9cf876")
+			(uuid "cf7dff7f-042c-481c-8090-ca8ede49c5b8")
 		)
 		(pin "1"
-			(uuid "93d68daf-e054-470d-b14d-df30134d9bbd")
+			(uuid "c86c7408-22de-4928-b702-317cf35c4384")
 		)
 		(pin "5"
-			(uuid "349d2fe9-3cb5-4c67-823f-51fc3a8b400a")
+			(uuid "d05e249e-2b1a-4424-81dd-7fd4ccf78ee9")
 		)
 		(pin "8"
-			(uuid "6af66494-f52b-40d3-82ce-ad38b19a6d86")
+			(uuid "93329aff-5ee4-4b0f-b573-e3c544772715")
 		)
 		(pin "23"
-			(uuid "892db1de-43c9-4618-9e2c-ff6da31746f7")
+			(uuid "371ff31e-f6fb-49c8-bcf6-ac9c87cbfcf1")
 		)
 		(pin "11"
-			(uuid "427dccc7-6abe-46ad-a880-191d0febdfa5")
+			(uuid "d93265b4-2e6e-496c-9f64-83c4a2a48902")
 		)
 		(pin "15"
-			(uuid "25272991-1e63-4ae2-8b4f-3d192180748e")
+			(uuid "91cdc6b5-87e8-4a3f-ac9b-2f6f539171b3")
 		)
 		(pin "33"
-			(uuid "f264100a-80da-4a2d-b3da-3e911925b811")
+			(uuid "742e0067-aabd-402f-b0b1-3e215dcb9d13")
 		)
 		(pin "35"
-			(uuid "94b6af21-8b2b-432b-aaa1-2d2afdd27fa8")
+			(uuid "22b9342d-4b4c-4869-b6f5-5ae8674cc160")
 		)
 		(pin "25"
-			(uuid "e22b96a8-fe56-4bcf-9e5b-4673054b2db1")
+			(uuid "a18ebe6e-9877-4bfb-ba14-d17bddc4bdfc")
 		)
 		(instances
 			(project "GNSS"
@@ -7533,7 +7533,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "44db04f4-f6c8-4b35-85a1-6a2366059c87")
+			(uuid "f89ba618-b919-42e4-9606-f1a654207be2")
 		)
 		(instances
 			(project "GNSS"
@@ -7599,7 +7599,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0aa3a66-139b-4dd4-b487-b2d902cf73f4")
+			(uuid "a4806feb-9d55-488a-aae9-c7f5f48d2652")
 		)
 		(instances
 			(project "GNSS"
@@ -7628,7 +7628,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4u7"
 			(at 230.886 42.926 0)
 			(effects
 				(font
@@ -7797,10 +7797,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "06e3ce17-9fcb-44d2-baa7-9842011bcbda")
+			(uuid "0335b6f8-169a-41c1-baf4-92d572e6f327")
 		)
 		(pin "2"
-			(uuid "f9e61fb5-93af-42f6-838b-452c1f923f70")
+			(uuid "09424a58-e48d-42a5-b073-76ee40c09398")
 		)
 		(instances
 			(project "GNSS"
@@ -7866,7 +7866,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "01a9b932-a4d8-4dd0-8215-589983a494df")
+			(uuid "33dd6d69-2f81-4600-a53f-4d8e8f09aea9")
 		)
 		(instances
 			(project "GNSS"
@@ -7932,10 +7932,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e71a688b-3e74-4c73-a202-a93518183a25")
+			(uuid "c4f44fe6-78e9-43cb-beb6-1d3ff5ded16a")
 		)
 		(pin "1"
-			(uuid "0dee68a5-f0eb-4c8a-a28e-7aebba892a60")
+			(uuid "6a8471d0-6ac4-404c-8f85-7b15b611c641")
 		)
 		(instances
 			(project "GNSS"
@@ -8001,7 +8001,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab5b3f24-7cf6-41eb-8fdd-06317a822d7f")
+			(uuid "531cf078-ea7a-4ce2-9d83-15afda9b9509")
 		)
 		(instances
 			(project "GNSS"
@@ -8030,7 +8030,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 242.316 42.926 0)
 			(effects
 				(font
@@ -8199,10 +8199,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "845d7b3e-5127-4a58-801b-4c7297af3e9b")
+			(uuid "61a08416-b6ac-4b87-b1d9-ebcbc1e1af03")
 		)
 		(pin "2"
-			(uuid "a08f1bab-cfa5-4022-a0f4-cdfa5b5ce3e2")
+			(uuid "4a3747cd-f5b1-4368-9d93-ae58aee33b22")
 		)
 		(instances
 			(project "GNSS"
@@ -8268,7 +8268,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5be0950b-d0d4-4f60-b711-1944df6d97a3")
+			(uuid "21509a83-b980-4774-9e8c-9d94d74a10e7")
 		)
 		(instances
 			(project "GNSS"
@@ -8333,7 +8333,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5df06c62-790c-4564-866b-5b9ebf93cff3")
+			(uuid "52b0a31e-1dd1-43d7-a9fe-b37ddb0f96c6")
 		)
 		(instances
 			(project "GNSS"
@@ -8399,10 +8399,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "96d7649a-8586-4713-a833-dd721e5bfa99")
+			(uuid "c06158b0-ce89-4f56-96ad-741c5f0ab955")
 		)
 		(pin "1"
-			(uuid "33b3d09a-78b1-408d-9e4b-17b1f16304ae")
+			(uuid "c12f633f-c48d-47aa-b84e-cdf41aa82be6")
 		)
 		(instances
 			(project "GNSS"
@@ -8467,7 +8467,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2814be87-d798-45e5-851e-7ef59303f28a")
+			(uuid "dfd5ab06-d230-45a7-90f2-c84c7749f408")
 		)
 		(instances
 			(project "GNSS"
@@ -8496,7 +8496,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 237.236 42.926 0)
 			(effects
 				(font
@@ -8665,10 +8665,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f4d589b-0344-43c6-8408-3f7d3cc9a42d")
+			(uuid "0379fd34-aa8d-4afd-855f-0ea0494bb258")
 		)
 		(pin "2"
-			(uuid "0917b7bf-d37c-4a76-aa47-1107974000dd")
+			(uuid "bf3a7140-7a63-407c-8309-d01abc1b12ca")
 		)
 		(instances
 			(project "GNSS"
@@ -8825,16 +8825,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9deb250e-7159-44d9-a35b-58089ea2eea2")
+			(uuid "a8d2c3e6-4dfe-407d-8ca7-2d679babbbc4")
 		)
 		(pin "3"
-			(uuid "ef211262-7598-4937-b4ef-3d5761ac6189")
+			(uuid "618f9195-505f-4e60-983a-851b9684d1b2")
 		)
 		(pin "4"
-			(uuid "a3ca4690-fd0e-4c2a-9875-b9be87910244")
+			(uuid "697ade20-5d2f-4a59-9c39-3ef0eff5e6ef")
 		)
 		(pin "2"
-			(uuid "8f36a5aa-a646-4c1a-9397-a4f202f5acf7")
+			(uuid "22d51bbd-da17-4ae1-b607-86f62d7a2ee6")
 		)
 		(instances
 			(project "GNSS"
@@ -8862,7 +8862,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 117.094 74.676 0)
 			(effects
 				(font
@@ -9030,10 +9030,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f676fce0-e000-4d7b-908f-64c2c0a0f0c7")
+			(uuid "09402d03-228a-4ed4-a324-cea1e5f66d40")
 		)
 		(pin "2"
-			(uuid "dbba98e3-02e4-483b-b6d3-0523b57282f2")
+			(uuid "c66fce57-e934-4600-a7e2-262f6603e336")
 		)
 		(instances
 			(project "GNSS"
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d95f1b-01cc-43ad-bc10-fcfd2e75a657")
+			(uuid "035be081-f995-4102-99b0-cf353b960a3f")
 		)
 		(instances
 			(project "GNSS"
@@ -9165,10 +9165,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "30c45409-e336-4e4a-bca0-9e10c193dc2b")
+			(uuid "e542dfb3-4f58-4822-b27c-a5af9b39e7c5")
 		)
 		(pin "1"
-			(uuid "116e5e96-8c01-4c68-9325-a458256257f9")
+			(uuid "ee7b690b-02f6-4a92-b757-3a62ec6d45dd")
 		)
 		(instances
 			(project "GNSS"
@@ -9197,7 +9197,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 241.046 68.326 0)
 			(effects
 				(font
@@ -9366,10 +9366,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "584b64e0-ef1c-47e4-992b-4ea0d0da884f")
+			(uuid "d74ce06f-41e1-4922-a3a1-c5fbcbd580be")
 		)
 		(pin "2"
-			(uuid "5ccc1da2-f5aa-427e-9407-1592dbe0cc94")
+			(uuid "e30065ae-8c45-4a9f-9b86-b274b9f56471")
 		)
 		(instances
 			(project "GNSS"
@@ -9435,7 +9435,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a054d6f-6f3e-401b-ab8f-fd1fcd32a976")
+			(uuid "537d06d2-b828-4f09-8675-ed61ada6ed5b")
 		)
 		(instances
 			(project "GNSS"
@@ -9464,7 +9464,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 247.396 42.926 0)
 			(effects
 				(font
@@ -9633,10 +9633,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3c0042e-dc30-427b-a565-75e82a41bdc4")
+			(uuid "a3ab086a-0f4f-4b54-aa88-fcfded4348ad")
 		)
 		(pin "2"
-			(uuid "44525bb8-0539-44bf-a7ec-f32f1f822c2f")
+			(uuid "0838a910-ce7e-41c1-98da-d88467199f10")
 		)
 		(instances
 			(project "GNSS"
@@ -9702,10 +9702,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9854bed-886f-4630-b148-deea3722d9ac")
+			(uuid "712ba754-128d-4dc7-8faf-d968cfa215aa")
 		)
 		(pin "1"
-			(uuid "93485ac3-1792-4db7-b334-511ecabb9251")
+			(uuid "08fc688d-72a1-494c-a008-f7aa69288a69")
 		)
 		(instances
 			(project "GNSS"
@@ -9735,7 +9735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18p"
 			(at 60.96 138.4299 90)
 			(effects
 				(font
@@ -9904,10 +9904,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "81bd4332-9961-4fb5-839f-d64e2e615490")
+			(uuid "c1cdc404-8509-4ec3-a2f7-dd3d36381cb5")
 		)
 		(pin "2"
-			(uuid "a17776a5-0111-448d-87cc-2595c3396c83")
+			(uuid "3ab0ca91-df7c-4431-b7ce-049e2826d169")
 		)
 		(instances
 			(project "GNSS"
@@ -9974,7 +9974,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9e9769a-f0a8-4a12-bd27-f669d62257c0")
+			(uuid "d095a580-aa15-4805-96dd-df673c44d6c3")
 		)
 		(instances
 			(project "GNSS"
@@ -10040,7 +10040,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2479c836-4bec-4b28-a178-73df0570b7e9")
+			(uuid "5b02588a-b4a9-4263-83ef-2ac6ce66b42a")
 		)
 		(instances
 			(project "GNSS"
@@ -10070,7 +10070,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18p"
 			(at 60.96 99.0599 90)
 			(effects
 				(font
@@ -10239,10 +10239,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "18666f37-4398-4172-a675-ea6387756fd6")
+			(uuid "32440c2f-2a5e-481b-86d5-49d10d8d8d12")
 		)
 		(pin "2"
-			(uuid "5e72f38e-9491-4c2d-b654-2a444dc155ca")
+			(uuid "283877aa-e374-4552-9043-e4d5ba86ceb0")
 		)
 		(instances
 			(project "GNSS"
@@ -10271,7 +10271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 262.636 42.926 0)
 			(effects
 				(font
@@ -10440,10 +10440,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b85b0ba-13cd-460e-86fe-4a5445bf9d7c")
+			(uuid "6bcbe6a6-9a4e-42f0-9f81-e541925f5ba0")
 		)
 		(pin "2"
-			(uuid "2ac74a09-19d2-4a99-baa6-260ab0766332")
+			(uuid "cf7df304-6311-41db-952f-e6144ef00c86")
 		)
 		(instances
 			(project "GNSS"
@@ -10509,10 +10509,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3bd90205-cea7-462f-a9d3-ed49a54ba39a")
+			(uuid "46b2c746-a33e-4b83-9ca0-4f8376268171")
 		)
 		(pin "1"
-			(uuid "658fa9df-fd21-497b-9f0b-b1062f423578")
+			(uuid "0ac55d4b-a406-4203-8736-a8b6a7e0a906")
 		)
 		(instances
 			(project "GNSS"
@@ -10577,7 +10577,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b7063df-3375-4c2e-8731-c5df196e5c28")
+			(uuid "e796146b-0ce2-4ee0-9bc7-a620831b4323")
 		)
 		(instances
 			(project "GNSS"
@@ -10606,7 +10606,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 257.556 42.926 0)
 			(effects
 				(font
@@ -10775,10 +10775,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7042c622-8079-467d-855e-a0df2783598a")
+			(uuid "c33e732d-6d2d-443f-aa29-9960364d1877")
 		)
 		(pin "2"
-			(uuid "63165f6f-21e3-4015-bdbe-5461ce1b45bd")
+			(uuid "b0d7f3b0-cd1f-4fc5-b70b-be4eb94cefde")
 		)
 		(instances
 			(project "GNSS"
@@ -10807,7 +10807,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 235.966 68.326 0)
 			(effects
 				(font
@@ -10976,10 +10976,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b92fe68-f22f-4c02-a21d-ba3e195f3b18")
+			(uuid "1ed045b3-e0c5-4606-813c-0c2cd2b4759c")
 		)
 		(pin "2"
-			(uuid "98312d01-a031-4ae9-a799-df063e59770d")
+			(uuid "5c74ee32-f859-4827-9888-63831ace628c")
 		)
 		(instances
 			(project "GNSS"
@@ -11045,7 +11045,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e941238-4ffa-4482-9be2-f4b6de1eca08")
+			(uuid "7f105cf0-19cf-4a63-bfe4-2bde05bbc190")
 		)
 		(instances
 			(project "GNSS"
