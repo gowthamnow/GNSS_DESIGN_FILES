@@ -4241,6 +4241,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BC849"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC849"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC849_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC849_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ZED-F9P-05B:ZED-F9P-05B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6634,7 +6824,7 @@
 		(uuid "2fe6f1fe-5466-4cf0-b15a-631730f92ab4")
 	)
 	(junction
-		(at 80.01 146.05)
+		(at 115.57 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31a87604-5822-4439-b554-0cbfc97cba1d")
@@ -6742,7 +6932,7 @@
 		(uuid "6767b217-e984-4b0c-9e19-d84c75cb0162")
 	)
 	(junction
-		(at 80.01 166.37)
+		(at 121.92 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c0ddac-e090-40b5-9806-12ed5974ad44")
@@ -6772,7 +6962,7 @@
 		(uuid "855a8109-4410-4532-81c5-a8f21b19bd39")
 	)
 	(junction
-		(at 74.93 166.37)
+		(at 116.84 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4e03c7-c13a-4634-a012-0ad121e23180")
@@ -6826,7 +7016,7 @@
 		(uuid "ac4c3f92-4054-401f-bf5e-23b41410705d")
 	)
 	(junction
-		(at 68.58 166.37)
+		(at 110.49 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aceec132-c0d6-4e66-8888-d26fb3004a21")
@@ -7051,16 +7241,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 123.19) (xy 38.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b85ead-e462-4712-8d37-777ad5518e16")
-	)
-	(wire
-		(pts
 			(xy 60.96 44.45) (xy 52.07 44.45)
 		)
 		(stroke
@@ -7098,6 +7278,16 @@
 			(type default)
 		)
 		(uuid "05975018-7161-4b8b-b1a3-9b789a2b2038")
+	)
+	(wire
+		(pts
+			(xy 80.01 134.62) (xy 80.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c83c92c-fe28-4912-9aa3-fa5efed80152")
 	)
 	(wire
 		(pts
@@ -7141,7 +7331,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 184.15) (xy 55.88 184.15)
+			(xy 110.49 184.15) (xy 97.79 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7221,7 +7411,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 26.67) (xy 203.2 26.67)
+			(xy 194.31 26.67) (xy 204.47 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7248,16 +7438,6 @@
 			(type default)
 		)
 		(uuid "1fa89281-7a3f-465b-b36c-a1e13486470d")
-	)
-	(wire
-		(pts
-			(xy 223.52 26.67) (xy 231.14 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2133040a-c1c7-4a0d-a2e3-1f23af49ba1c")
 	)
 	(wire
 		(pts
@@ -7351,7 +7531,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 166.37) (xy 74.93 170.18)
+			(xy 38.1 133.35) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e521370-1b89-4f2e-9b48-66929e3fc467")
+	)
+	(wire
+		(pts
+			(xy 116.84 166.37) (xy 116.84 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7408,6 +7598,16 @@
 			(type default)
 		)
 		(uuid "33a9876d-b313-423a-b1d9-28c920d2fecd")
+	)
+	(wire
+		(pts
+			(xy 218.44 19.05) (xy 219.71 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bf63dc-288a-4589-9f60-b024b796eeb3")
 	)
 	(wire
 		(pts
@@ -7481,6 +7681,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 19.05) (xy 229.87 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f087b9d-d025-4201-843f-9eed129f0b38")
+	)
+	(wire
+		(pts
 			(xy 143.51 107.95) (xy 132.08 107.95)
 		)
 		(stroke
@@ -7501,7 +7711,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 74.93 166.37)
+			(xy 110.49 166.37) (xy 116.84 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7591,7 +7801,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 189.23) (xy 55.88 189.23)
+			(xy 71.12 153.67) (xy 72.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5ef828-a6f7-468a-991c-ea4fa7b58853")
+	)
+	(wire
+		(pts
+			(xy 121.92 189.23) (xy 97.79 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7691,7 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 175.26) (xy 68.58 184.15)
+			(xy 110.49 175.26) (xy 110.49 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7701,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 175.26) (xy 133.35 177.8)
+			(xy 144.78 175.26) (xy 144.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7731,7 +7951,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 166.37) (xy 80.01 170.18)
+			(xy 121.92 166.37) (xy 121.92 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7751,6 +7971,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 160.02) (xy 38.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698a1c89-6ebb-4e55-9178-3ce4eec6cb21")
+	)
+	(wire
+		(pts
 			(xy 194.31 151.13) (xy 194.31 156.21)
 		)
 		(stroke
@@ -7761,13 +7991,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 177.8) (xy 137.16 177.8)
+			(xy 144.78 177.8) (xy 148.59 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d206a48-9266-469e-88b3-1e6b2465f96f")
+	)
+	(wire
+		(pts
+			(xy 240.03 19.05) (xy 247.65 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e47c3b9-ecbc-4585-ac95-25ae42e24849")
 	)
 	(wire
 		(pts
@@ -7791,7 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 170.18) (xy 62.23 166.37)
+			(xy 104.14 170.18) (xy 104.14 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7861,7 +8101,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 175.26) (xy 152.4 177.8)
+			(xy 163.83 175.26) (xy 163.83 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7881,16 +8121,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 27.94 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2d6bdc-34e4-450e-a6f6-375707f8aee5")
-	)
-	(wire
-		(pts
 			(xy 194.31 102.87) (xy 194.31 105.41)
 		)
 		(stroke
@@ -7898,6 +8128,16 @@
 			(type default)
 		)
 		(uuid "807de658-478b-49f1-9a16-0c7f29dbc618")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 80.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b6c006-782f-4428-a1b1-4439ee5cb642")
 	)
 	(wire
 		(pts
@@ -7961,7 +8201,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 181.61) (xy 62.23 181.61)
+			(xy 97.79 181.61) (xy 104.14 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8001,27 +8241,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 148.59) (xy 22.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc8cf47-469d-4520-9e77-570d9807a101")
-	)
-	(wire
-		(pts
-			(xy 22.86 144.78) (xy 29.21 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cdc6b41-4761-4458-bc0e-07dfc5be79e5")
-	)
-	(wire
-		(pts
-			(xy 74.93 166.37) (xy 80.01 166.37)
+			(xy 116.84 166.37) (xy 121.92 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8038,16 +8258,6 @@
 			(type default)
 		)
 		(uuid "8f9adfe6-90ed-4b9c-82d4-8db07f9c208f")
-	)
-	(wire
-		(pts
-			(xy 231.14 30.48) (xy 231.14 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d584bb-ac01-4cbc-a1e6-0853aa84d32d")
 	)
 	(wire
 		(pts
@@ -8071,6 +8281,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 153.67) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971fe87f-ce92-4467-b947-69884c1d7fca")
+	)
+	(wire
+		(pts
 			(xy 194.31 97.79) (xy 194.31 100.33)
 		)
 		(stroke
@@ -8078,16 +8298,6 @@
 			(type default)
 		)
 		(uuid "9746984d-4d67-42f7-95ff-f2ded30b136e")
-	)
-	(wire
-		(pts
-			(xy 22.86 128.27) (xy 22.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e445ea-fe32-4276-84d7-f2fc85cd3815")
 	)
 	(wire
 		(pts
@@ -8151,6 +8361,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 35.56) (xy 218.44 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31d8a18-e212-4acb-b8dc-47d16d75afda")
+	)
+	(wire
+		(pts
+			(xy 218.44 19.05) (xy 218.44 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a371d4ec-c4d9-4b9d-ac2f-c988d5a1347e")
+	)
+	(wire
+		(pts
 			(xy 69.85 41.91) (xy 72.39 41.91)
 		)
 		(stroke
@@ -8158,6 +8388,16 @@
 			(type default)
 		)
 		(uuid "a3db769f-9d68-444b-b22d-077c467ec7c5")
+	)
+	(wire
+		(pts
+			(xy 80.01 161.29) (xy 80.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a499219a-dc6a-4df8-bb63-65fc92c26036")
 	)
 	(wire
 		(pts
@@ -8211,17 +8451,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 144.78) (xy 46.99 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33c1cb2-d20f-4de3-817c-d1c4083ceb5c")
-	)
-	(wire
-		(pts
-			(xy 80.01 146.05) (xy 76.2 146.05)
+			(xy 115.57 146.05) (xy 111.76 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8261,7 +8491,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 68.58 170.18)
+			(xy 110.49 166.37) (xy 110.49 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8301,7 +8531,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 146.05) (xy 143.51 146.05)
+			(xy 115.57 146.05) (xy 143.51 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8311,7 +8541,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.8) (xy 152.4 177.8)
+			(xy 158.75 177.8) (xy 163.83 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8321,13 +8551,33 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 186.69) (xy 74.93 186.69)
+			(xy 97.79 186.69) (xy 116.84 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1eeb14b-6d5e-4aff-876e-763d00567214")
+	)
+	(wire
+		(pts
+			(xy 209.55 26.67) (xy 210.82 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ef66fd-3b4b-4aeb-b39f-547ba3915580")
+	)
+	(wire
+		(pts
+			(xy 21.59 152.4) (xy 24.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d2df27-0188-4066-b520-de0799a303ab")
 	)
 	(wire
 		(pts
@@ -8338,16 +8588,6 @@
 			(type default)
 		)
 		(uuid "c3c57ce7-94ea-4b38-af97-70f712994ac2")
-	)
-	(wire
-		(pts
-			(xy 208.28 26.67) (xy 213.36 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d10da6-a281-431f-a09e-c99623553fd2")
 	)
 	(wire
 		(pts
@@ -8451,7 +8691,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 62.23 175.26)
+			(xy 104.14 181.61) (xy 104.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8461,7 +8701,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 138.43) (xy 80.01 140.97)
+			(xy 115.57 138.43) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8488,6 +8728,16 @@
 			(type default)
 		)
 		(uuid "d568b208-308d-4c7a-861a-7dc32f9e5d5f")
+	)
+	(wire
+		(pts
+			(xy 80.01 148.59) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62dc98c-6f3b-449d-a98f-bbfc68af862f")
 	)
 	(wire
 		(pts
@@ -8581,6 +8831,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 147.32) (xy 38.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea73132-f75c-4e75-91ff-04bb7a953ca7")
+	)
+	(wire
+		(pts
 			(xy 45.72 105.41) (xy 17.78 105.41)
 		)
 		(stroke
@@ -8598,16 +8858,6 @@
 			(type default)
 		)
 		(uuid "dfc84bbd-97b4-49dd-9f8c-a342971655a2")
-	)
-	(wire
-		(pts
-			(xy 52.07 123.19) (xy 48.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04ade9d-9b60-4cfa-85bf-e6c6130a5a31")
 	)
 	(wire
 		(pts
@@ -8641,7 +8891,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 186.69) (xy 74.93 175.26)
+			(xy 116.84 186.69) (xy 116.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8681,7 +8931,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 175.26) (xy 80.01 189.23)
+			(xy 121.92 175.26) (xy 121.92 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8701,23 +8951,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 185.42) (xy 142.24 181.61)
+			(xy 153.67 185.42) (xy 153.67 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef75edd2-da06-47c3-a031-50a820a180af")
-	)
-	(wire
-		(pts
-			(xy 41.91 144.78) (xy 39.37 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef87d7a3-208f-4745-80e8-be667b0cfa15")
 	)
 	(wire
 		(pts
@@ -8741,6 +8981,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 128.27) (xy 38.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b752c6-57a4-43bf-a578-2f2369374ea7")
+	)
+	(wire
+		(pts
 			(xy 194.31 110.49) (xy 194.31 113.03)
 		)
 		(stroke
@@ -8748,6 +8998,16 @@
 			(type default)
 		)
 		(uuid "f1c5ade7-4edd-46bc-a196-71add3269f47")
+	)
+	(wire
+		(pts
+			(xy 29.21 152.4) (xy 30.48 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d3e112-900e-41ef-8eba-03a7f9b631db")
 	)
 	(wire
 		(pts
@@ -8771,7 +9031,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 166.37) (xy 68.58 166.37)
+			(xy 104.14 166.37) (xy 110.49 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8831,7 +9091,7 @@
 		(uuid "adb19eb2-838d-4215-a2fd-abfe119dda7b")
 	)
 	(label "SAFE_BOOT"
-		(at 142.24 185.42 0)
+		(at 153.67 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8851,17 +9111,6 @@
 			(justify left bottom)
 		)
 		(uuid "14f3d1b8-997f-41d1-bc66-d9c1d3875d14")
-	)
-	(label "RTK_STAT"
-		(at 50.8 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17196021-7fb4-4f55-adf2-987f43ba1943")
 	)
 	(label "V_BCKP"
 		(at 240.03 139.7 0)
@@ -8885,6 +9134,17 @@
 		)
 		(uuid "3085c401-7f51-4d9a-bfe9-160fc07ffa03")
 	)
+	(label "RTK_STAT"
+		(at 21.59 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42695796-2e19-4d8a-a87c-b34cd48a17b4")
+	)
 	(label "ANT_OFF"
 		(at 218.44 110.49 0)
 		(fields_autoplaced yes)
@@ -8897,13 +9157,13 @@
 		(uuid "52ddaca2-35bb-4dd4-b1f7-dc9158f63ae7")
 	)
 	(label "GEOFENCE"
-		(at 52.07 123.19 0)
+		(at 60.96 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9a5e2e14-2822-424e-8ed7-f057a44b7e42")
 	)
@@ -8986,7 +9246,7 @@
 	)
 	(global_label "GN_MOSI"
 		(shape input)
-		(at 55.88 184.15 180)
+		(at 97.79 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8997,7 +9257,7 @@
 		)
 		(uuid "02d1e182-689a-49c6-b29f-91b956fca3a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7305 184.15 0)
+			(at 86.6405 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9032,7 +9292,7 @@
 	)
 	(global_label "GN_MISO"
 		(shape input)
-		(at 55.88 181.61 180)
+		(at 97.79 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9043,29 +9303,7 @@
 		)
 		(uuid "3a3c5e72-99a7-4107-87b9-9e48c7f502a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7305 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GN_TIMEPULSE"
-		(shape input)
-		(at 198.12 26.67 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ac8bf73-d1ad-4189-9874-6ebd11fb0f6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 43.3832 90)
+			(at 86.6405 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9315,7 @@
 	)
 	(global_label "RESET_GNSS"
 		(shape input)
-		(at 76.2 146.05 180)
+		(at 111.76 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9087,7 +9325,7 @@
 		)
 		(uuid "49db7b55-c7dd-4853-85e7-c71c6d409d13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.4826 146.05 0)
+			(at 97.0426 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9382,7 @@
 	)
 	(global_label "GN_SCK"
 		(shape input)
-		(at 55.88 189.23 180)
+		(at 97.79 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9154,7 +9392,7 @@
 		)
 		(uuid "7fdc8a42-9fa9-4217-93f6-dba59396a25d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.5772 189.23 0)
+			(at 87.4872 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9493,7 @@
 	)
 	(global_label "GN_CS"
 		(shape input)
-		(at 55.88 186.69 180)
+		(at 97.79 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9265,7 +9503,29 @@
 		)
 		(uuid "bc9d6cdb-8ca5-4109-bf57-e50dc3ee0d36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.8472 186.69 0)
+			(at 88.7572 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GN_TIMEPULSE"
+		(shape input)
+		(at 218.44 19.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd7b1726-c332-45f4-9a88-295fe4b95599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7268 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,10 +9765,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "803c43a3-4cf7-450e-9cdc-4beddb6372ba")
+			(uuid "f802c5b4-2195-42a3-bcbe-b5a9cb9869df")
 		)
 		(pin "2"
-			(uuid "39f1bb13-447d-4f07-920d-ee6184b474c6")
+			(uuid "e77e1db2-95b6-4685-bef3-875ebe043a8b")
 		)
 		(instances
 			(project "GNSS"
@@ -9683,25 +9943,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "821821b7-0619-46a0-9bd3-1692da9a67c5")
+			(uuid "3e5ec405-72d8-47ce-8fe6-ba1e9f3858e7")
 		)
 		(pin "3"
-			(uuid "820cb49c-58b6-447c-a97e-85a056cd7e28")
+			(uuid "7097e06f-f7dd-4bf9-b5b6-cafde1750325")
 		)
 		(pin "6"
-			(uuid "d45e75e7-fdf8-4dd5-9263-b50cc3258850")
+			(uuid "bdb055d2-86b1-4793-ae07-141d894a154a")
 		)
 		(pin "7"
-			(uuid "2b1bee56-8930-4630-b213-6a3894261fdf")
+			(uuid "3225e694-a08f-402d-9ffa-8b7e1a09f64e")
 		)
 		(pin "5"
-			(uuid "19521cce-d711-42df-bfa1-19d37f7b414a")
+			(uuid "ea1741e2-085e-43f7-9121-88c6ec26f203")
 		)
 		(pin "2"
-			(uuid "632bb325-0a2e-4d3b-a60d-07c82f4250dd")
+			(uuid "915bdfb2-1a25-4179-8458-4805bb01c1c8")
 		)
 		(pin "4"
-			(uuid "4246410c-17a1-4adf-abd9-cb36696196f1")
+			(uuid "ec26447e-6620-4b37-9a27-880fa4225d72")
 		)
 		(instances
 			(project "GNSS"
@@ -9768,7 +10028,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c72c500b-3592-4d44-a37c-2b87a7d6a203")
+			(uuid "54746ace-9f82-47fc-bbea-ec9bb85ed501")
 		)
 		(instances
 			(project "GNSS"
@@ -9833,7 +10093,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c4f2cf1-375d-4e53-b098-5da81e8860a6")
+			(uuid "10120cf1-b82e-45cf-8849-a45820be9de3")
 		)
 		(instances
 			(project "GNSS"
@@ -9846,7 +10106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 148.59 0)
+		(at 38.1 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9855,7 +10115,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bfecb56-9962-4a1e-bc85-1ab16c76070c")
 		(property "Reference" "#PWR0182"
-			(at 22.86 154.94 0)
+			(at 38.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +10124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 153.67 0)
+			(at 38.1 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +10132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 148.59 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +10141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 148.59 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 148.59 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10159,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e2c0428-133d-4dc5-9253-73090d072a8f")
+			(uuid "1cbb1716-7462-48ef-9895-5691998bebc3")
 		)
 		(instances
 			(project "GNSS"
@@ -9966,12 +10226,156 @@
 			)
 		)
 		(pin "1"
-			(uuid "43048003-c14d-45a6-b571-46c9bf243bb3")
+			(uuid "982aa636-6edd-4801-9893-f11c36d7d4f6")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 35.56 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "221acfb0-d738-4aaf-bbbf-72803c8a27ec")
+		(property "Reference" "Q8"
+			(at 40.64 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 40.386 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 40.64 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 35.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f32c39-65b2-4c31-9e09-2893cddd6545")
+		)
+		(pin "2"
+			(uuid "522a63b2-fc3c-4d12-8d22-84e01e2a1a67")
+		)
+		(pin "3"
+			(uuid "4b310cf4-b9b3-4965-abd5-ae8a9a831576")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 207.01 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23572548-a069-4bfb-99af-7c50ebd5d7c4")
+		(property "Reference" "R44"
+			(at 206.756 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 201.676 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 207.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bfd73f9-fcc5-4805-b6ab-95c32b8956e6")
+		)
+		(pin "1"
+			(uuid "3baabd22-8c61-4029-b4e2-93d41e564c87")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -10032,10 +10436,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dd08d95b-fe33-4a3a-8f69-1bb747815245")
+			(uuid "fb8fb30b-be31-40c8-879c-bb9a3d8199d1")
 		)
 		(pin "1"
-			(uuid "2eb5c1c4-2a5f-4448-ab8f-3714c6eadedf")
+			(uuid "0a7ea21d-11f7-4f71-8eef-ff5e47467108")
 		)
 		(instances
 			(project "GNSS"
@@ -10101,7 +10505,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b342d908-5de8-455e-be04-e83ddbed8a16")
+			(uuid "aa14ae7f-1513-4c2f-b2c6-b7f25845c2df")
 		)
 		(instances
 			(project "GNSS"
@@ -10166,7 +10570,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "45a3032b-5e3f-42b0-a1a9-e756636f1a44")
+			(uuid "cd958c5c-d2bc-4688-9cbb-f5ea3fcdc7c1")
 		)
 		(instances
 			(project "GNSS"
@@ -10179,7 +10583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 62.23 172.72 180)
+		(at 104.14 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10187,7 +10591,7 @@
 		(dnp no)
 		(uuid "2d82e338-28ea-4359-bbbd-43436ed0e789")
 		(property "Reference" "R62"
-			(at 60.198 172.466 90)
+			(at 102.108 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10600,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 60.452 167.386 90)
+			(at 102.362 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 62.23 172.72 0)
+			(at 104.14 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 172.72 0)
+			(at 104.14 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10627,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 62.23 172.72 0)
+			(at 104.14 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,10 +10636,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d03450b1-2790-436b-a2df-9bc4b8edc41a")
+			(uuid "35d65d93-685e-4df8-9764-4f0cddf0393f")
 		)
 		(pin "1"
-			(uuid "ed796e36-de6d-42a2-acab-214b9ee84f78")
+			(uuid "097a76f0-466e-4150-84eb-bc6d1522bb59")
 		)
 		(instances
 			(project "GNSS"
@@ -10301,7 +10705,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f7d0ebb-b12b-4644-9452-70aa9b2257d3")
+			(uuid "ae04d405-7926-46e2-977c-db1df2839317")
 		)
 		(instances
 			(project "GNSS"
@@ -10508,10 +10912,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "008acd4f-34d4-432f-9246-d1be50ec5771")
+			(uuid "207c85e8-ba44-4755-979a-0e659346cc46")
 		)
 		(pin "2"
-			(uuid "ec3431ee-a4e4-46b5-bc32-c534e9a6bf99")
+			(uuid "c33d99b8-3996-40ad-8e9e-d22fd60fb784")
 		)
 		(instances
 			(project "GNSS"
@@ -10524,7 +10928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 30.48 0)
+		(at 218.44 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10533,7 +10937,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a387fa-25ff-4b2e-87f6-92febffb6831")
 		(property "Reference" "#PWR0128"
-			(at 231.14 36.83 0)
+			(at 218.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 35.56 0)
+			(at 218.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +10954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 30.48 0)
+			(at 218.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +10963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 30.48 0)
+			(at 218.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 30.48 0)
+			(at 218.44 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10981,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "08d1dd7d-07f4-4d0c-943f-2213445bbd9c")
+			(uuid "c566b902-61e7-4f98-8744-42a5015635d9")
 		)
 		(instances
 			(project "GNSS"
@@ -10644,7 +11048,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "46ab1a46-1714-41a1-9451-3568343c2d75")
+			(uuid "419ade27-3300-4c98-be25-e6808eeec8f5")
 		)
 		(instances
 			(project "GNSS"
@@ -10657,7 +11061,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 68.58 172.72 180)
+		(at 110.49 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10665,7 +11069,7 @@
 		(dnp no)
 		(uuid "35f59291-037c-4b93-8917-081fada20b7c")
 		(property "Reference" "R63"
-			(at 66.548 172.466 90)
+			(at 108.458 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +11078,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 66.802 167.386 90)
+			(at 108.712 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +11087,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 172.72 0)
+			(at 110.49 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +11096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 172.72 0)
+			(at 110.49 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,7 +11105,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 68.58 172.72 0)
+			(at 110.49 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,15 +11114,91 @@
 			)
 		)
 		(pin "2"
-			(uuid "ffac816f-7511-492f-b00c-5a862fdea5cb")
+			(uuid "4e8ecf50-3ffb-436d-a3f9-445198df8e64")
 		)
 		(pin "1"
-			(uuid "ce366bb6-3698-437b-85f5-23dd70136e64")
+			(uuid "7d523393-df13-497a-b540-d4a5cd2072cc")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 215.9 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bbb0a7-2ad6-4eb7-b400-6c0418a7eaef")
+		(property "Reference" "Q7"
+			(at 220.98 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 220.98 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 220.98 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641c2a21-10d1-4989-b617-63c0a8ca4ac7")
+		)
+		(pin "2"
+			(uuid "5cdc4574-a037-41a3-aaab-323606b7d5f9")
+		)
+		(pin "3"
+			(uuid "f823756b-52c0-429b-8192-00c34b078818")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -10861,10 +11341,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1eaa32d-b6a6-4793-b844-702dabdece2f")
+			(uuid "9481d60a-cb81-4893-b8ea-b1c6c45b4c7b")
 		)
 		(pin "2"
-			(uuid "a5ceddcb-5d14-40fd-a7df-cea33ff2b7be")
+			(uuid "e4c13868-0c05-451c-8e45-d6d1983b0b88")
 		)
 		(instances
 			(project "GNSS"
@@ -10930,10 +11410,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3cc7bec0-c8ea-443b-9b33-b735c69688dc")
+			(uuid "73ef9e8c-2078-4fff-8e7e-ad798598b00a")
 		)
 		(pin "1"
-			(uuid "9678155e-98ba-49f6-8ab5-68af7f6ee60a")
+			(uuid "bc7f529d-6a8d-463b-b341-f144e2930c05")
 		)
 		(instances
 			(project "GNSS"
@@ -10999,7 +11479,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cc86c1a-351d-4690-8a65-09391d9d38b9")
+			(uuid "9330415e-d19f-4966-b1ac-ab83e0c619a4")
 		)
 		(instances
 			(project "GNSS"
@@ -11065,10 +11545,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0f61df1-15a2-492c-aecd-6b9a038dff8d")
+			(uuid "669327d2-90ee-482c-8654-b07a8e546181")
 		)
 		(pin "2"
-			(uuid "4cfc26dc-59eb-484b-bc78-0547fd328cd6")
+			(uuid "9bc1cc7d-75fa-471d-9a4d-2d39dc72343f")
 		)
 		(instances
 			(project "GNSS"
@@ -11080,53 +11560,117 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
-		(at 39.37 144.78 180)
+		(lib_id "power:+3V3")
+		(at 80.01 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b50245d-def5-4119-ac47-e8e921578126")
-		(property "Reference" "D13"
-			(at 33.02 138.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SML-P12U2TT86R"
-			(at 33.02 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 39.37 144.78 0)
+		(uuid "4b740e04-3c89-409b-a071-e9aa0834e328")
+		(property "Reference" "#PWR0110"
+			(at 80.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SML-P12U2TT86R"
-			(at 39.37 144.78 0)
+		(property "Value" "+3V3_GN"
+			(at 79.248 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 144.78 0)
+		(property "Datasheet" ""
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997aed9f-b4b3-4d8d-bdeb-efe9b3ce11a3")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 237.49 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ead8a78-d632-4a21-ae3c-95a6236606a0")
+		(property "Reference" "R33"
+			(at 235.458 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560R"
+			(at 236.22 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 237.49 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,15 +11679,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f39c837-26e7-4b90-b7e5-1a36a5e7b9d4")
+			(uuid "8c9445bf-a3fd-4451-99f0-a25d59fc5fb6")
 		)
 		(pin "1"
-			(uuid "d5a910b6-977f-43d7-8efd-161146e17594")
+			(uuid "de1d7cdf-7ae7-4143-98be-5f2cabc0f9fa")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "D13")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11204,10 +11748,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "80c5c6b8-a3f3-416a-b7cc-4753deac3ec8")
+			(uuid "c9ed3e0b-52dd-4f91-b1ba-3528ef73042a")
 		)
 		(pin "1"
-			(uuid "2572fa34-0a01-4380-aaf6-63e052bd6f9a")
+			(uuid "1f08393e-11f3-4051-9b46-70cb10649ffb")
 		)
 		(instances
 			(project "GNSS"
@@ -11272,7 +11816,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9788b0ee-1a54-4dc1-9662-6e91580b2bd3")
+			(uuid "d3336c8a-c3d8-46ed-a991-aa24edce74c3")
 		)
 		(instances
 			(project "GNSS"
@@ -11338,10 +11882,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f783d5e9-b894-45b1-b139-9adb4ebfe65c")
+			(uuid "b5f1fc38-02b9-4b65-b187-1c7ed6c10a6d")
 		)
 		(pin "1"
-			(uuid "104a6000-4469-4687-bd92-4238472884ad")
+			(uuid "e9789360-216c-4b39-a631-38dbd4d180fd")
 		)
 		(instances
 			(project "GNSS"
@@ -11354,7 +11898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 172.72 180)
+		(at 116.84 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11362,7 +11906,7 @@
 		(dnp no)
 		(uuid "60fa7911-4725-402e-8c7f-704ba5427720")
 		(property "Reference" "R64"
-			(at 72.898 172.466 90)
+			(at 114.808 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11915,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 73.152 167.386 90)
+			(at 115.062 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11924,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 172.72 0)
+			(at 116.84 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +11933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 172.72 0)
+			(at 116.84 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11942,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 74.93 172.72 0)
+			(at 116.84 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,85 +11951,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3270ca6d-c019-4ec8-a27d-b5dddd7368ae")
+			(uuid "eea5f0b8-9f52-4f29-a23d-e66d2f4606f4")
 		)
 		(pin "1"
-			(uuid "b09374ff-df55-4c17-ae4a-97e7e06eef7c")
+			(uuid "097dd260-6df9-4f9a-b752-916330a07f92")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
-		(at 38.1 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6155c7a8-e922-443a-87b6-f13d42b8a64a")
-		(property "Reference" "D12"
-			(at 31.75 116.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SML-P12U2TT86R"
-			(at 31.75 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SML-P12U2TT86R"
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a54f741-aeb1-4c27-b039-fa3816c4adbe")
-		)
-		(pin "1"
-			(uuid "13e3bb65-33a9-49d9-b2a9-aa1caacdd156")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11546,10 +12020,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "23e28a52-e17f-496c-82e3-06fdb9dd26ef")
+			(uuid "dc9864e8-d383-4def-b4f7-ee97a822ed5d")
 		)
 		(pin "1"
-			(uuid "f79d7e4c-4db6-43d8-a06f-4bf51e668185")
+			(uuid "012e403e-54c6-4d68-b8f2-5d89561e2102")
 		)
 		(instances
 			(project "GNSS"
@@ -11615,7 +12089,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56160a7a-47a3-4d14-afba-103c1be012a8")
+			(uuid "61c845ad-934d-4c8c-af2d-9ad1754d33f5")
 		)
 		(instances
 			(project "GNSS"
@@ -11628,76 +12102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "657e984e-ca4c-492b-ab56-f8b9b89207c4")
-		(property "Reference" "R79"
-			(at 42.418 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560R"
-			(at 43.18 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 44.45 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21331682-ab56-451e-83ab-de75959338e4")
-		)
-		(pin "1"
-			(uuid "698b4504-7265-4aa6-a737-fa4335932209")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 80.01 143.51 0)
+		(at 115.57 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11705,7 +12110,7 @@
 		(dnp no)
 		(uuid "68256453-fce6-4384-94c4-1708ed02142c")
 		(property "Reference" "R15"
-			(at 74.93 139.954 0)
+			(at 110.49 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +12119,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 75.184 142.24 0)
+			(at 110.744 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +12128,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 143.51 0)
+			(at 115.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +12137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 143.51 0)
+			(at 115.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +12146,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 80.01 143.51 0)
+			(at 115.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,10 +12155,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e4b18fef-44a7-4f44-8a0d-3189e43b2546")
+			(uuid "952a5530-2154-4a66-869c-b5ad2eeba719")
 		)
 		(pin "1"
-			(uuid "064d4d51-b333-4727-8988-19f197246479")
+			(uuid "24a157cc-63c9-4bd2-91a6-99f06dbb70c9")
 		)
 		(instances
 			(project "GNSS"
@@ -11949,10 +12354,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0941b383-6f6f-4346-8199-9f57fec94100")
+			(uuid "6d593135-dba1-40d7-bd74-268365c9e991")
 		)
 		(pin "2"
-			(uuid "5952ac07-e6b3-4145-8945-82860ef35dec")
+			(uuid "9a60099e-8aec-4a64-8f09-5a0d3873118b")
 		)
 		(instances
 			(project "GNSS"
@@ -11965,7 +12370,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 133.35 172.72 180)
+		(at 144.78 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11973,7 +12378,7 @@
 		(dnp no)
 		(uuid "6bcae5e2-1d57-433c-b2d6-da817338cb2e")
 		(property "Reference" "R68"
-			(at 138.684 171.958 0)
+			(at 150.114 171.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +12387,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 130.81 170.18 90)
+			(at 142.24 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +12396,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.35 172.72 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +12405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 172.72 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12414,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 133.35 172.72 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,10 +12423,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8896bf93-23e1-4873-8871-797b609fc195")
+			(uuid "6a422876-80f1-4943-8bcc-de73995b50eb")
 		)
 		(pin "1"
-			(uuid "f22e3603-80c9-47ad-9d35-79ea43dd08d4")
+			(uuid "86b90aa6-dc12-4f0d-be08-1a6404fc8b11")
 		)
 		(instances
 			(project "GNSS"
@@ -12217,15 +12622,84 @@
 			)
 		)
 		(pin "P"
-			(uuid "c2ae7a95-1d5e-4412-bb66-c9055640dfa3")
+			(uuid "2171040b-b2fa-4f15-b7d4-9b5268c8fcf4")
 		)
 		(pin "N"
-			(uuid "fc8c5989-3ac3-45b1-9455-be19669ef5f4")
+			(uuid "19d102a3-a077-4c32-9b78-39c47dc3125f")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 68.58 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fedb9bb-a81f-46f2-bec3-094672aeeeb5")
+		(property "Reference" "R71"
+			(at 68.326 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 63.246 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "614d9331-e839-4a05-a65f-87d7f934fa2e")
+		)
+		(pin "1"
+			(uuid "1f629a38-de2b-433a-a35e-82d8cf6c08e6")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -12367,10 +12841,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c4b8494-1565-4dd2-ac75-f886d08cce74")
+			(uuid "7a941749-ae91-4764-a5a0-1f09e67b5bab")
 		)
 		(pin "2"
-			(uuid "8b54349e-89c7-4454-850a-df0eb2495703")
+			(uuid "e3d80229-fcb5-47c0-a363-a7de22bc93ba")
 		)
 		(instances
 			(project "GNSS"
@@ -12437,7 +12911,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fd37cde-0fde-4dfc-afc7-3a50608ebee9")
+			(uuid "ee062446-5d85-40eb-8d41-b3d78565222c")
 		)
 		(instances
 			(project "GNSS"
@@ -12503,7 +12977,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e23dc050-4810-4e55-b2cf-58803e9b9537")
+			(uuid "61eee8a2-9341-4486-a3a0-df765349472f")
 		)
 		(instances
 			(project "GNSS"
@@ -12569,150 +13043,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "89f1ef53-77ba-4761-afb6-0da61563dd38")
+			(uuid "561f0cb9-bc54-4f64-a7c9-bb7ec2973e79")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0195")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 45.72 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8000a65a-8902-41af-8685-e0be72fc8aba")
-		(property "Reference" "R67"
-			(at 43.688 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560R"
-			(at 44.45 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 45.72 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f8845a8-5ca4-4d1c-a159-4ccf67396814")
-		)
-		(pin "1"
-			(uuid "284467df-97d1-4ba7-854e-d70733256051")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 205.74 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80621bba-eb67-40b4-bbba-8afc24665f35")
-		(property "Reference" "R33"
-			(at 207.772 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560R"
-			(at 207.01 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 205.74 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a521a152-c6e8-44ad-9198-f060d5f03f17")
-		)
-		(pin "1"
-			(uuid "6765d2ee-21a1-4ee9-b243-4034b9885fe0")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12844,310 +13180,310 @@
 			)
 		)
 		(pin "43"
-			(uuid "6e77c8a1-5e24-4ae0-b0d1-30a6abfe9742")
+			(uuid "794a5ff3-c7b8-4eab-89f8-e98479f6fe7c")
 		)
 		(pin "48"
-			(uuid "5c3d3b25-ef81-4074-b866-d23c9e527767")
+			(uuid "6c895917-4061-4d4b-b3f6-cc40d4c123f2")
 		)
 		(pin "15"
-			(uuid "1858a643-dcde-40f5-8cf0-042389f55a7b")
+			(uuid "26b59e1d-7b87-4b44-9f9d-03e88af9b824")
 		)
 		(pin "41"
-			(uuid "4c0174c1-609f-4585-afc5-21fce96e1cd3")
+			(uuid "a1ad0c98-fc51-4956-b1ce-ed3373203a30")
 		)
 		(pin "102"
-			(uuid "fe6f4703-c5e3-489c-aedd-13b20985fde2")
+			(uuid "7de46074-4ac9-44dd-94dd-b19c85f055ec")
 		)
 		(pin "52"
-			(uuid "3ba41060-bce7-4602-8c10-b3f5097a1fac")
+			(uuid "e5da9998-26db-44a2-8dc0-45832e78c532")
 		)
 		(pin "38"
-			(uuid "132317ee-e95f-4f04-b33a-4e7e322e33b8")
+			(uuid "f66d908b-403a-4fd5-bfd8-41d4f3668623")
 		)
 		(pin "55"
-			(uuid "970a953b-c866-4f30-8ae7-aa617be34120")
+			(uuid "a877ebb9-0584-47a3-b8fc-b8a407373ac5")
 		)
 		(pin "57"
-			(uuid "4a6098cb-d923-423c-8a9b-44b0e045cfed")
+			(uuid "53b63019-73fe-43e7-a3ea-6d7aff45bba6")
 		)
 		(pin "100"
-			(uuid "091c7d90-6d4f-4e44-82f5-61b8f7517741")
+			(uuid "4604c86c-9147-48b0-98e1-d34322b0de17")
 		)
 		(pin "11"
-			(uuid "b0ce8d1b-70c1-449c-9cbc-4bffb54920eb")
+			(uuid "3348bb7b-5c02-45c9-a975-aa6c239fde7a")
 		)
 		(pin "16"
-			(uuid "93853eea-d52c-4383-80ac-f037e514aae2")
+			(uuid "b944a4c6-1a68-4bd4-83cd-5baaff2022b7")
 		)
 		(pin "20"
-			(uuid "43613866-7cb0-4b31-9f15-a081dab80766")
+			(uuid "6b99cb70-4906-47d9-a936-a8785e0f9645")
 		)
 		(pin "12"
-			(uuid "6f2b1e2a-7565-431a-8e0a-9d61e88150ff")
+			(uuid "606e41f1-1e01-4f2f-b9f8-6550556f5e63")
 		)
 		(pin "31"
-			(uuid "a7ec00bb-e4a5-444f-8902-f54051e4c002")
+			(uuid "4e853042-9f7a-4271-a0cf-a03da0c51c9d")
 		)
 		(pin "28"
-			(uuid "acc7f6c3-e140-47bf-8151-b8512b0c9c8f")
+			(uuid "4c9d0037-d1ab-4783-8f43-24c807f4cb19")
 		)
 		(pin "1"
-			(uuid "6e9b7936-6e04-4585-8ef3-e95aa3cbd235")
+			(uuid "8fa12b95-8880-4afe-bc92-f5a52f751aa4")
 		)
 		(pin "33"
-			(uuid "009b742a-09fb-4bc5-93cd-5083db14147d")
+			(uuid "ee2030d5-b19d-4fc3-b9a9-5aeb22aafe11")
 		)
 		(pin "25"
-			(uuid "b120571b-80f1-4ea6-8734-4c59ce2724f8")
+			(uuid "e9220f7e-f2a1-4795-9627-f950ae58589f")
 		)
 		(pin "34"
-			(uuid "a40f40f8-a10e-4680-9278-4cb82b9cfb2c")
+			(uuid "bba6671f-9130-45b7-bed9-97b589932a6a")
 		)
 		(pin "22"
-			(uuid "8475174b-6622-4aaf-a84c-0077a1a4057a")
+			(uuid "7c42b6ea-fae7-4d24-91d1-4553f75f42bd")
 		)
 		(pin "36"
-			(uuid "f01f02b1-c731-4d7e-892a-e2c72dec2b83")
+			(uuid "e3bb792e-4f86-4183-b053-13bf52b5d6e4")
 		)
 		(pin "37"
-			(uuid "0006d1bf-0135-4dce-a157-bd79fab4964d")
+			(uuid "3f0db4d0-738e-4c36-9619-7c6cf6adbd4b")
 		)
 		(pin "39"
-			(uuid "14e7c1c0-0ab5-4cc3-8265-1d933db1749f")
+			(uuid "08a67993-c339-4f79-909e-ca10763b45c5")
 		)
 		(pin "4"
-			(uuid "757b4b92-0378-4acd-b224-ceefc58270c5")
+			(uuid "4d994e8c-b176-4011-ac66-42fefa259567")
 		)
 		(pin "40"
-			(uuid "9ac66391-be14-4bda-943e-e52c2828dfa3")
+			(uuid "5864df85-a961-4458-886f-27d08675060a")
 		)
 		(pin "23"
-			(uuid "e1b802dc-871c-47c2-a761-978b772df79c")
+			(uuid "0e02097d-7019-46c5-975b-d76d752cd200")
 		)
 		(pin "3"
-			(uuid "6094d8fc-09a7-4b4f-b85c-c41169fa218f")
+			(uuid "c53cdc4e-d4d8-4f54-895a-2c23a5570295")
 		)
 		(pin "42"
-			(uuid "a094b440-d6e5-4d2d-8c83-14222d4748b4")
+			(uuid "9748b6c3-376e-440e-a566-c8b1621beab2")
 		)
 		(pin "14"
-			(uuid "1befe019-1114-485a-80cf-9bf7b5e238f6")
+			(uuid "c3af736c-d1ed-45d7-a5ca-b30b68de0f64")
 		)
 		(pin "19"
-			(uuid "597f3ddb-3828-45b5-8d03-12c807615f32")
+			(uuid "4773233b-3494-47b5-b67c-d889ff6e9df9")
 		)
 		(pin "18"
-			(uuid "edb28c6a-1c08-4df7-914a-3e5507e29c50")
+			(uuid "62ebac51-21ba-4759-a024-7e42b6ea50a1")
 		)
 		(pin "24"
-			(uuid "cccf5503-526f-4fba-9d5c-a44e550dfb8e")
+			(uuid "a5629fa5-eedf-4c41-b145-9dc53dd9c293")
 		)
 		(pin "10"
-			(uuid "9824b826-b300-4611-af74-11024694f013")
+			(uuid "ba9c2500-ab32-45e0-acbc-3dac23efb10a")
 		)
 		(pin "17"
-			(uuid "277be411-e392-41ae-9791-a367eea8346b")
+			(uuid "ae7bbaf3-f0f0-4140-8580-a111c55bda07")
 		)
 		(pin "26"
-			(uuid "d94f434e-cc64-4325-986c-c176b23c2b93")
+			(uuid "620b8e91-70f0-4734-bad6-56a3fa68369b")
 		)
 		(pin "101"
-			(uuid "8e23bab8-43ae-4350-87f5-5c8652e7da65")
+			(uuid "69562675-1100-4e49-acbc-d7f47884179c")
 		)
 		(pin "13"
-			(uuid "f3aa2ba6-b7a3-49af-a197-6c422e174b18")
+			(uuid "24b4c591-516e-4d91-9993-25a449615cb7")
 		)
 		(pin "2"
-			(uuid "b7fa5d53-5d06-4634-b6a7-a8011d5ad24c")
+			(uuid "a584016a-7283-425f-9eac-5eef3d7aaf17")
 		)
 		(pin "27"
-			(uuid "b5a924b4-2b7e-46ab-8619-0ec23debc833")
+			(uuid "51632597-df6b-4c08-bdf9-5198821d9951")
 		)
 		(pin "30"
-			(uuid "410e7ddf-cdc6-49a7-8953-ab3d9df1b2b0")
+			(uuid "f482c0d8-7393-417d-b17e-f4ae141f1184")
 		)
 		(pin "32"
-			(uuid "dff0ec34-a6c1-466d-8fd4-dbf307bed8c9")
+			(uuid "79f61594-2e76-4c77-afa2-26a50f6b59e9")
 		)
 		(pin "35"
-			(uuid "cfbffb41-60d4-49d5-a3ea-8fcb189f43b4")
+			(uuid "35f70bb8-4bee-4225-928d-ff6699274c2a")
 		)
 		(pin "44"
-			(uuid "f52122f1-1bcd-4060-b242-3a8fa182291b")
+			(uuid "10653e20-4b6f-474a-b9b0-8234e61f9294")
 		)
 		(pin "45"
-			(uuid "ba91f9f4-178e-41eb-a073-75b8d8db33ee")
+			(uuid "a8b27fbb-0c8a-40d0-9dc6-95b75dc4e07a")
 		)
 		(pin "47"
-			(uuid "d426d59c-0f5b-4e58-9c1e-61057a7e75b6")
+			(uuid "1aae1932-6423-4aa9-968a-65518cc7af26")
 		)
 		(pin "21"
-			(uuid "3441fff7-eccb-4aff-a7d7-e0b2c521c8f4")
+			(uuid "fbbfc7ee-8b38-40d4-81c0-b00ed6d5bf6e")
 		)
 		(pin "29"
-			(uuid "65efc73e-0f34-407b-98f5-6908b8e2490b")
+			(uuid "face14fe-5cff-41fe-892c-848d831f85c2")
 		)
 		(pin "46"
-			(uuid "6d7bee8f-07d7-4fff-a9a1-ac556382c386")
+			(uuid "635c2f85-0b64-454e-a136-934da6a6731d")
 		)
 		(pin "49"
-			(uuid "189a2d40-804f-42ac-9305-53820372c064")
+			(uuid "631eaa6f-72b2-443f-93df-d3c06e3a21d3")
 		)
 		(pin "5"
-			(uuid "cd3282b9-fc7b-4f81-bbcf-879242eb0cd8")
+			(uuid "1d72a2ea-def2-4d98-927e-dcabdd5f6045")
 		)
 		(pin "50"
-			(uuid "9ca42e1b-8a9c-414f-ab83-54f37f7f9100")
+			(uuid "a89ee4f8-eaf9-4ca5-b91a-0c7c70859563")
 		)
 		(pin "51"
-			(uuid "3cbb0719-96b1-4855-9b85-a69bed2b1568")
+			(uuid "347ce4a4-9aab-4240-beed-a17244c9bc8c")
 		)
 		(pin "53"
-			(uuid "bdc6a2ea-a0b1-4eb0-85db-fd0a21c457dc")
+			(uuid "542309a6-bd86-4f6d-8b64-9f2db3b4f59a")
 		)
 		(pin "54"
-			(uuid "f347383c-ffdc-4043-837c-b831acd79db6")
+			(uuid "aac8e1b9-ed53-4081-a4c7-30529bc6b011")
 		)
 		(pin "56"
-			(uuid "a0d213a7-43e9-47d6-afe7-26329e33e5b1")
+			(uuid "42b8b77c-c06f-4a25-ac78-4657fb3e9e9d")
 		)
 		(pin "58"
-			(uuid "169c5dc4-6039-457c-a744-36bee931a2b7")
+			(uuid "ebd96e7a-ca76-4b30-b9a3-8c86d637700b")
 		)
 		(pin "59"
-			(uuid "5f532678-6c8f-4af9-8b66-0f9c2f28852c")
+			(uuid "9b20b1f0-a1c0-4f83-9d6a-ba9964054521")
 		)
 		(pin "6"
-			(uuid "796fa929-1d70-4e81-a812-de091a4a49fe")
+			(uuid "5198e2c4-3bfc-49de-99bd-5ccc2c2ed110")
 		)
 		(pin "60"
-			(uuid "cde24dcb-95e8-4eb6-b9a5-63d4bdd1cd87")
+			(uuid "c7725d45-3e92-4681-a94a-4c129e234d69")
 		)
 		(pin "61"
-			(uuid "ee703693-8cb5-48ae-b6e4-90b71bb5c9f1")
+			(uuid "246b5ab9-f1cc-4573-a08f-6748b0d9f3a5")
 		)
 		(pin "62"
-			(uuid "a8e7fc67-d136-4f1b-8e82-1e233add1c84")
+			(uuid "f06d1181-6210-4a05-add5-a85535f22e86")
 		)
 		(pin "63"
-			(uuid "9fc487ab-e7bd-4e3d-8bd9-e9119d293f5f")
+			(uuid "ae01dd89-5ce1-478f-880f-0e3f8a1eca25")
 		)
 		(pin "64"
-			(uuid "94aad5f7-7894-4f73-ac92-928db733332e")
+			(uuid "9eae020c-761e-4d0f-93fc-55948cb04a30")
 		)
 		(pin "87"
-			(uuid "edae65dd-889b-485a-8ad5-26e48c644a6c")
+			(uuid "e03e4118-0f79-4305-9cde-edb206a5e569")
 		)
 		(pin "90"
-			(uuid "34598466-523c-470c-8432-7af36043b134")
+			(uuid "fe3fdbaa-f783-4387-96bb-3599f7799612")
 		)
 		(pin "96"
-			(uuid "8b5c0aba-6a8b-4957-932b-c41c7a200937")
+			(uuid "4a6aa2a8-0e09-471e-ad1a-c1df1369d39b")
 		)
 		(pin "65"
-			(uuid "fbb92d67-ac4c-4e78-a4a5-20373efa2ce7")
+			(uuid "8e4efccd-80e5-4393-a780-0f93301a4401")
 		)
 		(pin "73"
-			(uuid "ce40d857-2c3a-4e30-8e96-c21c12fd7ddc")
+			(uuid "58b60b90-fe49-45e6-89ac-aa9b55c91c4c")
 		)
 		(pin "76"
-			(uuid "2ce6052e-bcdc-4d56-9759-fb82817ecdda")
+			(uuid "0031e006-c47c-403a-a06d-e735fe1cc1e7")
 		)
 		(pin "78"
-			(uuid "8ee17c10-730c-4b66-a382-9638b32d3a42")
+			(uuid "b0c6d819-5c49-4f30-a7c8-d712f93d61cd")
 		)
 		(pin "81"
-			(uuid "5f738325-637f-44ed-b17e-641c26526345")
+			(uuid "52646572-2174-4ee1-80cc-4a6abcce5805")
 		)
 		(pin "97"
-			(uuid "0245c8a1-9980-4d96-9d0f-157fb61a7926")
+			(uuid "daa1222c-82fa-4806-a0a6-fa1c884ae5e9")
 		)
 		(pin "8"
-			(uuid "9edf8096-3d9e-46fd-9172-0f886ab068cc")
+			(uuid "d1a4bc7e-e5c6-484c-8402-b0c77448f07c")
 		)
 		(pin "99"
-			(uuid "3db49b2a-da4b-4acc-969f-f8844a1cccd3")
+			(uuid "d8cc3149-40e4-4cee-8da7-b5abb4c3c8ae")
 		)
 		(pin "89"
-			(uuid "8ab0196a-98a6-4a18-84cd-088b25307d84")
+			(uuid "8cd07825-6f26-4b1d-b2ca-4dc45f73eb0d")
 		)
 		(pin "67"
-			(uuid "2b2e8695-e7a1-4ac1-9d03-f5cc02c9aa1e")
+			(uuid "fbae57a6-821c-4aba-b064-3214f1212037")
 		)
 		(pin "68"
-			(uuid "6401b13a-d3ca-44c6-b615-5061315638b7")
+			(uuid "123f8b5f-3270-48b5-a89b-49d2a3f0623e")
 		)
 		(pin "7"
-			(uuid "57d8529e-38d6-412e-ac87-702e61e2283c")
+			(uuid "237ce10b-be60-46ba-aee0-871a4e19eed0")
 		)
 		(pin "9"
-			(uuid "51d8aa66-fb04-41ea-8982-5bccecd51fb9")
+			(uuid "fa322dd6-13c2-44e5-92fd-15a98a6dc1b0")
 		)
 		(pin "91"
-			(uuid "fa608d68-de24-498e-9cae-619cd929779f")
+			(uuid "e7c67b3e-5ce5-4ae9-ab16-1fa5120f3310")
 		)
 		(pin "79"
-			(uuid "a7ea61e9-5a61-4fe7-bcdd-5983a917529e")
+			(uuid "4256ef59-ec06-446f-8298-82d9057e623a")
 		)
 		(pin "94"
-			(uuid "9285ebd1-4f30-4060-8c4f-3e6dc14598ff")
+			(uuid "1e61e03e-8103-46c8-9ec2-4271750e3c03")
 		)
 		(pin "84"
-			(uuid "0d71bd93-3839-4640-ba75-075afda0f6d9")
+			(uuid "db7409a7-8a07-43ac-8f2a-818585c66531")
 		)
 		(pin "66"
-			(uuid "04663169-ae51-4223-8b40-1bed6afab8d0")
+			(uuid "0df69ec3-337d-4635-9015-d149e5a8828d")
 		)
 		(pin "86"
-			(uuid "60f153f0-28c8-4d69-89b5-3631364eeb68")
+			(uuid "3baa5b2c-f95a-4327-8d33-c9545f215824")
 		)
 		(pin "72"
-			(uuid "aa396ed5-0674-40f3-860a-6050f5d8307d")
+			(uuid "99089bb0-c332-45a0-b100-89ebc58aa941")
 		)
 		(pin "92"
-			(uuid "60967860-1b6f-45b1-9ee6-bbcd88af1698")
+			(uuid "3b71eddf-4875-4e11-a4b5-632fa66dc33e")
 		)
 		(pin "74"
-			(uuid "0ea4ee38-d36a-4037-ad92-4f69ee0742b2")
+			(uuid "696479f2-7c48-4b28-8620-14615359fb9a")
 		)
 		(pin "93"
-			(uuid "46449b09-f8da-4052-afbf-f81771fdc0ce")
+			(uuid "57ce2106-4bc7-4304-b768-94345f9b60fe")
 		)
 		(pin "77"
-			(uuid "19ffbf7e-cae3-4a81-9ff8-c5b8bd567dec")
+			(uuid "cf5b5e98-82ac-4e2b-9263-afe4e2369ce6")
 		)
 		(pin "80"
-			(uuid "a55b1af5-9e66-4bf2-869f-bdf655e8e548")
+			(uuid "98d4b62d-4600-45ad-84a6-20064f0b0d0c")
 		)
 		(pin "85"
-			(uuid "7811c9d9-ca8f-4304-9b37-78ce426f6e30")
+			(uuid "2d349fb7-bb55-49b6-b5b1-eae3be28b29d")
 		)
 		(pin "75"
-			(uuid "6593d766-32cc-4ca7-b5b2-d3c4b7e1b8b3")
+			(uuid "094efa9f-c551-4a22-9d67-3cada995a6b4")
 		)
 		(pin "70"
-			(uuid "601d3e7d-f1ca-4fe6-8337-d77fad5e98e7")
+			(uuid "2b2427d2-a4ed-4aaf-ad3d-f80508fb8c1c")
 		)
 		(pin "69"
-			(uuid "4f0e8564-538f-4c01-837b-324a0daa074d")
+			(uuid "631a6712-9002-4ec5-9783-31d9938027c4")
 		)
 		(pin "82"
-			(uuid "d5ec0251-03e5-4ccc-82b1-af429ac5f8d2")
+			(uuid "7a1309e8-3ac8-4ba1-858f-b5a245f3d7db")
 		)
 		(pin "83"
-			(uuid "13d91c1d-45fd-4d72-b6e4-fbb75e3fb696")
+			(uuid "848817ba-8724-452c-908e-0c78f7c54e04")
 		)
 		(pin "71"
-			(uuid "8b76a97b-e8ec-4193-8857-01df580f453b")
+			(uuid "7f645ba6-86d9-4a13-a4d8-88701cd9e834")
 		)
 		(pin "88"
-			(uuid "100a729a-d500-4d47-93a5-c1af712a8b96")
+			(uuid "e5ef4d06-36f5-4ac0-b7c2-b20a2c259001")
 		)
 		(pin "95"
-			(uuid "29fd16f1-86ae-4870-a12f-cdf898bede70")
+			(uuid "c65978f9-0eee-405c-9b2c-b93834b8ba8d")
 		)
 		(pin "98"
-			(uuid "44df5e29-0e5c-4d3a-8e4a-63170c05b876")
+			(uuid "49a81e3b-fbeb-44df-b437-c89ebaad4ae4")
 		)
 		(instances
 			(project "GNSS"
@@ -13213,7 +13549,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bef0665e-eb49-43c0-976a-47268a089e5d")
+			(uuid "a4c3c3f6-3663-44f3-a995-b896876d5fc4")
 		)
 		(instances
 			(project "GNSS"
@@ -13278,7 +13614,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2172783a-41b3-4575-9890-5363b5af89d3")
+			(uuid "38e270c8-bfab-45d1-8695-a2300fe170fe")
 		)
 		(instances
 			(project "GNSS"
@@ -13345,7 +13681,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e802409a-ec39-4c84-a66a-0e1fadd6cb98")
+			(uuid "08d5a611-1982-4e6b-98b2-e652f36dab11")
 		)
 		(instances
 			(project "GNSS"
@@ -13540,22 +13876,22 @@
 			)
 		)
 		(pin "A2"
-			(uuid "81c80637-82eb-492a-8b38-c928d8790e70")
+			(uuid "46d23577-ff1d-44cf-8d33-1f83e0e03350")
 		)
 		(pin "C1"
-			(uuid "33152142-c1cb-4582-be25-87a6b2af67cb")
+			(uuid "0babe1b8-f7c2-45a5-9093-3bc41ba75e89")
 		)
 		(pin "B1"
-			(uuid "29cc7d2a-76dd-44e4-a456-3d06e5cdde1d")
+			(uuid "87441c01-d014-4fd8-a72e-55d714618826")
 		)
 		(pin "B2"
-			(uuid "7d4b2696-fa64-4009-8af0-4f234d0b01ef")
+			(uuid "947ef554-9a57-452a-8f54-f7bbacc76d3e")
 		)
 		(pin "C2"
-			(uuid "6642a4fd-f9d7-4984-a3c9-c78c0803d72b")
+			(uuid "d6941348-5909-4b60-8a38-96246a99a0c1")
 		)
 		(pin "A1"
-			(uuid "72074da9-21ed-4dca-ab3d-0425507b09a9")
+			(uuid "1dff2b51-43f2-435e-b153-29ef6ef51f65")
 		)
 		(instances
 			(project "GNSS"
@@ -13622,7 +13958,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7426dc39-fcc1-4058-9195-9efe92e3ab20")
+			(uuid "4ed816d4-edc6-4a58-b78b-6b55cc1f141e")
 		)
 		(instances
 			(project "GNSS"
@@ -13635,7 +13971,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 80.01 166.37 0)
+		(at 121.92 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13643,7 +13979,7 @@
 		(dnp no)
 		(uuid "97a98cd3-9401-459c-88b9-5753e91cd748")
 		(property "Reference" "#PWR0164"
-			(at 80.01 170.18 0)
+			(at 121.92 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13652,7 +13988,7 @@
 			)
 		)
 		(property "Value" "+3V3_GN"
-			(at 79.248 161.29 0)
+			(at 121.158 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,7 +13996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 166.37 0)
+			(at 121.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13669,7 +14005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 166.37 0)
+			(at 121.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +14014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 166.37 0)
+			(at 121.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +14023,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91749ca9-b86a-4e5a-a3fc-8db63ec053e1")
+			(uuid "d5526c69-1caf-4cac-a5ff-c71bc45ff3f1")
 		)
 		(instances
 			(project "GNSS"
@@ -13754,12 +14090,151 @@
 			)
 		)
 		(pin "1"
-			(uuid "89b7a187-1a94-46d7-8265-15cf651b0f7e")
+			(uuid "07a4f9e8-3365-434b-aef1-eb0175d20db1")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
+		(at 229.87 19.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d97636f-8247-4ea7-bcec-e193e74f30db")
+		(property "Reference" "D2"
+			(at 227.838 21.844 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SML-P12U2TT86R"
+			(at 228.092 13.716 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 229.87 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SML-P12U2TT86R"
+			(at 229.87 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "659a0c32-42d7-4f55-8d09-7bc248bdb894")
+		)
+		(pin "1"
+			(uuid "9b169fb2-0437-433f-baef-b2778ca0e6c8")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
+		(at 80.01 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b68155-a07e-4569-921d-cd396b26c333")
+		(property "Reference" "D9"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SML-P12U2TT86R"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SML-P12U2TT86R"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f36a394-7eab-42e8-827c-de9dc430a203")
+		)
+		(pin "1"
+			(uuid "8b87e07f-c7b3-491a-bb86-4f2eb2fa1b34")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13821,7 +14296,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b96af412-f7e4-426d-bff9-2c0cdb74a1a3")
+			(uuid "84e60791-37d3-41a2-ba08-64a21f33c1d5")
 		)
 		(instances
 			(project "GNSS"
@@ -13886,12 +14361,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b9eb9a1-5d9d-4ecf-a083-d52d2b5467b1")
+			(uuid "81b729a6-168c-4e1c-a1fe-bd6c9fed2892")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC849")
+		(at 77.47 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0f8847-ce89-4453-b1cc-47f86d345dc4")
+		(property "Reference" "Q9"
+			(at 82.55 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC849"
+			(at 82.55 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 82.55 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b49a2f55-19c6-4c45-9219-35184521b88e")
+		)
+		(pin "2"
+			(uuid "58373d27-7d83-4c9e-bdee-cd6eb7f62742")
+		)
+		(pin "3"
+			(uuid "82f1c1ab-b7aa-4f49-8456-a5d5b83d6fb9")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -13951,7 +14502,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e004121f-b6be-428e-adc9-4a01bd864271")
+			(uuid "7c9e27e6-45df-4ce3-9fa1-3ff61cc33c43")
 		)
 		(instances
 			(project "GNSS"
@@ -13964,7 +14515,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 80.01 138.43 0)
+		(at 115.57 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13972,7 +14523,7 @@
 		(dnp no)
 		(uuid "aeb27a77-8c77-410e-8cb7-7d6e0bb2118a")
 		(property "Reference" "#PWR047"
-			(at 80.01 142.24 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13981,7 +14532,7 @@
 			)
 		)
 		(property "Value" "+3V3_GN"
-			(at 79.248 133.35 0)
+			(at 114.808 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13989,7 +14540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 138.43 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13998,7 +14549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 138.43 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14007,7 +14558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 80.01 138.43 0)
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,12 +14567,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "af4b79e4-07f8-4217-9613-4283b5bbb63e")
+			(uuid "a98ee5c6-2de3-43cf-843e-f9c0e502e0b7")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0bc006a-a290-4db3-9baa-324c55d68d63")
+		(property "Reference" "#PWR0114"
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GN"
+			(at 37.338 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0854db9-2c79-417a-8d3a-bc3a465feb7d")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -14174,13 +14790,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "b8a7cc91-4dfe-42be-bcc7-657adf1c2d77")
+			(uuid "e27576dd-5807-4e4b-91dd-42a9f8396552")
 		)
 		(pin "2"
-			(uuid "ce6a60bc-d73d-418d-bb1a-2c5957dbbaff")
+			(uuid "194e7df6-de21-4c41-be61-2d63f110fd03")
 		)
 		(pin "1"
-			(uuid "fda6296c-dab0-4e86-b8d4-3cd932ae3ec9")
+			(uuid "89bf602e-f724-4c93-a477-253eeed7232a")
 		)
 		(instances
 			(project "GNSS"
@@ -14245,7 +14861,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e44682a4-40b0-40e9-88e9-2a6db28d29cb")
+			(uuid "70a0b045-4856-4133-b1e1-2098efb45616")
 		)
 		(instances
 			(project "GNSS"
@@ -14311,10 +14927,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7e5c7bb-6022-41f3-b19a-5195225cfdb1")
+			(uuid "21b96224-4bcd-4208-ae39-c94f31d88187")
 		)
 		(pin "1"
-			(uuid "01e7a87b-cd16-427e-84f6-67b39f16e069")
+			(uuid "f001695c-b768-406d-b81e-3ced4850b744")
 		)
 		(instances
 			(project "GNSS"
@@ -14327,15 +14943,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 152.4 172.72 180)
+		(at 38.1 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "beebd848-0d8f-41cc-b3f6-10d15be9e5bb")
-		(property "Reference" "R69"
-			(at 158.75 172.212 0)
+		(uuid "bda94d31-322d-4487-b902-79754aa997f6")
+		(property "Reference" "R73"
+			(at 40.64 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,8 +14959,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 148.844 170.434 90)
+		(property "Value" "560R"
+			(at 35.56 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14969,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 172.72 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 172.72 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14987,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 152.4 172.72 0)
+			(at 38.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,10 +14996,79 @@
 			)
 		)
 		(pin "2"
-			(uuid "248c1010-0c70-4bc5-820a-16b84dac5593")
+			(uuid "8035c353-4128-4768-8ca8-282f502838de")
 		)
 		(pin "1"
-			(uuid "94be8344-503c-4187-a857-c3625c3016ab")
+			(uuid "f5a74e52-062d-4e56-80d8-dd8c3a46324c")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 163.83 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beebd848-0d8f-41cc-b3f6-10d15be9e5bb")
+		(property "Reference" "R69"
+			(at 170.18 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 160.274 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 163.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2136a2ee-1415-472f-bf35-4dd83c3ae756")
+		)
+		(pin "1"
+			(uuid "ae872b19-7b13-4715-9c9a-0d5390daa93f")
 		)
 		(instances
 			(project "GNSS"
@@ -14520,22 +15205,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "da8dbd60-74b1-4f6a-ab78-ccb9a85c5790")
+			(uuid "572003ff-905f-4e2c-b29e-37b70081660a")
 		)
 		(pin "2"
-			(uuid "86ecfcd2-cf3e-4b64-bc4b-932e742b1290")
+			(uuid "d32faf1f-1917-451e-ae3f-8125b09246c3")
 		)
 		(pin "4"
-			(uuid "eda6e979-8763-448e-a529-57c6d928eb4a")
+			(uuid "401ee953-7ce0-4788-8db4-51302eef459b")
 		)
 		(pin "3"
-			(uuid "a9bede34-d034-4a83-827f-20075900fffa")
+			(uuid "0c5e7f13-8b90-4372-95a9-d03f181d097f")
 		)
 		(pin "5"
-			(uuid "def97337-861d-4ae6-b953-246ce410502f")
+			(uuid "90987c7b-9d69-4ccf-a7b2-c268de895e9f")
 		)
 		(pin "1"
-			(uuid "12232fdb-896f-4f00-a259-1f61825a7741")
+			(uuid "ce557ed0-54fa-42b1-a581-1973869b42ca")
 		)
 		(instances
 			(project "GNSS"
@@ -14548,7 +15233,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 133.35 170.18 0)
+		(at 144.78 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14556,7 +15241,7 @@
 		(dnp no)
 		(uuid "cf3a1075-4e87-463c-b9db-c3c6174cf774")
 		(property "Reference" "#PWR0161"
-			(at 133.35 173.99 0)
+			(at 144.78 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +15250,7 @@
 			)
 		)
 		(property "Value" "+3V3_GN"
-			(at 132.588 165.1 0)
+			(at 144.018 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14573,7 +15258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 170.18 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14582,7 +15267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 170.18 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14591,7 +15276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 170.18 0)
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14600,7 +15285,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce9bbbf5-0d54-400b-b7d9-a2d94db96979")
+			(uuid "789ecc07-80ef-4f30-9545-62b663414172")
 		)
 		(instances
 			(project "GNSS"
@@ -14666,7 +15351,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "98ff143e-5120-4e84-ae25-ee2efca2d719")
+			(uuid "56c2f42f-0684-4d74-b318-e18e30848d13")
 		)
 		(instances
 			(project "GNSS"
@@ -14731,7 +15416,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "794dd316-18d2-4657-a771-cd0e6e417d84")
+			(uuid "89e4c2ae-87c6-4fa8-bbf8-7cf6ef3f4f03")
 		)
 		(instances
 			(project "GNSS"
@@ -14917,19 +15602,19 @@
 			)
 		)
 		(pin "5"
-			(uuid "294e18c5-542f-4759-97b3-23ca15089fa9")
+			(uuid "f3ef9610-8c01-4f14-b047-2ffe6654dd2a")
 		)
 		(pin "2"
-			(uuid "38081787-84d8-4584-a8dc-fed3d9ab5eed")
+			(uuid "2b3f467c-6857-440b-b9a4-a7eb6c4f2a35")
 		)
 		(pin "4"
-			(uuid "a0c56b11-7aa9-4569-89bc-d1bfa00b2320")
+			(uuid "09e858fb-7360-48f7-b441-65da6371a646")
 		)
 		(pin "1"
-			(uuid "c371f537-c3eb-4423-8b17-6f0133f68e3c")
+			(uuid "6d435ab2-e46b-4f84-84b8-d0345b6eeede")
 		)
 		(pin "3"
-			(uuid "f5339959-bbcc-49db-b0c1-8a8b9136acf1")
+			(uuid "e2a5fee6-3f2c-4e32-afa3-24fcf6c0e050")
 		)
 		(instances
 			(project "GNSS"
@@ -14994,7 +15679,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7bc4247-829d-4330-8ff0-45105354f981")
+			(uuid "b2b3c9f2-e65b-4931-bfaf-79c7b0c3efa4")
 		)
 		(instances
 			(project "GNSS"
@@ -15061,7 +15746,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "74634380-768c-4bf2-afe5-152ea5a5a078")
+			(uuid "1cc1cbb9-5f5a-4512-bd65-b7bf9b4ea811")
 		)
 		(instances
 			(project "GNSS"
@@ -15127,10 +15812,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e80fdad-d493-4a81-b5f5-3b0e688296d0")
+			(uuid "624dbe9b-3b53-45c4-8f6a-a6759f9b53cb")
 		)
 		(pin "2"
-			(uuid "7f9ec169-5bd0-42be-9242-9216d7c0e350")
+			(uuid "b56bec48-6930-467c-a7af-3c2ecb25ba50")
 		)
 		(instances
 			(project "GNSS"
@@ -15195,7 +15880,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "28852891-6e98-4f2e-a4bb-523055d8d487")
+			(uuid "d463333e-3ada-483f-9f35-31116c24f810")
 		)
 		(instances
 			(project "GNSS"
@@ -15261,15 +15946,150 @@
 			)
 		)
 		(pin "2"
-			(uuid "30a0b4c1-f611-4258-a0da-875fee5a4a24")
+			(uuid "02acf96e-719f-4890-95f7-50672e7e29d7")
 		)
 		(pin "1"
-			(uuid "f3fcb52a-0f04-4b60-8913-1e68d9c9e2bf")
+			(uuid "c9c095ff-53cd-4007-bb12-22bf3c471195")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 247.65 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4794d5b-283b-4ea2-9cdb-87c9dfac6bfc")
+		(property "Reference" "#PWR044"
+			(at 247.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GN"
+			(at 246.888 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a38781b-9c40-4c93-afc3-78155fc3d40f")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
+		(at 38.1 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9badbb2-9a4c-4a7f-a2ad-2c910dcd456a")
+		(property "Reference" "D10"
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SML-P12U2TT86R"
+			(at 34.29 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SML-P12U2TT86R"
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3efab871-b22d-4a6c-82d9-1bd239d36dc3")
+		)
+		(pin "1"
+			(uuid "d09fdffc-b136-4cf5-a8fd-678d97018fe7")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -15331,7 +16151,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed723a6f-899e-429a-bac3-fa43bbb7c556")
+			(uuid "2b49e54f-fa71-48a8-9f50-c0b35c0b37ce")
 		)
 		(instances
 			(project "GNSS"
@@ -15344,7 +16164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 128.27 0)
+		(at 80.01 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15353,7 +16173,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0f592aa-99a9-4024-9b74-01c3c67735be")
 		(property "Reference" "#PWR0160"
-			(at 22.86 134.62 0)
+			(at 80.01 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15362,7 +16182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 133.35 0)
+			(at 80.01 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,7 +16190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 128.27 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +16199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 128.27 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15388,7 +16208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 128.27 0)
+			(at 80.01 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15397,7 +16217,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a22150ce-fe99-4cb0-a898-aced1b852cc4")
+			(uuid "39e8d613-a77c-40bf-96be-6926ea96d00e")
 		)
 		(instances
 			(project "GNSS"
@@ -15410,7 +16230,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 170.18 180)
+		(at 163.83 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15419,7 +16239,7 @@
 		(fields_autoplaced yes)
 		(uuid "f113bd0f-bb69-47c7-895d-6cc00c71d88a")
 		(property "Reference" "#PWR0162"
-			(at 152.4 163.83 0)
+			(at 163.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15428,7 +16248,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 165.1 0)
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15436,7 +16256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 170.18 0)
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15445,7 +16265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 170.18 0)
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15454,7 +16274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 170.18 0)
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,12 +16283,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa931d2c-8393-4f16-9f1c-dce951a7b623")
+			(uuid "b41722ac-0159-4f80-9cb1-3c0f7414517e")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 26.67 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1565286-9c9b-499d-9c6d-fe7a8fba3beb")
+		(property "Reference" "R72"
+			(at 26.416 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 21.336 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c419546-4e54-49c3-894d-8e46cb252200")
+		)
+		(pin "1"
+			(uuid "337028f1-3ff6-4d9f-bbfd-e13c6fb9d6ca")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -15529,10 +16418,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c35b980-7f50-4b6e-a92c-01bd75070c8b")
+			(uuid "f3a07d53-f486-4bf1-b1a2-c4308629605f")
 		)
 		(pin "1"
-			(uuid "ef8f13c4-11e8-461c-bed8-e4ab09a4a346")
+			(uuid "e6e0403d-9ef9-4e4e-a447-d9ddfc32fee1")
 		)
 		(instances
 			(project "GNSS"
@@ -15544,33 +16433,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 142.24 177.8 0)
+		(lib_id "Device:R_Small_US")
+		(at 80.01 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f25ea960-1706-4e62-a9e6-4d6940ddef6b")
-		(property "Reference" "JP1"
-			(at 142.494 174.752 0)
+		(uuid "f1fb0e28-f97d-408a-9a08-2bc6ed9dbab9")
+		(property "Reference" "R67"
+			(at 82.55 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 142.24 173.99 0)
+		(property "Value" "560R"
+			(at 77.47 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 142.24 177.8 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15579,7 +16469,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 177.8 0)
+			(at 80.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 80.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17ddef70-3fbe-443f-bb82-b9cf16d866ee")
+		)
+		(pin "1"
+			(uuid "9f444f03-a0b9-4b24-880f-afcabcd6d877")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 153.67 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25ea960-1706-4e62-a9e6-4d6940ddef6b")
+		(property "Reference" "JP1"
+			(at 153.924 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 153.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 153.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15588,7 +16546,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 142.24 177.8 0)
+			(at 153.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,88 +16555,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "e38e7c4e-bd6a-4982-8c28-c6d91aae8a45")
+			(uuid "99c87b71-464b-4cf9-9b2d-9e7a2a89b543")
 		)
 		(pin "2"
-			(uuid "6587e56b-966c-426b-934c-6410f0ecddb7")
+			(uuid "c08dca52-8028-429f-a429-3c8bd7d8cda5")
 		)
 		(pin "3"
-			(uuid "0f279fe3-9a5b-45f4-94d2-db6e2e5e70f0")
+			(uuid "9470530c-9384-47be-8252-7648ef35f86c")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
-		(at 213.36 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b9f8d6-efb2-467f-a8fa-46ef6d21538b")
-		(property "Reference" "D14"
-			(at 219.71 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SML-P12U2TT86R"
-			(at 219.71 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 213.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SML-P12U2TT86R"
-			(at 213.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d79e57bf-d21d-4095-a1eb-7433b455d279")
-		)
-		(pin "1"
-			(uuid "92e5c81e-a295-4da1-8c85-ecfcabc4add8")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -15739,7 +16627,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b91f6af-4a35-405f-92ed-bd138b38b9f6")
+			(uuid "11075202-4258-418a-956b-c9642681997b")
 		)
 		(instances
 			(project "GNSS"
@@ -15752,7 +16640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 80.01 172.72 180)
+		(at 121.92 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15760,7 +16648,7 @@
 		(dnp no)
 		(uuid "f65e8608-a4f4-4c53-a85b-f8879f5e6881")
 		(property "Reference" "R65"
-			(at 77.978 172.466 90)
+			(at 119.888 172.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15769,7 +16657,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 78.232 167.386 90)
+			(at 120.142 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,7 +16666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15787,7 +16675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15796,7 +16684,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 80.01 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15805,10 +16693,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "356e9f56-74fa-48be-9241-183d69077207")
+			(uuid "7bac78cb-ece2-4245-a02d-99e0aa04b375")
 		)
 		(pin "1"
-			(uuid "b88244d1-418e-4eba-80d0-bddc0a3d6fa1")
+			(uuid "9bfa52b8-aa8b-4add-bc87-ffb4c732b3d5")
 		)
 		(instances
 			(project "GNSS"
@@ -15873,7 +16761,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a71bd481-99d0-4d14-9fd2-9e944325f5d4")
+			(uuid "54f7fcc3-6185-40a9-a0cc-d4d3dfbd4ec4")
 		)
 		(instances
 			(project "GNSS"

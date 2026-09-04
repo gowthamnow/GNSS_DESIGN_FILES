@@ -580,15 +580,15 @@
     ],
     [
       "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16",
-      "Table_of_content"
+      "TABLE_OF_CONTENT"
     ],
     [
       "81cfc142-e5d9-4762-9a7a-a4beadaad585",
-      "Block_Diagram"
+      "BLOCK_DIAGRAM"
     ],
     [
       "95adfb1d-f4b2-4924-8c0a-df43d58bdb39",
-      "Power"
+      "POWER"
     ],
     [
       "4caa84e5-94a9-4f5c-b728-f1a155edd67e",
@@ -600,35 +600,27 @@
     ],
     [
       "5f28e942-ada7-4d13-8727-49641d723651",
-      "Controller"
+      "CONTROLLER"
     ],
     [
       "cd83e7ab-22db-42ff-a7e6-36d43df00222",
-      "ESP"
+      "ESP & CAN"
     ],
     [
       "c129ce73-fc4e-459a-b7eb-49148af5c1a5",
-      "Arduino"
+      "ARDUINO"
     ],
     [
       "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f",
-      "Ethernet"
+      "ETHERNET"
     ],
     [
       "3071fff4-2246-4a32-a92e-73d7c673f76c",
-      "IMU"
+      "IMU & SDCARD"
     ],
     [
       "588923e1-135a-4233-bb51-eac67930486c",
-      "Power_Architecture"
-    ],
-    [
-      "ebf20b63-981e-400d-935d-57e86cca8061",
-      "CAN_TRANS"
-    ],
-    [
-      "c61feaf9-defb-42f1-ada0-838f360ad4a8",
-      "SD_CARD"
+      "POWER_ARCHITECTURE"
     ]
   ],
   "text_variables": {}
