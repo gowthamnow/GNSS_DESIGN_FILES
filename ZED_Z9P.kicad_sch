@@ -934,6 +934,184 @@
 				)
 			)
 		)
+		(symbol "Amplifier_Operational:MCP6001-OT"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6001-OT"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6001-OT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6001-OT_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "C0402C104K4RAC:C0402C104K4RAC"
 			(pin_names
 				(offset 1.016)
@@ -2106,418 +2284,6 @@
 				)
 			)
 		)
-		(symbol "LT6000IDCB_TRMPBF:LT6000IDCB_TRMPBF"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.9202 10.403 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LT6000IDCB_TRMPBF"
-				(at 3.81 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LT6000IDCB_TRMPBF:DFN-6_DCB"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Analog Devices"
-				(at 2.794 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VENDOR" "Linear Technology"
-				(at 3.048 18.796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Linear IC - Op-amp Linear Technology LT6000IDCB#TRMPBF Multi-purpose DFN 6 (2x3)\n                        \n"
-				(at -2.286 18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "COPYRIGHT" "Copyright C 2016 Accelerated Designs. All rights reserved"
-				(at 1.524 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "DFN -6 Analog Devices"
-				(at -0.508 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 6.096 21.336 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LT6000IDCB%23TRMPBF/Analog+Devices/view-part/?ref=eda"
-				(at 1.016 18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT6000IDCB%23TRMPBF/Analog+Devices/view-part/?ref=snap"
-				(at -1.016 18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LT6000IDCB#TRMPBF"
-				(at 2.54 16.256 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "lt6000cdcb#tr"
-				(at 1.778 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LT6000IDCB_TRMPBF_0_0"
-				(polyline
-					(pts
-						(xy 7.112 -5.08) (xy 6.0452 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -5.08) (xy 6.0452 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -2.54) (xy 6.0452 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -2.54) (xy 6.0452 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 20.32 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -7.62) (xy 20.32 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 3.81) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.828 -6.858) (xy 21.8948 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.828 -5.842) (xy 21.8948 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 7.62)
-					(name "*SHDN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 27.94 -6.35 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -3.81 180)
-					(length 7.62)
-					(name "V-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -1.27 180)
-					(length 7.62)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 1.27 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MMBT3904LT1G:MMBT3904LT1G"
 			(pin_names
 				(offset 1.016)
@@ -3201,249 +2967,6 @@
 				)
 			)
 		)
-		(symbol "SI1016CX-T1-GE3:SI1016CX-T1-GE3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SI1016CX-T1-GE3"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOTFL50P160X60-6N"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/67535/si1016cx.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mosfet Array 20V 220mW Surface Mount SC-89 (SOT-563F)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.6"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SI1016CX-T1-GE3"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "78-SI1016CX-T1-GE3"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1016CX-T1-GE3?qs=ROh%252BA47s9d23BjzCxwa0qg%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "SI1016CX-T1-GE3"
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/si1016cx-t1-ge3/vishay?region=nac"
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SI1016CX-T1-GE3_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SMA-J-P-X-RA-TH1:SMA-J-P-X-RA-TH1"
 			(pin_names
 				(offset 1.016)
@@ -3930,6 +3453,319 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6848,12 +6684,6 @@
 		(uuid "37f40c7b-ee6e-4eea-87d1-e8bbca61d6f5")
 	)
 	(junction
-		(at 76.2 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ba5f9c7-0caf-4e45-a072-2193a27537c8")
-	)
-	(junction
 		(at 194.31 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6884,12 +6714,6 @@
 		(uuid "4736f866-41be-4090-9557-5b6d2666d091")
 	)
 	(junction
-		(at 81.28 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c698f9c-b444-485c-8bd3-41ae05574b13")
-	)
-	(junction
 		(at 194.31 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6912,6 +6736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cd3a712-2400-463e-99f5-22b8aaf9ed2d")
+	)
+	(junction
+		(at 76.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ffad759-9eb2-47b5-8697-997042a8a660")
 	)
 	(junction
 		(at 194.31 90.17)
@@ -6950,12 +6780,6 @@
 		(uuid "7ef9a84a-82d9-44d0-987c-504e8380856d")
 	)
 	(junction
-		(at 76.2 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "832dd13a-1206-45e3-8af9-5c942b38376b")
-	)
-	(junction
 		(at 194.31 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6984,6 +6808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97a6e8c6-1db4-4534-9534-0f0fa96577a2")
+	)
+	(junction
+		(at 39.37 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99acdaad-6784-4cb8-992b-2e9843269d25")
 	)
 	(junction
 		(at 194.31 113.03)
@@ -7028,16 +6858,22 @@
 		(uuid "ae953240-35cf-41f8-a19a-20bffc7103f8")
 	)
 	(junction
-		(at 38.1 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3e97e4b-27cc-403f-8237-c96f9dc739c9")
-	)
-	(junction
 		(at 194.31 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b8e76c-4080-40e9-b6d3-5480e06ec99b")
+	)
+	(junction
+		(at 76.2 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba2e3088-220f-480d-8778-dc8fd0fe4b53")
+	)
+	(junction
+		(at 54.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5463a1-5430-4fc4-8eb8-d71d48a66a7f")
 	)
 	(junction
 		(at 194.31 69.85)
@@ -7100,16 +6936,16 @@
 		(uuid "d42a05d3-5bda-4b50-973c-77cc92d72fc6")
 	)
 	(junction
-		(at 76.2 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da0eb172-a752-4862-b522-7cde75d50e88")
-	)
-	(junction
 		(at 194.31 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0f6ffaf-c8d8-4692-b966-8a375bda2c7b")
+	)
+	(junction
+		(at 22.86 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ba7772-9635-46d7-ada5-d3f9fcbe9f16")
 	)
 	(junction
 		(at 194.31 72.39)
@@ -7122,12 +6958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f326da83-ecea-4350-ad9c-e124a78b0bdb")
-	)
-	(junction
-		(at 22.86 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f32c550c-c23a-46cc-979f-7e89175c014a")
 	)
 	(junction
 		(at 102.87 36.83)
@@ -7148,10 +6978,6 @@
 		(uuid "12bc05ca-ae00-4aac-97e8-62b7c384c8c8")
 	)
 	(no_connect
-		(at 43.18 81.28)
-		(uuid "20321be7-9074-4e7a-93ed-c883fab55780")
-	)
-	(no_connect
 		(at 143.51 74.93)
 		(uuid "2f8cc390-86b4-4d76-9f33-e1650a88c2f7")
 	)
@@ -7162,10 +6988,6 @@
 	(no_connect
 		(at 143.51 41.91)
 		(uuid "44237a72-0774-4282-8e68-81ee4e93fd26")
-	)
-	(no_connect
-		(at 66.04 83.82)
-		(uuid "53c9cd1d-8f2f-4cd0-9afa-60a76ec26478")
 	)
 	(no_connect
 		(at 194.31 24.13)
@@ -7218,10 +7040,6 @@
 	(no_connect
 		(at 143.51 85.09)
 		(uuid "c39f2603-74e9-4eec-9e0a-a0de56dfe55a")
-	)
-	(no_connect
-		(at 43.18 78.74)
-		(uuid "ca2d8613-6ed7-4472-a833-82d2c63b159f")
 	)
 	(no_connect
 		(at 143.51 46.99)
@@ -7301,27 +7119,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 77.47) (xy 22.86 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed3817b-19a0-4b8b-ae36-ee2b7f2ac26f")
-	)
-	(wire
-		(pts
-			(xy 69.85 81.28) (xy 69.85 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d29cf2-06b2-4f38-8d3b-2e5c13b008c4")
-	)
-	(wire
-		(pts
-			(xy 76.2 80.01) (xy 76.2 78.74)
+			(xy 76.2 82.55) (xy 76.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7401,13 +7199,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 101.6) (xy 76.2 101.6)
+			(xy 54.61 100.33) (xy 54.61 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bbf9af7-d83b-4fec-820e-58656a17646e")
+		(uuid "14c9d089-6565-4076-a6fc-1716659ae9c3")
 	)
 	(wire
 		(pts
@@ -7441,23 +7239,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 76.2) (xy 30.48 76.2)
+			(xy 22.86 74.93) (xy 29.21 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21acdf12-3b2e-4713-a666-47d2d19a42a3")
-	)
-	(wire
-		(pts
-			(xy 45.72 107.95) (xy 30.48 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2369ab71-befa-4e71-8511-6b2c39bb65e9")
 	)
 	(wire
 		(pts
@@ -7511,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 87.63) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281edd6c-7139-429a-ad20-78915fa6f44e")
+	)
+	(wire
+		(pts
 			(xy 194.31 39.37) (xy 194.31 41.91)
 		)
 		(stroke
@@ -7541,6 +7339,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 81.28) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e99f197-fbf4-4d18-831b-f9ea59588b93")
+	)
+	(wire
+		(pts
 			(xy 116.84 166.37) (xy 116.84 170.18)
 		)
 		(stroke
@@ -7561,23 +7369,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 105.41) (xy 17.78 62.23)
+			(xy 17.78 62.23) (xy 17.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32079b5a-4b16-4239-9ec6-f1fecdfee207")
-	)
-	(wire
-		(pts
-			(xy 22.86 69.85) (xy 38.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "323dc87c-45c8-4188-8d1a-d918c761f0e8")
 	)
 	(wire
 		(pts
@@ -7591,13 +7389,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 76.2 78.74)
+			(xy 29.21 74.93) (xy 29.21 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33a9876d-b313-423a-b1d9-28c920d2fecd")
+		(uuid "334db6cb-1484-4cb6-b902-bf472efdbd6d")
 	)
 	(wire
 		(pts
@@ -7661,23 +7459,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 69.85) (xy 60.96 69.85)
+			(xy 22.86 69.85) (xy 39.37 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e9b0f86-921e-4ba2-9f6b-dbe3cabe52a7")
-	)
-	(wire
-		(pts
-			(xy 73.66 104.14) (xy 81.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f0789e6-8d47-4da7-887a-100931e7f504")
 	)
 	(wire
 		(pts
@@ -7731,6 +7519,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430b0c41-a58b-4adb-bfed-5cb1f51efa6d")
+	)
+	(wire
+		(pts
 			(xy 132.08 105.41) (xy 132.08 107.95)
 		)
 		(stroke
@@ -7741,6 +7539,36 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 74.93) (xy 22.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450d6f91-5284-4dde-bb69-4f369fe6bbec")
+	)
+	(wire
+		(pts
+			(xy 64.77 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4665006c-9573-45fd-9660-a0007517973d")
+	)
+	(wire
+		(pts
+			(xy 54.61 99.06) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4994940a-bd23-4049-98a8-5fa21aa17923")
+	)
+	(wire
+		(pts
 			(xy 262.89 58.42) (xy 265.43 58.42)
 		)
 		(stroke
@@ -7748,6 +7576,16 @@
 			(type default)
 		)
 		(uuid "4a98537a-2949-49c1-8851-4ebb40347253")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aeb6d04-c2da-48c0-9976-4db2b5aa6b2d")
 	)
 	(wire
 		(pts
@@ -7778,16 +7616,6 @@
 			(type default)
 		)
 		(uuid "4b3b313a-ee6a-4d99-b40e-0e8ed2d6fcc1")
-	)
-	(wire
-		(pts
-			(xy 69.85 81.28) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c8f8576-a7c7-4662-b243-5ebbefa69170")
 	)
 	(wire
 		(pts
@@ -7831,17 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 83.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51bd972c-7ec4-407a-b7a2-bde733064e6c")
-	)
-	(wire
-		(pts
-			(xy 121.92 34.29) (xy 121.92 85.09)
+			(xy 121.92 34.29) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7928,26 +7746,6 @@
 			(type default)
 		)
 		(uuid "5c70718a-02df-4dd6-94ee-a1df0891d1c7")
-	)
-	(wire
-		(pts
-			(xy 121.92 85.09) (xy 76.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a40d09-8682-4d0a-ab0c-d4cd710527c8")
-	)
-	(wire
-		(pts
-			(xy 76.2 101.6) (xy 76.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65083984-1790-454a-86e0-a8460fcbc921")
 	)
 	(wire
 		(pts
@@ -8091,16 +7889,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7900b0e4-174e-46c4-b80c-d3abab96acea")
-	)
-	(wire
-		(pts
 			(xy 163.83 175.26) (xy 163.83 177.8)
 		)
 		(stroke
@@ -8108,16 +7896,6 @@
 			(type default)
 		)
 		(uuid "7967a909-b57e-4fae-9f9b-0da96f279dd1")
-	)
-	(wire
-		(pts
-			(xy 22.86 76.2) (xy 22.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cca8bb4-e5db-4963-9101-f5086d9f3feb")
 	)
 	(wire
 		(pts
@@ -8241,6 +8019,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 69.85) (xy 60.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf41435-0cd7-4a04-b733-a41afc467444")
+	)
+	(wire
+		(pts
 			(xy 116.84 166.37) (xy 121.92 166.37)
 		)
 		(stroke
@@ -8271,16 +8059,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 107.95) (xy 30.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9705127b-1cc4-484a-b4ad-fab55d0674a0")
-	)
-	(wire
-		(pts
 			(xy 60.96 153.67) (xy 66.04 153.67)
 		)
 		(stroke
@@ -8298,16 +8076,6 @@
 			(type default)
 		)
 		(uuid "9746984d-4d67-42f7-95ff-f2ded30b136e")
-	)
-	(wire
-		(pts
-			(xy 76.2 106.68) (xy 76.2 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97eb526e-4e69-405c-be9b-a4fd5184a1e2")
 	)
 	(wire
 		(pts
@@ -8551,6 +8319,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 111.76) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05bd99e-0977-4c0a-99c3-bfb780ee5802")
+	)
+	(wire
+		(pts
 			(xy 97.79 186.69) (xy 116.84 186.69)
 		)
 		(stroke
@@ -8601,13 +8379,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 76.2 106.68)
+			(xy 39.37 69.85) (xy 39.37 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c84b5fd9-7162-4d5e-b432-7734245925da")
+		(uuid "c7e42bb2-d7a9-48e0-89e5-8a5006f6d2a8")
 	)
 	(wire
 		(pts
@@ -8658,26 +8436,6 @@
 			(type default)
 		)
 		(uuid "cf25992c-564f-4de3-ae97-318b3b35eeab")
-	)
-	(wire
-		(pts
-			(xy 69.85 85.09) (xy 76.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d031d0cd-e5a9-46b7-821d-155747c6d682")
-	)
-	(wire
-		(pts
-			(xy 43.18 83.82) (xy 38.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d143824a-41b4-4f6c-9174-c6229d57521a")
 	)
 	(wire
 		(pts
@@ -8761,6 +8519,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ceb435-e036-46d7-8589-3d43530e23aa")
+	)
+	(wire
+		(pts
 			(xy 52.07 26.67) (xy 52.07 44.45)
 		)
 		(stroke
@@ -8801,7 +8569,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 78.74) (xy 116.84 78.74)
+			(xy 76.2 81.28) (xy 116.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8838,16 +8606,6 @@
 			(type default)
 		)
 		(uuid "dea73132-f75c-4e75-91ff-04bb7a953ca7")
-	)
-	(wire
-		(pts
-			(xy 45.72 105.41) (xy 17.78 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df382fd2-23b8-45fa-be9d-37e2eb55f666")
 	)
 	(wire
 		(pts
@@ -8911,6 +8669,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92af8c4-9830-42fc-b956-ade666da4f21")
+	)
+	(wire
+		(pts
 			(xy 194.31 128.27) (xy 194.31 130.81)
 		)
 		(stroke
@@ -8918,16 +8686,6 @@
 			(type default)
 		)
 		(uuid "e974b534-2714-4268-a6ab-d859ca312a84")
-	)
-	(wire
-		(pts
-			(xy 73.66 109.22) (xy 124.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e988e279-45fb-4485-be6d-e654dc6fa790")
 	)
 	(wire
 		(pts
@@ -8971,16 +8729,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 38.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f06a3278-7681-4f8e-abb4-e3fe51ffdab1")
-	)
-	(wire
-		(pts
 			(xy 38.1 128.27) (xy 38.1 125.73)
 		)
 		(stroke
@@ -9011,7 +8759,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 34.29) (xy 116.84 78.74)
+			(xy 116.84 34.29) (xy 116.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9038,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "f7a41a57-1197-49c1-a2ac-68cc58549e60")
+	)
+	(wire
+		(pts
+			(xy 54.61 118.11) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ded073-58e1-426e-b541-33b4840d38aa")
 	)
 	(wire
 		(pts
@@ -9212,7 +8970,7 @@
 		(uuid "c84ed319-6b79-4048-bcad-05e8f5b635c7")
 	)
 	(label "ANT_SHORT_N"
-		(at 30.48 107.95 0)
+		(at 29.21 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9774,199 +9532,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LT6000IDCB_TRMPBF:LT6000IDCB_TRMPBF")
-		(at 45.72 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ce3c95f-3eee-4746-809b-76da4d528409")
-		(property "Reference" "U13"
-			(at 60.452 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LT6000IDCB_TRMPBF"
-			(at 60.198 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:DFN-6_DCB"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" "Linear Technology"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Linear IC - Op-amp Linear Technology LT6000IDCB#TRMPBF Multi-purpose DFN 6 (2x3)\n                        \n"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COPYRIGHT" "Copyright C 2016 Accelerated Designs. All rights reserved"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DFN -6 Analog Devices"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LT6000IDCB%23TRMPBF/Analog+Devices/view-part/?ref=eda"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LT6000IDCB%23TRMPBF/Analog+Devices/view-part/?ref=snap"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LT6000IDCB#TRMPBF"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "lt6000cdcb#tr"
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e5ec405-72d8-47ce-8fe6-ba1e9f3858e7")
-		)
-		(pin "3"
-			(uuid "7097e06f-f7dd-4bf9-b5b6-cafde1750325")
-		)
-		(pin "6"
-			(uuid "bdb055d2-86b1-4793-ae07-141d894a154a")
-		)
-		(pin "7"
-			(uuid "3225e694-a08f-402d-9ffa-8b7e1a09f64e")
-		)
-		(pin "5"
-			(uuid "ea1741e2-085e-43f7-9121-88c6ec26f203")
-		)
-		(pin "2"
-			(uuid "915bdfb2-1a25-4179-8458-4805bb01c1c8")
-		)
-		(pin "4"
-			(uuid "ec26447e-6620-4b37-9a27-880fa4225d72")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -11205,6 +10770,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6001-OT")
+		(at 57.15 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ef103e4-b769-41ca-bb46-8ec5e9b36d35")
+		(property "Reference" "U3"
+			(at 69.85 105.029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6001-OT"
+			(at 69.85 107.569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d981a8b-9ac4-4b5d-8ff4-765d6375e9d2")
+		)
+		(pin "2"
+			(uuid "ddd8c505-1132-4b7b-945f-068cb02d3ef3")
+		)
+		(pin "5"
+			(uuid "6bbfc5cb-9bf1-4b8d-989d-107b41fdf70c")
+		)
+		(pin "3"
+			(uuid "183342f5-f637-4ded-af30-93b51ec83e7b")
+		)
+		(pin "4"
+			(uuid "82c58706-5ee0-4fd0-838f-6547da7b53b7")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GRM033R71C103KE14D:GRM033R71C103KE14D")
 		(at 68.58 67.31 90)
 		(unit 1)
@@ -11822,6 +11465,104 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 53.34 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4732b3-bc04-4f8d-afc3-131a61219d22")
+		(property "Reference" "Q12"
+			(at 53.34 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 53.34 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 70.485 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d5dbb7d1-8e52-4910-8b9a-49aca6a7264d")
+		)
+		(pin "1"
+			(uuid "276b28f6-62c3-4c44-a344-ac70fd3c83f2")
+		)
+		(pin "2"
+			(uuid "125e889b-6240-4be5-b3c1-532e909e1424")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -12706,6 +12447,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70dcf43d-0260-48ad-9141-edb8d2307df9")
+		(property "Reference" "#PWR04"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc76376e-b604-48c5-b345-e64e9e6d49fd")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LQG15HS47NJ02D:LQG15HS47NJ02D")
 		(at 60.96 52.07 270)
 		(unit 1)
@@ -12850,73 +12656,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 81.28 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a502eaa-7567-4246-92f1-bcae3f809b6a")
-		(property "Reference" "#FLG019"
-			(at 81.28 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 81.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee062446-5d85-40eb-8d41-b3d78565222c")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#FLG019")
 					(unit 1)
 				)
 			)
@@ -13562,71 +13301,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8efb040b-6130-4cc7-8468-1e2d4580963a")
-		(property "Reference" "#PWR0199"
-			(at 76.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e270c8-bfab-45d1-8695-a2300fe170fe")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0199")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 140.97 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13964,6 +13638,73 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "973dd4e6-fce3-4684-afca-255e9823b8cb")
+		(property "Reference" "#FLG010"
+			(at 52.705 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772004b0-c31e-4d71-b736-b4fdb85b0816")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -14874,7 +14615,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 76.2 82.55 180)
+		(at 76.2 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14882,7 +14623,7 @@
 		(dnp no)
 		(uuid "b4205aa1-f05f-4671-951d-d9cae6a9e65e")
 		(property "Reference" "R80"
-			(at 74.422 82.55 0)
+			(at 74.422 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14891,7 +14632,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 81.026 83.82 0)
+			(at 81.026 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +14641,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +14650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,7 +14659,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,6 +14677,71 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8928352-6220-4a96-a2e7-54438919b7f4")
+		(property "Reference" "#PWR03"
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RF_VCC"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cff4f43-2f4d-46c2-bf1f-1f6cd9c49f78")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15074,158 +14880,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SI1016CX-T1-GE3:SI1016CX-T1-GE3")
-		(at 43.18 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c41d0df2-b8c4-4b53-8e05-10345f268d62")
-		(property "Reference" "Q1"
-			(at 54.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI1016CX-T1-GE3"
-			(at 54.61 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:SOTFL50P160X60-6N"
-			(at 62.23 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/67535/si1016cx.pdf"
-			(at 62.23 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mosfet Array 20V 220mW Surface Mount SC-89 (SOT-563F)"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 62.23 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 62.23 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI1016CX-T1-GE3"
-			(at 62.23 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "78-SI1016CX-T1-GE3"
-			(at 62.23 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1016CX-T1-GE3?qs=ROh%252BA47s9d23BjzCxwa0qg%3D%3D"
-			(at 62.23 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SI1016CX-T1-GE3"
-			(at 62.23 973.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/si1016cx-t1-ge3/vishay?region=nac"
-			(at 62.23 1073.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "572003ff-905f-4e2c-b29e-37b70081660a")
-		)
-		(pin "2"
-			(uuid "d32faf1f-1917-451e-ae3f-8125b09246c3")
-		)
-		(pin "4"
-			(uuid "401ee953-7ce0-4788-8db4-51302eef459b")
-		)
-		(pin "3"
-			(uuid "0c5e7f13-8b90-4372-95a9-d03f181d097f")
-		)
-		(pin "5"
-			(uuid "90987c7b-9d69-4ccf-a7b2-c268de895e9f")
-		)
-		(pin "1"
-			(uuid "ce557ed0-54fa-42b1-a581-1973869b42ca")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15626,71 +15280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 83.82 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd314a76-57ca-4c94-a5d3-042d45c5caf6")
-		(property "Reference" "#PWR0197"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RF_VCC"
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2b3c9f2-e65b-4931-bfaf-79c7b0c3efa4")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0197")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 262.89 58.42 0)
 		(unit 1)
@@ -15821,71 +15410,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 45.72 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e17b8014-7e9c-4456-b2f1-52733626ac2d")
-		(property "Reference" "#PWR0198"
-			(at 45.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RF_VCC"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d463333e-3ada-483f-9f35-31116c24f810")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0198")
 					(unit 1)
 				)
 			)

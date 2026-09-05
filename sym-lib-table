@@ -7,4 +7,6 @@
   (lib (name "2026-08-15_06-11-37")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/ECS_TXO_2520_33_240_AN_TR/KiCADv6/2026-08-15_06-11-37.kicad_sym")(options "")(descr ""))
   (lib (name "TL3301EF100QG")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/TL3301EF100QG/TL3301EF100QG.kicad_sym")(options "")(descr ""))
   (lib (name "PESD2CANFD24V-TR")(type "KiCad")(uri "${KIPRJMOD}/GNSS_LIBRARY/LIB_PESD2CANFD24V-TR/PESD2CANFD24V-TR/KiCad/PESD2CANFD24V-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "MF-MSMF200-2")(type "KiCad")(uri "C:/Users/DHAYANANTH/Downloads/MF_MSMF200_2/MF-MSMF200-2.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200DRLR")(type "KiCad")(uri "C:/Users/DHAYANANTH/Downloads/LM66200DRLR/LM66200DRLR.kicad_sym")(options "")(descr ""))
 )
