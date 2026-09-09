@@ -583,10 +583,6 @@
       "TABLE_OF_CONTENT"
     ],
     [
-      "81cfc142-e5d9-4762-9a7a-a4beadaad585",
-      "BLOCK_DIAGRAM"
-    ],
-    [
       "95adfb1d-f4b2-4924-8c0a-df43d58bdb39",
       "POWER"
     ],
@@ -621,6 +617,14 @@
     [
       "588923e1-135a-4233-bb51-eac67930486c",
       "POWER_ARCHITECTURE"
+    ],
+    [
+      "b1f00880-f738-473f-92f4-04222a609f67",
+      "ANTENNA"
+    ],
+    [
+      "6ff29533-10e7-44dd-9805-0588a7bb3f10",
+      "LEDs & BUTTONs"
     ]
   ],
   "text_variables": {}

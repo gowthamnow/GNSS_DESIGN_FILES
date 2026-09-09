@@ -3997,10 +3997,9 @@
 		)
 		(uuid "ff5c724d-8c1e-406d-b56b-95d1ae47cb42")
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 25.4 144.78 0)
-		(size 99.06 49.53)
+	(rectangle
+		(start 30.48 148.59)
+		(end 115.57 195.58)
 		(stroke
 			(width 0.0508)
 			(type dash)
@@ -4009,18 +4008,11 @@
 		(fill
 			(type none)
 		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cfd245a9-0ba6-4c09-b86e-500732909619")
+		(uuid 123514ff-146a-4db8-906d-2f216a74a7ed)
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 22.86 38.1 0)
-		(size 233.68 87.63)
+	(rectangle
+		(start 25.4 38.1)
+		(end 256.54 123.19)
 		(stroke
 			(width 0.0508)
 			(type dash)
@@ -4029,13 +4021,7 @@
 		(fill
 			(type none)
 		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "dd8a3df3-f511-4ea6-b083-fc1f6e6fdea6")
+		(uuid 34bba813-0a49-4e6b-bd8a-1100b3c1d534)
 	)
 	(text "ETHERNET"
 		(exclude_from_sim no)
@@ -4050,7 +4036,7 @@
 	)
 	(text "CRYSTAL"
 		(exclude_from_sim no)
-		(at 33.02 140.97 0)
+		(at 38.354 144.78 0)
 		(effects
 			(font
 				(size 2.54 2.54)

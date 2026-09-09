@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U5"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,15 +21,15 @@
 				)
 			)
 			(property "Value" "TCAN1042VDRBRQ1"
-				(at 0 0 0)
+				(at 1.27 17.78 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "DRB0008F"
-				(at 0 0 0)
+			(property "Footprint" "GNSS:DRB0008F"
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +39,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tcan1042v-q1"
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +49,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,56 +84,8 @@
 				)
 			)
 			(symbol "TCAN1042VDRBRQ1_0_1"
-				(polyline
-					(pts
-						(xy -17.78 -15.24) (xy 17.78 -15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 15.24) (xy -17.78 -15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -15.24) (xy 17.78 15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 15.24) (xy -17.78 15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin input line
-					(at -22.86 0 0)
+					(at -21.59 0 0)
 					(length 5.08)
 					(name "TXD"
 						(effects
@@ -151,7 +103,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -10.16 180)
+					(at 24.13 -10.16 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -169,7 +121,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 10.16 0)
+					(at -21.59 10.16 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -187,7 +139,7 @@
 					)
 				)
 				(pin output line
-					(at -22.86 -10.16 0)
+					(at -21.59 -10.16 0)
 					(length 5.08)
 					(name "RXD"
 						(effects
@@ -205,7 +157,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 5.08 0)
+					(at -21.59 5.08 0)
 					(length 5.08)
 					(name "VIO"
 						(effects
@@ -223,7 +175,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -5.08 180)
+					(at 24.13 -5.08 180)
 					(length 5.08)
 					(name "CANL"
 						(effects
@@ -241,7 +193,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 24.13 10.16 180)
 					(length 5.08)
 					(name "CANH"
 						(effects
@@ -259,7 +211,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -5.08 0)
+					(at -21.59 -5.08 0)
 					(length 5.08)
 					(name "STB"
 						(effects
@@ -277,7 +229,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -12.7 180)
+					(at 24.13 -12.7 180)
 					(length 5.08)
 					(name "PAD"
 						(effects
@@ -292,6 +244,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "TCAN1042VDRBRQ1_1_1"
+				(rectangle
+					(start -16.51 15.24)
+					(end 19.05 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2639,41 +2604,31 @@
 				)
 			)
 		)
-		(symbol "TPD2EUSB30ADRTR:TPD2EUSB30ADRTR"
+		(symbol "Power_Protection:TPD2EUSB30A"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 12.7 0)
+			(property "Reference" "U"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TPD2EUSB30ADRTR"
-				(at 0 10.16 0)
+			(property "Value" "TPD2EUSB30A"
+				(at 7.62 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+				(at -19.05 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2681,7 +2636,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2690,158 +2645,308 @@
 					(hide yes)
 				)
 			)
-			(property "MF" ""
+			(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description_1" ""
+			(property "ki_keywords" "ESD protection USB 3.0"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" ""
+			(property "ki_fp_filters" "Texas*DRT*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPD2EUSB30ADRTR_0_0"
+			(symbol "TPD2EUSB30A_0_1"
 				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 7.62)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
-						(width 0.41)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
+				(circle
+					(center -3.175 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy -0.762 0.762) (xy -0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -3.81 -2.54) (xy -3.175 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 1.27) (xy -3.175 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.508) (xy -0.635 -0.508) (xy 0 0.762) (xy 0.635 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -2.54) (xy 3.175 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 2.54 1.27) (xy 3.175 2.54) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TPD2EUSB30A_1_1"
+				(pin passive line
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "D+"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 0 0)
+				(pin passive line
+					(at 10.16 0 180)
 					(length 5.08)
 					(name "D-"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 5.08 180)
+				(pin passive line
+					(at 0 -10.16 90)
 					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3162,7 +3267,7 @@
 		)
 	)
 	(junction
-		(at 107.95 121.92)
+		(at 113.03 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "021a7406-8b26-4fbb-b591-06d25a925e3e")
@@ -3319,13 +3424,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 111.76 104.14)
+			(xy 132.08 104.14) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01cafe0d-3e32-4b8b-aadc-a2b7ec8cb0fc")
+		(uuid "017adfd7-cf17-4163-a3f3-fec58703fb9c")
 	)
 	(wire
 		(pts
@@ -3346,16 +3451,6 @@
 			(type default)
 		)
 		(uuid "0b34d42c-0abe-45b7-ac1c-0f2aca4b2beb")
-	)
-	(wire
-		(pts
-			(xy 86.36 104.14) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ede67b4-ee32-48e4-b5b0-bfdf15a06aa6")
 	)
 	(wire
 		(pts
@@ -3499,16 +3594,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b4ce316-fa8d-4d50-a45b-04a11ff3c7de")
-	)
-	(wire
-		(pts
 			(xy 246.38 64.77) (xy 250.19 64.77)
 		)
 		(stroke
@@ -3516,6 +3601,16 @@
 			(type default)
 		)
 		(uuid "3db49805-5106-40a3-8dcd-15e334dc8551")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6536e1-84f6-4214-bba4-e7f361cde2b4")
 	)
 	(wire
 		(pts
@@ -3589,16 +3684,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "521973a8-5c9c-4617-bf61-a5e35e6f81b9")
-	)
-	(wire
-		(pts
 			(xy 171.45 93.98) (xy 173.99 93.98)
 		)
 		(stroke
@@ -3606,6 +3691,16 @@
 			(type default)
 		)
 		(uuid "521df16e-dbb7-4463-b5e3-8edd700cea1d")
+	)
+	(wire
+		(pts
+			(xy 91.44 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526fd544-bda7-4508-b8b2-7e4922ead8f1")
 	)
 	(wire
 		(pts
@@ -3659,16 +3754,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 115.57) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e188197-992e-4028-9454-7b80b357d48c")
-	)
-	(wire
-		(pts
 			(xy 250.19 90.17) (xy 254 90.17)
 		)
 		(stroke
@@ -3689,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 107.95 121.92)
+			(xy 91.44 127) (xy 113.03 127)
 		)
 		(stroke
 			(width 0)
@@ -3736,6 +3821,16 @@
 			(type default)
 		)
 		(uuid "660c9da8-754e-48c8-beeb-f9d3518975a2")
+	)
+	(wire
+		(pts
+			(xy 113.03 127) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ecdd4b-3e73-4972-823f-15f13385fed8")
 	)
 	(wire
 		(pts
@@ -3829,16 +3924,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 111.76 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86bd919c-80a4-48dc-8707-fdfdbd79a9d8")
-	)
-	(wire
-		(pts
 			(xy 31.75 100.33) (xy 31.75 104.14)
 		)
 		(stroke
@@ -3919,16 +4004,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 148.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b6a3621-f573-46ac-aca8-723dac64ed70")
-	)
-	(wire
-		(pts
 			(xy 227.33 127) (xy 227.33 128.27)
 		)
 		(stroke
@@ -3956,6 +4031,16 @@
 			(type default)
 		)
 		(uuid "af41f544-d4e2-4869-8734-895e0315e2e6")
+	)
+	(wire
+		(pts
+			(xy 107.95 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f79f6c-f970-4b97-989b-9543623f051a")
 	)
 	(wire
 		(pts
@@ -3999,7 +4084,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 86.36 121.92)
+			(xy 91.44 119.38) (xy 91.44 127)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4352,7 @@
 		(uuid "1e31c227-fbbc-4252-9242-7870f182ada2")
 	)
 	(label "CANL"
-		(at 111.76 121.92 0)
+		(at 101.6 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4278,7 +4363,7 @@
 		(uuid "5f49631d-425e-4b3a-b0f9-c17899fc2b90")
 	)
 	(label "CANH"
-		(at 111.76 104.14 0)
+		(at 100.33 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4628,6 +4713,77 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD2EUSB30A")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "009e7fea-3a60-47fe-8d90-f2dbaaf81b18")
+		(property "Reference" "U6"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD2EUSB30A"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffa45248-c486-4881-a4ad-92cfc9669e4c")
+		)
+		(pin "1"
+			(uuid "5ede08cd-f8c3-47a4-ac88-0ef4d2f3d1ea")
+		)
+		(pin "3"
+			(uuid "241a1a6c-c449-40cd-a035-5863422aad96")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
+					(reference "U6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6180,168 +6336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPD2EUSB30ADRTR:TPD2EUSB30ADRTR")
-		(at 129.54 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b5c52f-74ef-4596-8f67-a18b31083f11")
-		(property "Reference" "U6"
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD2EUSB30ADRTR"
-			(at 129.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:SOTFL35P100X50-3N"
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 129.54 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c30c520a-863e-4bc9-b9d6-1f3f8cafb4fb")
-		)
-		(pin "2"
-			(uuid "03513d2a-416a-4880-9585-4ad2c384186c")
-		)
-		(pin "3"
-			(uuid "c61cf6d6-5f9e-4334-b354-d37afbb4846d")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 246.38 63.5 0)
 		(unit 1)
@@ -6541,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 129.54 0)
+		(at 113.03 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6549,7 +6543,7 @@
 		(dnp no)
 		(uuid "7525772d-88ae-467a-a4d2-30fe0e45e864")
 		(property "Reference" "#PWR053"
-			(at 107.95 135.89 0)
+			(at 113.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 133.604 0)
+			(at 113.03 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,7 +6560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 129.54 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 129.54 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 129.54 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7180,7 @@
 			)
 		)
 		(property "Value" "TCAN1042VDRBRQ1"
-			(at 58.42 96.52 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7194,7 +7188,7 @@
 			)
 		)
 		(property "Footprint" "GNSS:DRB0008F"
-			(at 58.42 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,7 +7198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tcan1042v-q1"
-			(at 58.42 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +9319,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 113.03 0)
+		(at 121.92 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9333,7 +9327,7 @@
 		(dnp no)
 		(uuid "e69bee05-907a-4df3-9743-ac0e8215e122")
 		(property "Reference" "#PWR093"
-			(at 148.59 119.38 0)
+			(at 121.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,7 +9336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 117.094 0)
+			(at 121.92 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 113.03 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 113.03 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +9362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 113.03 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9456,7 +9450,7 @@
 	)
 	(symbol
 		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
-		(at 107.95 127 90)
+		(at 113.03 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9464,7 +9458,7 @@
 		(dnp no)
 		(uuid "f40fbe21-25c2-4518-b529-d6bed3fa8bf3")
 		(property "Reference" "C31"
-			(at 104.394 123.444 90)
+			(at 109.474 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9466,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 104.14 128.016 90)
+			(at 109.22 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9474,7 @@
 			)
 		)
 		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9493,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9503,7 @@
 			)
 		)
 		(property "MF" "KEMET"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9513,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 KEMET"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9523,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +9533,7 @@
 			)
 		)
 		(property "Package" "402-2 KEMET"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9543,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +9553,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9563,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9573,7 @@
 			)
 		)
 		(property "MP" "C0402C104K4RAC"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9583,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9593,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9603,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9613,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9623,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
-			(at 107.95 127 0)
+			(at 113.03 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
