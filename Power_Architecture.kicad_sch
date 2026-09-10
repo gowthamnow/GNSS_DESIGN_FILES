@@ -721,7 +721,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -734,7 +734,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -747,7 +747,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 0 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -760,7 +760,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -773,7 +773,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -786,7 +786,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 0 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -799,7 +799,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 0 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -812,7 +812,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 0 194 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -825,7 +825,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -838,7 +838,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -863,7 +863,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -876,7 +876,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 0 194 0 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -901,7 +901,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -914,7 +914,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 194 0 194 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -927,7 +927,7 @@
 		(stroke
 			(width 0.508)
 			(type default)
-			(color 0 194 0 1)
+			(color 0 0 194 1)
 		)
 		(fill
 			(type none)
@@ -941,7 +941,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "05c98ab1-9871-4c54-a604-fcbe62003885")
@@ -953,7 +953,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "1a76119c-96da-4474-8684-e978bde2c2ad")
@@ -965,7 +965,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "1d0b7383-f812-4603-bd70-ec7d214d0157")
@@ -977,7 +977,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "1f5eb747-7ad6-489f-a040-60be3dfbbcba")
@@ -989,7 +989,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "250c4be0-2288-4bd0-9114-2aa507fb9e93")
@@ -1013,7 +1013,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "31c538bf-2108-4820-a6c6-877835b4bd5d")
@@ -1025,7 +1025,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "4185a9e0-1d5d-407f-976c-82e5f2e036f8")
@@ -1037,7 +1037,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "427ca9aa-1f9d-41d4-ba3c-0a578573be55")
@@ -1049,7 +1049,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "5dd383da-3ef9-4850-8ee1-d276de45dd98")
@@ -1061,7 +1061,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "6178fce0-86de-487b-80ce-a33d5b3cc08b")
@@ -1073,7 +1073,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 132 132 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "67fba14d-60f7-41e3-9f55-01c872147d34")
@@ -1085,7 +1085,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "6a92523e-6a20-4049-889a-0d2bd1a809c9")
@@ -1097,7 +1097,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 221 133 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "73fd9f48-013a-49aa-9d8b-e24bf5bf3f89")
@@ -1109,31 +1109,31 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "76207fc1-850b-444c-8fb2-93ae673a5d0f")
 	)
 	(text "PROTECTION"
 		(exclude_from_sim no)
-		(at 77.978 92.202 0)
+		(at 78.994 82.804 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 0 194 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "8a2215a9-ed70-4951-ac0e-e72e4475d193")
 	)
-	(text "POWER_PATH"
+	(text "POWER_SUP"
 		(exclude_from_sim no)
-		(at 118.364 92.456 0)
+		(at 118.364 88.138 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 0 194 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "94c3f1f6-48ee-4236-a949-b79381c949cb")
@@ -1145,7 +1145,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "95868c96-5c44-45b6-9675-f2216f1e11f1")
@@ -1157,7 +1157,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "98ae3fd6-4635-4dc3-a61c-2690badcce89")
@@ -1169,6 +1169,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "9a9b4709-788f-4a47-8441-8a23b276dbed")
@@ -1180,7 +1181,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 132 132 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "9b50e310-f1b6-4392-8b27-b498d58faa7b")
@@ -1192,7 +1193,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "9e378e43-e544-4d26-a2c6-020ade0aa322")
@@ -1204,7 +1205,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 132 132 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "a4f5deca-e07b-4d08-ac0e-9804cc890334")
@@ -1216,10 +1217,22 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "afdc20cc-b563-4bac-949b-f02158d7320a")
+	)
+	(text "PLY_OR_ing"
+		(exclude_from_sim no)
+		(at 118.364 92.456 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "c1390c40-4103-476b-a24a-64916491bd07")
 	)
 	(text "ZED_F9P"
 		(exclude_from_sim no)
@@ -1228,7 +1241,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "d668cd4a-4f38-4a17-8574-2a83991ede69")
@@ -1240,7 +1253,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 221 133 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "d6f16107-4a0d-42f7-acf0-1efc4e6ab7d1")
@@ -1252,7 +1265,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "e0c80558-e45b-4b88-a1c9-aa7a2d20cda4")
@@ -1264,10 +1277,22 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 221 133 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "e315e233-1663-4cdd-9f58-9ebb217671eb")
+	)
+	(text "PROTECTION"
+		(exclude_from_sim no)
+		(at 78.486 102.616 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "e51723cd-8cf4-4309-af5d-bc52030941b9")
 	)
 	(text "5V"
 		(exclude_from_sim no)
@@ -1276,7 +1301,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 132 132 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "eb46380e-89e4-44be-86ff-abe706df6ac4")
@@ -1288,6 +1313,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "eedff1c3-b756-4c92-bd78-b89f58be2eba")
@@ -1299,7 +1325,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 194 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "ef3a99d0-ec2d-4cf8-8ae7-282d460770da")
@@ -1311,7 +1337,7 @@
 			(font
 				(size 2.54 2.54)
 				(bold yes)
-				(color 194 0 0 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "f2f86123-d3f0-4921-8e7c-de63920abdb3")
@@ -1323,7 +1349,7 @@
 			(font
 				(size 1.778 1.778)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "f63a06d5-884b-4991-9109-33a8a8467bde")

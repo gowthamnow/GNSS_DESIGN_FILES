@@ -18,7 +18,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 45.212) (xy 167.64 31.496)
+			(xy 167.64 45.72) (xy 167.64 31.496)
 		)
 		(stroke
 			(width 0.254)
@@ -357,9 +357,9 @@
 		)
 		(uuid "05ac9054-289f-441a-b9f8-b43ef8a71fa4")
 	)
-	(text "DP"
+	(text "VBUS"
 		(exclude_from_sim no)
-		(at 116.332 46.482 0)
+		(at 115.57 46.99 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -500,6 +500,17 @@
 		)
 		(uuid "3760629a-b025-404f-89ef-51086c0a4985")
 	)
+	(text "SPI_4"
+		(exclude_from_sim no)
+		(at 204.216 85.852 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "3c11c439-235e-468a-8ff0-1f3fece24d26")
+	)
 	(text "MISO"
 		(exclude_from_sim no)
 		(at 94.234 81.026 0)
@@ -544,6 +555,17 @@
 		)
 		(uuid "44747444-ce8b-4cf9-ac2d-768a150af364")
 	)
+	(text "I2C_1"
+		(exclude_from_sim no)
+		(at 162.56 121.666 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "459bb801-e24a-4357-99e8-cfde0c06a61a")
+	)
 	(text "TXD"
 		(exclude_from_sim no)
 		(at 93.98 128.016 0)
@@ -576,6 +598,17 @@
 			)
 		)
 		(uuid "4dad1eb7-cd88-4f67-8b9a-5443abee6973")
+	)
+	(text "ANT_FAULT"
+		(exclude_from_sim no)
+		(at 42.418 108.204 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "52d6cc42-435a-4c09-b62c-15775f4d87c9")
 	)
 	(text "ETH_RST"
 		(exclude_from_sim no)
@@ -644,6 +677,17 @@
 		)
 		(uuid "6a4f8fdb-bf20-4cc1-8361-2bcb5cd1bb12")
 	)
+	(text "SPI_2"
+		(exclude_from_sim no)
+		(at 159.512 121.666 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "712d5f2f-c2e4-4f1a-a5ce-d59c4573088a")
+	)
 	(text "DP"
 		(exclude_from_sim no)
 		(at 160.528 49.53 0)
@@ -687,6 +731,17 @@
 			)
 		)
 		(uuid "8fdc4425-58d3-444c-b768-f31766317404")
+	)
+	(text "RST_BUT"
+		(exclude_from_sim no)
+		(at 173.736 136.652 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "919877a2-df33-44bd-9dff-8abdac642e78")
 	)
 	(text "SD_D3"
 		(exclude_from_sim no)
@@ -853,7 +908,7 @@
 		)
 		(uuid "bb002dbd-9940-4645-9ad3-d88bf6b41775")
 	)
-	(text "DN"
+	(text "GND"
 		(exclude_from_sim no)
 		(at 116.332 49.53 0)
 		(effects
@@ -874,6 +929,17 @@
 			)
 		)
 		(uuid "c6c46503-c61f-47e0-9d7c-ee2a7240ddb8")
+	)
+	(text "SDMMC1"
+		(exclude_from_sim no)
+		(at 204.216 89.154 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "c98221cf-6640-4d69-848e-9c00a0dc267d")
 	)
 	(text "RST_BUT"
 		(exclude_from_sim no)
@@ -930,6 +996,17 @@
 		)
 		(uuid "d92270ad-be8a-4d43-a65f-0ace4ba1fa2d")
 	)
+	(text "USART_3"
+		(exclude_from_sim no)
+		(at 156.21 121.158 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "e29fb7d6-ba7c-4c43-97a5-fe3a176588f6")
+	)
 	(text "CAN_TXD"
 		(exclude_from_sim no)
 		(at 64.008 149.606 0)
@@ -952,6 +1029,17 @@
 		)
 		(uuid "edc93aed-b1f3-412b-8582-b20f1e6bc913")
 	)
+	(text "SPI_3"
+		(exclude_from_sim no)
+		(at 116.332 80.264 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "edfa6cda-63a8-4747-9b8c-ec9df3dea3da")
+	)
 	(text "MDIO"
 		(exclude_from_sim no)
 		(at 223.012 136.398 0)
@@ -962,6 +1050,28 @@
 			)
 		)
 		(uuid "f4a56e7e-f08c-4f62-b10b-9dd9b811a759")
+	)
+	(text "I2C_4"
+		(exclude_from_sim no)
+		(at 159.766 64.77 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "f82db98c-0e21-47ed-973a-8ffdd6457dcc")
+	)
+	(text "USART_1"
+		(exclude_from_sim no)
+		(at 112.522 127.762 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+		)
+		(uuid "f91664c7-5871-4e5d-b9ea-66d02e8da9a7")
 	)
 	(text "INT1"
 		(exclude_from_sim no)
@@ -975,7 +1085,7 @@
 		(uuid "fd19977c-bb96-4b4a-ab67-18e586b9569a")
 	)
 	(sheet
-		(at 20.828 24.13)
+		(at 19.304 24.638)
 		(size 256.794 139.192)
 		(fields_autoplaced yes)
 		(stroke
@@ -987,7 +1097,7 @@
 		)
 		(uuid "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16")
 		(property "Sheetname" "TABLE_OF_CONTENT"
-			(at 20.828 23.4184 0)
+			(at 19.304 23.9264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +1106,7 @@
 			)
 		)
 		(property "Sheetfile" "CONTENT_sch.kicad_sch"
-			(at 20.828 163.9066 0)
+			(at 19.304 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1428,7 @@
 	)
 	(sheet
 		(at 22.86 77.47)
-		(size 26.67 22.86)
+		(size 26.67 32.766)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1338,7 +1448,7 @@
 			)
 		)
 		(property "Sheetfile" "ANTENNA.kicad_sch"
-			(at 22.86 100.9146 0)
+			(at 22.86 110.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
