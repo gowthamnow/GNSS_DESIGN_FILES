@@ -1,0 +1,16 @@
+.DMP3007LSS-13 :1 ;MOSFET MOSFET BVDSS: 8V-24V
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN DMP3007LSS-13
+~!Mouser Part Number (621-DMP3007LSS-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP3007LSS-13?qs=qSfuJ%252Bfl%2Fd6BWzce%2FirNpQ%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DMP3007LSS-13)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/DMP3007LSS.pdf)
+~!Height (1.75mm)
+~!3D_Model (DMP3007LSS-13)
+DMP3007LSS-13
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

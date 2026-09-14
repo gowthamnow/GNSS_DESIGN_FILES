@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI1016CX-T1-GE3
+D Mosfet Array 20V 220mW Surface Mount SC-89 (SOT-563F)
+K
+F https://www.vishay.com/docs/67535/si1016cx.pdf
+$ENDCMP
+#
+#End Doc Library

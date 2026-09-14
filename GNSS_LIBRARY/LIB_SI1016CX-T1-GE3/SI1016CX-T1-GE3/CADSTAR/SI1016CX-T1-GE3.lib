@@ -1,0 +1,18 @@
+.SI1016CX-T1-GE3 :1 ;Mosfet Array 20V 220mW Surface Mount SC-89 (SOT-563F)
+SOTFL50P160X60-6N
+*STM Q
+*NGS
+*PLB 1="S1" 2="G1" 3="D2" 4="S2" 5="G2" 6="D1"
+*MXP 6
+*DFN SI1016CX-T1-GE3
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SI1016CX-T1-GE3)
+~!Mouser Part Number (78-SI1016CX-T1-GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1016CX-T1-GE3?qs=ROh%252BA47s9d23BjzCxwa0qg%3D%3D)
+~!Arrow Part Number (SI1016CX-T1-GE3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/si1016cx-t1-ge3/vishay?region=nac)
+~!Link Datasheet (https://www.vishay.com/docs/67535/si1016cx.pdf)
+~!Height (0.6mm)
+~!3D_Model (SI1016CX-T1-GE3)
+SI1016CX-T1-GE3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

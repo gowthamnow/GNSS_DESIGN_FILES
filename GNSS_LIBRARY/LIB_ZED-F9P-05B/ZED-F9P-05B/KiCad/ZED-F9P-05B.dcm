@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZED-F9P-05B
+D GNSS / GPS Modules High Precision Multi-band RTK  GNSS module, with Galileo OSNMA
+K
+F https://www.u-blox.com/en/product/zed-f9p-module
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI1016CX_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SI1016CX-T1-GE3" (!) = "", "SOTFL50P160X60-6N", "SO Transistor Flat Lead", "78-SI1016CX-T1-GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI1016CX-T1-GE3?qs=ROh%252BA47s9d23BjzCxwa0qg%3D%3D", "SI1016CX-T1-GE3", "https://www.arrow.com/en/products/si1016cx-t1-ge3/vishay?region=nac", "Mosfet Array 20V 220mW Surface Mount SC-89 (SOT-563F)", "https://www.vishay.com/docs/67535/si1016cx.pdf", "0.6 mm"
+END_PART
+
+END.

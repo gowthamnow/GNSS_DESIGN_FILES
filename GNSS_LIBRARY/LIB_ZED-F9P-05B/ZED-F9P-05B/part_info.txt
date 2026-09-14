@@ -1,0 +1,9 @@
+Manufacturer=u-blox
+PartNumber=ZED-F9P-05B
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=102
+Version=2.3
+Released=2025-01-20 09:12:32
+Downloaded=2026-08-12 05:57:22
+3D=Y

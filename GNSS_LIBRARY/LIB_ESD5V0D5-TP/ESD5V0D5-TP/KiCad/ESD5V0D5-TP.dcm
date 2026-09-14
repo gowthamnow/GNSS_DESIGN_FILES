@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESD5V0D5-TP
+D 18.6V Clamp 11.6A (8/20s) Ipp Tvs Diode Surface Mount SOD-523
+K
+F https://mccsemi.com/pdf/Products/ESD3V3D5~ESD12VD5(SOD-523).pdf
+$ENDCMP
+#
+#End Doc Library

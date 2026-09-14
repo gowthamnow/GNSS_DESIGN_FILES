@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PESD2CANFD24V-TR
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2020-09-19 23:22:07
+Downloaded=2026-08-15 14:02:15
+3D=Y
