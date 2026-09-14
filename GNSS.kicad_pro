@@ -595,6 +595,10 @@
       "ZED_Z9P"
     ],
     [
+      "b1f00880-f738-473f-92f4-04222a609f67",
+      "ANTENNA"
+    ],
+    [
       "5f28e942-ada7-4d13-8727-49641d723651",
       "CONTROLLER"
     ],
@@ -615,16 +619,12 @@
       "IMU & SDCARD"
     ],
     [
-      "588923e1-135a-4233-bb51-eac67930486c",
-      "POWER_ARCHITECTURE"
-    ],
-    [
-      "b1f00880-f738-473f-92f4-04222a609f67",
-      "ANTENNA"
-    ],
-    [
       "6ff29533-10e7-44dd-9805-0588a7bb3f10",
       "LEDs & BUTTONs"
+    ],
+    [
+      "588923e1-135a-4233-bb51-eac67930486c",
+      "POWER_ARCHITECTURE"
     ]
   ],
   "text_variables": {}
