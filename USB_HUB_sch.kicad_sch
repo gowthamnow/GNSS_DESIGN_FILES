@@ -2962,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 24.13) (xy 193.04 24.13)
+			(xy 158.75 41.91) (xy 163.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 20.32) (xy 215.9 24.13)
+			(xy 186.69 38.1) (xy 186.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3412,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 24.13) (xy 215.9 24.13)
+			(xy 181.61 41.91) (xy 186.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 21.59) (xy 187.96 24.13)
+			(xy 158.75 39.37) (xy 158.75 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "BLM21PG221SN1D:BLM21PG221SN1D")
-		(at 208.28 24.13 0)
+		(at 179.07 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4328,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "058eace3-2959-4175-8ee3-6513bb5054f6")
 		(property "Reference" "FL10"
-			(at 201.93 17.78 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,15 +4336,15 @@
 			)
 		)
 		(property "Value" "BLM21PG221SN1D"
-			(at 201.93 20.32 0)
+			(at 172.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
-			(at 211.328 12.954 0)
+		(property "Footprint" "GNSS:BEADC2012X105N"
+			(at 182.118 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 24.13 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 24.13 0)
+			(at 179.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4372,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 225.806 18.288 0)
+			(at 196.596 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4382,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            220 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2A 45mOhm\n                        \n"
-			(at 208.026 16.002 0)
+			(at 178.816 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4392,7 @@
 			)
 		)
 		(property "Package" "2012 Murata"
-			(at 210.058 18.542 0)
+			(at 180.848 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4402,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 219.456 19.05 0)
+			(at 190.246 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4412,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=snap"
-			(at 211.328 15.748 0)
+			(at 182.118 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4422,7 @@
 			)
 		)
 		(property "MP" "BLM21PG221SN1D"
-			(at 216.662 11.43 0)
+			(at 187.452 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4432,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 233.172 19.05 0)
+			(at 203.962 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4442,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=eda"
-			(at 214.376 9.652 0)
+			(at 185.166 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4542,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "09ee018a-e556-4920-9765-c8ac58383753")
 		(property "Reference" "R10"
 			(at 136.906 65.532 90)
@@ -4744,7 +4744,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0c395062-709b-44c2-b078-99f349e620f2")
 		(property "Reference" "R88"
 			(at 140.462 56.134 90)
@@ -5476,7 +5476,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 215.9 20.32 0)
+		(at 186.69 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5484,7 +5484,7 @@
 		(dnp no)
 		(uuid "2ebd045d-4d3e-4bb2-95e1-4317cc80c17a")
 		(property "Reference" "#PWR0211"
-			(at 215.9 24.13 0)
+			(at 186.69 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Value" "+3.3V_HUB"
-			(at 216.154 15.748 0)
+			(at 186.944 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 20.32 0)
+			(at 186.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 20.32 0)
+			(at 186.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 215.9 20.32 0)
+			(at 186.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6283,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 21.59 0)
+		(at 158.75 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6292,7 +6292,7 @@
 		(fields_autoplaced yes)
 		(uuid "42a5c17c-1f4d-4024-bb88-d7a03d789373")
 		(property "Reference" "#PWR0210"
-			(at 187.96 25.4 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6301,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 187.96 16.51 0)
+			(at 158.75 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 21.59 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 21.59 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 21.59 0)
+			(at 158.75 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8132,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a5ca5cb-a9b8-4fe0-a692-d09f08590a3b")
 		(property "Reference" "R87"
 			(at 140.462 49.784 90)
@@ -10242,7 +10242,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ebb28da5-9754-414b-bff1-5f616ee7165d")
 		(property "Reference" "R8"
 			(at 135.636 41.402 90)
