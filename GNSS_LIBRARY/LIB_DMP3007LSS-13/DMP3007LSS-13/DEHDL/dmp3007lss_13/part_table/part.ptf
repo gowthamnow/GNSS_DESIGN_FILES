@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DMP3007LSS_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "DMP3007LSS-13" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "621-DMP3007LSS-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP3007LSS-13?qs=qSfuJ%252Bfl%2Fd6BWzce%2FirNpQ%3D%3D", "MOSFET MOSFET BVDSS: 8V-24V", "https://www.diodes.com//assets/Datasheets/DMP3007LSS.pdf", "1.75 mm"
+END_PART
+
+END.

@@ -1,0 +1,66 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TL3301EF100QG" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at -5.08546 6.35682 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TL3301EF100QG" (id 1) (at -6.10221 -7.3735 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TL3301EF100QG:SOIC450P1000X730-4N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "E-Switch" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TL3301EF100QG_0_0"
+      (polyline
+        (pts (xy 5.08 5.08) (xy -5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 0.0 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (pin passive line (at -10.16 5.08 0) (length 5.08)
+        (name "1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08)
+        (name "2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -5.08 0) (length 5.08)
+        (name "3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,56 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+USB2513B_M2 QFN50P600X600X100-37N-D I ANA 9 1 0 0 0
+TIMESTAMP 2026.08.09.14.18.55
+"Manufacturer_Name" Microchip
+"Manufacturer_Part_Number" USB2513B/M2
+"Mouser Part Number" 579-USB2513B/M2
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Microchip-Technology/USB2513B-M2?qs=uus7iwvxYD8fly9xV9Wytg%3D%3D
+"Arrow Part Number" USB2513B/M2
+"Arrow Price/Stock" https://www.arrow.com/en/products/usb2513bm2/microchip-technology?utm_currency=USD&region=nac
+"Description" USB Interface IC 3-Port USB 2.0 Hi-Speed Hub Cont
+"Datasheet Link" http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562310
+"Geometry.Height" 1mm
+GATE 1 37 0
+USB2513B_M2
+1 0 U USBDM_DN1/PRT_DIS_M1
+2 0 U USBDP_DN1/PRT_DIS_P1
+3 0 U USBDM_DN2/PRT_DIS_M2
+4 0 U USBDP_DN2/PRT_DIS_P2
+5 0 U VDDA33_1
+6 0 U USBDM_DN3/PRT_DIS_M3
+7 0 U USBDP_DN3/PRT_DIS_P3
+8 0 U NC_1
+9 0 U NC_2
+10 0 U VDDA33_2
+11 0 U TEST
+12 0 U PRTPWR1/BC_EN1
+13 0 U OCS_N1
+14 0 U CRFILT
+15 0 U VDD33_1
+16 0 U PRTPWR2/BC_EN2
+17 0 U OCS_N2
+18 0 U PRTPWR3/BC_EN3
+27 0 U VBUS_DET
+26 0 U RESET_N
+25 0 U HS_IND/CFG_SEL1
+24 0 U SCL/SMBCLK/CFG_SEL0
+23 0 U VDD33_2
+22 0 U SDA/SMBDATA/NON_REM1
+21 0 U NC_4
+20 0 U NC_3
+19 0 U OCS_N3
+37 0 U GND
+36 0 U VDDA33_4
+35 0 U RBIAS
+34 0 U PLLFILT
+33 0 U XTALIN/CLKIN
+32 0 U XTALOUT
+31 0 U USBDP_UP
+30 0 U USBDM_UP
+29 0 U VDDA33_3
+28 0 U SUSP_IND/LOCAL_PWR/NON_REM0
+
+*END*
+*REMARK* SamacSys ECAD Model
+884213/1856388/2.50/37/3/Integrated Circuit

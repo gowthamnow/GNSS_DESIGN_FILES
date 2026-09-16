@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD2CANFD24V-TR
+D ESD Suppressors / TVS Diodes DIODE ESD PROT
+K
+F https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf
+$ENDCMP
+#
+#End Doc Library

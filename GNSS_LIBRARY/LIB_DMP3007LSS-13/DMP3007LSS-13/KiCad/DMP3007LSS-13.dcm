@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP3007LSS-13
+D MOSFET MOSFET BVDSS: 8V-24V
+K
+F https://www.diodes.com//assets/Datasheets/DMP3007LSS.pdf
+$ENDCMP
+#
+#End Doc Library

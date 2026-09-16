@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f732ef88-7238-4458-8dc2-a716da87e8e4")
+	(paper "A4")
+	(lib_symbols)
+	(text "Connections Overview"
+		(exclude_from_sim no)
+		(at 135.128 27.686 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "551a5171-0cb2-44a1-80c7-5483624ec140")
+	)
+)

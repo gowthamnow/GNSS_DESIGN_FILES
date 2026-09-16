@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF_MSMF200_2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ELEMENT14_PART_NUMBER", "ELEMENT14_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "MF-MSMF200-2" (!) = "", "FUSC4632X85N", "Fuses Chip", "", "", "Fuse, PTC, Resettable, SMD, 1812, 2.0A Bourns 2A Surface Mount Resettable Fuse, 8 V", "", "0.85 mm"
+END_PART
+
+END.

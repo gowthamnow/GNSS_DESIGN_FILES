@@ -1,0 +1,16 @@
+.MF-MSMF200-2 :1 ;Fuse, PTC, Resettable, SMD, 1812, 2.0A Bourns 2A Surface Mount Resettable Fuse, 8 V
+FUSC4632X85N
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF-MSMF200-2
+~!element14 Part Number (-)
+~!element14 Price/Stock (-)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (MF-MSMF200-2)
+~!Link Datasheet (-)
+~!Height (0.85mm)
+~!3D_Model (MF-MSMF200-2)
+MF-MSMF200-2
+1.1!U 2.1!U 
