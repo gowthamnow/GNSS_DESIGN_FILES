@@ -3341,7 +3341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "STM_3.3V"
+		(property "Value" "STM_3V3"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "STM_3.3V"
+		(property "Value" "STM_3V3"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "STM_3.3V"
+		(property "Value" "STM_3V3"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -5602,7 +5602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "STM_3.3V"
+		(property "Value" "STM_3V3"
 			(at 60.96 92.71 0)
 			(effects
 				(font

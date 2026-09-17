@@ -2974,7 +2974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 215.9 44.45 0)
 			(effects
 				(font
@@ -3807,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_ARDUINO"
+		(property "Value" "+3V3_ARDUINO"
 			(at 147.32 52.578 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 205.74 80.01 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_ARDUINO"
+		(property "Value" "+3V3_ARDUINO"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -4354,7 +4354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 78.74 68.58 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_ARDUINO"
+		(property "Value" "+3V3_ARDUINO"
 			(at 169.164 80.01 90)
 			(effects
 				(font
