@@ -4621,14 +4621,13 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 236.728 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6007,7 +6006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GNSS:MURATA_XRCGB24M000FFS1DR0_0"
+		(property "Footprint" "GNSS:XTAL_ECS-250-12-33-AGN-TR"
 			(at 64.77 165.1 0)
 			(effects
 				(font
@@ -6772,7 +6771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.15 172.72 0)
 			(effects
 				(font
@@ -7645,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 172.72 0)
 			(effects
 				(font

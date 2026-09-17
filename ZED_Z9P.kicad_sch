@@ -3468,6 +3468,12 @@
 		(uuid "2fe6f1fe-5466-4cf0-b15a-631730f92ab4")
 	)
 	(junction
+		(at 223.52 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3107ccb7-a5c9-4b57-a9e6-f87c059531ae")
+	)
+	(junction
 		(at 96.52 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3564,12 +3570,6 @@
 		(uuid "6767b217-e984-4b0c-9e19-d84c75cb0162")
 	)
 	(junction
-		(at 77.47 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67c0ddac-e090-40b5-9806-12ed5974ad44")
-	)
-	(junction
 		(at 175.26 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,6 +3586,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "855a8109-4410-4532-81c5-a8f21b19bd39")
+	)
+	(junction
+		(at 113.03 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8690b739-9746-42f1-a993-f62940426cf8")
+	)
+	(junction
+		(at 77.47 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8959b51c-e319-4bd8-93e6-da519f48d30a")
 	)
 	(junction
 		(at 72.39 49.53)
@@ -3660,12 +3672,6 @@
 		(uuid "bad5a316-265b-4e4c-ac39-4a6ca3efd543")
 	)
 	(junction
-		(at 113.03 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baf94aa3-b539-45ca-927d-77ee44bddea9")
-	)
-	(junction
 		(at 214.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3700,12 +3706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d162c77b-3dfc-48be-88ec-03b55158f5d3")
-	)
-	(junction
-		(at 223.52 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d42a05d3-5bda-4b50-973c-77cc92d72fc6")
 	)
 	(junction
 		(at 175.26 140.97)
@@ -4409,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 124.46 118.11)
+			(xy 107.95 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5801,71 +5801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 110.49 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b2aa6a6-ca5c-4ad5-a16d-655773a3a6c2")
-		(property "Reference" "#PWR0167"
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 109.728 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c46b4fb-c58c-4ff7-8149-c9baafddae3c")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 59.69 55.88 180)
 		(unit 1)
@@ -5929,6 +5864,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ad8d17-d0d3-4853-9417-0b846ffae9f3")
+		(property "Reference" "#PWR050"
+			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3cd4f3-afc5-4513-a3ec-90365c741d4f")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6140,71 +6141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 223.52 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56ee2f2b-af16-46fe-9f10-f9776665b9df")
-		(property "Reference" "#PWR0165"
-			(at 223.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 222.758 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96d847cb-542d-4584-9442-12816badf153")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 72.39 55.88 180)
 		(unit 1)
@@ -6337,6 +6273,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac75d78-9035-47f4-9158-4f8a68988481")
+		(property "Reference" "#PWR0161"
+			(at 223.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f358edc2-ba7a-48fb-ba23-79f45a87f661")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1056:BAT_1056"
+		(property "Footprint" "GNSS:BAT_1056"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -6804,6 +6806,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7994c7da-7cab-4a5d-a4e2-39ab87fb2610")
+		(property "Reference" "#PWR0160"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b91db4-5da5-487c-956e-6b56ba196ef4")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -7450,71 +7518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97a98cd3-9401-459c-88b9-5753e91cd748")
-		(property "Reference" "#PWR0164"
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 76.708 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16f88ccf-64af-47c5-a35e-56a4d1708d0b")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 29.21 270)
 		(unit 1)
@@ -7582,6 +7585,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 96.52 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8e8422-39fa-4223-abd1-7b09d0d34e5b")
+		(property "Reference" "#PWR047"
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85468b06-8594-4993-87d4-e18071f73407")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 24.13 270)
 		(unit 1)
@@ -7643,136 +7712,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 113.03 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a72c53fd-30e0-4114-9628-1aba315cec0c")
-		(property "Reference" "#PWR045"
-			(at 113.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 112.268 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 113.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe428138-6e49-4afe-a2e4-5fdc28528f31")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeb27a77-8c77-410e-8cb7-7d6e0bb2118a")
-		(property "Reference" "#PWR047"
-			(at 96.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 95.758 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cd2b9e4-b9a5-43ee-a018-d7722e554741")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7849,15 +7788,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 54.61 96.52 0)
+		(at 107.95 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf3a1075-4e87-463c-b9db-c3c6174cf774")
-		(property "Reference" "#PWR0161"
-			(at 54.61 100.33 0)
+		(fields_autoplaced yes)
+		(uuid "d145e54f-ff7d-4dd2-a738-3a033d9f98a2")
+		(property "Reference" "#PWR0164"
+			(at 107.95 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,8 +7805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_GN"
-			(at 53.848 91.44 0)
+		(property "Value" "+3V3_GNSS"
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +7814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 96.52 0)
+			(at 107.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 96.52 0)
+			(at 107.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +7832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 54.61 96.52 0)
+			(at 107.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,12 +7841,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1633f91f-6394-4d20-8a39-9991b21c4e32")
+			(uuid "378fa381-cfb5-4582-bf3e-cbf0bb01595f")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
-					(reference "#PWR0161")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -8108,6 +8048,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4865ccf-53fb-445b-8844-bde95e0a5bb9")
+		(property "Reference" "#PWR045"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c663f6-a80c-4407-a350-961fca28c747")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

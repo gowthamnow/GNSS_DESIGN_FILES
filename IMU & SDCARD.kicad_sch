@@ -5750,7 +5750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 254.508 47.244 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 150.368 51.054 0)
 			(effects
 				(font

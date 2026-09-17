@@ -2723,6 +2723,201 @@
 		)
 	)
 	(symbol
+		(lib_id "SKRPABE010:SKRPABE010")
+		(at 223.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "040c9570-6366-4dfc-bc4c-a27d72c0f798")
+		(property "Reference" "S2"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPABE010"
+			(at 223.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GNSS:SW_SKRPABE010"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ALPS"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SKRPABE010/ALPS/view-part/?ref=eda"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SKRPABE010/ALPS/view-part/?ref=snap"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SKRPABE010"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=652544&manufacturer=ALPS&part_name=SKRPABE010&search_term= skrpabe010"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 1.57N SMD Automotive T/R\n                        \n"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alps"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6287f40-6f34-49b6-8507-5a18802e80e3")
+		)
+		(pin "3"
+			(uuid "749b803d-dcd7-4ab3-83e3-13a9e0edde4f")
+		)
+		(pin "2"
+			(uuid "c3cba17d-fed6-4867-8b16-a1be13d92243")
+		)
+		(pin "4"
+			(uuid "3121a723-b72a-4a94-a86d-1e70cc4d8805")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 133.35 0)
 		(unit 1)
@@ -3416,6 +3611,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 167.64 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a239c62-02d4-4df7-b769-e5c69dc0fa00")
+		(property "Reference" "#PWR0158"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 167.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "073206db-4b7b-4b02-bcae-b7e38e7433d8")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-08-14_04-34-19:SML-P12U2TT86R")
 		(at 93.98 53.34 270)
 		(unit 1)
@@ -3680,71 +3941,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 167.64 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b909279-5a37-4366-ab00-3c534fc4b9d3")
-		(property "Reference" "#PWR0114"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 166.878 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd87ca31-7a84-49af-ab9c-2beadb1b5890")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4832,6 +5028,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a12b0e-bb92-4f68-bfc9-c1976832faf7")
+		(property "Reference" "#PWR0114"
+			(at 210.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 210.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9619d826-ee92-43e5-8f7a-ca1fe31711f4")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC849")
 		(at 99.06 121.92 0)
 		(unit 1)
@@ -5322,71 +5584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 210.82 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcc4c637-1217-4ca4-973d-c574078217eb")
-		(property "Reference" "#PWR0125"
-			(at 210.82 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 210.058 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "737812e8-bb29-4755-8a12-f0bfd16b8a64")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 97.79 0)
 		(unit 1)
@@ -5447,6 +5644,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6a98058-e907-4550-a343-aa3914e58966")
+		(property "Reference" "#PWR0125"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_GNSS"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca764191-086d-43ab-b181-6ef840dfdd11")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -5733,201 +5996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SKRPABE010:SKRPABE010")
-		(at 223.52 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea522eb7-93c8-453b-ae02-d9e66ed795c1")
-		(property "Reference" "S2"
-			(at 223.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKRPABE010"
-			(at 223.52 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:SW_SKRPABE010"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ALPS"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SKRPABE010/ALPS/view-part/?ref=eda"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SKRPABE010/ALPS/view-part/?ref=snap"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SKRPABE010"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=652544&manufacturer=ALPS&part_name=SKRPABE010&search_term= skrpabe010"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 1.57N SMD Automotive T/R\n                        \n"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Alps"
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b15e5dc-7134-4f74-afcf-1506beff96c2")
-		)
-		(pin "3"
-			(uuid "9155c50d-ef8f-4d53-bbd8-033f2a598654")
-		)
-		(pin "2"
-			(uuid "e783336a-1ed8-4c2a-a973-26148ef3b2b6")
-		)
-		(pin "4"
-			(uuid "54788f6b-c891-4571-ad8f-46497f58a65e")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 165.1 118.11 180)
 		(unit 1)
@@ -5991,71 +6059,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 256.54 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f97b397a-cd20-4056-9a1c-023ae8e69a3a")
-		(property "Reference" "#PWR0158"
-			(at 256.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_GN"
-			(at 255.778 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3a57cb2-44ce-4130-a180-9cc15109681b")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/6ff29533-10e7-44dd-9805-0588a7bb3f10"
-					(reference "#PWR0158")
 					(unit 1)
 				)
 			)

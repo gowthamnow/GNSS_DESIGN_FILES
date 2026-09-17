@@ -4212,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 212.598 38.354 0)
 			(effects
 				(font

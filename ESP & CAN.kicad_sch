@@ -2604,355 +2604,6 @@
 				)
 			)
 		)
-		(symbol "Power_Protection:TPD2EUSB30A"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPD2EUSB30A"
-				(at 7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
-				(at -19.05 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection USB 3.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Texas*DRT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPD2EUSB30A_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.175 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy -0.762 0.762) (xy -0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -3.81 -2.54) (xy -3.175 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -3.81 1.27) (xy -3.175 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.508) (xy -0.635 -0.508) (xy 0 0.762) (xy 0.635 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 2.54 -2.54) (xy 3.175 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 2.54 1.27) (xy 3.175 2.54) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "TPD2EUSB30A_1_1"
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -4717,77 +4368,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:TPD2EUSB30A")
-		(at 121.92 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "009e7fea-3a60-47fe-8d90-f2dbaaf81b18")
-		(property "Reference" "U6"
-			(at 121.92 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD2EUSB30A"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
-			(at 102.87 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffa45248-c486-4881-a4ad-92cfc9669e4c")
-		)
-		(pin "1"
-			(uuid "5ede08cd-f8c3-47a4-ac88-0ef4d2f3d1ea")
-		)
-		(pin "3"
-			(uuid "241a1a6c-c449-40cd-a035-5863422aad96")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/cd83e7ab-22db-42ff-a7e6-36d43df00222"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 172.72 109.22 180)
 		(unit 1)
@@ -4814,7 +4394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.72 109.22 0)
 			(effects
 				(font
@@ -4883,7 +4463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -4950,7 +4530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -5217,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 107.95 0)
 			(effects
 				(font
@@ -5355,7 +4935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -5424,7 +5004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 227.33 130.81 0)
 			(effects
 				(font
@@ -5954,7 +5534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 125.73 0)
 			(effects
 				(font
@@ -6689,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 81.28 0)
 			(effects
 				(font
@@ -6889,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 124.968 59.944 0)
 			(effects
 				(font
@@ -7038,7 +6618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
+		(property "Footprint" "GNSS:BEADC2012X105N"
 			(at 123.698 49.784 0)
 			(effects
 				(font
@@ -7163,7 +6743,7 @@
 	)
 	(symbol
 		(lib_id "2026-08-14_04-42-40:TCAN1042VDRBRQ1")
-		(at 58.42 114.3 0)
+		(at 57.15 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7172,7 +6752,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c83786a-4965-407b-bba2-960a502c7ca4")
 		(property "Reference" "U5"
-			(at 58.42 93.98 0)
+			(at 57.15 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7180,7 +6760,7 @@
 			)
 		)
 		(property "Value" "TCAN1042VDRBRQ1"
-			(at 59.69 96.52 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7188,7 +6768,7 @@
 			)
 		)
 		(property "Footprint" "GNSS:DRB0008F"
-			(at 59.69 114.3 0)
+			(at 58.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +6778,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tcan1042v-q1"
-			(at 59.69 114.3 0)
+			(at 58.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +6788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 114.3 0)
+			(at 58.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -7480,7 +7060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 109.22 0)
 			(effects
 				(font
@@ -7547,7 +7127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -7748,7 +7328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -7817,7 +7397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.36 115.57 0)
 			(effects
 				(font
@@ -8286,7 +7866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 88.9 0)
 			(effects
 				(font
@@ -9011,7 +8591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.41 81.28 0)
 			(effects
 				(font
@@ -9473,7 +9053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.03 132.08 0)
 			(effects
 				(font
