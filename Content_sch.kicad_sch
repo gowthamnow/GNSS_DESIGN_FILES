@@ -197,9 +197,9 @@
 		)
 		(uuid 8c580d35-c416-4001-9c89-c235a9c33920)
 	)
-	(text "12"
+	(text "14"
 		(exclude_from_sim no)
-		(at 192.532 115.824 0)
+		(at 193.04 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -208,9 +208,9 @@
 		)
 		(uuid "060c4ed6-36ad-4fab-a9c2-60d8a012f09d")
 	)
-	(text "7"
+	(text "8"
 		(exclude_from_sim no)
-		(at 193.548 90.424 0)
+		(at 193.294 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -287,7 +287,7 @@
 	)
 	(text "ANTENNA"
 		(exclude_from_sim no)
-		(at 138.43 121.666 0)
+		(at 138.176 90.932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -298,7 +298,7 @@
 	)
 	(text "POWER_ARCHITECTURE"
 		(exclude_from_sim no)
-		(at 138.176 116.078 0)
+		(at 138.938 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -309,7 +309,7 @@
 	)
 	(text "ARDUINO"
 		(exclude_from_sim no)
-		(at 137.922 100.838 0)
+		(at 137.414 105.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -417,9 +417,9 @@
 		)
 		(uuid "81f9d406-37ed-45c6-b2ff-f81611e3ac42")
 	)
-	(text "8"
+	(text "9"
 		(exclude_from_sim no)
-		(at 193.294 95.758 0)
+		(at 193.04 100.584 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -428,9 +428,9 @@
 		)
 		(uuid "8671bb02-27a6-4778-a9db-3d3e107fb739")
 	)
-	(text "9"
+	(text "10"
 		(exclude_from_sim no)
-		(at 193.294 100.33 0)
+		(at 192.532 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -452,7 +452,7 @@
 	)
 	(text "LEDs & BUTTONs"
 		(exclude_from_sim no)
-		(at 137.922 128.016 0)
+		(at 138.684 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -461,9 +461,9 @@
 		)
 		(uuid "91ece9e8-c1c4-468e-acb1-65cf37df21aa")
 	)
-	(text "13"
+	(text "7"
 		(exclude_from_sim no)
-		(at 192.278 121.412 0)
+		(at 193.294 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -472,9 +472,9 @@
 		)
 		(uuid "97c773c2-cb6a-471f-ad87-315f682a3588")
 	)
-	(text "10"
+	(text "11"
 		(exclude_from_sim no)
-		(at 192.532 105.664 0)
+		(at 192.786 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -507,7 +507,7 @@
 	)
 	(text "ETHERNET"
 		(exclude_from_sim no)
-		(at 137.922 105.918 0)
+		(at 137.414 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -516,9 +516,9 @@
 		)
 		(uuid "c464908b-78bf-440b-897d-069342168ff9")
 	)
-	(text "14"
+	(text "13"
 		(exclude_from_sim no)
-		(at 192.532 127.762 0)
+		(at 192.786 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -527,9 +527,9 @@
 		)
 		(uuid "cf8e4e26-799c-43cc-8ead-a82672519684")
 	)
-	(text "11"
+	(text "12"
 		(exclude_from_sim no)
-		(at 192.532 110.49 0)
+		(at 192.786 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -540,7 +540,7 @@
 	)
 	(text "ESP & CAN"
 		(exclude_from_sim no)
-		(at 137.922 95.504 0)
+		(at 137.414 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -551,7 +551,7 @@
 	)
 	(text "CONTROLLER"
 		(exclude_from_sim no)
-		(at 138.176 90.424 0)
+		(at 137.668 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -573,7 +573,7 @@
 	)
 	(text "IMU & SDCARD"
 		(exclude_from_sim no)
-		(at 137.922 110.998 0)
+		(at 137.922 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -582,7 +582,7 @@
 		)
 		(uuid "f6add4f5-ac90-44bc-8db7-8aad41da889c")
 	)
-	(text "ZED_F9P"
+	(text "ZED_ZF9P"
 		(exclude_from_sim no)
 		(at 138.176 85.344 0)
 		(effects

@@ -4270,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 72.39 87.63 0)
 			(effects
 				(font
@@ -4689,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 76.2 104.1399 90)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -5426,7 +5426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 156.21 122.428 90)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 186.944 33.528 0)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 162.56 107.9499 90)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 158.75 34.29 0)
 			(effects
 				(font
@@ -6500,7 +6500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 227.838 26.67 0)
 			(effects
 				(font
@@ -6832,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 119.38 157.988 90)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 144.272 71.882 90)
 			(effects
 				(font
@@ -7278,7 +7278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 118.872 61.468 90)
 			(effects
 				(font
@@ -8078,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 140.208 38.608 0)
 			(effects
 				(font
@@ -9718,7 +9718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HUB"
+		(property "Value" "+3V3_HUB"
 			(at 76.2 121.9199 90)
 			(effects
 				(font
