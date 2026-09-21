@@ -456,6 +456,17 @@
 	)
 	(polyline
 		(pts
+			(xy 119.38 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "76c1efab-e08e-47c1-8800-33e173148861")
+	)
+	(polyline
+		(pts
 			(xy 245.11 152.4) (xy 283.21 152.4)
 		)
 		(stroke
@@ -551,17 +562,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "9fb759ab-4b08-435b-8a17-a6e5e0f3f506")
-	)
-	(polyline
-		(pts
-			(xy 119.38 91.44) (xy 132.08 90.932)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a0393698-e4fa-48c1-ad3b-ca812bd0e630")
 	)
 	(polyline
 		(pts
@@ -1553,7 +1553,7 @@
 		)
 		(uuid "ce6c5537-0517-4ae5-be99-396e8f9a3e42")
 	)
-	(text "ZED_F9P"
+	(text "ZED_ZF9P"
 		(exclude_from_sim no)
 		(at 230.378 21.844 0)
 		(effects
