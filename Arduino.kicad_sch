@@ -1631,6 +1631,10 @@
 		(uuid "bb9523e6-4b37-4d8e-b9dc-c5c87db49fd4")
 	)
 	(no_connect
+		(at 157.48 80.01)
+		(uuid "0372932a-1d35-420c-9684-12a55c771d9b")
+	)
+	(no_connect
 		(at 142.24 63.5)
 		(uuid "66c8b833-adf6-42a0-8d28-09195f9bfb3f")
 	)
@@ -4465,71 +4469,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 157.48 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee38b275-482d-4044-b6fa-47f51f6250d5")
-		(property "Reference" "#PWR0224"
-			(at 153.67 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ARDUINO"
-			(at 169.164 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5788b1db-17ad-4940-93d2-6e05f1611b5a")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
