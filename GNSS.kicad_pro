@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -109,7 +115,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.254,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -121,7 +127,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.254,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -170,7 +176,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,7 +205,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -415,7 +428,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -845,8 +858,16 @@
       "POWER"
     ],
     [
+      "29ff9884-2eb8-4e05-9573-dea527771c4b",
+      "POWER_2"
+    ],
+    [
       "4caa84e5-94a9-4f5c-b728-f1a155edd67e",
       "USB_HUB"
+    ],
+    [
+      "5f28e942-ada7-4d13-8727-49641d723651",
+      "CONTROLLER"
     ],
     [
       "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49",
@@ -857,16 +878,8 @@
       "ANTENNA"
     ],
     [
-      "5f28e942-ada7-4d13-8727-49641d723651",
-      "CONTROLLER"
-    ],
-    [
       "cd83e7ab-22db-42ff-a7e6-36d43df00222",
-      "ESP & CAN"
-    ],
-    [
-      "c129ce73-fc4e-459a-b7eb-49148af5c1a5",
-      "ARDUINO"
+      "ESP "
     ],
     [
       "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f",
@@ -874,7 +887,19 @@
     ],
     [
       "3071fff4-2246-4a32-a92e-73d7c673f76c",
-      "IMU & SDCARD"
+      "IMU "
+    ],
+    [
+      "a26a2b73-db6a-4d12-bbec-f3de5968d428",
+      "SD_CARD"
+    ],
+    [
+      "fb4a78fc-8bb1-43cc-a5a4-25e6404776ed",
+      "CAN"
+    ],
+    [
+      "c129ce73-fc4e-459a-b7eb-49148af5c1a5",
+      "ARDUINO"
     ],
     [
       "6ff29533-10e7-44dd-9805-0588a7bb3f10",

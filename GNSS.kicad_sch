@@ -1123,6 +1123,44 @@
 		)
 	)
 	(sheet
+		(at 62.23 38.1)
+		(size 20.32 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29ff9884-2eb8-4e05-9573-dea527771c4b")
+		(property "Sheetname" "POWER_2"
+			(at 62.23 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_2_sch.kicad_sch"
+			(at 62.23 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 219.71 69.85)
 		(size 27.305 38.735)
 		(fields_autoplaced yes)
@@ -1134,7 +1172,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3071fff4-2246-4a32-a92e-73d7c673f76c")
-		(property "Sheetname" "IMU & SDCARD"
+		(property "Sheetname" "IMU "
 			(at 219.71 69.1384 0)
 			(effects
 				(font
@@ -1143,7 +1181,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "IMU & SDCARD.kicad_sch"
+		(property "Sheetfile" "IMU .kicad_sch"
 			(at 219.71 109.1696 0)
 			(effects
 				(font
@@ -1155,13 +1193,13 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "12")
+					(page "11")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 22.86 44.45)
+		(at 29.21 54.61)
 		(size 13.97 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1173,7 +1211,7 @@
 		)
 		(uuid "30c498b6-eb2f-4a1a-a225-e2b38835e3bb")
 		(property "Sheetname" "BLOCK_DIAGRAM"
-			(at 22.86 43.7384 0)
+			(at 29.21 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1220,7 @@
 			)
 		)
 		(property "Sheetfile" "BLOCK_DIAGRAM.kicad_sch"
-			(at 22.86 55.1946 0)
+			(at 29.21 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1231,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "14")
+					(page "16")
 				)
 			)
 		)
@@ -1231,7 +1269,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
@@ -1269,7 +1307,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -1307,7 +1345,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "14")
+					(page "17")
 				)
 			)
 		)
@@ -1345,7 +1383,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -1383,7 +1421,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "13")
+					(page "15")
 				)
 			)
 		)
@@ -1427,6 +1465,44 @@
 		)
 	)
 	(sheet
+		(at 186.69 135.89)
+		(size 19.05 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a26a2b73-db6a-4d12-bbec-f3de5968d428")
+		(property "Sheetname" "SD_CARD"
+			(at 186.69 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_CARD.kicad_sch"
+			(at 186.69 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 219.075 119.38)
 		(size 30.099 35.306)
 		(fields_autoplaced yes)
@@ -1459,7 +1535,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
@@ -1497,7 +1573,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
@@ -1535,7 +1611,7 @@
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
-					(page "10")
+					(page "14")
 				)
 			)
 		)
@@ -1552,7 +1628,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cd83e7ab-22db-42ff-a7e6-36d43df00222")
-		(property "Sheetname" "ESP & CAN"
+		(property "Sheetname" "ESP "
 			(at 58.166 121.3354 0)
 			(effects
 				(font
@@ -1561,7 +1637,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP & CAN.kicad_sch"
+		(property "Sheetfile" "ESP .kicad_sch"
 			(at 58.166 156.7946 0)
 			(effects
 				(font
@@ -1574,6 +1650,44 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 137.16)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb4a78fc-8bb1-43cc-a5a4-25e6404776ed")
+		(property "Sheetname" "CAN"
+			(at 106.68 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 106.68 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d"
+					(page "13")
 				)
 			)
 		)
