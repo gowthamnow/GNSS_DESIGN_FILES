@@ -4345,7 +4345,7 @@
 		(dnp no)
 		(uuid "0e7cb199-681f-45df-8c79-2bf65c5f5b61")
 		(property "Reference" "R51"
-			(at 227.076 92.202 90)
+			(at 225.298 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4354,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 221.996 91.948 90)
+			(at 225.044 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4414,7 @@
 		(dnp no)
 		(uuid "2129b94e-18f7-44ae-b8d0-b7adaba46430")
 		(property "Reference" "R23"
-			(at 49.784 81.026 90)
+			(at 55.372 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4423,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 56.134 81.28 90)
+			(at 55.372 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4483,7 @@
 		(dnp no)
 		(uuid "24ef4c03-1edf-4883-ad27-a60449b11047")
 		(property "Reference" "L4"
-			(at 83.058 111.252 0)
+			(at 83.058 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(property "Value" "WE-CBF_0603"
-			(at 82.55 108.712 0)
+			(at 82.55 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,72 +5256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 241.3 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fdd692c-db8b-41ef-b7c1-5d9fefd7f547")
-		(property "Reference" "#PWR0103"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 241.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e90a52de-5fe6-47ec-b00d-85babf739391")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 227.33 74.93 270)
 		(unit 1)
@@ -5331,7 +5265,7 @@
 		(dnp no)
 		(uuid "432f38ac-240e-48e8-bdb5-3779fb4c0620")
 		(property "Reference" "R49"
-			(at 227.076 76.962 90)
+			(at 224.536 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5274,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 221.996 76.708 90)
+			(at 224.282 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5595,7 @@
 		(dnp no)
 		(uuid "64adfebd-b3a7-42d5-9927-3278355f414b")
 		(property "Reference" "R50"
-			(at 227.076 84.582 90)
+			(at 225.298 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5604,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 221.996 84.328 90)
+			(at 225.298 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,72 +5715,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 214.63 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77d98ddf-613e-407c-960a-50fe8fa3ce6d")
-		(property "Reference" "#PWR095"
-			(at 214.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ETH"
-			(at 214.63 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c5e44c6-2bb3-439a-b148-5dfa095d1bcc")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6184,6 +6052,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 241.3 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914cfdd6-c20f-4eb5-b6e6-bdc336789b66")
+		(property "Reference" "#PWR095"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_ETH"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97963df0-8d3d-485d-a15d-44e819cf5f9c")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 67.31 179.07 270)
 		(unit 1)
@@ -6193,7 +6127,7 @@
 		(dnp no)
 		(uuid "955eda4d-3534-44fb-822b-1052181ff6d8")
 		(property "Reference" "R22"
-			(at 68.326 180.848 90)
+			(at 65.278 175.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6136,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 60.198 180.34 90)
+			(at 65.532 176.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7008,7 @@
 			)
 		)
 		(property "Value" "6K49"
-			(at 114.3 100.076 0)
+			(at 114.3 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7068,7 @@
 		(dnp no)
 		(uuid "ce64e661-de02-484e-aec0-9997b4b62e13")
 		(property "Reference" "R48"
-			(at 227.076 70.612 90)
+			(at 224.79 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7077,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 221.996 70.358 90)
+			(at 224.536 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,6 +7390,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
 					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 214.63 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce3a901-c60c-4865-9e64-3bc1cf805081")
+		(property "Reference" "#PWR0103"
+			(at 214.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 214.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e7065f3-d642-4f8c-ab33-5c688ff60dfb")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/a33a7fbe-117f-40f3-9eeb-50ee11d7c18f"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)

@@ -1553,7 +1553,7 @@
 		)
 		(uuid "ce6c5537-0517-4ae5-be99-396e8f9a3e42")
 	)
-	(text "ZED_ZF9P"
+	(text "ZED_F9P"
 		(exclude_from_sim no)
 		(at 230.378 21.844 0)
 		(effects

@@ -3481,7 +3481,7 @@
 		(dnp no)
 		(uuid "01cfcca6-948c-47ee-8110-d2621f16a967")
 		(property "Reference" "R95"
-			(at 57.15 88.138 0)
+			(at 55.88 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3490,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.738 92.202 0)
+			(at 55.88 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 		(dnp no)
 		(uuid "08c1ca56-b36c-4aa7-988b-14e43bcb0469")
 		(property "Reference" "R100"
-			(at 135.128 55.626 90)
+			(at 144.018 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 142.24 57.404 0)
+			(at 143.002 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3684,7 @@
 		(dnp no)
 		(uuid "0f0917ff-40b6-4924-a1bb-aa725762f736")
 		(property "Reference" "R84"
-			(at 210.312 84.074 90)
+			(at 202.438 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3693,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 203.2 82.296 0)
+			(at 202.438 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4290,7 @@
 		(dnp no)
 		(uuid "3720d57e-ff6f-45c6-b506-5f7389b11a8f")
 		(property "Reference" "R83"
-			(at 197.866 99.822 90)
+			(at 195.58 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4299,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 192.786 99.568 90)
+			(at 196.088 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 141.986 105.41 0)
+			(at 135.382 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5925,7 @@
 		(dnp yes)
 		(uuid "eed7e766-1267-4e57-9ae7-e6127cb791b6")
 		(property "Reference" "R98"
-			(at 110.998 61.722 90)
+			(at 103.886 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5934,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 105.918 61.722 90)
+			(at 110.998 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6068,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.484 99.314 0)
+			(at 55.88 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,238 +5,6 @@
 	(uuid "6bbf3d04-b5d7-4095-a953-b37f7050c881")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BLM21PG221SN1D:BLM21PG221SN1D"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at -12.7044 5.0815 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "BLM21PG221SN1D"
-				(at -12.71 -5.0866 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "BLM21PG221SN1D:BEADC2012X105N"
-				(at 3.048 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Murata"
-				(at 17.526 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            220 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2A 45mOhm\n                        \n"
-				(at -0.254 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "2012 Murata"
-				(at 1.778 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 11.176 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=snap"
-				(at 3.048 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "BLM21PG221SN1D"
-				(at 8.382 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 24.892 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=eda"
-				(at 6.096 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "BLM21PG221SN1D_0_0"
-				(arc
-					(start -10.16 0)
-					(mid -11.43 1.2645)
-					(end -12.7 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 0)
-					(mid -8.89 1.2645)
-					(end -10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -6.35 1.2645)
-					(end -7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -3.81 1.2645)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "C0402C104K4RAC:C0402C104K4RAC"
 			(pin_names
 				(offset 1.016)
@@ -575,6 +343,152 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1595,12 +1509,6 @@
 		)
 	)
 	(junction
-		(at 72.39 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22fb6143-7dd3-4031-a167-241d5db1387c")
-	)
-	(junction
 		(at 212.09 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1623,12 +1531,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9696ff71-19c1-4f1e-9274-e182c625e55f")
-	)
-	(junction
-		(at 78.74 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb9523e6-4b37-4d8e-b9dc-c5c87db49fd4")
 	)
 	(no_connect
 		(at 157.48 80.01)
@@ -1680,27 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 72.39 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104870f3-0371-416f-9313-8e31dad2e9d1")
-	)
-	(wire
-		(pts
-			(xy 78.74 73.66) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208fa964-e321-4944-83d4-d3c7af083bea")
-	)
-	(wire
-		(pts
-			(xy 181.61 49.53) (xy 194.31 49.53)
+			(xy 191.77 49.53) (xy 199.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1727,16 +1609,6 @@
 			(type default)
 		)
 		(uuid "2c8acdd5-cc05-4d41-b379-c04840780259")
-	)
-	(wire
-		(pts
-			(xy 83.82 113.03) (xy 83.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d71842-392d-4bfc-8c3e-50d01dd979f6")
 	)
 	(wire
 		(pts
@@ -1787,26 +1659,6 @@
 			(type default)
 		)
 		(uuid "3f7b2d85-93c7-4d9a-94fc-f0b91cca81ac")
-	)
-	(wire
-		(pts
-			(xy 60.96 104.14) (xy 78.74 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa9b952-c9c6-493c-af4d-bea96c01aea9")
-	)
-	(wire
-		(pts
-			(xy 83.82 73.66) (xy 83.82 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe83bfb-9d99-416f-8d6e-a45c80b8afd8")
 	)
 	(wire
 		(pts
@@ -1890,16 +1742,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 72.39 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6e9cea-4efc-4955-b0f9-30bf51aad768")
-	)
-	(wire
-		(pts
 			(xy 121.92 90.17) (xy 132.08 90.17)
 		)
 		(stroke
@@ -1950,16 +1792,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 72.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819290c6-4817-4323-9e30-7d5d108749ce")
-	)
-	(wire
-		(pts
 			(xy 142.24 63.5) (xy 142.24 64.77)
 		)
 		(stroke
@@ -1980,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 88.9) (xy 66.04 88.9)
+			(xy 72.39 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 49.53) (xy 212.09 49.53)
+			(xy 207.01 49.53) (xy 217.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 66.04 73.66)
+			(xy 78.74 77.47) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2050,26 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 113.03) (xy 83.82 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68f93e0-359e-4b13-8174-d4d4187eb2b8")
-	)
-	(wire
-		(pts
-			(xy 78.74 104.14) (xy 78.74 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ccef4f-b824-49a5-94a4-70427b16b47b")
-	)
-	(wire
-		(pts
 			(xy 166.37 97.79) (xy 157.48 97.79)
 		)
 		(stroke
@@ -2080,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 66.04 88.9)
+			(xy 78.74 82.55) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2140,16 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 73.66) (xy 78.74 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8bfdf58-e3e6-4827-acaa-631947265f93")
-	)
-	(wire
-		(pts
 			(xy 121.92 107.95) (xy 132.08 107.95)
 		)
 		(stroke
@@ -2160,16 +1962,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 78.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6fa7e20-80e0-4511-9adc-ffc3c7149f8d")
-	)
-	(wire
-		(pts
 			(xy 166.37 90.17) (xy 157.48 90.17)
 		)
 		(stroke
@@ -2177,16 +1969,6 @@
 			(type default)
 		)
 		(uuid "e827b15b-13c4-4313-8930-95b1b769b99c")
-	)
-	(wire
-		(pts
-			(xy 60.96 96.52) (xy 72.39 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e89c46ef-19e9-4e9d-b10a-cd35029f67d0")
 	)
 	(wire
 		(pts
@@ -2292,28 +2074,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AR_MISO"
-		(shape input)
-		(at 60.96 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0595592b-437d-49f1-a436-da9972538871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0524 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2516,28 +2276,6 @@
 			)
 		)
 	)
-	(global_label "AR_SCK"
-		(shape input)
-		(at 60.96 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f2e8586-1eed-4d04-9c94-4c9e1ff89b37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8991 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AR_SCL"
 		(shape input)
 		(at 165.1 110.49 0)
@@ -2650,7 +2388,7 @@
 	)
 	(global_label "AR_SS"
 		(shape input)
-		(at 60.96 88.9 180)
+		(at 72.39 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,7 +2398,7 @@
 		)
 		(uuid "9b36c7c8-6176-456f-ae97-5dd32167bd56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2296 88.9 0)
+			(at 63.6596 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,28 +2492,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AR_MOSI"
-		(shape input)
-		(at 60.96 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c25da069-c946-444f-a88b-5702163a3f53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0524 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2887,141 +2603,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 72.39 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a01dc5c-d9fa-4bc8-b834-9d506768a37f")
-		(property "Reference" "R39"
-			(at 70.358 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 70.612 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4385ad8b-abc9-4096-b44a-d5e02a85f635")
-		)
-		(pin "1"
-			(uuid "60ce6a4f-6c0a-4a4a-aa09-5ca595731090")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 215.9 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e214da8-1b90-4ef7-9dcd-ee410fa537f7")
-		(property "Reference" "#PWR0222"
-			(at 215.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 215.9 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 215.9 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5316086-feac-4925-bda7-3b4a9438e9e6")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "#PWR0222")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3187,6 +2768,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228787a0-2af5-4f71-8aaa-15b7a75d0801")
+		(property "Reference" "#PWR084"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389d7734-710c-4e7f-9a7b-02297fda35e0")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 208.28 88.9 180)
 		(unit 1)
@@ -3196,7 +2843,7 @@
 		(dnp no)
 		(uuid "2a6b0249-9611-4952-9653-a197eb757097")
 		(property "Reference" "R37"
-			(at 205.74 86.868 90)
+			(at 206.502 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +2852,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 210.82 87.63 90)
+			(at 206.248 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +2912,7 @@
 		(dnp no)
 		(uuid "319ae1c6-c14f-453d-873e-f1d9f16438d0")
 		(property "Reference" "R36"
-			(at 198.12 86.868 90)
+			(at 198.12 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +2921,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 203.2 87.63 90)
+			(at 198.12 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,75 +3171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 83.82 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37cf3799-c0fd-4570-8045-0c89d8f16fff")
-		(property "Reference" "R41"
-			(at 81.788 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 82.042 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 83.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a93fb5d-481f-4954-9fe6-e3eae02b66ff")
-		)
-		(pin "1"
-			(uuid "6750352d-812f-4d53-b8a1-4f1847369ed9")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 120.65 0)
 		(unit 1)
@@ -3719,75 +3297,6 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
 					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 78.74 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c3b733f-7733-45d6-a40c-933560e0a7d4")
-		(property "Reference" "R40"
-			(at 76.708 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 76.962 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 78.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ecd78152-2033-49f7-8244-23e3a07635cd")
-		)
-		(pin "1"
-			(uuid "ba6c3488-4a75-4d0a-8fb2-7550dd403444")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3926,6 +3435,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 203.2 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "752d7cc9-b045-4142-b270-a3c4d961dbbe")
+		(property "Reference" "FB12"
+			(at 203.1492 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 203.1492 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GNSS:BEADC2012X105N"
+			(at 203.2 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 203.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6bfe586-835d-49ab-96a9-71268df3f1f9")
+		)
+		(pin "2"
+			(uuid "b804b3b3-6bd7-4dc8-b3a2-6b39a066d1af")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
+					(reference "FB12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 205.74 85.09 0)
 		(unit 1)
@@ -4058,72 +3635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6165eca-297d-4d6e-a604-81f2da9d15a1")
-		(property "Reference" "#PWR0221"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ARDUINO"
-			(at 181.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 181.61 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1435a223-519a-47c1-8965-0b589dd4651f")
-		)
-		(instances
-			(project "GNSS"
-				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "#PWR0221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 212.09 101.6 180)
 		(unit 1)
@@ -4191,43 +3702,34 @@
 		)
 	)
 	(symbol
-		(lib_id "BLM21PG221SN1D:BLM21PG221SN1D")
-		(at 209.55 49.53 0)
+		(lib_id "power:+3.3V")
+		(at 217.17 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c755469e-d2e7-4516-a297-7ce3f80dab09")
-		(property "Reference" "FL12"
-			(at 203.2 43.18 0)
+		(uuid "bf16f94b-ad9b-49ab-94ff-fa365fe63295")
+		(property "Reference" "#PWR0145"
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "BLM21PG221SN1D"
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
-			(at 212.598 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 209.55 49.53 0)
+		(property "Value" "+3V3_ARDUINO"
+			(at 217.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,8 +3737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 209.55 49.53 0)
+		(property "Datasheet" ""
+			(at 217.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,96 +3746,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
-			(at 227.076 43.688 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            220 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 2A 45mOhm\n                        \n"
-			(at 209.296 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "2012 Murata"
-			(at 211.328 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 220.726 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=snap"
-			(at 212.598 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BLM21PG221SN1D"
-			(at 217.932 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 234.442 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BLM21PG221SN1D/Murata/view-part/?ref=eda"
-			(at 215.646 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "51b8d094-cbcd-4be2-b7a1-7ae15542e9aa")
-		)
-		(pin "2"
-			(uuid "bd12b0e7-5c3a-4297-9adc-d1d59498abc2")
+			(uuid "78788b5d-ea43-4fa2-814d-553a4fe0e9da")
 		)
 		(instances
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/c129ce73-fc4e-459a-b7eb-49148af5c1a5"
-					(reference "FL12")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -4407,7 +3835,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 66.04 80.01 180)
+		(at 78.74 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4415,7 +3843,7 @@
 		(dnp no)
 		(uuid "ebec7aa7-8fb5-49ed-bd6f-decf3b55b6f8")
 		(property "Reference" "R38"
-			(at 64.008 79.756 90)
+			(at 76.708 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +3852,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 64.262 74.676 90)
+			(at 76.708 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +3861,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 80.01 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +3870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 80.01 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +3879,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 66.04 80.01 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

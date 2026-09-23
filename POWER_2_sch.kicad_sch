@@ -4216,7 +4216,7 @@
 		(dnp no)
 		(uuid "04a2aaf4-624f-4851-a525-4d6307678a0b")
 		(property "Reference" "R42"
-			(at 148.082 86.106 90)
+			(at 148.082 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Value" "16K5"
-			(at 143.51 81.788 90)
+			(at 143.51 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4285,7 @@
 		(dnp no)
 		(uuid "09a0ea9b-d02f-4aa8-9905-314190756544")
 		(property "Reference" "R14"
-			(at 118.364 87.122 90)
+			(at 115.316 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 			)
 		)
 		(property "Value" "49K9"
-			(at 115.57 92.202 90)
+			(at 110.49 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7119,7 @@
 		(dnp no)
 		(uuid "65dc108e-16f2-45d5-868d-966104c7273a")
 		(property "Reference" "C18"
-			(at 104.902 148.59 0)
+			(at 104.394 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7128,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 104.394 146.05 0)
+			(at 104.394 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7853,7 @@
 		(dnp no)
 		(uuid "890c8f6f-82fd-4f25-b64e-ea121892984b")
 		(property "Reference" "R11"
-			(at 96.52 79.248 90)
+			(at 90.17 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7862,7 @@
 			)
 		)
 		(property "Value" "32K4"
-			(at 90.17 84.328 90)
+			(at 85.598 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8693,7 @@
 		(dnp no)
 		(uuid "a59062ca-d115-4f3d-984b-c6b836985b52")
 		(property "Reference" "R12"
-			(at 96.52 86.868 90)
+			(at 90.678 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8702,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 90.17 91.948 90)
+			(at 86.614 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +8771,7 @@
 			)
 		)
 		(property "Value" "33K2"
-			(at 65.278 162.56 0)
+			(at 64.262 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +9559,7 @@
 		(dnp no)
 		(uuid "df97e3d7-abef-49d3-8bb0-a4322ff55950")
 		(property "Reference" "R46"
-			(at 159.004 86.868 90)
+			(at 159.512 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +9568,7 @@
 			)
 		)
 		(property "Value" "2K94"
-			(at 154.432 81.28 90)
+			(at 154.94 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
