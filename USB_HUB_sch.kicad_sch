@@ -8186,7 +8186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "GNSS:MURATA_XRCGB24M000FFS1DR0_0"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 45.72 105.41 0)
 			(effects
 				(font

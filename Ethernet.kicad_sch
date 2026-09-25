@@ -5066,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-250-18-33-JGN-TR:XTAL_ECS-250-18-33-JGN-TR"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 64.77 163.83 0)
 			(effects
 				(font

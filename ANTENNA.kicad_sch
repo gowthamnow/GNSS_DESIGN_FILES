@@ -2107,6 +2107,181 @@
 				)
 			)
 		)
+		(symbol "TPS22918DBVR:TPS22918DBVR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 11.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS22918DBVR"
+				(at -12.7 -14.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS22918DBVR:SOT95P280X145-6N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22918DBVR_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "CT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TPS22946YZPR:TPS22946YZPR"
 			(pin_names
 				(offset 1.016)
@@ -4095,7 +4270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS22946YZPR:BGA6C50P2X3_140X90X50"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-6_0.704x1.054mm_Layout2x3_P0.35mm"
 			(at 123.19 54.61 0)
 			(effects
 				(font
@@ -4655,7 +4830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LQG15HS47NJ02D:INDC1005X55N"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -4871,7 +5046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MMBT3904LT1G:SOT95P240X111-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 205.74 97.79 0)
 			(effects
 				(font
@@ -5068,6 +5243,87 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/b1f00880-f738-473f-92f4-04222a609f67"
 					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22918DBVR:TPS22918DBVR")
+		(at 119.38 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c9c71d-3178-4f0a-b446-bdc4fab71e7d")
+		(property "Reference" "U11"
+			(at 119.38 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22918DBVR"
+			(at 119.38 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "826a3c68-3d28-4d10-9964-e35a25919476")
+		)
+		(pin "2"
+			(uuid "18eaf34c-7703-41b5-8af7-924cfceeec42")
+		)
+		(pin "6"
+			(uuid "080214b4-ef59-4502-aaac-56217b1c428f")
+		)
+		(pin "1"
+			(uuid "21d4df10-7074-4bdf-97d0-fc1013c9c7d8")
+		)
+		(pin "3"
+			(uuid "5e2e8c30-c33d-4930-818c-310a6b5e722b")
+		)
+		(pin "5"
+			(uuid "d1bed449-9c1f-47fe-b735-fc3abcd8bd5a")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/b1f00880-f738-473f-92f4-04222a609f67"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5300,7 +5556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-363_DIO"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 71.12 102.87 0)
 			(effects
 				(font
@@ -5366,7 +5622,7 @@
 		(dnp no)
 		(uuid "c6979685-7ddf-4fbd-b61f-98355a6d419c")
 		(property "Reference" "D11"
-			(at 82.55 70.104 90)
+			(at 81.534 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PESD0402-140:DIO_PESD0402-140"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 86.36 68.58 0)
 			(effects
 				(font
