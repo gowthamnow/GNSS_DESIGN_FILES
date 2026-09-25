@@ -3701,7 +3701,7 @@
 		)
 		(uuid ba29f6c1-48c6-493a-bb5f-3caf5535bd03)
 	)
-	(text "Ferrrite Beak Drop(hi0805r800r-10)\n--> 5mV @500mA "
+	(text "Ferrite Bead Drop(hi0805r800r-10)\n--> 5mV @500mA "
 		(exclude_from_sim no)
 		(at 66.04 187.706 0)
 		(effects

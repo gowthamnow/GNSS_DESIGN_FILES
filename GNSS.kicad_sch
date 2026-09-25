@@ -227,7 +227,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 161.29) (xy 261.112 161.036)
+			(xy 93.98 160.02) (xy 259.842 159.766)
 		)
 		(stroke
 			(width 0.254)
@@ -260,7 +260,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.112 31.496) (xy 261.112 161.036)
+			(xy 259.842 31.496) (xy 259.842 159.766)
 		)
 		(stroke
 			(width 0.254)
@@ -367,6 +367,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "dbcfe7ff-ce3e-452c-9622-de05d2a57d38")
+	)
+	(polyline
+		(pts
+			(xy 71.12 46.99) (xy 77.47 46.99)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ddf6a899-7be2-418a-b96a-714e4df02d67")
 	)
 	(polyline
 		(pts
@@ -1233,8 +1244,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 44.45)
-		(size 25.4 19.05)
+		(at 77.47 40.64)
+		(size 20.32 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1245,7 +1256,7 @@
 		)
 		(uuid "29ff9884-2eb8-4e05-9573-dea527771c4b")
 		(property "Sheetname" "POWER_2"
-			(at 72.39 43.7384 0)
+			(at 77.47 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1265,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_2_sch.kicad_sch"
-			(at 72.39 64.0846 0)
+			(at 77.47 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,8 +1548,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 33.02)
-		(size 25.4 19.05)
+		(at 50.8 40.64)
+		(size 20.32 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1549,7 +1560,7 @@
 		)
 		(uuid "95adfb1d-f4b2-4924-8c0a-df43d58bdb39")
 		(property "Sheetname" "POWER"
-			(at 72.39 32.3084 0)
+			(at 50.8 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1569,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_sch.kicad_sch"
-			(at 72.39 52.6546 0)
+			(at 50.8 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,8 +1738,8 @@
 		)
 	)
 	(sheet
-		(at 69.596 138.557)
-		(size 25.654 25.273)
+		(at 69.85 140.97)
+		(size 25.4 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1739,7 +1750,7 @@
 		)
 		(uuid "cd83e7ab-22db-42ff-a7e6-36d43df00222")
 		(property "Sheetname" "ESP "
-			(at 69.596 137.8454 0)
+			(at 69.85 140.2584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1759,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP .kicad_sch"
-			(at 69.596 164.4146 0)
+			(at 69.85 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

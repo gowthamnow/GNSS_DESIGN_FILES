@@ -4428,6 +4428,12 @@
 		(uuid "10ec67c5-35de-4b24-9869-7b8d02abe212")
 	)
 	(junction
+		(at 130.81 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1358468a-e886-4780-bf12-c6974cf1ec9a")
+	)
+	(junction
 		(at 102.87 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4438,12 +4444,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ce005c8-3366-4810-9b0b-82e56ae9fc6a")
-	)
-	(junction
-		(at 130.81 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "323b6db3-17de-4c10-9ebe-5484f4922714")
 	)
 	(junction
 		(at 120.65 40.64)
@@ -4817,16 +4817,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39906c3c-4a80-4d04-9fa1-e76bd16ef9f1")
-	)
-	(wire
-		(pts
 			(xy 22.86 132.08) (xy 27.94 132.08)
 		)
 		(stroke
@@ -5077,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 118.11) (xy 33.02 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bbe1bf4-db09-4a34-a209-d2cfee91ef43")
-	)
-	(wire
-		(pts
 			(xy 209.55 44.45) (xy 209.55 46.99)
 		)
 		(stroke
@@ -5144,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "76ad8211-aedf-4e27-b72d-299d9e7d2da8")
-	)
-	(wire
-		(pts
-			(xy 130.81 45.72) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b989d1f-c29e-40a1-9bde-f093628c2ae8")
 	)
 	(wire
 		(pts
@@ -5447,6 +5417,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 45.72) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf634137-8f7c-47e0-982b-342a255bbd78")
+	)
+	(wire
+		(pts
 			(xy 194.31 44.45) (xy 194.31 46.99)
 		)
 		(stroke
@@ -5474,6 +5454,16 @@
 			(type default)
 		)
 		(uuid "c7d94158-aed6-4789-b46c-a60736e1d45d")
+	)
+	(wire
+		(pts
+			(xy 130.81 45.72) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4e911c-25ed-4157-9449-4e9a9a537ffb")
 	)
 	(wire
 		(pts
@@ -8003,7 +7993,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 33.02 118.11 0)
+		(at 33.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8011,7 +8001,7 @@
 		(dnp no)
 		(uuid "15c3c89e-1220-49cb-a702-c14f03c42256")
 		(property "Reference" "#PWR077"
-			(at 33.02 121.92 0)
+			(at 33.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8010,7 @@
 			)
 		)
 		(property "Value" "VREFP"
-			(at 32.004 113.03 0)
+			(at 32.004 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 118.11 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 118.11 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 33.02 118.11 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

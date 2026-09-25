@@ -1453,7 +1453,7 @@
 		)
 		(uuid "1daeebbc-c13b-45c4-bd1d-06d4181183dc")
 	)
-	(text "LAN8742A"
+	(text "DP83825I"
 		(exclude_from_sim no)
 		(at 230.632 136.398 0)
 		(effects
