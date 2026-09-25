@@ -4107,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD5V0D5TP"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 11.76 82.55 0)
 			(effects
 				(font
@@ -4248,7 +4248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MF-MSMF200-2:FUSER_MF-MSMF200-2"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -4674,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM66200DRLR:SOT8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 67.31 147.32 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESD5V0D5TP"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 143.84 85.09 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2036150003_MOL"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MF-MSMF200-2:FUSER_MF-MSMF200-2"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 247.65 59.69 0)
 			(effects
 				(font
@@ -6215,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2036150003_MOL"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 176.53 54.61 0)
 			(effects
 				(font
