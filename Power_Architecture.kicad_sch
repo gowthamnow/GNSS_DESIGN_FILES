@@ -29,7 +29,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 142.24) (xy 116.84 142.24)
+			(xy 132.08 142.24) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0.254)
@@ -194,7 +194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 139.7) (xy 194.31 158.75)
+			(xy 194.31 138.43) (xy 194.31 161.29)
 		)
 		(stroke
 			(width 0.254)
@@ -227,7 +227,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 160.02) (xy 130.81 158.75)
+			(xy 154.432 162.052) (xy 153.162 160.782)
 		)
 		(stroke
 			(width 0.254)
@@ -271,7 +271,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.49 166.37) (xy 109.22 165.1)
+			(xy 132.842 168.402) (xy 131.572 167.132)
 		)
 		(stroke
 			(width 0.254)
@@ -304,7 +304,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 172.72) (xy 109.22 168.91)
+			(xy 131.572 174.752) (xy 131.572 170.942)
 		)
 		(stroke
 			(width 0.254)
@@ -348,7 +348,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.95 171.45) (xy 109.22 172.72)
+			(xy 130.302 173.482) (xy 131.572 174.752)
 		)
 		(stroke
 			(width 0.254)
@@ -546,7 +546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 151.13) (xy 116.84 152.4)
+			(xy 133.35 153.67) (xy 132.08 154.94)
 		)
 		(stroke
 			(width 0.254)
@@ -655,7 +655,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 157.48) (xy 130.81 158.75)
+			(xy 154.432 159.512) (xy 153.162 160.782)
 		)
 		(stroke
 			(width 0.254)
@@ -666,7 +666,7 @@
 	)
 	(polyline
 		(pts
-			(xy 115.57 151.13) (xy 116.84 152.4)
+			(xy 130.81 153.67) (xy 132.08 154.94)
 		)
 		(stroke
 			(width 0.254)
@@ -688,7 +688,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 168.91) (xy 109.22 165.1)
+			(xy 131.572 170.942) (xy 131.572 167.132)
 		)
 		(stroke
 			(width 0.254)
@@ -699,7 +699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 130.81 158.75) (xy 194.31 158.75)
+			(xy 153.162 160.782) (xy 194.31 160.782)
 		)
 		(stroke
 			(width 0.254)
@@ -786,7 +786,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.95 166.37) (xy 109.22 165.1)
+			(xy 130.302 168.402) (xy 131.572 167.132)
 		)
 		(stroke
 			(width 0.254)
@@ -808,7 +808,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 142.24) (xy 116.84 152.4)
+			(xy 132.08 144.018) (xy 132.08 154.94)
 		)
 		(stroke
 			(width 0.254)
@@ -1060,7 +1060,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.49 171.45) (xy 109.22 172.72)
+			(xy 132.842 173.482) (xy 131.572 174.752)
 		)
 		(stroke
 			(width 0.254)
@@ -1166,8 +1166,8 @@
 		(uuid 1ef2bb9a-3cfa-438b-b7fc-236197dd0318)
 	)
 	(rectangle
-		(start 96.52 172.72)
-		(end 121.92 177.8)
+		(start 118.872 174.752)
+		(end 144.272 179.832)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -1255,6 +1255,19 @@
 			(type none)
 		)
 		(uuid 6ec924e0-d59d-4a06-b0ab-772cfbbcbdfb)
+	)
+	(rectangle
+		(start 52.07 12.7)
+		(end 191.77 147.32)
+		(stroke
+			(width 0.508)
+			(type dot)
+			(color 72 72 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71086d78-352e-4ec3-a313-bad3f0d1eed4)
 	)
 	(rectangle
 		(start 95.504 76.454)
@@ -1348,8 +1361,8 @@
 		(uuid b06928d1-4577-4468-8961-518da4d3cd8f)
 	)
 	(rectangle
-		(start 86.868 152.908)
-		(end 130.81 164.338)
+		(start 109.22 154.94)
+		(end 153.162 166.37)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -1399,7 +1412,7 @@
 	)
 	(text "100mA"
 		(exclude_from_sim no)
-		(at 123.19 140.462 0)
+		(at 138.43 141.732 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1457,9 +1470,9 @@
 		)
 		(uuid "1fd978d8-a22f-48f0-8fc0-f1d572efe553")
 	)
-	(text "POWER_ARCHITECTURE"
+	(text "POWER ARCHITECTURE"
 		(exclude_from_sim no)
-		(at 46.228 19.558 0)
+		(at 86.36 20.828 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1639,7 +1652,7 @@
 	)
 	(text "CAN FD TRANSCEIVER"
 		(exclude_from_sim no)
-		(at 109.728 161.798 0)
+		(at 132.08 163.83 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1783,7 +1796,7 @@
 	)
 	(text "CAN_CONNECTOR"
 		(exclude_from_sim no)
-		(at 109.22 175.26 0)
+		(at 131.572 177.292 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1987,7 +2000,7 @@
 	)
 	(text "TCAN1042HG"
 		(exclude_from_sim no)
-		(at 109.474 157.734 0)
+		(at 131.826 159.766 0)
 		(effects
 			(font
 				(size 2.54 2.54)

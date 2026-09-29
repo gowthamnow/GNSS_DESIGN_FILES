@@ -2678,7 +2678,7 @@
 			)
 		)
 	)
-	(global_label "GN_TIMEPULSE"
+	(global_label "TIMEPULSE_LED"
 		(shape input)
 		(at 149.86 58.42 180)
 		(fields_autoplaced yes)

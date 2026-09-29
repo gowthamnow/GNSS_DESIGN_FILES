@@ -753,7 +753,7 @@
 		)
 		(uuid "5bc60e9c-4a70-49ae-a743-5e105b1f37de")
 	)
-	(text "Connections Overview"
+	(text "CONNECTIONS OVERVIEW"
 		(exclude_from_sim no)
 		(at 145.796 18.288 0)
 		(effects
