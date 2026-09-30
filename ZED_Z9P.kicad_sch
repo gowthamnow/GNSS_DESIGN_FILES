@@ -6225,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SC-74A_318BQ_ONS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 189.23 33.02 0)
 			(effects
 				(font
