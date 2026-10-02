@@ -851,67 +851,67 @@
     ],
     [
       "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16",
-      "TABLE_OF_CONTENT"
+      "content"
     ],
     [
       "95adfb1d-f4b2-4924-8c0a-df43d58bdb39",
-      "POWER"
+      "power_1"
     ],
     [
       "29ff9884-2eb8-4e05-9573-dea527771c4b",
-      "POWER_2"
+      "power_2"
     ],
     [
       "4caa84e5-94a9-4f5c-b728-f1a155edd67e",
-      "USB_HUB"
+      "usb_hub"
     ],
     [
       "5f28e942-ada7-4d13-8727-49641d723651",
-      "CONTROLLER"
+      "controller"
     ],
     [
       "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49",
-      "ZED_Z9P"
+      "zed_z9p"
     ],
     [
       "b1f00880-f738-473f-92f4-04222a609f67",
-      "ANTENNA"
+      "antenna"
     ],
     [
       "cd83e7ab-22db-42ff-a7e6-36d43df00222",
-      "ESP "
+      "esp"
     ],
     [
       "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f",
-      "ETHERNET"
+      "ethernet"
     ],
     [
       "3071fff4-2246-4a32-a92e-73d7c673f76c",
-      "IMU "
+      "imu"
     ],
     [
       "a26a2b73-db6a-4d12-bbec-f3de5968d428",
-      "SD_CARD"
+      "sd_card"
     ],
     [
       "fb4a78fc-8bb1-43cc-a5a4-25e6404776ed",
-      "CAN"
+      "can"
     ],
     [
       "c129ce73-fc4e-459a-b7eb-49148af5c1a5",
-      "ARDUINO"
+      "arduino"
     ],
     [
       "6ff29533-10e7-44dd-9805-0588a7bb3f10",
-      "LEDs & BUTTONs"
+      "led&button"
     ],
     [
       "30c498b6-eb2f-4a1a-a225-e2b38835e3bb",
-      "BLOCK_DIAGRAM"
+      "block_diagram"
     ],
     [
       "588923e1-135a-4233-bb51-eac67930486c",
-      "POWER_ARCHITECTURE"
+      "power_arch"
     ]
   ],
   "text_variables": {}

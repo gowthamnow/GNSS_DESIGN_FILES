@@ -2683,7 +2683,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c756316-81c8-4919-bb17-7b4faa3984ec")
 		(property "Reference" "R78"
 			(at 176.022 102.87 0)

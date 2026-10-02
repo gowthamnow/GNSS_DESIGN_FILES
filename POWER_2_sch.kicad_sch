@@ -2459,12 +2459,6 @@
 		(uuid "12a5bf49-3bc7-43f1-8349-e5404611b342")
 	)
 	(junction
-		(at 105.41 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19dad718-46e8-4413-bf9a-c05da7e8a691")
-	)
-	(junction
 		(at 153.67 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2481,6 +2475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28dd3a21-45e8-422b-ae69-e06e5641cc14")
+	)
+	(junction
+		(at 191.77 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3208e30c-3e17-49f3-9ff7-240da7d1ea67")
 	)
 	(junction
 		(at 171.45 59.69)
@@ -2501,22 +2501,28 @@
 		(uuid "55743b0f-d6b8-4d86-bd3a-cb6ea92d05a0")
 	)
 	(junction
+		(at 200.66 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56365fc5-f8c4-4e44-965b-48cb25b0dfa2")
+	)
+	(junction
 		(at 80.01 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e64c478-b2e4-4303-9410-1eaa1907d662")
 	)
 	(junction
+		(at 105.41 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e04c7e-840c-40da-a676-e1d97a415e51")
+	)
+	(junction
 		(at 99.06 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6afe8d70-8a96-44dc-b523-f43d780656bc")
-	)
-	(junction
-		(at 175.26 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "707be584-b05f-4675-867b-444605c97c65")
 	)
 	(junction
 		(at 187.96 133.35)
@@ -2543,6 +2549,12 @@
 		(uuid "83959f10-0555-4e91-9aa7-fc6cbf372567")
 	)
 	(junction
+		(at 179.07 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "875e4fe4-fd3b-4714-8cb0-7bd771342d87")
+	)
+	(junction
 		(at 250.19 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2553,6 +2565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "991c3fab-5c8d-4697-a043-4a965cf97803")
+	)
+	(junction
+		(at 191.77 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a219f159-93e7-4f88-914b-6c503f55a626")
 	)
 	(junction
 		(at 168.91 30.48)
@@ -2571,12 +2589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3f51d2-3bae-4d7e-86a6-0373e933ffe9")
-	)
-	(junction
-		(at 187.96 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf56f415-c29a-40e3-9e9f-5403998c1c35")
 	)
 	(junction
 		(at 59.69 124.46)
@@ -2619,6 +2631,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ea94c5-cd31-4e4c-9107-75170df9ec2c")
+	)
+	(junction
+		(at 111.76 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda5fbca-1d64-400f-b9f5-b892842ec968")
 	)
 	(junction
 		(at 193.04 146.05)
@@ -2744,16 +2762,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 175.26 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15bec43a-6820-47e6-b64a-30a28f9632b4")
-	)
-	(wire
-		(pts
 			(xy 153.67 91.44) (xy 153.67 83.82)
 		)
 		(stroke
@@ -2801,6 +2809,26 @@
 			(type default)
 		)
 		(uuid "1fd991fe-5215-4c5f-ac71-06461a4d5eea")
+	)
+	(wire
+		(pts
+			(xy 191.77 67.31) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252dea0c-30ac-4959-9348-7bcf29636021")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bbad79-a3eb-49af-a811-290a59232719")
 	)
 	(wire
 		(pts
@@ -2874,6 +2902,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 162.56) (xy 105.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cc8a28-aa31-4393-b1b1-600f9c9a33ed")
+	)
+	(wire
+		(pts
 			(xy 187.96 133.35) (xy 196.85 133.35)
 		)
 		(stroke
@@ -2911,16 +2949,6 @@
 			(type default)
 		)
 		(uuid "3546b1c5-b82a-40bd-bd12-b4f88be71a27")
-	)
-	(wire
-		(pts
-			(xy 97.79 143.51) (xy 110.49 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358b4032-89c3-4a5b-b954-f4d21faa9911")
 	)
 	(wire
 		(pts
@@ -2991,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "3fd76bdd-d6df-442d-8a3a-b4943b2b2643")
-	)
-	(wire
-		(pts
-			(xy 179.07 59.69) (xy 187.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d9b0af-22dd-40a4-89a6-24a91ee0f425")
 	)
 	(wire
 		(pts
@@ -3124,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 175.26 68.58)
+			(xy 191.77 71.12) (xy 191.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3151,6 +3169,16 @@
 			(type default)
 		)
 		(uuid "6261e041-e40b-4c04-9db2-9a975cb8516a")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6741ae04-afb5-43d8-84d6-397bc72ce51f")
 	)
 	(wire
 		(pts
@@ -3224,16 +3252,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 143.51) (xy 110.49 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a19e10-2611-404f-91dd-56d92c71b383")
-	)
-	(wire
-		(pts
 			(xy 240.03 146.05) (xy 250.19 146.05)
 		)
 		(stroke
@@ -3241,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "8b1f85ef-1d32-468d-a30c-e7cd0bb5f5f2")
-	)
-	(wire
-		(pts
-			(xy 187.96 59.69) (xy 189.23 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b56009f-8468-4503-9a0c-a1d099e791d7")
 	)
 	(wire
 		(pts
@@ -3324,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 143.51) (xy 97.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3daddd-2f4b-440d-b0a2-a6615a0227e1")
+	)
+	(wire
+		(pts
 			(xy 240.03 143.51) (xy 240.03 146.05)
 		)
 		(stroke
@@ -3364,6 +3382,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11b778b-8e19-484b-835e-4ef521e93c81")
+	)
+	(wire
+		(pts
 			(xy 143.51 83.82) (xy 140.97 83.82)
 		)
 		(stroke
@@ -3384,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 146.05) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a4f298-1203-4491-9e62-0dac39ce1f65")
+	)
+	(wire
+		(pts
 			(xy 171.45 59.69) (xy 179.07 59.69)
 		)
 		(stroke
@@ -3401,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "b8448d04-29fb-4311-aa5d-3de149c89b9b")
+	)
+	(wire
+		(pts
+			(xy 111.76 156.21) (xy 111.76 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf927af-d8c1-4d5f-b518-ace48fe911af")
 	)
 	(wire
 		(pts
@@ -3454,17 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 162.56) (xy 110.49 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e73c7b-befa-47fe-988b-7f0d8c23501d")
-	)
-	(wire
-		(pts
-			(xy 105.41 146.05) (xy 114.3 146.05)
+			(xy 105.41 146.05) (xy 111.76 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3574,6 +3612,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2c2bfa-fd4f-4854-82dd-dcb5c8bcf910")
+	)
+	(wire
+		(pts
 			(xy 187.96 129.54) (xy 187.96 133.35)
 		)
 		(stroke
@@ -3601,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "e11c0354-7f6f-4214-9156-c938f433396b")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e255027b-5b7f-4add-9ac7-ab856bd01707")
 	)
 	(wire
 		(pts
@@ -3634,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 175.26 68.58)
+			(xy 171.45 68.58) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3794,6 +3852,18 @@
 		)
 		(uuid "1ea3e83c-6f55-446e-9eb4-decc8b360681")
 	)
+	(text "Ripple:\n300mA --> 21.25%\n700mA --> 9.11%\n1.3A --> 4.90%"
+		(exclude_from_sim no)
+		(at 198.12 88.646 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "629bbccf-3a16-49d7-93d7-2d084e483525")
+	)
 	(text "3V3_ICM"
 		(exclude_from_sim no)
 		(at 185.674 106.172 0)
@@ -3818,7 +3888,7 @@
 	)
 	(text "3V3, 3A"
 		(exclude_from_sim no)
-		(at 187.452 91.694 0)
+		(at 163.322 96.266 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5168,6 +5238,205 @@
 		)
 	)
 	(symbol
+		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
+		(at 111.76 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e2f6a65-3b3f-4453-970b-caad845c0265")
+		(property "Reference" "C16"
+			(at 108.204 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 114.3 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 KEMET"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "402-2 KEMET"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C104K4RAC"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aba884f-2993-41e6-a674-e2935e8fd947")
+		)
+		(pin "2"
+			(uuid "26738d66-835e-4fc6-926a-5c0c00a3d856")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/29ff9884-2eb8-4e05-9573-dea527771c4b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 93.98 43.18 0)
 		(unit 1)
@@ -5430,6 +5699,72 @@
 			(project "GNSS"
 				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/29ff9884-2eb8-4e05-9573-dea527771c4b"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb14671-6135-4343-a53f-7f4ecd760c3f")
+		(property "Reference" "#PWR012"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2daef52-c7f2-4b9f-8930-449c4ecff85f")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/29ff9884-2eb8-4e05-9573-dea527771c4b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5702,7 +6037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 189.23 59.69 270)
+		(at 201.93 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5711,7 +6046,7 @@
 		(fields_autoplaced yes)
 		(uuid "5baafaff-2c09-45d1-87bd-6e0266309a0b")
 		(property "Reference" "TP5"
-			(at 194.31 58.4199 90)
+			(at 207.01 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +6055,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 194.31 60.9599 90)
+			(at 207.01 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +6064,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 189.23 64.77 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +6073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 64.77 0)
+			(at 201.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +6082,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 189.23 59.69 0)
+			(at 201.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 71.12 0)
+		(at 191.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +6315,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a90afd6-bb6e-4838-88a5-f8d9b9e69005")
 		(property "Reference" "#PWR073"
-			(at 175.26 77.47 0)
+			(at 191.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6324,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 76.1634 0)
+			(at 191.77 76.1634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +6332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,6 +6864,205 @@
 		)
 	)
 	(symbol
+		(lib_id "C0402C104K4RAC:C0402C104K4RAC")
+		(at 191.77 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a4f061f-2a2b-42f5-a07e-eb51a8d1ddff")
+		(property "Reference" "C15"
+			(at 188.214 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u/50V"
+			(at 198.12 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 KEMET"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "402-2 KEMET"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=eda"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0402C104K4RAC/Kemet/view-part/?ref=snap"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0402C104K4RAC"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1766586&manufacturer=KEMET&part_name=C0402C104K4RAC&search_term=None"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)\n                        \n"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/C0402C104K4RAC/?ref=eda"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92435587-9764-4a55-ac3b-d7cd03b8346a")
+		)
+		(pin "2"
+			(uuid "193afb67-aa70-45c3-abd6-c33bd29fcbcd")
+		)
+		(instances
+			(project "GNSS"
+				(path "/a70dad34-b24c-4b58-b91c-f14576b5da7d/29ff9884-2eb8-4e05-9573-dea527771c4b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 201.93 116.84 0)
 		(unit 1)
@@ -6853,8 +7387,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 44.196 150.876 90)
+		(property "Value" "10u"
+			(at 43.18 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +8039,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 59.69 0)
+		(at 200.66 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7514,7 +8048,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6ee35c8-8682-4055-9776-9a2a052b9615")
 		(property "Reference" "#PWR072"
-			(at 187.96 63.5 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +8057,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 187.96 54.61 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +8065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +8074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +8083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8716,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 101.092 156.21 90)
 			(effects
 				(font

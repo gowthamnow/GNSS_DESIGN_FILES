@@ -1217,7 +1217,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1adbda9f-efcb-4d62-ae30-fa0fccbe7f16")
-		(property "Sheetname" "TABLE_OF_CONTENT"
+		(property "Sheetname" "content"
 			(at 15.24 20.8784 0)
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CONTENT_sch.kicad_sch"
+		(property "Sheetfile" "content.kicad_sch"
 			(at 15.24 174.5746 0)
 			(effects
 				(font
@@ -1255,7 +1255,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "29ff9884-2eb8-4e05-9573-dea527771c4b")
-		(property "Sheetname" "POWER_2"
+		(property "Sheetname" "power_2"
 			(at 77.47 39.9284 0)
 			(effects
 				(font
@@ -1264,7 +1264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "POWER_2_sch.kicad_sch"
+		(property "Sheetfile" "power_2_sch.kicad_sch"
 			(at 77.47 55.1946 0)
 			(effects
 				(font
@@ -1293,7 +1293,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3071fff4-2246-4a32-a92e-73d7c673f76c")
-		(property "Sheetname" "IMU "
+		(property "Sheetname" "imu"
 			(at 219.71 65.3284 0)
 			(effects
 				(font
@@ -1302,7 +1302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "IMU .kicad_sch"
+		(property "Sheetfile" "imu.kicad_sch"
 			(at 219.71 85.6746 0)
 			(effects
 				(font
@@ -1331,7 +1331,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "30c498b6-eb2f-4a1a-a225-e2b38835e3bb")
-		(property "Sheetname" "BLOCK_DIAGRAM"
+		(property "Sheetname" "block_diagram"
 			(at 17.78 24.6884 0)
 			(effects
 				(font
@@ -1340,7 +1340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BLOCK_DIAGRAM.kicad_sch"
+		(property "Sheetfile" "block_diagram.kicad_sch"
 			(at 17.78 170.7646 0)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3ceb85b8-7c9a-4fa2-96e5-dbe80db6ac49")
-		(property "Sheetname" "ZED_Z9P"
+		(property "Sheetname" "zed_z9p"
 			(at 59.69 72.9484 0)
 			(effects
 				(font
@@ -1378,7 +1378,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ZED_Z9P.kicad_sch"
+		(property "Sheetfile" "zed_z9p.kicad_sch"
 			(at 59.69 103.4546 0)
 			(effects
 				(font
@@ -1407,7 +1407,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4caa84e5-94a9-4f5c-b728-f1a155edd67e")
-		(property "Sheetname" "USB_HUB"
+		(property "Sheetname" "usb_hub"
 			(at 149.86 45.0084 0)
 			(effects
 				(font
@@ -1416,7 +1416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB_HUB_sch.kicad_sch"
+		(property "Sheetfile" "usb_hub.kicad_sch"
 			(at 149.86 59.0046 0)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "588923e1-135a-4233-bb51-eac67930486c")
-		(property "Sheetname" "POWER_ARCHITECTURE"
+		(property "Sheetname" "power_arch"
 			(at 20.828 28.7524 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "POWER_ARCHITECTURE.kicad_sch"
+		(property "Sheetfile" "power_arch.kicad_sch"
 			(at 20.828 166.9546 0)
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5f28e942-ada7-4d13-8727-49641d723651")
-		(property "Sheetname" "CONTROLLER"
+		(property "Sheetname" "controller"
 			(at 140.97 70.4084 0)
 			(effects
 				(font
@@ -1492,7 +1492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CONTROLLER.kicad_sch"
+		(property "Sheetfile" "controller.kicad_sch"
 			(at 140.97 111.0746 0)
 			(effects
 				(font
@@ -1521,7 +1521,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6ff29533-10e7-44dd-9805-0588a7bb3f10")
-		(property "Sheetname" "LEDs & BUTTONs"
+		(property "Sheetname" "led&button"
 			(at 219.71 42.4684 0)
 			(effects
 				(font
@@ -1530,7 +1530,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LEDs & BUTTONs.kicad_sch"
+		(property "Sheetfile" "led&button.kicad_sch"
 			(at 219.71 56.4646 0)
 			(effects
 				(font
@@ -1559,7 +1559,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "95adfb1d-f4b2-4924-8c0a-df43d58bdb39")
-		(property "Sheetname" "POWER"
+		(property "Sheetname" "power_1"
 			(at 50.8 39.9284 0)
 			(effects
 				(font
@@ -1568,7 +1568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "POWER_sch.kicad_sch"
+		(property "Sheetfile" "power_1.kicad_sch"
 			(at 50.8 55.1946 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a26a2b73-db6a-4d12-bbec-f3de5968d428")
-		(property "Sheetname" "SD_CARD"
+		(property "Sheetname" "sd_card"
 			(at 219.71 89.4584 0)
 			(effects
 				(font
@@ -1606,7 +1606,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SD_CARD.kicad_sch"
+		(property "Sheetfile" "sd_card.kicad_sch"
 			(at 219.71 112.3446 0)
 			(effects
 				(font
@@ -1635,7 +1635,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a33a7fbe-117f-40f3-9eeb-50ee11d7c18f")
-		(property "Sheetname" "ETHERNET"
+		(property "Sheetname" "ethernet"
 			(at 219.075 118.6684 0)
 			(effects
 				(font
@@ -1644,7 +1644,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ETHERNET.kicad_sch"
+		(property "Sheetfile" "ethernet.kicad_sch"
 			(at 219.075 155.2706 0)
 			(effects
 				(font
@@ -1673,7 +1673,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b1f00880-f738-473f-92f4-04222a609f67")
-		(property "Sheetname" "ANTENNA"
+		(property "Sheetname" "antenna"
 			(at 22.86 76.7584 0)
 			(effects
 				(font
@@ -1682,7 +1682,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ANTENNA.kicad_sch"
+		(property "Sheetfile" "antenna.kicad_sch"
 			(at 22.86 110.8206 0)
 			(effects
 				(font
@@ -1711,7 +1711,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c129ce73-fc4e-459a-b7eb-49148af5c1a5")
-		(property "Sheetname" "ARDUINO"
+		(property "Sheetname" "arduino"
 			(at 151.13 130.0984 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ARDUINO.kicad_sch"
+		(property "Sheetfile" "arduino.kicad_sch"
 			(at 151.13 147.9046 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cd83e7ab-22db-42ff-a7e6-36d43df00222")
-		(property "Sheetname" "ESP "
+		(property "Sheetname" "esp"
 			(at 69.85 140.2584 0)
 			(effects
 				(font
@@ -1758,7 +1758,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP .kicad_sch"
+		(property "Sheetfile" "esp.kicad_sch"
 			(at 69.85 160.6046 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fb4a78fc-8bb1-43cc-a5a4-25e6404776ed")
-		(property "Sheetname" "CAN"
+		(property "Sheetname" "can"
 			(at 73.66 112.3184 0)
 			(effects
 				(font
@@ -1796,7 +1796,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN.kicad_sch"
+		(property "Sheetfile" "can.kicad_sch"
 			(at 73.66 126.3146 0)
 			(effects
 				(font
