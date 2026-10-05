@@ -1,4 +1,4 @@
-23043024577899682
+23050187711521382
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56692,6 +56692,13 @@ ECS-TXO-2520-33-240-AN-TR
 0
 4
 4
+GNSS_Library
+USB4105_GCT
+
+USB4105-GF-A 
+0
+12
+12
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -94391,6 +94398,27 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+footprints
+IND_MSS1278T-223MLD_COC
+
+MSS1278T-223MLD 
+0
+2
+2
+footprints
+IND_MSS1278T-223MLD_COC-L
+
+MSS1278T-223MLD 
+0
+2
+2
+footprints
+IND_MSS1278T-223MLD_COC-M
+
+MSS1278T-223MLD 
 0
 2
 2

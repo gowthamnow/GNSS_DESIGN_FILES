@@ -62,17 +62,6 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 12.7) (xy 260.35 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "0b47bc5b-532b-4949-95ee-dcf82d89acee")
-	)
-	(polyline
-		(pts
 			(xy 137.16 119.38) (xy 138.43 118.11)
 		)
 		(stroke
@@ -238,17 +227,6 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 15.24) (xy 276.86 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1e2b6c5d-888b-41ef-a10c-b4026e997f71")
-	)
-	(polyline
-		(pts
 			(xy 81.28 71.12) (xy 96.52 71.12)
 		)
 		(stroke
@@ -389,17 +367,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "2e1dcfe7-0c6b-4c18-83e9-a2dee971da37")
-	)
-	(polyline
-		(pts
-			(xy 267.97 13.97) (xy 271.78 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "2edf869a-83f5-4ac6-8db8-eb703e261d66")
 	)
 	(polyline
 		(pts
@@ -832,17 +799,6 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 12.7) (xy 271.78 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "58e82b1b-a2b4-432e-b99d-dfa23fb97033")
-	)
-	(polyline
-		(pts
 			(xy 118.11 156.21) (xy 118.11 160.02)
 		)
 		(stroke
@@ -895,17 +851,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "618f1384-67b1-4c8b-af8d-01de2a9eb278")
-	)
-	(polyline
-		(pts
-			(xy 260.35 13.97) (xy 267.97 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "672f0644-1654-4daa-a11a-339cd15c290e")
 	)
 	(polyline
 		(pts
@@ -1085,17 +1030,6 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 15.24) (xy 260.35 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "89cdeab5-9197-44e2-8abd-e9d01cee7519")
-	)
-	(polyline
-		(pts
 			(xy 195.58 107.95) (xy 196.85 109.22)
 		)
 		(stroke
@@ -1104,17 +1038,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "8bd94041-ad6d-4e8e-bc69-5f47b7d09a79")
-	)
-	(polyline
-		(pts
-			(xy 270.51 15.24) (xy 271.78 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "8ccf43d7-4681-4c2b-ab91-180e4e6c365b")
 	)
 	(polyline
 		(pts
@@ -1819,17 +1742,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "ed9dd978-7cbe-41da-8d63-316d680ef2e1")
-	)
-	(polyline
-		(pts
-			(xy 275.59 15.24) (xy 276.86 13.97)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "f059e701-3e36-4d5c-97c1-4abc9ae0ebcb")
 	)
 	(polyline
 		(pts

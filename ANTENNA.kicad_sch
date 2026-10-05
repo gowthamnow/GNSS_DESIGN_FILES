@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U6"
-				(at 25.4 10.16 0)
+				(at 11.684 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,15 +21,15 @@
 				)
 			)
 			(property "Value" "BSS84DW-7-F"
-				(at 25.4 7.62 0)
+				(at 18.288 7.112 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "SOT-363_DIO"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 1.778 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -84,6 +84,195 @@
 				)
 			)
 			(symbol "BSS84DW-7-F_0_1"
+				(polyline
+					(pts
+						(xy 24.638 -2.54) (xy 21.844 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.638 -0.635) (xy 24.638 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.146 -3.81) (xy 25.146 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.146 -2.032) (xy 25.146 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.146 -0.254) (xy 25.146 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.924 -3.81) (xy 26.924 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.924 0) (xy 26.924 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.924 1.27) (xy 26.924 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.924 -5.08) (xy 26.924 -2.54) (xy 25.146 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.146 -0.762) (xy 27.686 -0.762) (xy 27.686 -4.318) (xy 25.146 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 -2.54) (xy 25.654 -2.159) (xy 25.654 -2.921) (xy 26.67 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.178 -3.048) (xy 27.305 -2.921) (xy 28.067 -2.921) (xy 28.194 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.686 -2.921) (xy 27.305 -2.286) (xy 28.067 -2.286) (xy 27.686 -2.921)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 26.035 -2.54)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 26.924 -4.318)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 26.924 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
@@ -203,6 +392,30 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "D\n"
+					(at 25.4 1.524 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 21.59 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "S\n"
+					(at 25.654 -6.604 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -5301,7 +5514,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 71.12 102.87 0)
+			(at 72.898 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
