@@ -11740,7 +11740,7 @@
 	(footprint "Package_BGA:Texas_DSBGA-6_0.704x1.054mm_Layout2x3_P0.35mm"
 		(layer "F.Cu")
 		(uuid "225fd9e8-10d5-41f8-81ed-7f918f863813")
-		(at 248.795 36.65)
+		(at 252.825 61.65)
 		(descr "Texas Instruments, DSBGA-6, 0.704x1.054mm, NSMD, YKA pad definition, 0.704x1.054mm, 6 Ball, 2x3 Layout, 0.35mm Pitch, https://www.ti.com/lit/ml/mxbg383/mxbg383.pdf, https://www.ti.com/lit/ds/symlink/tps62800.pdf")
 		(tags "BGA 6 0.35")
 		(property "Reference" "U15"
@@ -12188,15 +12188,15 @@
 			(pintype "input")
 			(uuid "74d7f5e9-6040-4431-bf6f-2e572070b954")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-6_0.704x1.054mm_Layout2x3_P0.35mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TPS22946YZPR.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.7 0.6001 0.7001)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 180)
 			)
 		)
 	)
@@ -35655,7 +35655,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a0ac400d-0222-4d5a-8d6f-5d8affd14022")
-		(at 253.485 46.5)
+		(at 253 72.09)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D11"
@@ -36042,15 +36042,15 @@
 			(pintype "passive")
 			(uuid "d668af6d-630e-4b85-9013-614071d28318")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/PESD0402-140.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.5 1.3001 0.9001)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -180 0)
 			)
 		)
 	)
@@ -36756,7 +36756,7 @@
 	(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 		(layer "F.Cu")
 		(uuid "a353a33f-7ac9-4ef1-bb61-c9fdba971cd8")
-		(at 238.2 48.95)
+		(at 251.8 55.95)
 		(descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y3"
@@ -37133,7 +37133,7 @@
 			(pintype "passive+no_connect")
 			(uuid "b8169d83-2ef9-48b1-ace8-e3ce11193c47")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/MURATA_XRCGB24M000FFS1DR0.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38887,7 +38887,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b68b2bc8-ee2d-4d5c-aa69-786f6fa53ef0")
-		(at 253.485 41.91)
+		(at 253 67.5)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D10"
@@ -39274,15 +39274,15 @@
 			(pintype "passive")
 			(uuid "74c8925a-5d7c-4a43-a3bb-33cd016e8da4")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/PESD0402-140.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.5 1.3 1.1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 180)
 			)
 		)
 	)
@@ -46963,6 +46963,17 @@
 			(pintype "passive")
 			(uuid "f6de0314-ad19-4433-a79b-1bbca830a027")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0.5 0 0)
+			)
+			(scale
+				(xyz 0.5 0.5 0.8)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -51227,7 +51238,7 @@
 	(footprint "Diode_SMD:D_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ed570189-22ad-4cc9-8767-39e1a8ad3089")
-		(at 253.485 43.9)
+		(at 253 69.49)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D12"
@@ -51614,15 +51625,15 @@
 			(pintype "passive")
 			(uuid "0dec2008-f83b-4238-b87c-4387ee0284d5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0402_1005Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/PESD0402-140.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.5 1.3 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 180 180)
 			)
 		)
 	)

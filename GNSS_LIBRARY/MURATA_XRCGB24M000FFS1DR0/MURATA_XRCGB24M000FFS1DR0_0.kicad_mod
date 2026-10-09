@@ -1,5 +1,5 @@
 
-(footprint MURATA_XRCGB24M000FFS1DR0_0 (layer F.Cu) (tedit 6A796F8C)
+(footprint MURATA_XRCGB24M000FFS1DR0_0 (layer F.Cu) (tedit 6AC75DE8)
   (descr "24.0000MHz ±8ppm Crystal 12pF 70Ω Stability ±12ppm 4-SMD")
   (attr smd)
   (fp_text reference REF** (at 1.475 -2.0 0) (layer F.SilkS)

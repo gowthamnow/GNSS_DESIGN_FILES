@@ -1,5 +1,5 @@
 
-(footprint BGA6C50P2X3_140X90X50 (layer F.Cu) (tedit 6A9400C0)
+(footprint BGA6C50P2X3_140X90X50 (layer F.Cu) (tedit 6AC75F17)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 1.75273 -4.85177 0) (layer F.SilkS)
