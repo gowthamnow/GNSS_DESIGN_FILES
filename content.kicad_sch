@@ -187,6 +187,28 @@
 		)
 		(uuid 8c580d35-c416-4001-9c89-c235a9c33920)
 	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 193.294 130.048 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "02859b60-b582-4765-9391-fce5d1c7d5bc")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 193.548 144.78 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "048a0f4e-04f8-4390-a0dc-64e88c7f02ff")
+	)
 	(text "14"
 		(exclude_from_sim no)
 		(at 193.294 123.19 0)
@@ -200,7 +222,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 194.31 79.756 0)
+		(at 193.548 79.756 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -219,6 +241,17 @@
 			)
 		)
 		(uuid "13c684cc-4ae5-40e3-ba81-849ebe86811c")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 193.294 137.414 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "1708c7ed-aa49-4018-8770-99440690e5e8")
 	)
 	(text "5"
 		(exclude_from_sim no)
@@ -288,7 +321,7 @@
 	)
 	(text "ANTENNA"
 		(exclude_from_sim no)
-		(at 138.938 78.74 0)
+		(at 138.938 86.36 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -321,7 +354,7 @@
 	)
 	(text "ARDUINO"
 		(exclude_from_sim no)
-		(at 139.446 108.712 0)
+		(at 139.446 129.794 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -376,7 +409,7 @@
 	)
 	(text "CAN"
 		(exclude_from_sim no)
-		(at 138.43 101.346 0)
+		(at 138.43 122.936 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -508,7 +541,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 194.056 72.39 0)
+		(at 194.056 72.136 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -563,7 +596,7 @@
 	)
 	(text "ETHERNET"
 		(exclude_from_sim no)
-		(at 139.7 116.078 0)
+		(at 139.7 101.092 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -618,7 +651,7 @@
 	)
 	(text "SDCARD"
 		(exclude_from_sim no)
-		(at 139.954 130.048 0)
+		(at 139.7 115.824 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -627,9 +660,20 @@
 		)
 		(uuid "ee0349d2-55df-4fbc-b0d3-c9c2a9aefb7d")
 	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 193.802 152.908 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+		)
+		(uuid "eebaabd9-2c61-42fc-86ff-c4ec3596e017")
+	)
 	(text "CONTROLLER"
 		(exclude_from_sim no)
-		(at 139.446 86.106 0)
+		(at 139.192 71.882 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -651,7 +695,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 139.446 123.19 0)
+		(at 139.192 108.966 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -662,7 +706,7 @@
 	)
 	(text "ZED F9P"
 		(exclude_from_sim no)
-		(at 139.446 71.628 0)
+		(at 138.938 79.248 0)
 		(effects
 			(font
 				(size 3.81 3.81)
