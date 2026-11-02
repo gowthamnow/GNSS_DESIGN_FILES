@@ -2489,7 +2489,7 @@
 		)
 		(uuid "456bba5c-8e95-4fba-8402-63367137a215")
 	)
-	(text "12V"
+	(text "5V"
 		(exclude_from_sim no)
 		(at 28.702 30.734 0)
 		(effects

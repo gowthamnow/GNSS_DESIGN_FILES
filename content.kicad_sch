@@ -343,7 +343,7 @@
 	)
 	(text "POWER ARCH"
 		(exclude_from_sim no)
-		(at 141.224 151.892 0)
+		(at 141.478 152.654 0)
 		(effects
 			(font
 				(size 3.81 3.81)
