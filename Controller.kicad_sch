@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 127 0)
 			(effects
 				(font
@@ -9651,7 +9651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0402C104K4RAC:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 92.71 0)
 			(effects
 				(font
