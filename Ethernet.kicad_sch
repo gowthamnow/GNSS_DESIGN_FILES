@@ -4866,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:XCVR_DP83825IRMQR"
+		(property "Footprint" "DP8:XCVR_DP83825IRMQR"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -5558,7 +5558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:7499010211A"
+		(property "Footprint" "WE:7499010211A"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -6821,7 +6821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 228.6 53.848 90)
 			(effects
 				(font

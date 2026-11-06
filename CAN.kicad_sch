@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:DRB0008F"
+		(property "Footprint" "TCAN:DRB0008F"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -3248,7 +3248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 78.74 69.088 90)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 175.26 110.49 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "PESD:DIO_PESD0402-140"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "PESD:DIO_PESD0402-140"
 			(at 198.12 114.3 0)
 			(effects
 				(font
@@ -4604,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 80.01 55.118 90)
 			(effects
 				(font

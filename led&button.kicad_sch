@@ -2748,7 +2748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:SW_SKRPABE010"
+		(property "Footprint" "sw:SW_SKRPABE010"
 			(at 223.52 123.19 0)
 			(effects
 				(font
@@ -4726,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:SW_SKRPABE010"
+		(property "Footprint" "sw:SW_SKRPABE010"
 			(at 166.37 124.46 0)
 			(effects
 				(font

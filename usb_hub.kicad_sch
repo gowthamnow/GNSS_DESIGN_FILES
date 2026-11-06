@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:QFN50P600X600X100-37N-D"
+		(property "Footprint" "USB:QFN50P600X600X100-37N-D"
 			(at 163.5 162.56 0)
 			(effects
 				(font
@@ -9759,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 162.56 46.228 90)
 			(effects
 				(font

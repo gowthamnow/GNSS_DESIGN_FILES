@@ -6282,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "nc7:SC-74A_318BQ_ONS"
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -6764,7 +6764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BAT_1056"
+		(property "Footprint" "BAT:BAT_1056"
 			(at 218.44 115.57 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:ZEDF9P05B"
+		(property "Footprint" "ZED:ZEDF9P05B"
 			(at 171.45 121.59 0)
 			(effects
 				(font

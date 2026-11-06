@@ -3374,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 74.93 50.038 90)
 			(effects
 				(font
@@ -3651,7 +3651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GNSS:CONN_503398-1892_MOL"
+		(property "Footprint" "5033:CONN_503398-1892_MOL"
 			(at 125.73 63.5 0)
 			(effects
 				(font

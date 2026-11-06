@@ -10677,7 +10677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 90.17 172.72 0)
 			(effects
 				(font
@@ -12269,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 34.29 34.798 90)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 209.55 104.14 0)
 			(effects
 				(font

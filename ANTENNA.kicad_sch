@@ -4394,7 +4394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "PESD:DIO_PESD0402-140"
 			(at 83.82 121.92 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:SAMTEC_SMA-J-P-X-RA-TH1"
+		(property "Footprint" "SMA:SAMTEC_SMA-J-P-X-RA-TH1"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "OPAMP:DBV5_TEX"
 			(at 163.83 124.46 0)
 			(effects
 				(font
@@ -5694,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "nc7:SC-74A_318BQ_ONS"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -5773,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "DMP.preety:SOT103P240X110-3N"
 			(at 157.48 57.15 0)
 			(effects
 				(font

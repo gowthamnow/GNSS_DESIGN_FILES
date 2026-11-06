@@ -1787,7 +1787,7 @@
 	)
 	(text "IMU_SENSOR"
 		(exclude_from_sim no)
-		(at 96.52 42.418 0)
+		(at 85.344 44.196 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2221,7 +2221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:PQFN50P300X250X97-14N"
+		(property "Footprint" "ICM:PQFN50P300X250X97-14N"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -3048,7 +3048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 193.04 65.278 90)
 			(effects
 				(font

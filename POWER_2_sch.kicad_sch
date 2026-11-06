@@ -3421,7 +3421,7 @@
 	)
 	(text "Ripple:\n350mA --> 23.13%\n750mA --> 10.79%\n1.3A --> 6.23%"
 		(exclude_from_sim no)
-		(at 198.12 84.074 0)
+		(at 199.39 91.694 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -3444,7 +3444,7 @@
 	)
 	(text "Buck_Converter"
 		(exclude_from_sim no)
-		(at 66.294 17.272 0)
+		(at 56.642 19.05 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3455,7 +3455,7 @@
 	)
 	(text "3V3, 2A"
 		(exclude_from_sim no)
-		(at 165.1 90.17 0)
+		(at 165.1 96.774 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3494,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u/25V"
+		(property "Value" "4u7/25V"
 			(at 74.168 68.58 90)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 46.99 126.238 90)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 69.85 34.798 90)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 191.77 121.158 90)
 			(effects
 				(font
@@ -5542,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "BOURNS:IND_BOURNS_SRR1208"
 			(at 133.35 54.61 0)
 			(effects
 				(font
@@ -5813,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "TLV:DRL0006A"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -7084,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u/50V"
+		(property "Value" "0.1u/25V"
 			(at 62.23 68.58 90)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u/50V"
+		(property "Value" "0.1u/25V"
 			(at 178.308 68.834 90)
 			(effects
 				(font

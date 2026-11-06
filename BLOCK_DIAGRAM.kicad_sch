@@ -2491,7 +2491,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 28.702 30.734 0)
+		(at 28.702 28.956 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2849,9 +2849,9 @@
 		)
 		(uuid "a3b33b6d-c0c5-41d5-8ce8-5023373497cf")
 	)
-	(text "DC IN "
+	(text "USB C"
 		(exclude_from_sim no)
-		(at 29.718 26.67 0)
+		(at 28.448 24.638 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2980,6 +2980,18 @@
 			)
 		)
 		(uuid "d5a94bd1-ecda-4571-8a5d-191362121a70")
+	)
+	(text "PROG"
+		(exclude_from_sim no)
+		(at 28.448 32.512 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "d9c2e7de-01eb-4156-8e02-487b7550bbb5")
 	)
 	(text "SWD PROGRAMMING "
 		(exclude_from_sim no)

@@ -1482,7 +1482,7 @@
 		)
 		(uuid "251f77a3-e0d9-4d0e-b936-37d261697ddc")
 	)
-	(text "DC INPUT"
+	(text "USB C"
 		(exclude_from_sim no)
 		(at 31.242 100.838 0)
 		(effects
@@ -1542,9 +1542,9 @@
 		)
 		(uuid "3a76c45b-51ec-4135-9866-260588326736")
 	)
-	(text "USB"
+	(text "USB C"
 		(exclude_from_sim no)
-		(at 30.734 76.962 0)
+		(at 30.734 78.486 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1748,7 +1748,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 31.75 86.106 0)
+		(at 31.496 83.312 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1830,9 +1830,9 @@
 		)
 		(uuid "98ae3fd6-4635-4dc3-a61c-2690badcce89")
 	)
-	(text "TYPE C\n"
+	(text "5V"
 		(exclude_from_sim no)
-		(at 31.75 105.41 0)
+		(at 31.496 104.902 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1902,6 +1902,18 @@
 		)
 		(uuid "c1390c40-4103-476b-a24a-64916491bd07")
 	)
+	(text "POWER INPUT"
+		(exclude_from_sim no)
+		(at 31.496 108.712 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "c50328c5-fcd5-4933-8b77-414e53bd1baf")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 230.378 58.928 0)
@@ -1913,6 +1925,18 @@
 			)
 		)
 		(uuid "c6a746bf-5140-4b22-8ca1-70e9d9dd1162")
+	)
+	(text "PROG"
+		(exclude_from_sim no)
+		(at 31.242 87.122 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(color 72 72 72 1)
+			)
+		)
+		(uuid "cadcbce9-b2a8-4bf5-9d9b-71d2dd0e25f4")
 	)
 	(text "ZED F9P 05B"
 		(exclude_from_sim no)
@@ -1986,7 +2010,7 @@
 		)
 		(uuid "e3f4246b-6fb4-4334-a13c-44c3d98ee13d")
 	)
-	(text "TYPE C"
+	(text ""
 		(exclude_from_sim no)
 		(at 31.242 82.042 0)
 		(effects
